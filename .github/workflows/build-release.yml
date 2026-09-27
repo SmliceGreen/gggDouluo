@@ -33,13 +33,25 @@ jobs:
         run: |
           if [ -f main.tex ]; then
             echo "build=true" >> "$GITHUB_OUTPUT"
+            echo "file=main.tex" >> "$GITHUB_OUTPUT"
           else
-            echo "build=false" >> "$GITHUB_OUTPUT"
+            f=$(find . -maxdepth 1 -name '*.tex' -print -quit)
+            if [ -n "$f" ]; then
+              echo "build=true" >> "$GITHUB_OUTPUT"
+              echo "file=${f#./}" >> "$GITHUB_OUTPUT"
+            else
+              echo "build=false" >> "$GITHUB_OUTPUT"
+            fi
           fi
 
       - name: Build LaTeX PDF
         if: steps.latex.outputs.build == 'true'
-        run: latexmk -xelatex -interaction=nonstopmode -halt-on-error main.tex
+        env:
+          TEX_FILE: ${{ steps.latex.outputs.file }}
+        run: |
+          base="${TEX_FILE%.tex}"
+          latexmk -xelatex -interaction=nonstopmode -halt-on-error \
+            -jobname="${base}-Latex" "$TEX_FILE"
 
       # ---------- Markdown 构建 ----------
       - name: Detect Markdown source
@@ -64,7 +76,7 @@ jobs:
           MD_FILE: ${{ steps.md.outputs.file }}
         run: |
           base="${MD_FILE%.md}"
-          pandoc "$MD_FILE" -o "${base}.pdf" \
+          pandoc "$MD_FILE" -o "${base}-md.pdf" \
             --pdf-engine=xelatex \
             -V mainfont="Noto Serif CJK SC" \
             -V CJKmainfont="Noto Serif CJK SC" \
