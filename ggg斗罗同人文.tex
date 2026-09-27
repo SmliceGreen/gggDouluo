@@ -1,12 +1,54 @@
-\documentclass[UTF8]{ctexart}
+\documentclass[a4paper,UTF8,zihao=5]{ctexart}
+% ---------- 自动换行优化 ----------
+\usepackage{microtype}               % 微调字间距，减少溢出
+\tolerance=2000                      % 允许更大的行间拉伸（默认200）
+\emergencystretch=3em                % 额外伸缩空间，避免溢出
+\hbadness=10000                      % 隐藏大部分 overfull 警告（可选）
+\setlength{\hfuzz}{2pt}              % 允许微小溢出（不超过2pt不报错）
+
+% 针对长 URL / 英文词的断词设置
+\usepackage[hyphens]{url}            % URL 可在连字符处断开
+\Urlmuskip=0mu plus 1mu             % URL 内部可微调间距
+
+% 如果仍有问题，可以在特定段落前加 \sloppy
 \usepackage{amsmath,amssymb}
 \usepackage{xcolor}
 \usepackage{listings}
 \usepackage{tabularx}
+\usepackage{geometry}
+\geometry{top=2.2cm, bottom=2.2cm, left=2.5cm, right=2.5cm} % 调小边距，凑800页
 \setcounter{secnumdepth}{0}
 \renewcommand{\contentsname}{目录}
+
+% 强制嵌入字体（关键）
+\usepackage{fontspec}
+\setCJKmainfont{SimSun}[BoldFont=SimHei, ItalicFont=KaiTi]
+\setCJKsansfont{SimHei}
+\setCJKmonofont{FangSong}
+
+% 确保PDF中文字可被搜索和复制
+\input{glyphtounicode}
+\pdfgentounicode=1
 \setCJKmonofont{SimSun}
 \lstset{basicstyle=\ttfamily\small,breaklines=true,columns=flexible,frame=single,extendedchars=false}
+
+% ---------- PDF 书签（阅读器左侧“标签”面板）与目录超链接 ----------
+\usepackage[
+  unicode,                 % 中文书签必需
+  bookmarks=true,          % 生成 PDF 大纲书签
+  bookmarksnumbered=false,
+  bookmarksopen=true,      % 打开 PDF 时自动展开书签
+  bookmarksopenlevel=1,
+  linktoc=all,             % 目录中标题与页码均可点击跳转
+  colorlinks=true,
+  linkcolor=blue!65!black,
+  urlcolor=blue!65!black,
+  citecolor=blue!65!black,
+  pdfborder={0 0 0},
+  pdfstartview=FitH
+]{hyperref}
+\usepackage{bookmark}      % 更稳健的书签处理（含 \texorpdfstring 支持）
+
 \title{ggg斗罗同人文}
 \author{SmliceGreen}
 \begin{document}
@@ -1399,7 +1441,7 @@ $\varepsilon_{0}$ = sup\{$\omega$, $\omega$\textasciicircum{}$\omega$, $\omega$\
 
 云雾缭绕的山林间，五人的身影渐渐消失，只留下层层叠叠的高阶序数涟漪，在空气中轻轻荡漾，预示着一场属于他们的序数冒险，正悄然拉开新的序幕。
 
-\section{第七章：$\varepsilon_{0}$和$\zeta_{0}$}
+\section{第七章：\texorpdfstring{$\varepsilon_{0}$}{ε0}和\texorpdfstring{$\zeta_{0}$}{ζ0}}
 
 山林边缘的空地上,赵无极身形魁梧如铁塔,周身萦绕着淡淡的$\varphi$(3,0)序数波动,比牢大的$\varepsilon\omega$还要厚重几分。他看着眼前的五人小队,声音洪亮如钟,打破了山林的静谧："在猎杀千年人面魔蛛之前,我会帮你们做战前演练,更重要的是,我要给你们讲清楚$\varepsilon_{0}$、$\zeta_{0}$这些关键序数的性质——你们要对付的人面魔蛛,魂核序数是$\varphi$($\omega$,0),而它的防御达到$\varphi$(4,0),想要取胜,必须先吃透这些序数的核心,知道它们的强弱层级和突破路径。"
 
@@ -2128,7 +2170,7 @@ $\varepsilon_0$ 和 $\varepsilon_1$ 之间的鸿沟，不是技巧能填平的�
 
 接下来的三天，仓库里每天都是同样的场景。
 
-\section{第十一章：$\varphi$函数的威力}
+\section{第十一章：\texorpdfstring{$\varphi$}{φ}函数的威力}
 
 林间空地的序数涟漪尚未散尽，唐三周身的淡金色光晕骤然暴涨，丹田内那道趋近于 $\varepsilon_{0}$ 的幂次纹路轰然成型，彻底挣脱了有限迭代的桎梏——\textbf{$\varepsilon_{0}$ 境界，成了。}
 
@@ -2528,7 +2570,7 @@ f_{\varepsilon_{\omega^{\omega^\omega}}}(3) = f_{\varepsilon_{\omega^{(\omega^2)
 
 他顿了顿，继续说道："这场实战，不仅检验了你们的修炼成果和扽技运用能力，也让你们认识到了自身的不足——就算牢大能短暂突破到$\varphi(\omega,0)$，也无法长时间维持，你们的序数层级，距离$\varphi(\omega,0)$还有很大差距，应对这种高阶魂兽，依旧有些吃力。接下来，你们要吸收这人面魔蛛的灵气，巩固自身境界，打磨各自的扽技，继续加强团队配合，争取早日突破到更高的序数层级，真正具备独当一面的实力。唯有不断提升自身的序数层级，打磨扽技，加强团队配合，才能在充满危险的星斗大森林中站稳脚跟，才能应对未来更多更强的挑战。"
 
-\section{第十四章：新成员的到来和$\Gamma_0$的突破}
+\section{第十四章：新成员的到来和\texorpdfstring{$\Gamma_0$}{Γ0}的突破}
 
 人面魔珠打败后，队员们正在吸收灵气，在人面魔蛛的强大灵气滋养下，队员们回复了体力，不过这天地灵气还很让人神清气爽的，更难能可贵的是，人面魔蛛居然爆了馃槔这种天地宝物，要知道，馃槔很罕见，一般只有十万年魂兽才会有馃槔这种东西，佩戴者可以与扽魂产生共鸣，从而大幅提升实力和悟性。吸收完成馃槔后，大家实力得到了提升，一方面，人面魔蛛的灵气滋养，另一方面，就是馃槔的作用，让唐三突破$\zeta_2$，直接到达$\varphi(3,0)$，而牢大到达$\varphi(4,0)$的水平，蔡须坤也到达$\varphi(3,1)$水平，奥斯卡突破到了$\zeta_0$，直接到了$\zeta_{\zeta_0}$
 
@@ -2702,7 +2744,7 @@ $\varphi(\omega+1,0)$基本列：从零代入，反复迭代，$\varphi(\omega+1
 
 弗兰德看着众人的状态，沉声收尾："从$\varphi(\omega+1,0)$到$\Gamma_0$，本质是从'被动迭代'到'自主闭环'的蜕变。$\varphi(\omega+1,0)$只是左变量进阶的一个节点，而$\Gamma_0$是整个二元Veblen函数的终极闭环。接下来你们要做的，就是结合今日所学，在修炼中反复感悟$\Gamma_0$的基本列与不动点特性，借助馃槔的共鸣之力，彻底打通层级壁垒，完成$\Gamma_0$的突破。"
 
-\section{第十五章：多元$\varphi$函数}
+\section{第十五章：多元\texorpdfstring{$\varphi$}{φ}函数}
 
 课堂散去，众人并未停歇，纷纷寻了学院的静修室闭关。馃槔的共鸣之力萦绕周身，将课堂所学的理论转化为实打实的战力突破。唐三、牢大等人各自盘膝而坐，指尖勾勒 fgh 迭代公式，结合自身层级展开实操，每一次迭代都牵动着周身的序数波动，朝着 $\Gamma_0$ 的门槛稳步迈进。
 
@@ -3722,7 +3764,7 @@ Madore宗队长见状，眼中闪过狠厉，猛地催动全部魂力，$\varphi
 
 初赛的喧嚣渐渐散去，复赛的号角即将吹响。果糕七怪战队的传奇，才刚刚拉开序幕，而Madore宗、Buchholz宗的蛰伏，也让这场精英大赛，多了几分未知与期待。
 
-\section{第二十章：非递归序数与$\Omega$的坍缩}
+\section{第二十章：非递归序数与\texorpdfstring{$\Omega$}{Ω}的坍缩}
 
 初赛结束后，玉小刚见众人对战时仍显吃力——即便全员已突破 $\varphi(2,0,0)$，却依旧无法对老牌宗门形成压制。为此，玉小刚决定向众人讲解非递归序数。
 
@@ -11600,7 +11642,7 @@ asheep 长老负手立于旁侧，低沉的声音补充道："既如此，为何
 
 反射序数的大门已然开启，而更浩瀚的 $\Pi_2$ 层级、更凶险的秘境前路，正静静等待着他们。
 
-\section{第五十章：$\Pi_2$ 反射序数和容许点进位}
+\section{第五十章：\texorpdfstring{$\Pi_2$}{Π2} 反射序数和容许点进位}
 
 第二天，扽魂殿中灵纹缓缓流转，虚空中那张反射式对照表静静悬浮，果糕小队众人望着层层递进的序数层级，心神久久未能平复。他们本以为吃透一阶反射、初识二阶集合，便已触碰到序道根基，此刻才惊觉，容许序数的背后，藏着远比想象中更深邃的秩序奥秘。
 
@@ -12646,7 +12688,7 @@ asheep 长老双手合十，仿佛在演示某种挤压的动作：“我们可�
 
 “$psd. (2-)^{1,0}$ 显然不是容许序数。” asheep 长老补充道，“可以用类似 OFP 的方式为它找到一条长度为 $\omega$ 的递归基本列。不想搭理破事的读者依旧可以把 $real. (2-)^{1,0}$ 理解为 $(2-)^{1,1}$，它折叠‘取 $(2-)^{1,0}$ 点’的操作。”
 
-\section{第五十五章：$\Pi_3$ 的深渊凝视}
+\section{第五十五章：\texorpdfstring{$\Pi_3$}{Π3} 的深渊凝视}
 
 “最后，是 $2-(2-)^{1,1} = (2-)^{1,2}, (2-)^{1,\omega}, (2-)^{1,\Omega}, \dots$ 以及这样做的极限 $(2-)^{2,0}$。上标的规则没什么变化。进一步加深上标，就会得到 $(2-)^{1,0,0}, (2-)^{1@\omega}, (2-)^{1@(1,0)}, \dots$ 之类的东西。”
 
@@ -23337,7 +23379,7 @@ Phyrion站在门口，看着这一幕，没有说话。
 
 众人缓缓起身，拖着疲惫的身体走出了修炼堂。
 
-\section{第八十五章：$\Pi$ 的阶梯}
+\section{第八十五章：\texorpdfstring{$\Pi$}{Π} 的阶梯}
 
 清晨的修炼堂里，魂力晶石散发着柔和而稳定的光芒。
 
