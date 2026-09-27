@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 """Convert ggg斗罗同人文.md to LaTeX (XeLaTeX / ctexart)."""
+import os
 import re
 
-SRC = r'g:\4\ord\小说\gggDouluo\ggg斗罗同人文.md'
-DST = r'g:\4\ord\小说\gggDouluo\ggg斗罗同人文.tex'
+BASE = os.path.dirname(os.path.abspath(__file__))
+SRC = os.path.join(BASE, 'ggg斗罗同人文.md')
+DST = os.path.join(BASE, 'ggg斗罗同人文.tex')
 
 # ---------------------------------------------------------------- unicode -> latex math
 UNI = {
@@ -231,6 +233,18 @@ def conv_table(rows, tok):
     return out
 
 
+PDF_MAP = {r'\varepsilon': 'ε', r'\zeta': 'ζ', r'\varphi': 'φ',
+           r'\Gamma': 'Γ', r'\Omega': 'Ω', r'\Pi': 'Π'}
+
+
+def pdfstr(latex):
+    """标题里的数学公式降级成纯文本，供 PDF 书签使用（避免 Token not allowed 警告）。"""
+    s = re.sub(r'\$', '', latex)
+    s = re.sub(r'\\[a-zA-Z]+', lambda m: PDF_MAP.get(m.group(0), ''), s)
+    s = re.sub(r'[{}]', '', s)
+    return s.replace('_', '').replace('^', '')
+
+
 def main():
     raw = open(SRC, encoding='utf-8').read()
     # repair the one corrupted spot (U+FFFD)
@@ -315,8 +329,11 @@ def main():
         if re.match(r'^#{1,6}\s', line):
             close_all()
             title = re.sub(r'^#{1,6}\s*', '', line).strip()
+            body = tok.run(title, blocks)
+            if '$' in body:                   # 书签里不能放公式，另给一份纯文本
+                body = r'\texorpdfstring{%s}{%s}' % (body, pdfstr(body))
             res.append('')
-            res.append(r'\section{' + tok.run(title, blocks) + '}')
+            res.append(r'\section{' + body + '}')
             continue
         if re.match(r'^>', line):
             if state['list']:
@@ -358,15 +375,56 @@ def main():
 
     close_all()
 
-    preamble = r'''\documentclass[UTF8]{ctexart}
+    preamble = r'''\documentclass[a4paper,UTF8,zihao=5]{ctexart}
+% ---------- 自动换行优化 ----------
+\usepackage{microtype}               % 微调字间距，减少溢出
+\tolerance=2000                      % 允许更大的行间拉伸（默认200）
+\emergencystretch=3em                % 额外伸缩空间，避免溢出
+\hbadness=10000                      % 隐藏大部分 overfull 警告（可选）
+\setlength{\hfuzz}{2pt}              % 允许微小溢出（不超过2pt不报错）
+
+% 针对长 URL / 英文词的断词设置
+\usepackage[hyphens]{url}            % URL 可在连字符处断开
+\Urlmuskip=0mu plus 1mu             % URL 内部可微调间距
+
 \usepackage{amsmath,amssymb}
 \usepackage{xcolor}
 \usepackage{listings}
 \usepackage{tabularx}
+\usepackage{geometry}
+\geometry{top=2.2cm, bottom=2.2cm, left=2.5cm, right=2.5cm} % 调小边距，凑800页
 \setcounter{secnumdepth}{0}
 \renewcommand{\contentsname}{目录}
+
+% 强制嵌入字体（关键）
+\usepackage{fontspec}
+\setCJKmainfont{SimSun}[BoldFont=SimHei, ItalicFont=KaiTi]
+\setCJKsansfont{SimHei}
+\setCJKmonofont{FangSong}
+
+% 确保PDF中文字可被搜索和复制
+\input{glyphtounicode}
+\pdfgentounicode=1
 \setCJKmonofont{SimSun}
 \lstset{basicstyle=\ttfamily\small,breaklines=true,columns=flexible,frame=single,extendedchars=false}
+
+% ---------- PDF 书签（阅读器左侧“标签”面板）与目录超链接 ----------
+\usepackage[
+  unicode,                 % 中文书签必需
+  bookmarks=true,          % 生成 PDF 大纲书签
+  bookmarksnumbered=false,
+  bookmarksopen=true,      % 打开 PDF 时自动展开书签
+  bookmarksopenlevel=1,
+  linktoc=all,             % 目录中标题与页码均可点击跳转
+  colorlinks=true,
+  linkcolor=blue!65!black,
+  urlcolor=blue!65!black,
+  citecolor=blue!65!black,
+  pdfborder={0 0 0},
+  pdfstartview=FitH
+]{hyperref}
+\usepackage{bookmark}      % 更稳健的书签处理（含 \texorpdfstring 支持）
+
 \title{ggg斗罗同人文}
 \author{SmliceGreen}
 \begin{document}
