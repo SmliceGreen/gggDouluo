@@ -1,0 +1,92 @@
+name: Build & Release PDFs
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install build tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            texlive-xetex \
+            texlive-latex-extra \
+            texlive-lang-chinese \
+            texlive-fonts-extra \
+            latexmk \
+            pandoc \
+            fonts-noto-cjk
+
+      # ---------- LaTeX 构建 ----------
+      - name: Detect LaTeX source
+        id: latex
+        run: |
+          if [ -f main.tex ]; then
+            echo "build=true" >> "$GITHUB_OUTPUT"
+            echo "file=main.tex" >> "$GITHUB_OUTPUT"
+          else
+            f=$(find . -maxdepth 1 -name '*.tex' -print -quit)
+            if [ -n "$f" ]; then
+              echo "build=true" >> "$GITHUB_OUTPUT"
+              echo "file=${f#./}" >> "$GITHUB_OUTPUT"
+            else
+              echo "build=false" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Build LaTeX PDF
+        if: steps.latex.outputs.build == 'true'
+        env:
+          TEX_FILE: ${{ steps.latex.outputs.file }}
+        run: |
+          base="${TEX_FILE%.tex}"
+          latexmk -xelatex -interaction=nonstopmode -halt-on-error \
+            -jobname="${base}-Latex" "$TEX_FILE"
+
+      # ---------- Markdown 构建 ----------
+      - name: Detect Markdown source
+        id: md
+        run: |
+          if [ -f README.md ]; then
+            echo "build=true" >> "$GITHUB_OUTPUT"
+            echo "file=README.md" >> "$GITHUB_OUTPUT"
+          else
+            f=$(find . -maxdepth 1 -name '*.md' -print -quit)
+            if [ -n "$f" ]; then
+              echo "build=true" >> "$GITHUB_OUTPUT"
+              echo "file=${f#./}" >> "$GITHUB_OUTPUT"
+            else
+              echo "build=false" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Build Markdown PDF
+        if: steps.md.outputs.build == 'true'
+        env:
+          MD_FILE: ${{ steps.md.outputs.file }}
+        run: |
+          base="${MD_FILE%.md}"
+          pandoc "$MD_FILE" -o "${base}-md.pdf" \
+            --pdf-engine=xelatex \
+            -V mainfont="Noto Serif CJK SC" \
+            -V CJKmainfont="Noto Serif CJK SC" \
+            -V geometry:margin=1in \
+            --toc
+
+      # ---------- 创建 Release 并上传 ----------
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            *.pdf
+          generate_release_notes: true
