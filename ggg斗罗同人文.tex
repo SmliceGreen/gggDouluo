@@ -629,7 +629,7 @@ A(4, n) = 2 $\uparrow\uparrow$ (n + 3) $-$ 3
 
 他知道奥斯卡不是这个意思。他知道。但知道归知道，心底那股翻涌的情绪，就像他推演迭代时偶尔出现的数值偏差一样——微小，却难以控制。
 
-"Knuth箭头的每一条定义，都是严格遵循数学逻辑推演出来的。"他的声音陡然拔高，连他自己都没察觉到其中的颤抖，"后继$\rightarrow$加法$\rightarrow$乘法$\rightarrow$乘方$\rightarrow$超运算，每一步都有据可循、有迹可查，怎么就成人造的了？反倒是你这个阿克曼函数，第三条规则 A(m$-$1, A(m, n$-$1))，内层递归的结果直接作为外层递归的参数，这种双重嵌套的运算方式，在实际推演中极容易造成数值爆炸和迭代失控。如果不是我的基底稳态兜底，你这套东西根本没法落地！"
+"Knuth箭头的每一条定义，都是严格遵循数学逻辑推演出来的。"他的声音陡然拔高，连他自己都没察觉到其中的颤抖，"后继$\to$加法$\to$乘法$\to$乘方$\to$超运算，每一步都有据可循、有迹可查，怎么就成人造的了？反倒是你这个阿克曼函数，第三条规则 A(m$-$1, A(m, n$-$1))，内层递归的结果直接作为外层递归的参数，这种双重嵌套的运算方式，在实际推演中极容易造成数值爆炸和迭代失控。如果不是我的基底稳态兜底，你这套东西根本没法落地！"
 
 话说出口的瞬间，牢大自己就愣住了。
 
@@ -1391,11 +1391,11 @@ $\varepsilon_{0}$ = sup\{$\omega$, $\omega$\textasciicircum{}$\omega$, $\omega$\
 
 \begin{quote}
 
-映射过程中蕴含的不动点结构可以启示我们构造出更大的序数。我们总可以找到一个递增的映射 $\alpha$ $\rightarrow$ f($\alpha$)，然后将其不断地作用在某个序数之上，这将增大这个序数的取值。
+映射过程中蕴含的不动点结构可以启示我们构造出更大的序数。我们总可以找到一个递增的映射 $\alpha$ $\to$ f($\alpha$)，然后将其不断地作用在某个序数之上，这将增大这个序数的取值。
 
 在进行了任意有限次映射之后，我们将得到这个映射的一个极限点。如果这个极限点不是不动点，那么可以直接从极限点出发继续映射。而如果这个极限点是不动点，则可以通过取后继的方式跳出这个不动点，然后继续进行映射。这样不断地重复下去，我们将抵达下一个极限点，从而可以进行类似的操作。
 
-我们在后文中考虑的映射通常都是具有不动点的映射，因此可以不断地重复迭代到不动点、然后取后继跳出的过程，这样可以不断地得到越来越强大的不动点。等到这一不断地取不动点的过程也难以为继的时候，我们就可以从先前的迭代过程中生成一个更加强大的映射 $\alpha$ $\rightarrow$ f($\alpha$)，然后继续枚举这一新映射的不动点。这里所考虑的映射 f($\alpha$) 越强，它所能够得到不动点也就越大。恰当地组织并且标记各映射过程及其不动点的层次，我们将能够得到一个更加强大的序数记号，它可以带领我们在序数世界中前进得更远。我们在后文中将对此进行详细的介绍。
+我们在后文中考虑的映射通常都是具有不动点的映射，因此可以不断地重复迭代到不动点、然后取后继跳出的过程，这样可以不断地得到越来越强大的不动点。等到这一不断地取不动点的过程也难以为继的时候，我们就可以从先前的迭代过程中生成一个更加强大的映射 $\alpha$ $\to$ f($\alpha$)，然后继续枚举这一新映射的不动点。这里所考虑的映射 f($\alpha$) 越强，它所能够得到不动点也就越大。恰当地组织并且标记各映射过程及其不动点的层次，我们将能够得到一个更加强大的序数记号，它可以带领我们在序数世界中前进得更远。我们在后文中将对此进行详细的介绍。
 \end{quote}
 
 \begin{center}\rule{6em}{0.4pt}\end{center}
@@ -1542,7 +1542,7 @@ $\varepsilon_{1}$[n]=$\varepsilon_{0}$\textasciicircum{}$\varepsilon_{0}$\textas
 
 2.构造$\varepsilon_{3}$：跳出$\varepsilon_{2}$,取$\varepsilon_{2}$+1,反复映射、取极限,得到$\varepsilon_{3}$（第四个不动点）；
 
-3.以此类推,不断重复'跳出不动点$\rightarrow$反复映射$\rightarrow$取极限'的过程,我们就能得到所有的$\varepsilon_{n}$（n为自然数）,即$\varepsilon_{0}$、$\varepsilon_{1}$、$\varepsilon_{2}$、$\varepsilon_{3}$、...、$\varepsilon_{n}$、...。"
+3.以此类推,不断重复'跳出不动点$\to$反复映射$\to$取极限'的过程,我们就能得到所有的$\varepsilon_{n}$（n为自然数）,即$\varepsilon_{0}$、$\varepsilon_{1}$、$\varepsilon_{2}$、$\varepsilon_{3}$、...、$\varepsilon_{n}$、...。"
 
 "第二步,构造$\varepsilon$\_$\omega$（下标为$\omega$的$\varepsilon$序数）。当我们得到了所有自然数下标的$\varepsilon_{n}$后,这些$\varepsilon_{n}$构成了一个单调递增的序数序列,我们取这个序列的上确界,就得到了$\varepsilon$\_$\omega$,即$\varepsilon$\_$\omega$=sup\{$\varepsilon_{0}$,$\varepsilon_{1}$,$\varepsilon_{2}$,$\varepsilon_{3}$,...\}。"赵无极补充道,"这里要注意,$\varepsilon$\_$\omega$不是某个具体的$\varepsilon_{n}$,而是所有$\varepsilon_{n}$的极限,它也是映射$\alpha\mapsto\omega$\textasciicircum{}$\alpha$的不动点,是第$\omega$个不动点,记为$\varepsilon$\_$\omega$=$\omega$th$\alpha\mapsto\omega$\textasciicircum{}$\alpha$fp.。"
 
@@ -1554,7 +1554,7 @@ $\zeta_{0}$=sup\{0,$\varepsilon_{0}$,$\varepsilon$\_$\varepsilon_{0}$,$\varepsil
 
 "而且$\zeta_{0}$有一个关键性质,它不仅是映射$\alpha\mapsto\omega$\textasciicircum{}$\alpha$的不动点,更是映射$\alpha\mapsto\varepsilon$\_$\alpha$的第一个不动点——也就是说,$\varepsilon$\_$\zeta_{0}$=sup\{$\varepsilon_{0}$,$\varepsilon_{1}$,$\varepsilon_{2}$,...\}=$\zeta_{0}$,这也是$\zeta_{0}$区别于所有$\varepsilon$序数的核心特征,我们把$\zeta_{0}$称为Cantor序数（CO）。"
 
-蔡须坤指尖的金色灵气轻轻缠绕,补充道："赵老师,我是不是可以这样总结：从$\varepsilon_{0}$到$\zeta_{0}$,就是'构造$\varepsilon_{n}\rightarrow$构造$\varepsilon$\_$\omega\rightarrow$构造更高阶$\varepsilon$序数$\rightarrow$迭代下标取上确界'的过程,核心始终是'跳出不动点、反复映射、取极限',对吗？"
+蔡须坤指尖的金色灵气轻轻缠绕,补充道："赵老师,我是不是可以这样总结：从$\varepsilon_{0}$到$\zeta_{0}$,就是'构造$\varepsilon_{n}\to$构造$\varepsilon$\_$\omega\to$构造更高阶$\varepsilon$序数$\to$迭代下标取上确界'的过程,核心始终是'跳出不动点、反复映射、取极限',对吗？"
 
 "完全正确,领悟得非常透彻！"赵无极赞许地点了点头,"简单来说,$\varepsilon_{0}$是$\varepsilon$序列的起点,$\varepsilon_{1}$、$\varepsilon_{2}$...$\varepsilon_{n}$是有限下标的$\varepsilon$序数,$\varepsilon$\_$\omega$及以上是无限下标的$\varepsilon$序数,而$\zeta_{0}$,就是所有这些$\varepsilon$序数的'天花板',是$\varepsilon$序列的极限。你们现在的目标,是先突破$\varepsilon_{0}$,再逐步逼近$\varepsilon_{1}$,等你们能稳定掌控$\varepsilon_{1}$的力量,再朝着$\varepsilon$\_$\omega$、$\zeta_{0}$迈进——而掌握这些,你们才能真正理解$\varphi$($\omega$,0)的层级,才能顺利猎杀千年人面魔蛛。"
 
@@ -2224,13 +2224,13 @@ $\varepsilon_0$ 和 $\varepsilon_1$ 之间的鸿沟，不是技巧能填平的�
 赵无极笑着抬手，空中浮现出清晰的映射示意图，耐心解答：
 
 \begin{quote}
-"你们问的都是关键问题，先解答奥斯卡的疑惑。所谓不动点，简单说就是'映射后不变的点'，比如映射 $\beta$ $\rightarrow$ $\omega$\textasciicircum{}$\beta$，当 $\beta$ = $\varepsilon_{0}$ 时，$\omega$\textasciicircum{}$\varepsilon_{0}$ = $\varepsilon_{0}$，这就是不动点——$\varepsilon_{0}$ 无论怎么进行 $\omega$ 幂次迭代，结果还是它本身，这也是它能突破有限迭代的核心原因。至于你说的实战需求，虽然你主要负责稳定波动，但必须懂原理，不然遇到 $\varphi$ 函数波动紊乱时，你不知道问题出在迭代层级，就无法精准稳住气息。"
+"你们问的都是关键问题，先解答奥斯卡的疑惑。所谓不动点，简单说就是'映射后不变的点'，比如映射 $\beta$ $\to$ $\omega$\textasciicircum{}$\beta$，当 $\beta$ = $\varepsilon_{0}$ 时，$\omega$\textasciicircum{}$\varepsilon_{0}$ = $\varepsilon_{0}$，这就是不动点——$\varepsilon_{0}$ 无论怎么进行 $\omega$ 幂次迭代，结果还是它本身，这也是它能突破有限迭代的核心原因。至于你说的实战需求，虽然你主要负责稳定波动，但必须懂原理，不然遇到 $\varphi$ 函数波动紊乱时，你不知道问题出在迭代层级，就无法精准稳住气息。"
 \end{quote}
 
 接着他转向蔡须坤，目光落在他手中的篮球上：
 
 \begin{quote}
-"关于迭代维度的差距，$\varphi$(3,0) = $\eta_{0}$，是映射 $\beta$ $\rightarrow$ $\varphi$(2,$\beta$) = $\zeta$\_$\beta$ 的不动点，相当于 $\zeta$ 序列的'$\varepsilon_{0}$'，力量层级比 $\zeta_{0}$ 高出一个完整的迭代维度——简单说，$\zeta_{0}$ 的力量是'$\varepsilon$ 序列迭代'，而 $\eta_{0}$ 是'$\zeta$ 序列迭代'，差距就像 $\varepsilon_{0}$ 和 $\omega$ 的差距。至于你的篮球，完全可以借助运球节奏校准气息，运球的快慢、轻重对应 $\varphi$ 函数的迭代节奏，只要保持运球节奏与 $\zeta_{0}$、$\varepsilon_{0}$ 等迭代同频，就能有效避免紊乱，这也是你联动气息的独特优势。"
+"关于迭代维度的差距，$\varphi$(3,0) = $\eta_{0}$，是映射 $\beta$ $\to$ $\varphi$(2,$\beta$) = $\zeta$\_$\beta$ 的不动点，相当于 $\zeta$ 序列的'$\varepsilon_{0}$'，力量层级比 $\zeta_{0}$ 高出一个完整的迭代维度——简单说，$\zeta_{0}$ 的力量是'$\varepsilon$ 序列迭代'，而 $\eta_{0}$ 是'$\zeta$ 序列迭代'，差距就像 $\varepsilon_{0}$ 和 $\omega$ 的差距。至于你的篮球，完全可以借助运球节奏校准气息，运球的快慢、轻重对应 $\varphi$ 函数的迭代节奏，只要保持运球节奏与 $\zeta_{0}$、$\varepsilon_{0}$ 等迭代同频，就能有效避免紊乱，这也是你联动气息的独特优势。"
 \end{quote}
 
 牢大挠了挠头，操控着肘间的扽魂虚影轻轻晃动，虚影碰撞地面发出沉闷的声响：
@@ -2243,7 +2243,7 @@ $\varepsilon_0$ 和 $\varepsilon_1$ 之间的鸿沟，不是技巧能填平的�
 
 待众人彻底解惑，赵无极放缓语速，拆解二元 $\varphi$ 函数的递归基本列——这是修炼操控 $\varphi$ 函数力量的核心，更是实战破防的关键：
 
-\textbf{$\varphi$(1,$\alpha$) 是映射 $\beta$ $\rightarrow$ $\varphi$($\beta$) = $\omega$\textasciicircum{}$\beta$ 的第 1+$\alpha$ 个不动点，基本列分三种情况：}
+\textbf{$\varphi$(1,$\alpha$) 是映射 $\beta$ $\to$ $\varphi$($\beta$) = $\omega$\textasciicircum{}$\beta$ 的第 1+$\alpha$ 个不动点，基本列分三种情况：}
 
 \textbf{$\alpha$ = 0 时：}
 
@@ -2304,7 +2304,7 @@ $\varepsilon_0$ 和 $\varepsilon_1$ 之间的鸿沟，不是技巧能填平的�
 模拟作战正式开始。唐三率先发难，指尖凝聚起淡金色的序数力量，按照 \textbf{$\varphi$(2,0)[n] = $\varphi$(1,n)[n]} 的逻辑，先从 $\varepsilon_{0}$ 迭代过渡到 $\zeta_{0}$ 层级，试图冲击屏障底层的 $\zeta_{0}$ 纹路。可就在他的力量即将触碰到 $\zeta_{0}$ 纹路时，指尖的气息突然出现卡顿，淡金色光束瞬间涣散，不仅没能冲击到屏障，反而被屏障反弹的 $\zeta_{0}$ 气息震得后退两步，嘴角溢出一丝淡淡的灵气波动。
 
 \begin{quote}
-"不对！你太急于求成了！"赵无极的声音及时响起，"$\zeta_{0}$ 作为 $\varphi$(2,0)，是 $\varepsilon$ 序列到更高层级的过渡，你没有先稳固 $\zeta_{0}$ 的迭代基准，直接用 $\varepsilon_{0}$ 的力量硬冲，自然会被 $\zeta_{0}$ 的不动点特性反弹。记住，$\varphi$(2,0) = $\zeta_{0}$ 是映射 $\beta$ $\rightarrow$ $\varphi$(1,$\beta$) = $\varepsilon$\_$\beta$ 的不动点，你要先让自身气息与 $\zeta_{0}$ 的迭代节奏同频，按照 \textbf{$\zeta_{0}$[n] = $\varphi$(1,n)[n]} 的基本列，逐步渗透，而不是硬冲！"
+"不对！你太急于求成了！"赵无极的声音及时响起，"$\zeta_{0}$ 作为 $\varphi$(2,0)，是 $\varepsilon$ 序列到更高层级的过渡，你没有先稳固 $\zeta_{0}$ 的迭代基准，直接用 $\varepsilon_{0}$ 的力量硬冲，自然会被 $\zeta_{0}$ 的不动点特性反弹。记住，$\varphi$(2,0) = $\zeta_{0}$ 是映射 $\beta$ $\to$ $\varphi$(1,$\beta$) = $\varepsilon$\_$\beta$ 的不动点，你要先让自身气息与 $\zeta_{0}$ 的迭代节奏同频，按照 \textbf{$\zeta_{0}$[n] = $\varphi$(1,n)[n]} 的基本列，逐步渗透，而不是硬冲！"
 \end{quote}
 
 唐三立刻调整，深吸一口气，指尖气息重新凝聚，放缓节奏，先稳固自身 $\varepsilon_{0}$ 的迭代，再按照基本列逐步过渡到 $\zeta_{0}$，这一次，淡金色气息稳稳贴合屏障底层的 $\zeta_{0}$ 纹路，屏障表面的 $\zeta_{0}$ 纹路出现轻微紊乱，唐三趁机发力，一道凝练的光束砸向纹路薄弱处，淡紫色的屏障终于出现了一道细微的裂痕。
@@ -4619,10 +4619,10 @@ Madore剩余五人同步联动，序力彼此共鸣，发动协同攻击：
 唐三强压体内翻涌的气血与喉间的腥甜，嘶吼着传递精准的序数对应逻辑，每一个字都清晰传入队友耳中，同时用蓝银草轻轻缠绕住身边的队友，传递着"绝不放弃"的信念：
 
 \begin{quote}
-- \textbf{赛伊德} $\psi(\Omega^{\Omega^{\omega^2}})$ $\rightarrow$ 用 $\varphi(1 @\omega^2)$ 精准对位拆解！
-- \textbf{雷斯} $\psi(\Omega^{(\Omega^\omega) \cdot 2})$ $\rightarrow$ 用 $\varphi(2 @\omega)$ 正面抗衡！
-- \textbf{Levi} $\psi(\Omega^{\Omega^3})$ $\rightarrow$ 用 $\varphi(\omega @4)$ 牵制！
-- \textbf{Tonelli、Kael、Maren、Voss} $\rightarrow$ 由诺当、小舞、蔡徐坤、牢大分头牵制！
+- \textbf{赛伊德} $\psi(\Omega^{\Omega^{\omega^2}})$ $\to$ 用 $\varphi(1 @\omega^2)$ 精准对位拆解！
+- \textbf{雷斯} $\psi(\Omega^{(\Omega^\omega) \cdot 2})$ $\to$ 用 $\varphi(2 @\omega)$ 正面抗衡！
+- \textbf{Levi} $\psi(\Omega^{\Omega^3})$ $\to$ 用 $\varphi(\omega @4)$ 牵制！
+- \textbf{Tonelli、Kael、Maren、Voss} $\to$ 由诺当、小舞、蔡徐坤、牢大分头牵制！
 
 \textbf{层级不匹配，必被碾压！}
 \end{quote}
@@ -7631,8 +7631,8 @@ if __name__ == "__main__":
 魂灵成型后，会自主寄宿在魂师的精神识海与血脉脉络之中，形成\textbf{双向滋养的平衡羁绊}：
 
 \begin{itemize}
-\item \textbf{魂师 $\rightarrow$ 魂灵}：以自身精神力、修炼的法则灵气滋养魂灵，稳固灵体形态；
-\item \textbf{魂灵 $\rightarrow$ 魂师}：反哺生命本源，弱化魂师突破序数壁垒时的法则撕裂反噬，衍生专属法则魂技，补齐修炼短板。
+\item \textbf{魂师 $\to$ 魂灵}：以自身精神力、修炼的法则灵气滋养魂灵，稳固灵体形态；
+\item \textbf{魂灵 $\to$ 魂师}：反哺生命本源，弱化魂师突破序数壁垒时的法则撕裂反噬，衍生专属法则魂技，补齐修炼短板。
 \end{itemize}
 
 二者一荣俱荣、一损俱损，羁绊牢牢绑定，从根本上杜绝了魂灵叛变的可能。
@@ -8610,7 +8610,7 @@ test\_alpha0微微颔首，并未纠结于眼前战事，双目微阖，心神�
 第二步，找坏根。第一行3的父项是左侧的2，在第三列，所以坏根列就是第三列 \texttt{(2,1)}。
 第三步，算阶差。因为末项在第一行（末列第二行为0），所以阶差向量是 \texttt{(0,0)}，零向量。
 第四步，拆分复制。好部是坏根左边，也就是前两列 \texttt{0 11}；坏部是坏根列到末列前一列，也就是第三列 \texttt{21}。阶差是零向量，所以坏部复制多少次都不变。最终展开就是：
-\texttt{0 11 21} $\rightarrow$ \texttt{0 11 21 21} $\rightarrow$ \texttt{0 11 21 21 21} $\rightarrow$ …… 无限重复 \texttt{21} 这一列。”
+\texttt{0 11 21} $\to$ \texttt{0 11 21 21} $\to$ \texttt{0 11 21 21 21} $\to$ …… 无限重复 \texttt{21} 这一列。”
 
 “对应OCF里的 $\psi(\Omega^\omega)$，对吧？”蔡须坤立刻对应上了对照表，“$\omega$ 的 $\omega$ 次幂，展开就是 $\omega$ 的有限次幂不断叠加，和这里不断重复 \texttt{21} 完全同构。”
 
@@ -23726,7 +23726,7 @@ $\Pi_\Omega$、$\Pi_I$、$\Pi_M$——从可数到不可数，从不可达到马
 
 “$a$是一种不动点。”Phyrion缓缓说道，“它把前面所有的结构封装在了一个表达式里。”
 
-Phyrion没有停下。他以 $\Pi\text{-}\Phi(1,0)$ 为新的基底,这个函数是每取$\Pi$的不动点，之后加上1，继续向上攀登相当于$f(\alpha)\rightarrow\Pi_\alpha$的$\varphi$函数,是下标的不动点进位。
+Phyrion没有停下。他以 $\Pi\text{-}\Phi(1,0)$ 为新的基底,这个函数是每取$\Pi$的不动点，之后加上1，继续向上攀登相当于$f(\alpha)\to\Pi_\alpha$的$\varphi$函数,是下标的不动点进位。
 
 \section{第八十六章：拓展反射层级}
 第二天，小队继续修炼，接着推导更高层级的内容
@@ -23861,9 +23861,9 @@ Phyrion的笔尖继续飞舞，速度越来越快。
 \Pi\text{-}\Phi(1@(1,,0)) \sim \psi_a(\varphi(\varepsilon_{a+1},T+1))
 \]
 
-“$\Pi\text{-}\Phi$ 的第一个参数从 $2$ 到 $\omega$ 到 $(1,0,0)$ 到 $1@\omega$ 到 $1@(1,0)$——对应 $\varphi$ 第一个参数从 $a^2$ 到 $a^\omega$ 到 $a^a$ 到 $a^{a^\omega}$ 到 $a^{a^a}$。”唐三的声音中带着一丝颤抖，“而 $1@(1,,0)=1@(1@(1@.....))$ 直接跳到了 $\varepsilon_{a+1}$——这是由于$f(\alpha)\rightarrow\Pi_\alpha$相对于$\psi_a(\varphi(a\text{的递归运算},T+1))$，正如$f(\alpha)\rightarrow\omega^\alpha$对于$\psi(\Omega\text{的递归运算})$。”
+“$\Pi\text{-}\Phi$ 的第一个参数从 $2$ 到 $\omega$ 到 $(1,0,0)$ 到 $1@\omega$ 到 $1@(1,0)$——对应 $\varphi$ 第一个参数从 $a^2$ 到 $a^\omega$ 到 $a^a$ 到 $a^{a^\omega}$ 到 $a^{a^a}$。”唐三的声音中带着一丝颤抖，“而 $1@(1,,0)=1@(1@(1@.....))$ 直接跳到了 $\varepsilon_{a+1}$——这是由于$f(\alpha)\to\Pi_\alpha$相对于$\psi_a(\varphi(a\text{的递归运算},T+1))$，正如$f(\alpha)\to\omega^\alpha$对于$\psi(\Omega\text{的递归运算})$。”
 
-然后是 $\Pi\text{-}I$ 层级,相当于$f(\alpha)\rightarrow\Pi_\alpha$的$I$点：
+然后是 $\Pi\text{-}I$ 层级,相当于$f(\alpha)\to\Pi_\alpha$的$I$点：
 
 \[
 \Pi\text{-}I(1,0) \sim \psi_a(\varphi(T,1))
@@ -24043,7 +24043,7 @@ $\Gamma_{T+1}$。
 \Pi(1,x)\text{-}\Phi(1,0) \sim \psi_a(\varphi(a,0,T+1))
 \]
 
-phyrion:这里，$\Pi(1,x)\text{-}\Phi(1,0)$表示$f(\alpha)\rightarrow\Pi(1,\alpha)$的不动点计数
+phyrion:这里，$\Pi(1,x)\text{-}\Phi(1,0)$表示$f(\alpha)\to\Pi(1,\alpha)$的不动点计数
 
 \[
 \Pi(1,x)\text{-}I(1,0) \sim \psi_a(\varphi(T,0,1))

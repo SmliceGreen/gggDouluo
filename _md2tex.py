@@ -23,7 +23,7 @@ UNI = {
     'ⁿ': '^{n}', 'ᵐ': '^{m}', 'ᶜ': '^{c}', 'ᵇ': '^{b}', 'ᴳ': '^{G}',
     '⁺': '^{+}', '⁻': '^{-}', '⁽': '^{(}', '⁾': '^{)}',
     # operators / relations / arrows
-    '↑': r'\uparrow', '→': r'\rightarrow', '↦': r'\mapsto',
+    '↑': r'\uparrow', '→': r'\to', '↦': r'\mapsto',
     '×': r'\times', '−': '-', '∼': r'\sim', '≠': r'\neq',
     '∞': r'\infty', '∩': r'\cap', '∅': r'\varnothing',
     '⋯': r'\cdots', '′': r'\prime', 'ℤ': r'\mathbb{Z}',
