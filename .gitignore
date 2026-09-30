@@ -1,8 +1,8 @@
-ggg斗罗同人文.aux
-ggg斗罗同人文.fdb_latexmk
-ggg斗罗同人文.fls
-ggg斗罗同人文.pdf
-ggg斗罗同人文.log
-ggg斗罗同人文.synctex.gz
+*.aux
+*.fdb_latexmk
+*.fls
+*.pdf
+*.log
+*.synctex.gz
 LatexBuild/
 .vscode/
