@@ -88,7 +88,9 @@ jobs:
               if re.search(r'\\begin\{(align|gather|multline|eqnarray|flalign)\*?\}', body):
                   return body
               if '\\tag' in body:
-                  return '\\begin{equation*}\n' + body + '\n\\end{equation*}'
+                  # body 自带首尾换行，必须 strip，否则 equation* 里的空行会触发
+                  # "! Missing $ inserted."
+                  return '\\begin{equation*}\n' + body.strip() + '\n\\end{equation*}'
               return m.group(0)
           open(p, 'w', encoding='utf-8').write(re.sub(r'\$\$(.+?)\$\$', fix, src, flags=re.S))
           PY
