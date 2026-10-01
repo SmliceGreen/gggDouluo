@@ -59,17 +59,16 @@ jobs:
       - name: Detect Markdown source
         id: md
         run: |
-          if [ -f README.md ]; then
+          # 编译小说正文（排除 README.md），README.md 仅在没有其它 md 时兜底
+          f=$(find . -maxdepth 1 -name '*.md' ! -name 'README.md' -print | sort | head -n1)
+          if [ -z "$f" ] && [ -f README.md ]; then
+            f=./README.md
+          fi
+          if [ -n "$f" ]; then
             echo "build=true" >> "$GITHUB_OUTPUT"
-            echo "file=README.md" >> "$GITHUB_OUTPUT"
+            echo "file=${f#./}" >> "$GITHUB_OUTPUT"
           else
-            f=$(find . -maxdepth 1 -name '*.md' -print -quit)
-            if [ -n "$f" ]; then
-              echo "build=true" >> "$GITHUB_OUTPUT"
-              echo "file=${f#./}" >> "$GITHUB_OUTPUT"
-            else
-              echo "build=false" >> "$GITHUB_OUTPUT"
-            fi
+            echo "build=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Build Markdown PDF
