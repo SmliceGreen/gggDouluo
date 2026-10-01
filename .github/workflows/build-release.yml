@@ -83,6 +83,7 @@ jobs:
           import re, sys
           p = sys.argv[1]
           src = open(p, encoding='utf-8').read()
+          # 1. 含 \tag 的 $$ 块包进 equation*（与 _md2tex.py 的 disp_env 一致）
           def fix(m):
               body = m.group(1)
               if re.search(r'\\begin\{(align|gather|multline|eqnarray|flalign)\*?\}', body):
@@ -92,7 +93,18 @@ jobs:
                   # "! Missing $ inserted."
                   return '\\begin{equation*}\n' + body.strip() + '\n\\end{equation*}'
               return m.group(0)
-          open(p, 'w', encoding='utf-8').write(re.sub(r'\$\$(.+?)\$\$', fix, src, flags=re.S))
+          src = re.sub(r'\$\$(.+?)\$\$', fix, src, flags=re.S)
+          # 2. 每个 ATX 标题（# ...）前必须有空行，否则 pandoc 不把它当标题，
+          #    导致目录缺章、标题被当成正文（# 被转义成 \#）
+          lines = src.split('\n')
+          out = []
+          h_re = re.compile(r'^#{1,6}\s')
+          for i, l in enumerate(lines):
+              if h_re.match(l) and i > 0 and lines[i-1].strip() != '':
+                  out.append('')
+              out.append(l)
+          src = '\n'.join(out)
+          open(p, 'w', encoding='utf-8').write(src)
           PY
           # 正文里的 --- 是场景分隔线，会被当成 YAML 元数据块和 simple_tables 的表头分隔行，
           # 后者会让 pandoc 把整段吃成表格、把 \begin{equation*} 转义成普通文本，故一并禁用
