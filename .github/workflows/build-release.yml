@@ -102,6 +102,7 @@ jobs:
             -V mainfont="Noto Serif CJK SC" \
             -V CJKmainfont="Noto Serif CJK SC" \
             -V geometry:margin=1in \
+            -V 'header-includes=\setcounter{MaxMatrixCols}{30}' \
             --toc
 
       # ---------- 创建 Release 并上传 ----------
