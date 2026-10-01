@@ -396,19 +396,18 @@ def main():
 \setcounter{secnumdepth}{0}
 \renewcommand{\contentsname}{目录}
 
-% 强制嵌入字体（关键）
-\usepackage{fontspec}
-\setCJKmainfont{SimSun}[BoldFont=SimHei, ItalicFont=KaiTi]
-\setCJKsansfont{SimHei}
-\setCJKmonofont{FangSong}
+% ---------- 字体设置：全部删除，交给 ctex 自动处理 ----------
+% ctexart 在 Linux 下会自动调用 Fandol 字体（Song/Hei/Kai/Fang）
+% 在 Windows 下会自动调用系统字体（SimSun/SimHei/KaiTi/FangSong）
+% 无需手动指定，跨平台兼容性最好
 
 % 确保PDF中文字可被搜索和复制
 \input{glyphtounicode}
 \pdfgentounicode=1
-\setCJKmonofont{SimSun}
+
 \lstset{basicstyle=\ttfamily\small,breaklines=true,columns=flexible,frame=single,extendedchars=false}
 
-% ---------- PDF 书签（阅读器左侧“标签”面板）与目录超链接 ----------
+% ---------- PDF 书签（阅读器左侧"标签"面板）与目录超链接 ----------
 \usepackage[
   unicode,                 % 中文书签必需
   bookmarks=true,          % 生成 PDF 大纲书签
@@ -423,7 +422,7 @@ def main():
   pdfborder={0 0 0},
   pdfstartview=FitH
 ]{hyperref}
-\usepackage{bookmark}      % 更稳健的书签处理（含 \texorpdfstring 支持）
+\usepackage{bookmark}%的书签处理（含 \texorpdfstring 支持）
 
 \title{ggg斗罗同人文}
 \author{SmliceGreen}
