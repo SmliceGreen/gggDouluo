@@ -77,7 +77,9 @@ jobs:
           MD_FILE: ${{ steps.md.outputs.file }}
         run: |
           base="${MD_FILE%.md}"
+          # 正文里的 --- 是场景分隔线，禁用 YAML 元数据块，别让 pandoc 去解析它
           pandoc "$MD_FILE" -o "${base}-md.pdf" \
+            -f markdown-yaml_metadata_block \
             --pdf-engine=xelatex \
             -V mainfont="Noto Serif CJK SC" \
             -V CJKmainfont="Noto Serif CJK SC" \
