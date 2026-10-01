@@ -24,6 +24,7 @@ jobs:
             texlive-fonts-recommended \
             texlive-lang-chinese \
             texlive-fonts-extra \
+            lmodern \
             latexmk \
             pandoc \
             fonts-noto-cjk
