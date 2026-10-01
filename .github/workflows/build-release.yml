@@ -77,6 +77,21 @@ jobs:
           MD_FILE: ${{ steps.md.outputs.file }}
         run: |
           base="${MD_FILE%.md}"
+          # 与 _md2tex.py 的 disp_env 保持一致：含 \tag 的 $$ 块必须包进 equation*，
+          # 自带 align/gather 等环境的原样输出，否则 \[...\] 里 amsmath 会报 \tag not allowed here
+          python3 - "$MD_FILE" <<'PY'
+          import re, sys
+          p = sys.argv[1]
+          src = open(p, encoding='utf-8').read()
+          def fix(m):
+              body = m.group(1)
+              if re.search(r'\\begin\{(align|gather|multline|eqnarray|flalign)\*?\}', body):
+                  return body
+              if '\\tag' in body:
+                  return '\\begin{equation*}\n' + body + '\n\\end{equation*}'
+              return m.group(0)
+          open(p, 'w', encoding='utf-8').write(re.sub(r'\$\$(.+?)\$\$', fix, src, flags=re.S))
+          PY
           # 正文里的 --- 是场景分隔线，禁用 YAML 元数据块，别让 pandoc 去解析它
           pandoc "$MD_FILE" -o "${base}-md.pdf" \
             -f markdown-yaml_metadata_block \
