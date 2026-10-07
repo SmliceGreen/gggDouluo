@@ -1,12 +1,14 @@
 name: Build & Release PDFs
 
 on:
+  schedule:
+    # 每小时轮询 upstream（原作者仓库）是否有新提交
+    - cron: '0 * * * *'
   push:
     tags:
       - 'v*'
     branches:
-      - main
-      - master
+      - rewriteLatex
     paths:
       - '*.tex'
       - '*.md'
@@ -14,6 +16,7 @@ on:
       - '*.sty'
       - '_md2tex.py'
       - '.github/workflows/build-release.yml'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -25,7 +28,30 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # ---------- 轮询 upstream 是否有新提交 ----------
+      - name: Check upstream for new commits
+        id: upstream
+        if: github.event_name == 'schedule'
+        run: |
+          git remote add upstream https://github.com/SmliceGreen/gggDouluo.git
+          git fetch upstream main
+          # 统计 upstream/main 领先当前分支的提交数
+          new_commits=$(git rev-list --count HEAD..upstream/main 2>/dev/null || echo 0)
+          echo "new_commits=$new_commits"
+          echo "new_commits=$new_commits" >> "$GITHUB_OUTPUT"
+          if [ "$new_commits" -gt 0 ]; then
+            echo "has_new=true" >> "$GITHUB_OUTPUT"
+            # 把 upstream 的源文件覆盖到工作区（upstream 没有 workflow 文件，不会覆盖配置）
+            git checkout upstream/main -- .
+            echo "已同步 upstream/main 的最新内容（$new_commits 个新提交）"
+          else
+            echo "has_new=false" >> "$GITHUB_OUTPUT"
+            echo "upstream/main 无新提交，跳过构建"
+          fi
+
       - name: Install build tools
+        # schedule 触发时，仅当 upstream 有新提交才继续
+        if: github.event_name != 'schedule' || steps.upstream.outputs.has_new == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
@@ -42,6 +68,7 @@ jobs:
       # ---------- LaTeX 构建 ----------
       - name: Detect LaTeX source
         id: latex
+        if: github.event_name != 'schedule' || steps.upstream.outputs.has_new == 'true'
         run: |
           if [ -f main.tex ]; then
             echo "build=true" >> "$GITHUB_OUTPUT"
@@ -57,7 +84,7 @@ jobs:
           fi
 
       - name: Build LaTeX PDF
-        if: steps.latex.outputs.build == 'true'
+        if: (github.event_name != 'schedule' || steps.upstream.outputs.has_new == 'true') && steps.latex.outputs.build == 'true'
         env:
           TEX_FILE: ${{ steps.latex.outputs.file }}
         run: |
@@ -68,6 +95,7 @@ jobs:
       # ---------- Markdown 构建 ----------
       - name: Detect Markdown source
         id: md
+        if: github.event_name != 'schedule' || steps.upstream.outputs.has_new == 'true'
         run: |
           # 编译小说正文（排除 README.md），README.md 仅在没有其它 md 时兜底
           f=$(find . -maxdepth 1 -name '*.md' ! -name 'README.md' -print | sort | head -n1)
@@ -82,7 +110,7 @@ jobs:
           fi
 
       - name: Build Markdown PDF
-        if: steps.md.outputs.build == 'true'
+        if: (github.event_name != 'schedule' || steps.upstream.outputs.has_new == 'true') && steps.md.outputs.build == 'true'
         env:
           MD_FILE: ${{ steps.md.outputs.file }}
         run: |
@@ -129,7 +157,7 @@ jobs:
 
       # ---------- 分支推送：上传 artifacts 供检查 ----------
       - name: Upload PDFs as artifacts
-        if: startsWith(github.ref, 'refs/heads/')
+        if: (github.event_name != 'schedule' || steps.upstream.outputs.has_new == 'true') && startsWith(github.ref, 'refs/heads/')
         uses: actions/upload-artifact@v4
         with:
           name: PDFs
@@ -138,7 +166,7 @@ jobs:
 
       # ---------- Tag 推送：创建 Release 并上传 ----------
       - name: Create GitHub Release
-        if: startsWith(github.ref, 'refs/tags/')
+        if: (github.event_name != 'schedule' || steps.upstream.outputs.has_new == 'true') && startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
           files: |
