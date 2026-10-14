@@ -101,6 +101,9 @@
 - [第一百零一章：午时三刻](#第一百零一章午时三刻)
 - [第一百零二章：银发女子](#第一百零二章银发女子)
 - [第一百零三章：最菜萌新](#第一百零三章最菜萌新)
+- [第一百零四章：bms的提升效应](#第一百零四章bms的提升效应)
+- [第一百零五章：替身挡住的那一步](#第一百零五章替身挡住的那一步)
+- [第一百零六章：无处不在的提升](#第一百零六章无处不在的提升)
 # 第一章：开端
 唐三出生在附近一个不起眼的小村庄，村里的人都懂点基础的大数理论，村里从前有一位强者，据说他能构造出和 $\text{TREE}(3)$ 相当的大数。$\text{TREE}(3)$ 是一种极其庞大的数（别管这是啥，后面会讲）。
 
@@ -33007,3 +33010,1663 @@ test_alpha0 顿首
 "两年。"蔡须坤说。
 
 背上那一处，温了一下
+# 第一百零四章：bms的提升效应
+夏夜星空到石屋时，奥斯卡正举着一个鸡蛋。
+
+“能吃。”她说。
+
+奥斯卡立刻把蛋磕进锅里。小舞笑着去拿碗，诺当伸手接，碰到掌心的伤，又把手缩了回去。
+
+十一人吃过早饭，夏夜星空在桌上摊开一卷山图。最高处写着二千五百，最底下的横线上写着五百。
+
+“都是米，算往上升了多少。前五百米，要把这一层重新分析清楚。”
+
+$$(0)(1,1,1)(2,2)$$
+
+“这一层，我们的魂力已经过了。”蔡须坤说。
+
+“力量到了。”夏夜星空点头，“你们用投影序数走过了那道界。可这段里面，每一步为什么对应这个序数，哪一处是乘，哪一处是改参数，分析还没有走全。山上补这一课。”
+
+蔡须坤看着那条横线。身子里的井静着，底下那团混沌还在睡。她把山图卷好，递给霍雨浩。
+
+“从哪里开始？”
+
+夏夜星空在两根石柱中间写下一行字。
+
+$$(0)(1,1,1)=\psi(\Omega_\omega)$$
+
+“从你们早就用熟的地方。”
+
+霍雨浩拿炭条在石上分出三行。除第一行的数必须保留外，每列后面补齐用的零都省略；若中间的零之后还有非零坐标，仍保留它的位置。读父项和阶差时，须把省略的行按零补回。
+
+$$a_1=\text{第一行},\quad a_2=\text{第二行},\quad a_3=\text{第三行};\qquad\text{省略的末尾坐标按零参与计算。}$$
+
+霍雨浩在本子上写下记号约定。最外面的 $\psi$ 是可数层坍缩，函数下标按坍缩上界书写。
+
+$$\psi=\psi_\Omega,\qquad\psi_{\Omega_2},\ \psi_{\Omega_3},\ \ldots\quad\text{均以上界作函数下标。}$$
+
+$$\psi(0)=1,\qquad\psi(\Omega)=\varepsilon_0,\qquad\psi_{\Omega_2}(0)=\Omega$$
+
+教材里见到旧编号 $\psi_1,\psi_2,\ldots$ 时，只按下面的对照换写，后续计算统一使用上界下标。
+
+$$\psi_1=\psi_{\Omega_2},\qquad\psi_2=\psi_{\Omega_3},\qquad\ldots$$
+
+“下标换成这个写法，参数别跟着乱改。”古月娜说，“$\Omega_2$ 本身，仍是 $\Omega_2$。”
+
+遇到后继参数，要按所在的 BOCF 结构核对有限相加的基本列，不能一律沿用 MOCF 中“再起一层指数塔”的读法。霍雨浩把这一句也记在页首。
+
+长式中的无限列和无限指数塔都是基本列极限的示意，不是一条真的写有无限多列的有限 BMS。具体到每次运转，只能使用有限项。
+
+蔡须坤的右脚刚落上第一阶，肩背便往下一沉。她抬左脚，膝盖只抬到一半，胸口那口气就被压了回来。
+
+卢本韦伸手托住她的胳膊，自己跨上同一阶，也弯了腰。霍雨浩扶着石沿上来，炭条在指间折成两截。古月娜最后落脚，银发贴在颈侧，呼吸顿了一顿。
+
+他们都有超过这层的魂力。蔡须坤一口气提起自己修来的力量，脚底的纹却只亮了一半，几处原本连贯的运转在压力下互相牵扯。她越想一并带过去，胸口便越闷。
+
+“慢一点。”卢本韦说，“先把最初那段留住，只动后面。”
+
+蔡须坤依言收慢。沉重的阻力将运转拖得极缓，平时一掠而过的接缝，这时竟能一处处分辨。前段仍然稳着，后面的乘数却在另一处受阻。
+
+霍雨浩蹲下，把受阻前后两种运转分开记。古月娜跟着试了一遍，抬手指向他圈出的右括号。
+
+“两处的先后不同。她刚才把它们当成一层了。”
+
+他们照基本列重新核对，再试。接缝处的牵扯松了，蔡须坤终于能把左脚移上来；肩上的重量仍在，汗从下颌滴到石阶上。
+
+“压力把你们省过去的细节压出来了。”夏夜星空说，“看清一处，再分析一处。”
+
+霍雨浩又在记录旁留了空白。身体察觉的差异，还要拿父项、阶差和对应式验证，不能只凭觉得顺畅就填等号。
+
+唐三在后面系好蓝银草，奥斯卡把水和补给递过来。蔡须坤、霍雨浩、卢本韦、古月娜在第一处横台上摊开本子。一式核对，一次尝试；他们开始学着用这份压力辨认自己的力量。
+
+$$(0)(1,1,1)(1)=\psi(\Omega_\omega)\times\omega$$
+
+末项 $(1)$ 把外部乘数推进到 $\omega$，前面的 ${\psi(\Omega_\omega)}$ 保持原样。
+
+$$(0)(1,1,1)(1)(2)=\psi(\Omega_\omega)\times\omega^\omega$$
+
+再接 $(2)$，变化落在乘数的指数上：$\omega\to\omega^\omega$。
+
+$$(0)(1,1,1)(1)(2,1)=\psi(\Omega_{\omega})\times\psi(\Omega)$$
+
+$(2,1)$ 在此处生成乘数 $\psi(\Omega)=\varepsilon_0$；它没有进入前面那个 $\psi$。
+
+$$(0)(1,1,1)(1)(2,1)(3,1)=\psi(\Omega_{\omega})\times\psi(\Omega^{2})$$
+
+连续的 $(2,1)(3,1)$ 把乘数内部参数由 $\Omega$ 推到 $\Omega^2$。
+
+“这一组只增加后面的乘数，前缀 $(0)(1,1,1)$ 对应的 ${\psi(\Omega_\omega)}$ 不变。”霍雨浩把乘号圈出来，继续往后核对。
+
+$$(0)(1,1,1)(1)(2,1)(3,2)=\psi(\Omega_{\omega})\times\psi(\Omega_2)$$
+
+末列换成 $(3,2)$，乘数的参数达到 $\Omega_2$，外面仍是 ${\psi(\Omega_\omega)}\times(\cdot)$。
+
+$$(0)(1,1,1)(1)(2,1)(3,2)(4,3)=\psi(\Omega_{\omega})\times\psi(\Omega_3)$$
+
+再添 $(4,3)$，参数进入 $\Omega_3$。注意 $\Omega_3$ 是参数，不是函数下标。
+
+$$\begin{aligned} & (0)(1,1,1)(1)(2,1,1) \\ &= (0)(1,1,1)(1)(2,1)(3,2)(4,3)\cdots \\ &= \psi(\Omega_\omega)^2 \end{aligned}$$
+
+中间那条省略号表示基本列的极限；乘数逼近 $\psi(\Omega_\omega)$，所以整式到 ${\psi(\Omega_\omega)}^2$。
+
+$$(0)(1,1,1)(1)(2,1,1)(1)(2,1,1)=\psi(\Omega_\omega)^3$$
+
+重复这里的 $(1)(2,1,1)$，得到第三个 ${\psi(\Omega_\omega)}$ 因子，故为 ${\psi(\Omega_\omega)}^3$。
+
+$$(0)(1,1,1)(1)(2,1,1)(2)=\psi(\Omega_\omega)^\omega$$
+
+末尾 $(2)$ 把有限个 ${\psi(\Omega_\omega)}$ 因子的重复推进到 ${\psi(\Omega_\omega)}^\omega$。
+
+$$(0)(1,1,1)(1)(2,1,1)(2)(3,1,1)=\psi(\Omega_\omega)^{\psi(\Omega_\omega)}$$
+
+接上 $(3,1,1)$，变化进入幂指数：$\omega\to {\psi(\Omega_\omega)}$，底数仍为 ${\psi(\Omega_\omega)}$。
+
+幂继续向右嵌套。霍雨浩在最上层的指数外添了一对括号，古月娜依次指回每个括号所属的层次。
+
+$$(0)(1,1,1)(1)(2,1,1)(2)(3,1,1)(3)(4,1,1)=\psi(\Omega_\omega)^{\psi(\Omega_\omega)^{\psi(\Omega_\omega)}}$$
+
+后段再复制一次这种结构，得到 ${\psi(\Omega_\omega)}^{{\psi(\Omega_\omega)}^{\psi(\Omega_\omega)}}$；幂按右结合读成 ${\psi(\Omega_\omega)}^{({\psi(\Omega_\omega)}^{\psi(\Omega_\omega)})}$。
+
+第三日，三十米处，蔡须坤停住了。她继续增加外部乘数，胸口的牵扯却越来越重。霍雨浩圈出下一题的右括号，古月娜沿着它向内指。
+
+“这次变的是参数。”
+
+卢本韦陪她固定前段，只试这一处。压力使两种运转的差别显出来，他们再回到式子核对。
+
+$$\psi(\Omega_\omega)\times\alpha,\qquad\psi(\Omega_\omega+\alpha)\quad\text{分别辨认乘法与参数中的加法。}$$
+
+$$(0)(1,1,1)(1,1)=\psi(\Omega_{\omega}+\Omega)$$
+
+此处 $(1,1)$ 已改变外层参数，增量为 $\Omega$；不能把结果读成 ${\psi(\Omega_\omega)}\times\Omega$。
+
+这里的 $(1,1)$ 对应二行 BMS 的 $(1,1)$ 型结构。在本处，它让外层参数增加 $\Omega$，其基本列仍逐层构造指数塔。不能沿用 MOCF 中“加一”的旧读法。
+
+$$(0)(1,1,1)(1,1)(1,1)=\psi(\Omega_{\omega}+\Omega\times2)$$
+
+相同列再接一次，增加第二份 $\Omega$，形成有序和 $\Omega\times2$。
+
+$$(0)(1,1,1)(1,1)(2)=\psi(\Omega_{\omega}+\Omega\times\omega)$$
+
+末尾的一行结构把这个有限重复推进到 $\Omega\times\omega$。
+
+$$(0)(1,1,1)(1,1)(2)(3)=\psi(\Omega_{\omega}+\Omega\times\omega^{\omega})$$
+
+再添一列一行结构，右乘部分由 $\omega$ 变为 $\omega^\omega$。
+
+$$(0)(1,1,1)(1,1)(2)(3,1)=\psi(\Omega_{\omega}+\Omega\times\psi(\Omega))$$
+
+固定的左因子 $\Omega$ 保留，后面的右因子改为 $\psi(\Omega)$。
+
+$$(0)(1,1,1)(1,1)(2)(3,1)(3,1)=\psi(\Omega_{\omega}+\Omega\times\psi(\Omega\times2))$$
+
+重复 $(3,1)$，增加的是内层参数的一份 $\Omega$，得到 $\psi(\Omega\times2)$。
+
+$$(0)(1,1,1)(1,1)(2)(3,1)(4,1)=\psi(\Omega_{\omega}+\Omega\times\psi(\Omega^{2}))$$
+
+第一坐标继续抬高，内层参数变成 $\Omega^2$；这与上一式的 $\Omega\times2$ 不同。
+
+$$(0)(1,1,1)(1,1)(2)(3,1)(4,2)=\psi(\Omega_{\omega}+\Omega\times\psi(\Omega_2))$$
+
+第二坐标升到二，内层参数进入 $\Omega_2$，外层的 $\Omega_\omega$ 仍保留。
+
+$$(0)(1,1,1)(1,1)(2)(3,1,1)=\psi(\Omega_{\omega}+\Omega\times\psi(\Omega_{\omega}))$$
+
+末列出现第三行的一，右因子达到 $\psi(\Omega_\omega)$。
+
+$(2)$ 在这一段隔出内层结构。其后的变化首先落在内层的 $\psi$，外面那份 $\Omega_\omega$ 及相应左因子留在原处。
+
+$$(0)(1,1,1)(1,1)(2)(3,1,1)(3,1)=\psi(\Omega_{\omega}+\Omega\times\psi(\Omega_{\omega}+\Omega))$$
+
+新接的 $(3,1)$ 在内层起作用，令内层参数 $\Omega_\omega\to\Omega_\omega+\Omega$。
+
+$$(0)(1,1,1)(1,1)(2)(3,1,1)(3,1)(4)(5,1,1)=\psi(\Omega_{\omega}+\Omega\times\psi(\Omega_{\omega}+\Omega\times\psi(\Omega_{\omega})))$$
+
+$(4)$ 再隔出一层；最内层的 $\psi(\Omega_\omega)$ 先乘 $\Omega$，再参与外层相加。
+
+$$(0)(1,1,1)(1,1)(2,1)=\psi(\Omega_{\omega}+\Omega^{2})$$
+
+$(1,1)(2,1)$ 相接，在这一位置形成 $\Omega^2$，作用范围要看整条 BMS。
+
+$$(0)(1,1,1)(1,1)(2,1)(2)=\psi(\Omega_{\omega}+\Omega^{2}\times\omega)$$
+
+再接 $(2)$，已有的 $\Omega^2$ 右乘 $\omega$，幂次数暂不变化。
+
+$$(0)(1,1,1)(1,1)(2,1)(2,1)=\psi(\Omega_{\omega}+\Omega^{3})$$
+
+换成 $(2,1)$，幂次数增一，得到 $\Omega^3$，不能误写成 $\Omega^2\times2$。
+
+$(n,1,0)$ 在当前结构中引入 $\Omega$ 的幂次；例如这里相邻的 $(1,1)(2,1)$ 给出 $\Omega^2$。它的具体贡献依赖整条 BMS，不能脱离位置逐列换算。
+
+$$(0)(1,1,1)(1,1)(2,1)(3)=\psi(\Omega_\omega+\Omega^\omega)$$
+
+后接 $(3)$，把有限幂的推进收束为 $\Omega^\omega$。
+
+$$(0)(1,1,1)(1,1)(2,1)(3)(4,1,1)=\psi(\Omega_\omega+\Omega^{\psi(\Omega_\omega)})$$
+
+$(4,1,1)$ 让幂指数由 $\omega$ 进到 ${\psi(\Omega_\omega)}$，底数 $\Omega$ 不变。
+
+$$(0)(1,1,1)(1,1)(2,1)(3,1)=\psi(\Omega_\omega+\Omega^\Omega)$$
+
+末列改成 $(3,1)$，在这个结构里生成 $\Omega^\Omega$。
+
+第八日，六十米处，古月娜把内层的一道银纹接错了。气息往胸口涌，她退回横台，等那口气平下去。
+
+蔡须坤挪到她身边，指出自己昨日也受阻的位置。卢本韦照两种顺序各试一次，霍雨浩在纸上圈出内外两对括号。
+
+“每次只认正在变的那一层。”
+
+古月娜接过炭条，自己改了最后一笔。
+
+$$(0)(1,1,1)(1,1)(2,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2))$$
+
+这里新增上界为 $\Omega_2$ 的坍缩层，整体为 $\psi(\Omega_\omega+{\psi_{\Omega_2}(\Omega_2)})$。
+
+$$(0)(1,1,1)(1,1)(2,2)(2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)\times\omega)$$
+
+固定 ${\psi_{\Omega_2}(\Omega_2)}$，它在外层参数中右乘 $\omega$；$\psi_{\Omega_2}$ 的参数仍为 $\Omega_2$。
+
+$$(0)(1,1,1)(1,1)(2,2)(2,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)\times\Omega)$$
+
+右乘部分由 $\omega$ 进到 $\Omega$，仍未改变 ${\psi_{\Omega_2}(\Omega_2)}$ 的内部。
+
+$$(0)(1,1,1)(1,1)(2,2)(2,1)(3,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)^{2})$$
+
+加上 $(3,2)$ 后出现第二份 ${\psi_{\Omega_2}(\Omega_2)}$ 因子，得到 ${\psi_{\Omega_2}(\Omega_2)}^2$。
+
+$$(0)(1,1,1)(1,1)(2,2)(2,1)(3,2)(3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)^{\omega})$$
+
+末尾的一行结构把 ${\psi_{\Omega_2}(\Omega_2)}$ 的有限幂推进到 ${\psi_{\Omega_2}(\Omega_2)}^\omega$。
+
+$$(0)(1,1,1)(1,1)(2,2)(2,1)(3,2)(3,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)^{\Omega})$$
+
+末列第二坐标为一，指数层变成 $\Omega$，得到 ${\psi_{\Omega_2}(\Omega_2)}^\Omega$。
+
+$$(0)(1,1,1)(1,1)(2,2)(2,1)(3,2)(3,1)(3,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)^{\Omega^{2}})$$
+
+重复同一列使幂指数中的 $\Omega$ 形成平方，结果为 ${\psi_{\Omega_2}(\Omega_2)}^{\Omega^2}$。
+
+$$(0)(1,1,1)(1,1)(2,2)(2,1)(3,2)(3,1)(4,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)^{\Omega^{\Omega}})$$
+
+提高第一坐标，幂指数由 $\Omega^2$ 进到 $\Omega^\Omega$。
+
+$$(0)(1,1,1)(1,1)(2,2)(2,1)(3,2)(3,1)(4,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)^{\psi_{\Omega_2}(\Omega_2)})$$
+
+末列第二坐标提高到二，幂指数本身到 ${\psi_{\Omega_2}(\Omega_2)}$，结果是 ${\psi_{\Omega_2}(\Omega_2)}^{\psi_{\Omega_2}(\Omega_2)}$。
+
+$$(0)(1,1,1)(1,1)(2,2)(2,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times2))$$
+
+重复 $(2,2)$ 改动的是 ${\psi_{\Omega_2}(\Omega_2)}$ 的内部参数：$\Omega_2\to\Omega_2\times2$，并非外面乘二。
+
+霍雨浩另写一条去掉外层背景的对照式，与卢本韦确认相同的参数推进仍在发生：
+
+$$(0)(1,1)(2,2)(2,2)=\psi(\Omega_2\times2)$$
+
+回到上式，$\psi_{\Omega_2}$ 的参数由 $\Omega_2$ 进到 $\Omega_2\times2$；外层背景没有把这一步变成普通乘二。
+
+$$(0)(1,1,1)(1,1)(2,2)(3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\omega))$$
+
+$(3)$ 使内层参数的右系数达到 $\omega$，得到 $\Omega_2\times\omega$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\Omega))$$
+
+把末列改成 $(3,1)$，同一处右系数达到 $\Omega$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,1)(3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\Omega\times\omega))$$
+
+再接 $(3)$，参数中形成 $\Omega_2\times\Omega\times\omega$；乘法顺序不能对调。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,1)(3,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\Omega^{2}))$$
+
+重复 $(3,1)$，在 $\Omega_2$ 右边形成 $\Omega^2$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,1)(4)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\Omega^{\omega}))$$
+
+提高第一坐标，内层参数右端成为 $\Omega^\omega$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,1)(4,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\Omega^{\Omega}))$$
+
+提高第二坐标到一，右端进一步成为 $\Omega^\Omega$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,1)(4,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\psi_{\Omega_2}(\Omega_2)))$$
+
+$(3,1)(4,2)$ 又引入一个 ${\psi_{\Omega_2}(\Omega_2)}$，得到内层参数 $\Omega_2\times {\psi_{\Omega_2}(\Omega_2)}$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,1)(4,2)(2,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\psi_{\Omega_2}(\Omega_2)+\Omega_2))$$
+
+再添 $(2,2)$，在这整个参数后面加 $\Omega_2$；左边的 $\Omega_2\times {\psi_{\Omega_2}(\Omega_2)}$ 保留。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,1)(4,2)(4,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\psi_{\Omega_2}(\Omega_2\times2)))$$
+
+重复 $(4,2)$，改动更内层的参数；外层的 $\Omega_2\times(\cdot)$ 不变。
+
+像 $(1,1)(2,2)$、$(3,1)(4,2)$ 这样具有对应间隔的结构，在本段会引入 ${\psi_{\Omega_2}(\Omega_2)}$。续接相应的 $(n,2)$，可在这层函数参数中加 $\Omega_2$。更高层也有类似现象，须检查父项和所在层次，不能无条件套用。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,1)(4,2)(5)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\psi_{\Omega_2}(\Omega_2\times\omega)))$$
+
+末列 $(5)$ 将最内层的 $\Omega_2\times2$ 推进为 $\Omega_2\times\omega$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,1)(4,2)(5,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\psi_{\Omega_2}(\Omega_2\times\Omega)))$$
+
+末列第二坐标变一，最内层的右系数到 $\Omega$，其余各层保持原位置。
+
+第十一日，卢本韦把两张纸并在一起。霍雨浩刚试完两种平方，肩背仍绷着；压力让其中一处先在内层受阻，另一处却牵动整个函数值。她按住纸角，请他先停在这处差别上。
+
+$$\bigl(\psi_{\Omega_2}(\Omega_2)\bigr)^2,\qquad\psi_{\Omega_2}(\Omega_2^2)$$
+
+“一个平方在括号外，一个在里面。位置不同，要按各自那条 BMS 核对。”
+
+霍雨浩重新核对第二坐标。蔡须坤与古月娜轮流再试，将感到受阻的先后和纸上的括号一一对照。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}))$$
+
+这里改变的是函数内部的参数幂次，不能写成 ${\psi_{\Omega_2}(\Omega_2)}^2$。
+
+相隔 $(1)$ 的连续两项 $(n,2)$，在此处引入参数的幂次结构：$\Omega_2\to\Omega_2^2$。把这一步看成函数值平方，就会认错下面整组。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2})\times\omega)$$
+
+现在取 ${\psi_{\Omega_2}(\Omega_2^2)}$ 右乘 $\omega$。看清乘号位于 $\psi_{\Omega_2}$ 的右括号外。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2})\times\Omega)$$
+
+右乘部分提高到 $\Omega$，函数内部仍为 $\Omega_2^2$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,1)(3,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2})\times\psi_{\Omega_2}(\Omega_2))$$
+
+末列引入右因子 ${\psi_{\Omega_2}(\Omega_2)}$，故外层参数出现 ${\psi_{\Omega_2}(\Omega_2^2)}\times {\psi_{\Omega_2}(\Omega_2)}$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,1)(3,2)(4,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2})^{2})$$
+
+再接一列后，右因子也达到 ${\psi_{\Omega_2}(\Omega_2^2)}$，整段变为 ${\psi_{\Omega_2}(\Omega_2^2)}^2$。
+
+$$\begin{aligned} & (0)(1,1,1)(1,1)(2,2)(3,2)(2,1)(3,2)(4,2) \\ &\quad (3,1)(4,2)(5,2) \\ &=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2})^{\psi_{\Omega_2}(\Omega_2^{2})}) \end{aligned}$$
+
+后段继续嵌套，幂指数本身达到 ${\psi_{\Omega_2}(\Omega_2^2)}$，整段为 ${\psi_{\Omega_2}(\Omega_2^2)}^{\psi_{\Omega_2}(\Omega_2^2)}$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}+\Omega_2))$$
+
+退回参数层看，新增 $(2,2)$ 产生的是 $\Omega_2^2+\Omega_2$。
+
+$(2,2)$ 在这组仍使相应参数增加 $\Omega_2$。后面的每式都要检查增量落在哪一层，不能只看末列相同。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,2)(3,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}+\Omega_2\times\Omega))$$
+
+在新增的 $\Omega_2$ 后右乘 $\Omega$，前面的 $\Omega_2^2$ 固定。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,2)(3,1)(4)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}+\Omega_2\times\Omega^{\omega}))$$
+
+$(4)$ 把后项提升为 $\Omega_2\times\Omega^\omega$，不动前项。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,2)(3,1)(4,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}+\Omega_2\times\Omega^{\Omega}))$$
+
+$(4,1)$ 则把同一幂指数推进到 $\Omega$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,2)(3,1)(4,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}+\Omega_2\times\psi_{\Omega_2}(\Omega_2)))$$
+
+$(4,2)$ 在后项内引入 ${\psi_{\Omega_2}(\Omega_2)}$，形成 $\Omega_2^2+\Omega_2\times {\psi_{\Omega_2}(\Omega_2)}$。
+
+$$\begin{aligned} & (0)(1,1,1)(1,1)(2,2)(3,2)(2,2)(3,1)(4,2) \\ &\quad (5,1)(6,2) \\ &=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}+\Omega_2\times\psi_{\Omega_2}(\Omega_2\times\psi_{\Omega_2}(\Omega_2)))) \end{aligned}$$
+
+再加 $(5,1)(6,2)$，${\psi_{\Omega_2}(\Omega_2)}$ 的参数也含有 $\Omega_2\times {\psi_{\Omega_2}(\Omega_2)}$，出现新的嵌套。
+
+$$\begin{aligned} & (0)(1,1,1)(1,1)(2,2)(3,2)(2,2)(3,1)(4,2) \\ &\quad (5,2) \\ &=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}+\Omega_2\times\psi_{\Omega_2}(\Omega_2^{2}))) \end{aligned}$$
+
+末项换成 $(5,2)$，更内层参数成为 $\Omega_2^2$，也就是引入 ${\psi_{\Omega_2}(\Omega_2^2)}$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,2)(3,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}\times2))$$
+
+两份 $\Omega_2^2$ 在参数里相加，得到 $\Omega_2^2\times2$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}\times\omega))$$
+
+$(3)$ 把这类有限重复推进到 $\Omega_2^2\times\omega$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(3,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}\times\Omega))$$
+
+末列第二坐标变一，相应右系数到 $\Omega$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(3,1)(4,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}\times\psi_{\Omega_2}(\Omega_2)))$$
+
+再接 $(4,2)$，右因子到 ${\psi_{\Omega_2}(\Omega_2)}$，其左边的 $\Omega_2^2$ 不动。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(3,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{3}))$$
+
+相邻两列的第二坐标都为二，参数的幂次由二升到三，得到 $\Omega_2^3$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(4,1)=\psi(\Omega_\omega+\psi_{\Omega_2}(\Omega_2^{\Omega}))$$
+
+提高第一坐标，参数进入 $\Omega_2^\Omega$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,2)(4,2)=\psi(\Omega_\omega+\psi_{\Omega_2}(\Omega_2^{\Omega_2}))$$
+
+末列第二坐标变二，幂指数达到 $\Omega_2$，结果为 $\Omega_2^{\Omega_2}$。
+
+第十五日，霍雨浩在台阶上蹲得两腿发颤，仍没把内外层分开。蔡须坤替他压住纸，卢本韦提醒他先保留共同前项。
+
+他喘匀气，将下一组共同不变的部分描了一遍。
+
+$$\psi\bigl(\Omega_\omega+\psi_{\Omega_2}(\boxed{\alpha})\bigr)$$
+
+“先盯方框。$\alpha$ 换了，不等于 $\psi_{\Omega_2}$ 也换了。”
+
+$$(0)(1,1,1)(1,1)(2,2)(3,3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3))$$
+
+第二坐标进一步变三，参数跳到新的层次标记 $\Omega_3$；函数下标仍为 $\Omega_2$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,3)(3,3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3\times2))$$
+
+重复 $(3,3)$，在同一函数的参数中加第二份 $\Omega_3$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,3)(4)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3\times\omega))$$
+
+末列 $(4)$ 给 $\Omega_3$ 添上右因子 $\omega$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,3)(4,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3\times\Omega))$$
+
+把末列改为 $(4,1)$，右因子推进到 $\Omega$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,3)(4,1)(5,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3\times\psi_{\Omega_2}(\Omega_2)))$$
+
+再接 $(5,2)$，右因子变为 ${\psi_{\Omega_2}(\Omega_2)}$；它仍处于外面那层坍缩函数的参数中。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,3)(4,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3\times\Omega_2))$$
+
+末列第二坐标到二，右因子达到 $\Omega_2$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,3)(4,2)(5,3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3\times\psi_{\Omega_3}(\Omega_3)))$$
+
+再接 $(5,3)$，生成 $\psi_{\Omega_3}(\Omega_3)$；这里才真的出现新的函数下标。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,3)(4,3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3^{2}))$$
+
+相邻列的第二坐标同为三，在参数中形成 $\Omega_3^2$。
+
+$$(0)(1,1,1)(1,1)(2,2)(3,3)(4,4)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_4))$$
+
+末列第二坐标进到四，参数到 $\Omega_4$；外层函数仍没有换成 $\psi_{\Omega_4}$。
+
+第十九日，他们仍卡在九十米处。蔡须坤抬脚，又放下；熟练调动的力量到了这处接缝，在压力下分成两股互相牵扯。
+
+古月娜指出她把内函数当成了第二份外层基数。霍雨浩写出两种结构，卢本韦扶她站稳，等她重新核对。
+
+$$\Omega_\omega+{\psi_{\Omega_2}(\Omega_\omega)}\ \text{与}\ \Omega_\omega+\Omega_\omega\ \text{分开辨认}$$
+
+“先把这一道认清。我们都在这里。”
+
+$$(0)(1,1,1)(1,1)(2,2,1)=\psi(\Omega_\omega+\psi_{\Omega_2}(\Omega_\omega))$$
+
+这是内层参数走到 $\Omega_\omega$，整体尚非 $\psi(\Omega_\omega\times2)$。
+
+这是一个卡点。反复嵌套内函数，并不会立刻得到 $\psi(\Omega_\omega\times2)$；此时先得到 $\psi(\Omega_\omega+{\psi_{\Omega_2}(\Omega_\omega)})$，随后还有 $\psi(\Omega_\omega+{\psi_{\Omega_2}(\Omega_\omega)}\times2)$、$\psi(\Omega_\omega+{\psi_{\Omega_2}(\Omega_\omega)}\times\omega)$ 等。外层后项到 $\Omega_2$ 仍是一道要单独跨过的界。蔡须坤把那处括号改正，接缝的牵扯才逐渐松开。
+
+$$\psi(\Omega_\omega+\psi_{\Omega_2}(\Omega_\omega)\times2),\quad\psi(\Omega_\omega+\psi_{\Omega_2}(\Omega_\omega)\times\omega),\quad\dots$$
+
+两条都按完整形式核对。倍数与 $\omega$ 都在内函数外面，没有进入它的参数。
+
+$$(0)(1,1,1)(1,1)(2,2,1)(2,2)=\psi(\Omega_{\omega}+\Omega_2)$$
+
+新增 $(2,2)$ 后，外层参数中的后项到 $\Omega_2$；这一列的作用要结合前缀读。
+
+夏夜星空站在横台下面，看着他们把这一列重新运转完。“这只是下一步。一步也得认清。”
+
+$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,1)=\psi(\Omega_{\omega}+\Omega_2\times\Omega)$$
+
+固定新出现的 $\Omega_2$，让它右乘 $\Omega$。
+
+$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,1)(4,2)=\psi(\Omega_{\omega}+\Omega_2\times\psi_{\Omega_2}(\Omega_2))$$
+
+再接 $(4,2)$，右因子变为 ${\psi_{\Omega_2}(\Omega_2)}$。
+
+$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,1)(4,2,1)=\psi(\Omega_{\omega}+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega}))$$
+
+末列的第三行变一，右因子改为 ${\psi_{\Omega_2}(\Omega_\omega)}$，左因子仍是 $\Omega_2$。
+
+$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,2)=\psi(\Omega_{\omega}+\Omega_2^{2})$$
+
+末列 $(3,2)$ 与前面的 $(2,2)$ 配合，直接形成 $\Omega_2^2$。
+
+这里 $(2,2)(3,2)$ 在外层参数中产生 $\Omega_2^2$。与上面把平方放进 $\psi_{\Omega_2}$ 参数中的那组对照，作用层次已经不同。
+
+$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3)=\psi(\Omega_{\omega}+\psi_{\Omega_3}(\Omega_3))$$
+
+第二坐标再抬高，后项成为 $\psi_{\Omega_3}(\Omega_3)$，进入下一层坍缩。
+
+$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3)(3,3)=\psi(\Omega_{\omega}+\psi_{\Omega_3}(\Omega_3\times2))$$
+
+重复 $(3,3)$，在这层新函数的参数里增加一份 $\Omega_3$。
+
+$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3,1)=\psi(\Omega_\omega+\psi_{\Omega_3}(\Omega_\omega))$$
+
+末列出现第三行的一，将该函数的参数推进到 $\Omega_\omega$。
+
+$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3,1)(3,3)=\psi(\Omega_{\omega}+\Omega_3)$$
+
+追加 $(3,3)$，外层参数的后项达到 $\Omega_3$。
+
+$$\begin{aligned} & (0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3,1)(3,3)(4,2) \\ &\quad (5,3) \\ &=\psi(\Omega_{\omega}+\Omega_3\times\psi_{\Omega_3}(\Omega_3)) \end{aligned}$$
+
+把新出现的 $\Omega_3$ 右乘 $\psi_{\Omega_3}(\Omega_3)$，注意函数下标比 ${\psi_{\Omega_2}(\Omega_2)}$ 的下标高一层。
+
+$$\begin{aligned} & (0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3,1)(3,3)(4,2) \\ &\quad (5,3,1) \\ &=\psi(\Omega_{\omega}+\Omega_3\times\psi_{\Omega_3}(\Omega_{\omega})) \end{aligned}$$
+
+只改末列第三行，右因子变为 $\psi_{\Omega_3}(\Omega_\omega)$。
+
+$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3,1)(3,3)(4,3)=\psi(\Omega_{\omega}+\Omega_3^{2})$$
+
+这里在外层参数中形成 $\Omega_3^2$，并未把最外面的 $\psi$ 平方。
+
+$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3,1)(3,3)(4,4)=\psi(\Omega_{\omega}+\psi_{\Omega_4}(\Omega_4))$$
+
+第二坐标升到四，出现 $\psi_{\Omega_4}(\Omega_4)$；这仍只是后项的继续增长。
+
+他们把前面几组重新连起来，才走到这一阶段的结果。
+
+第二十日午后，四人把此前的接缝又核对了一轮。蔡须坤踩实台阶，霍雨浩记下结果，古月娜从末列重新追根。卢本韦看着纸，轻轻敲了敲最初那个零。
+
+“现在才轮到第二份。”
+
+$$(0)(1,1,1)(1,1,1)=\psi(\Omega_\omega\times2)$$
+
+到这里，第二个 $\Omega_\omega$ 才真正进入最外层参数；前面整段都不能省掉。
+
+末项 $(1,1,1)$ 在本段追根到 $(0)$，阶差为 $(1,1)$；各行要按父项关系判断是否随复制段抬升。教材先用带美元符号的占位符表示中间片段：
+
+$$(0)(\$_0)(1,1)(\$_1)(2,2)(\$_2)\dots$$
+
+$$\$_i\longleftrightarrow\mathfrak b_i\qquad\text{都只代表一段待填的结构，不是一个数字列。}$$
+
+为免把占位符看成数值，中间的片段改用 $\mathfrak b_i$ 占位，记成下面的结构示意；$\mathfrak b_i$ 不是数字列。
+
+$$(0)\,\mathfrak b_0\,(1,1)\,\mathfrak b_1\,(2,2)\,\mathfrak b_2\,\cdots$$
+
+其中 $(1,1),(2,2),\ldots$ 引出相应的 $\psi_{\Omega_2},\psi_{\Omega_3},\ldots$ 层次；由这条基本列的极限，外层再出现一份 $\Omega_\omega$。“极限”不是做了某个很大的有限次数。
+
+“同样的结构再走一次。”卢本韦说。
+
+$$(0)(1,1,1)(1,1,1)(1,1,1)=\psi(\Omega_\omega\times3)$$
+
+再接一列 $(1,1,1)$，多一份 $\Omega_\omega$；此处作用范围尚未改变。
+
+同样追根、复制、取对应极限，参数中再添一份 $\Omega_\omega$。这一次，古月娜先指出根，霍雨浩核对后才落下标记。
+
+$$(0)(1,1,1)(2)=\psi(\Omega_\omega\times\omega)$$
+
+末列 $(2)$ 把外层参数的有限系数推进到 $\omega$。
+
+$$(0)(1,1,1)(2)(1,1,1)=\psi(\Omega_\omega\times\omega+\Omega_\omega)$$
+
+在 $\Omega_\omega\times\omega$ 后再加 $\Omega_\omega$；序数加法按书写顺序进行。
+
+$$(0)(1,1,1)(2)(2)=\psi(\Omega_\omega\times\omega^2)$$
+
+再接 $(2)$，右端系数到 $\omega^2$，仍是同一个左因子。
+
+$$(0)(1,1,1)(2)(3,1)=\psi(\Omega_{\omega}\times\psi(\Omega))$$
+
+$(3,1)$ 在这里把右系数推进到 $\psi(\Omega)$。
+
+$$(0)(1,1,1)(2)(3,1,1)=\psi(\Omega_\omega\times\psi(\Omega_\omega))$$
+
+第三行的一让右系数达到 ${\psi(\Omega_\omega)}$，要看清这个 ${\psi(\Omega_\omega)}$ 仍位于最外层参数之内。
+
+$$(0)(1,1,1)(2)(3,1,1)(3,1,1)=\psi(\Omega_\omega\times\psi(\Omega_\omega\times2))$$
+
+重复 $(3,1,1)$，改变的是系数自身的坍缩参数，成为 $\psi(\Omega_\omega\times2)$。
+
+$$(0)(1,1,1)(2)(3,1,1)(4)(5,1,1)=\psi(\Omega_\omega\times\psi(\Omega_\omega\times\psi(\Omega_\omega)))$$
+
+再隔出一层，系数的参数包含 $\Omega_\omega\times {\psi(\Omega_\omega)}$，形成更深的嵌套。
+
+$$(0)(1,1,1)(2,1)=\psi(\Omega_\omega\times\Omega)$$
+
+最后，右系数走到 $\Omega$，完成这一段分析；前面的 $\Omega_\omega$ 一直保留。
+
+到此，$(1,1,1)$ 在所考察的位置上都表现为在 $\psi$ 参数内添一份 $\Omega_\omega$。蔡须坤据此提出下一步的猜想：
+
+$$(0)(1,1,1)(2,1)(1,1,1)\stackrel{?}{=}\psi(\Omega_\omega\times\Omega+\Omega_\omega)$$
+
+霍雨浩没有把问号擦掉。此前的局部规律，尚不能保证放在这个新位置仍然成立。
+
+第二十日黄昏，一百二十米的石桩就在蔡须坤身边。
+
+她照着猜想去接，后项刚亮，前面已经站稳的结构忽然向回牵。卢本韦托住她的胳膊，等她退回横台，才让她收住魂力。
+
+“不是力量不够。”蔡须坤低声说。
+
+她的魂力早已越过这层。如今压力拖慢运转，旧日熟练带过的接缝才逐处显露。霍雨浩把回扯发生的位置记在问号旁，请她明日仍在同一阶试。
+
+古月娜蹲下，指尖停在末列的一上。她先追第一行，再追第二行，追到最后，目光落回前面那列 $(2,1)$。
+
+“后面这个一一一，牵动的还不只是它自己。”
+
+夏夜星空把那张带问号的纸夹回本子。“明天从这里起，找中间的路。”
+
+诺当将本子装进干布袋，奥斯卡递过水囊，一个人喝完，再递给下一个。蔡兴坤坐在石桩边，把黑子鸡抱回怀里。唐三等最后一人站稳，才收回蓝银草。
+
+霍雨浩先将目标的前两项展开写在末页，留待下一日核对。
+
+他们采用从零编号的基本列约定：零项只截去末列，一项接上一份完整复制段。展开朝较小的结构走；登山时做的是理解并重新组织已有力量，不能把展开后列数增加当成序数变大。
+
+$$\bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)[0]=(0)(1,1,1)(2,1),\qquad \bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)[1]=(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)$$
+
+登阶的前二十日，他们走到一百二十米。五百米的横线还在山图上头，谁也没有把猜想后的问号擦去。
+
+# 第一百零五章：替身挡住的那一步
+
+第二十一日清早，蔡须坤把带问号的纸摊开。过去二十日，四人每天登阶受压，退回横台记录，再带着推导重试。一行式子，有时要试许多天。
+
+$$(0)(1,1,1)(2,1)(1,1,1)\stackrel{?}{=}\psi(\Omega_\omega\times\Omega+\Omega_\omega)$$
+
+“今天不先填答案。”蔡须坤说，“找出这个一一一为什么接不上。”
+
+一百二十米以上，山道分出一层窄台。唐三先把蓝银草系在石桩上，另一端留给后面的人扶稳。夏夜星空站在窄台另一头，指尖向下，石面浮出三排细纹。
+
+“护住身体可以，里面的次序，要各自走完。”
+
+霍雨浩把前二十日的记录续在页首。以下的省略零都按三行补齐参与计算；式中没有下标的坍缩函数仍是可数层的那一个。
+
+$$\psi=\psi_\Omega,\qquad\psi_{\Omega_2}(0)=\Omega$$
+
+“参数和乘数都写全。”霍雨浩对卢本韦说，“每层都能直接看见。”
+
+卢本韦翻回前页，望着末尾的 $(3,2)$，将旧记录中的 $(3,1)$ 圈出。
+
+“缺的就是第二行这一点？”
+
+“这一点怎么来的，得看完。”古月娜答。
+
+$$(0)(1,1,1)(2,1)(1,1)=\psi(\Omega_\omega\times\Omega+\Omega)$$
+
+与上一章末式相比，新增的是最外层参数的后项 $\Omega$，前项 $\Omega_\omega\times\Omega$ 固定；先不要把这个加号读成幂次。
+
+$$(0)(1,1,1)(2,1)(1,1)(2)(3,1,1)=\psi(\Omega_{\omega}\times\Omega+\Omega\times\psi(\Omega_{\omega}))$$
+
+新增片段使后项成为 $\Omega\times\psi(\Omega_\omega)$。乘法在最外层参数内，右边的坍缩函数必须先辨清作用范围。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,1)=\psi(\Omega_{\omega}\times\Omega+\Omega^{2})$$
+
+这里的后项改为 $\Omega^2$。同样接在 $(1,1)$ 后面，末列的第二坐标不同，所得结构也不同。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2)=\psi(\Omega_{\omega}\times\Omega+\psi_{\Omega_2}(\Omega_2))$$
+
+后项由普通的 $\Omega$ 幂进入 $\psi_{\Omega_2}(\Omega_2)$；函数上界与函数参数各写一遍，不能合成一个下标。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)=\psi(\Omega_\omega\times\Omega+\psi_{\Omega_2}(\Omega_\omega))$$
+
+末列第三坐标从省略的零变成一，内层参数达到 $\Omega_\omega$；内函数仍是 $\psi_{\Omega_2}$，没有换上界。
+
+到这里，几条仍可沿用此前方法。蔡须坤想把它们合成“再添一个 ${\Omega_\omega}$”，卢本韦却感到两处受阻不同。霍雨浩请她们先比较各自的根。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)=\psi(\Omega_\omega\times\Omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega))$$
+
+$(3,1)$ 在内函数参数中生成右因子 $\Omega$。外层也有一个 $\Omega$，但两处与各自根列的阶差并不相同。
+
+这就是第一处关键。外层代表 $\Omega$ 的列相对最初根的阶差，和内层代表 $\Omega$ 的列相对自己根的阶差，并不相同。末尾零虽不写，参与计算时仍在原处。
+
+$$\Delta_{\rm outer}=(2,1),\qquad\Delta_{\rm inner}=(2),\qquad(2,1)\ne(2)$$
+
+$$\delta_1^{\rm outer}=2-0=2,\quad\delta_2^{\rm outer}=1-0=1,\quad\delta_1^{\rm inner}=3-1=2,\quad\delta_2^{\rm inner}=1-1=0$$
+
+“第一行相等，第二行还没齐。”古月娜说。
+
+$$\text{外层参照：}(0)\longrightarrow(2,1),\qquad\text{内层参照：}(1,1)\longrightarrow(3,1)$$
+
+$$\text{若内层对应列达到 }(3,2),\qquad 3-1=2,\quad2-1=1$$
+
+这些箭头表示比较两列，不是把原有前缀真的改掉。要让新结构成立，必须经过能生成后一种阶差的中间基本列。额外的一轮结构，正是提升效应的来源。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)=\psi(\Omega_\omega\times\Omega+\Omega_2)$$
+
+加上 $(2,2)$ 后，最外层的后项达到 $\Omega_2$。这里不是把前式内函数的右端直接换成一个字母，须沿完整基本列核对。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,1) \\ &\quad (4,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2\times\psi_{\Omega_2}(\Omega_2)) \end{aligned}$$
+
+新的 $(3,1)(4,2)$ 作用于后项，给出 $\Omega_2\times\psi_{\Omega_2}(\Omega_2)$；左边第一份 $\Omega_2$ 不在内函数中。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2)=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{2})$$
+
+相应末列变为 $(3,2)$，后项形成 $\Omega_2^2$。这一步对应平方，不能写成 $\Omega_2\times2$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &\quad (1,1)(2,2,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{2}+\psi_{\Omega_2}(\Omega_{\omega})) \end{aligned}$$
+
+前面的平方保留，尾段重新开出 $\psi_{\Omega_2}(\Omega_\omega)$。这是相加，不是把整个外层参数一起乘内函数。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &\quad (1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{2}+\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\Omega_2^{2})) \end{aligned}$$
+
+内函数重新走过与外部相似的片段，参数中也出现 $\Omega_2^2$；两个平方位于不同括号层次。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &\quad (2,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{2}+\Omega_2) \end{aligned}$$
+
+同一外部平方后面增加 $\Omega_2$，有序和为 $\Omega_2^2+\Omega_2$；这里不能交换两项的位置。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &\quad (2,2)(3,1)(4,2,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{2}+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega})) \end{aligned}$$
+
+只将第二项扩展成 $\Omega_2\times\psi_{\Omega_2}(\Omega_\omega)$，第一项的平方保持不动。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &\quad (2,2)(3,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{2}\times2) \end{aligned}$$
+
+现在才有两份完整的 $\Omega_2^2$，写作 $\Omega_2^2\times2$；与上面的 $\Omega_2^2+\Omega_2$ 对照阅读。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &\quad (3) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{2}\times\omega) \end{aligned}$$
+
+有限份平方的重复在这一基本列中走向右乘 $\omega$；左边的平方没有变为 $\Omega_2^\omega$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &\quad (3,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{3}) \end{aligned}$$
+
+末列第二坐标升高后，多出的是同底数的一次幂，故为 $\Omega_2^3$，不是三份平方。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,3)=\psi(\Omega_{\omega}\times\Omega+\psi_{\Omega_3}(\Omega_3))$$
+
+后项进入新的坍缩上界 $\Omega_3$，参数也为 $\Omega_3$。下标升一层，与上一式多一次幂是两种变化。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,3,1)=\psi(\Omega_\omega\times\Omega+\psi_{\Omega_3}(\Omega_\omega))$$
+
+函数上界固定为 $\Omega_3$，参数从 $\Omega_3$ 进到 $\Omega_\omega$；第三行的一要在完整列中判断。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,3,1) \\ &\quad (4,1) \\ &= \psi(\Omega_\omega\times\Omega+\psi_{\Omega_3}(\Omega_\omega\times\Omega)) \end{aligned}$$
+
+新接 $(4,1)$ 把内函数参数改为 $\Omega_\omega\times\Omega$。这一项将继续承担替身的作用。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,3,1) \\ &\quad (4,1)(3,3)(4,3) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_3^{2}) \end{aligned}$$
+
+内侧相应结构走完后，最外层后项为 $\Omega_3^2$；此前最初的 $\Omega_\omega\times\Omega$ 仍未改变。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1) \\ &= (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,3,1) \\ &\quad (4,1)(3,3)(4,4,1)(5,1)\dots \\ &= \psi(\Omega_\omega\times(\Omega+1)) \end{aligned}$$
+
+此处写出的长链表示基本列的趋近，不是把无限多列当作一条有限 BMS。结果只增加一份 $\Omega_\omega$，尚未得到目标末列 $(1,1,1)$。
+
+第三十日，蔡须坤在一百四十米处试着给整段加上第二行的一，膝盖立刻被压弯。卢本韦托住她；古月娜留在同一阶，只改变这一行，感到牵扯恰从那列传来。
+
+“不是整块每个数都加。”古月娜用指尖点着 $(3,1)$ 的第二行。
+
+这一行的一，父项追到前面的 $(0)$，没有经过这次坏根 $(1,1)$。所以复制时第一行可以抬升，第二行仍留在一。霍雨浩给这一列单独画出了祖先经过条件。
+
+$$r=(1,1),\quad\Delta=(1,1),\quad\text{第二行祖先链：}\ (3,1)\longrightarrow(0)\quad\text{绕过 }r$$
+
+$$\text{该列第一份复制：}\ (3,1)\longmapsto(4,1),\qquad(4,2)\ \text{是此处误算}$$
+
+$$\text{同块中经过坏根的列：}\ (1,1)\longmapsto(2,2),\qquad(2,2,1)\longmapsto(3,3,1)$$
+
+较高行的父项沿前一行的父项链找更小的数，不能只沿整张表横着找最近的小数。第二行是否跟着加，是祖先关系决定的；末列的第三行只用于定根，不在这一阶差里加一。
+
+教材把这个现象叫“替身”。$(3,1)$ 使眼前这个 $(1,1)$ 无法按原来的直觉直接接成 $(1,1,1)$；它没有凭空创造新规则，而是让坏根和复制关系多走一层。
+
+$$\text{被阻住的局部期待：}\quad(1,1)\longrightarrow(1,1,1)$$
+
+$$\text{本段实际先走：}\quad(2,2)\longrightarrow(2,2,1),\qquad\psi({\Omega_\omega}\times\Omega+{\Omega_\omega})$$
+
+卢本韦在 $(3,1)$ 下画了一面小盾。蔡须坤笑得有些喘：“原来卡在这里。”
+
+四人轮流退到横台歇息，将刚走通的部分留在左边，右边从新背景重推。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(1,1) \\ &\quad (2,2,1) \\ &= \psi(\Omega_\omega\times\Omega+\Omega_\omega+\psi_{\Omega_2}(\Omega_\omega)) \end{aligned}$$
+
+以已经得到的 $\Omega_\omega\times\Omega+\Omega_\omega$ 为背景，后面又开一层内函数；新开层不会自动消去前缀。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(1,1) \\ &\quad (2,2,1)(3,1) \\ &= \psi(\Omega_\omega\times\Omega+\Omega_\omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega)) \end{aligned}$$
+
+这一层内函数参数再次右乘 $\Omega$，注意它在第二个加号之后，不能移到最外层前项上。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(1,1) \\ &\quad (2,2,1)(3,1)(2,2)(3,1)(4,2,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega}))) \end{aligned}$$
+
+新贡献落在最内侧的后项：$\Omega_2\times\psi_{\Omega_2}(\Omega_\omega)$；由内到外读完两层坍缩，再回到外层和。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(1,1) \\ &\quad (2,2,1)(3,1)(2,2)(3,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\Omega_2^{2})) \end{aligned}$$
+
+最内侧的后项成为 $\Omega_2^2$，外层第二份 $\Omega_\omega$ 仍与它隔着 $\psi_{\Omega_2}$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(1,1) \\ &\quad (2,2,1)(3,1)(2,2)(3,3) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\psi_{\Omega_3}(\Omega_3))) \end{aligned}$$
+
+在内层参数中引入 $\psi_{\Omega_3}(\Omega_3)$，变化是上界更高的嵌套，外面一层上界仍为 $\Omega_2$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(1,1) \\ &\quad (2,2,1)(3,1)(2,2)(3,3,1) \\ &= \psi(\Omega_\omega\times\Omega+\Omega_\omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega+\psi_{\Omega_3}(\Omega_\omega))) \end{aligned}$$
+
+最内函数参数进到 $\Omega_\omega$；两个函数的下标分别是 $\Omega_2$ 与 $\Omega_3$，不能因参数相同而合并。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(1,1) \\ &\quad (2,2,1)(3,1)(2,2,1) \\ &= \psi(\Omega_\omega\times\Omega+\Omega_\omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega+\Omega_\omega)) \end{aligned}$$
+
+内层参数也有了两项 $\Omega_\omega\times\Omega+\Omega_\omega$，与外部背景同形；“同形”仍不等于在同一层。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2)=\psi(\Omega_\omega\times(\Omega+1)+\psi_{\Omega_2}(\Omega_\omega\times(\Omega+1)+1))$$
+
+末尾一行结构在内层共同背景后加一。这里的 $+1$ 在 $\psi_{\Omega_2}$ 内，不能加到全式最后。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2)=\psi(\Omega_\omega\times(\Omega+1)+\Omega_2)$$
+
+后项达到外层可见的 $\Omega_2$。括号外的背景也可写成 $\Omega_\omega\times(\Omega+1)$，乘法顺序不变。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad (3,1)(4,2,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega})) \end{aligned}$$
+
+在外部 $\Omega_2$ 后接一份可数右因子，得到 $\Omega_2\times\psi_{\Omega_2}(\Omega_\omega)$，乘号没有进入该函数参数。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad (3,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\Omega_2^{2}) \end{aligned}$$
+
+后项为 $\Omega_2^2$，与第一轮同型；区别在于前面已经有第二份 $\Omega_\omega$。
+
+熟悉的 $(2,2)(3,2)$ 再次出现。卢本韦先指向最外层加号，请蔡须坤确认平方落在哪层。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad (3,2)(2,2)(3,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\Omega_2^{2}\times2) \end{aligned}$$
+
+两份平方在最外层参数内相加，缩写为 $\Omega_2^2\times2$；本式保留的两份 $\Omega_\omega$ 不计入这个二。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad (3,2)(3,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\Omega_2^{3}) \end{aligned}$$
+
+这一项将后部平方推进为立方。霍雨浩把幂指数上的三圈出，另把最外层两个加号连在同一条线上。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad (3,3) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_3)) \end{aligned}$$
+
+后项出现 $\psi_{\Omega_3}(\Omega_3)$。这轮也要重走更高上界，不能看到相似前缀就提前跳到结果。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad (3,3,1)(4,1) \\ &= \psi(\Omega_\omega\times(\Omega+1)+\psi_{\Omega_3}(\Omega_\omega\times\Omega)) \end{aligned}$$
+
+$\psi_{\Omega_3}$ 的参数达到 $\Omega_\omega\times\Omega$；左边新出现的 $(4,1)$ 要与自己的根比较。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad (3,3,1)(4,1)(3,3) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\Omega_3)) \end{aligned}$$
+
+在这个内函数里增加 $\Omega_3$，不是在全式最外层增加 $\Omega_3$；右括号给出了作用范围。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad (3,3,1)(4,1)(3,3)(4,1)(5,2,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\Omega_3\times\psi_{\Omega_2}(\Omega_{\omega}))) \end{aligned}$$
+
+内层后项变为 $\Omega_3\times\psi_{\Omega_2}(\Omega_\omega)$。这里更深处的上界回到 $\Omega_2$，不要求层层严格增大。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad (3,3,1)(4,1)(3,3)(4,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\Omega_3\times\Omega_2)) \end{aligned}$$
+
+内层后项中的右因子为 $\Omega_2$，形成 $\Omega_3\times\Omega_2$；不可把两个不同基数乘积读成平方。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad (3,3,1)(4,1)(3,3)(4,2)(5,3) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\Omega_3\times\psi_{\Omega_3}(\Omega_3))) \end{aligned}$$
+
+该右因子换成 $\psi_{\Omega_3}(\Omega_3)$，其函数上界与外面一层相同，仍须保留两对括号。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad (3,3,1)(4,1)(3,3)(4,2)(5,3,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\Omega_3\times\psi_{\Omega_3}(\Omega_{\omega}))) \end{aligned}$$
+
+内侧函数的参数变为 $\Omega_\omega$，外围 $\psi_{\Omega_3}$ 的参数仍以 $\Omega_\omega\times\Omega$ 起头。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad (3,3,1)(4,1)(3,3)(4,3) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\Omega_3^{2})) \end{aligned}$$
+
+内层后项此时形成 $\Omega_3^2$，两个 $\Omega_3$ 因子在同一参数层内；区别于前面的嵌套函数。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad (3,3,1)(4,1)(3,3)(4,4,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\psi_{\Omega_4}(\Omega_{\omega}))) \end{aligned}$$
+
+本式采用底稿当前保留的转换结果；它另有来源候选，未获指定表格确认。先记为待核的对应，不拿它单独推出新通则。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad (3,3,1)(4,1)(3,3,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\Omega_{\omega})) \end{aligned}$$
+
+这一条同样保留待核标记。它与上一条的候选表达式相似，恰好说明不能只凭右端眼熟就交换两条 BMS。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2,1)=\psi(\Omega_\omega\times(\Omega+2))$$
+
+新接的 $(2,2,1)$ 又提供一份 $\Omega_\omega$；两份合并为右系数二，得到 $\Omega_\omega\times(\Omega+2)$。
+
+第四十日，一百六十米的石纹亮了。原来“添一份 ${\Omega_\omega}$”的作用改由 $(2,2,1)$ 承担，替身 $(3,1)$ 仍在前面。霍雨浩对照压力下的记录，圈出变化的位置与背景。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2,1) \\ &\quad (2,2,1) \\ &= \psi(\Omega_\omega\times\Omega+\Omega_\omega\times3) \end{aligned}$$
+
+同一位置再添一项，有限部分成为三；这里的三在乘法右侧括号内，尚未升到 $\Omega\times3$。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(3)=\psi(\Omega_\omega\times\Omega+\Omega_\omega\times\omega)$$
+
+有限个后加项的极限是 $\Omega_\omega\times\omega$，前项 $\Omega_\omega\times\Omega$ 仍然存在。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(3,1)=\psi(\Omega_\omega\times(\Omega\times2))$$
+
+已有一份 $\Omega_\omega\times\Omega$，后面又形成同样一份，故为 $\Omega_\omega\times(\Omega\times2)$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(3,1) \\ &\quad (1,1)(2,2,1) \\ &= \psi(\Omega_\omega\times\Omega\times2+\psi_{\Omega_2}(\Omega_\omega)) \end{aligned}$$
+
+固定两份大段之后，继续增加 $\psi_{\Omega_2}(\Omega_\omega)$；这是更高背景上的同类尾部分析。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(3,1) \\ &\quad (1,1)(2,2,1)(3,1)(2,2,1)(3,1) \\ &= \psi(\Omega_\omega\times\Omega\times2+\psi_{\Omega_2}(\Omega_\omega\times\Omega\times2)) \end{aligned}$$
+
+这次内函数参数已经包含 $\Omega\times2$。原来的替身结构仍在，不能只把外部乘数改二、内部留一。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(3,1) \\ &\quad (2,2) \\ &=\psi(\Omega_{\omega}\times\Omega\times2+\Omega_2) \end{aligned}$$
+
+新尾部达到 $\Omega_2$，但大段右因子仍是 $\Omega\times2$，它没有因后项达到基数就自动升阶。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(3,1) \\ &\quad (2,2)(3,2) \\ &=\psi(\Omega_{\omega}\times\Omega\times2+\Omega_2^{2}) \end{aligned}$$
+
+再得到外部后项 $\Omega_2^2$；这一平方属于和的末项，与左边那一个有限乘数二各司其职。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(3,1) \\ &\quad (2,2,1) \\ &= \psi(\Omega_\omega\times\Omega\times2+\Omega_\omega) \end{aligned}$$
+
+外部尾项达到 $\Omega_\omega$，于是两份大段之后又接一份小段，尚不能合并成第三份大段。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(3)=\psi(\Omega_\omega\times(\Omega\times\omega))$$
+
+右因子由有限份 $\Omega$ 进入 $\Omega\times\omega$。括号保留乘法次序，不能写成 $\omega\times\Omega$。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(3,1)=\psi(\Omega_\omega\times\Omega^{2})$$
+
+右因子达到 $\Omega^2$，左因子仍为 $\Omega_\omega$；不要误把结果看成 $\Omega_\omega^2$。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4)=\psi(\Omega_\omega\times\Omega^{\omega})$$
+
+本组推进的是右因子的指数，得到 $\Omega^\omega$，不是以 $\Omega_\omega$ 为底的幂。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,1)=\psi(\Omega_\omega\times\Omega^{\Omega})$$
+
+右因子成为 $\Omega^\Omega$。唐三在共同的左因子下画了一道蓝线，让每个人看清正在改变的位置。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2)=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_2))$$
+
+右因子转为 $\psi_{\Omega_2}(\Omega_2)$，从普通幂进入坍缩层；乘法仍在最外层参数内部。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2)(4,2)=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_2\times2))$$
+
+该内函数的参数增加第二份 $\Omega_2$。应读成函数参数乘二，不能读成函数值乘二。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2)(5,1)=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_2\times\Omega))$$
+
+内函数参数的右因子达到 $\Omega$，即 $\Omega_2\times\Omega$；外部乘法与内部乘法分属两层。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2)(5,1) \\ &\quad (6,2) \\ &=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_2\times\psi_{\Omega_2}(\Omega_2))) \end{aligned}$$
+
+内函数参数里出现 $\Omega_2\times\psi_{\Omega_2}(\Omega_2)$，同一上界的内函数又嵌入一次。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2)(5,2)=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_2^{2}))$$
+
+这里得到的是 $\psi_{\Omega_2}(\Omega_2^2)$，平方在函数内部；与 $\psi_{\Omega_2}(\Omega_2)^2$ 分开。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2)(5,3)=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_3))$$
+
+右因子的函数参数进入 $\Omega_3$，上界仍为 $\Omega_2$。参数取值高于下标并不意味着把函数下标一同改掉。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)=\psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega))$$
+
+参数达到 $\Omega_\omega$，与最外层左因子用同一个符号；一处是函数参数，一处是乘数。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(4,2,1)=\psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega\times2))$$
+
+内部参数先形成两份 $\Omega_\omega$。这不是把整个 $\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega)$ 复制两遍。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1)=\psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega\times\Omega))$$
+
+内部参数成为 $\Omega_\omega\times\Omega$，末尾 $(5,1)$ 在这层承担新的替身作用。
+
+这次挡在内层的是 $(5,1)$。它使对应的 $(3,1)$ 不能立刻完成所期待的进位。与第一轮一样，要继续补齐内侧参数，再回到外部系数。
+
+$$\text{外部关注：}\quad\Omega_\omega\times\boxed{\psi_{\Omega_2}(\Omega_\omega\times\Omega)}$$
+
+$$\text{内部仍要比较：}\quad {\Omega_\omega}\times\Omega,\quad {\Omega_\omega}\times\Omega+{\Omega_\omega},\quad {\Omega_\omega}\times\Omega\times2$$
+
+第四十六日，霍雨浩在压力下辨出两层受阻的先后。古月娜沿父项链复核，蔡须坤与卢本韦各试一次，才将它记入本子。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1) \\ &\quad (4,2)(5,1)(6,2,1) \\ &=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega}))) \end{aligned}$$
+
+内层后项为 $\Omega_2\times\psi_{\Omega_2}(\Omega_\omega)$；各层最初的 $\Omega_\omega$ 要沿右括号分别归属。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1) \\ &\quad (4,2)(5,2) \\ &=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\Omega_2^{2})) \end{aligned}$$
+
+同一后项形成 $\Omega_2^2$，改变的仍是内函数参数的末项，而非外面共同的左因子。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1) \\ &\quad (4,2)(5,3,1) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega\times\Omega+\psi_{\Omega_3}(\Omega_\omega))) \end{aligned}$$
+
+内层后项进入 $\psi_{\Omega_3}(\Omega_\omega)$；要先求这一层结构，再组成上界为 $\Omega_2$ 的外一层。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1) \\ &\quad (4,2,1) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega\times\Omega+\Omega_\omega)) \end{aligned}$$
+
+内部后项达到 $\Omega_\omega$，所以该参数是 $\Omega_\omega\times\Omega+\Omega_\omega$，尚不等于平方。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1) \\ &\quad (4,2,1)(5,1) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega\times\Omega\times2)) \end{aligned}$$
+
+内部参数中形成两份 $\Omega_\omega\times\Omega$，末尾 $(5,1)$ 仍在限制进一步进位。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1) \\ &\quad (6,2) \\ &=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_2))) \end{aligned}$$
+
+内部右因子进入 $\psi_{\Omega_2}(\Omega_2)$，这一层也开始重复外面走过的坍缩结构。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1) \\ &\quad (6,2,1) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega))) \end{aligned}$$
+
+更内侧参数达到 $\Omega_\omega$。相似片段再嵌一次，使基本列更长，不会因此变成简单的有限乘法。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)=\psi(\Omega_\omega\times\Omega_2)$$
+
+此时外部右因子才达到 $\Omega_2$，即 $\psi(\Omega_\omega\times\Omega_2)$，完成第一轮系数提升。
+
+$(3,1)$ 对应的位置终于变成 $(3,2)$，本轮替身的作用结束。这里说的是前后两条不同 BMS 的相应位置，不是展开时把已经保留的前缀悄悄改了。
+
+$$\psi({\Omega_\omega}\times\Omega)\quad\leadsto\quad\psi({\Omega_\omega}\times\Omega_2)$$
+
+第五十日，卢本韦终于在台阶上稳住这一轮。“提升的是后面的系数，最初左边的 ${\Omega_\omega}$ 还在。”
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(1,1)(2,2,1)=\psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega))$$
+
+在新的共同前项 $\Omega_\omega\times\Omega_2$ 之后，从 $\psi_{\Omega_2}(\Omega_\omega)$ 开始核对尾部。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(1,1)(2,2,1) \\ &\quad (3,1) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega\times\Omega)) \end{aligned}$$
+
+尾部内函数参数仍先形成 $\Omega_\omega\times\Omega$，不因背景已到 $\Omega_2$ 就直接跳到同样背景。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(1,1)(2,2,1) \\ &\quad (3,1)(2,2,1) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega\times\Omega+\Omega_\omega)) \end{aligned}$$
+
+内部参数增加一份 $\Omega_\omega$，这仍是一道局部的小步，外部背景保持 $\Omega_\omega\times\Omega_2$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(1,1)(2,2,1) \\ &\quad (3,1)(2,2,1)(3,1) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega\times\Omega\times2)) \end{aligned}$$
+
+内部参数的右因子形成 $\Omega\times2$，继续保持乘法次序；二不属于最外层共同前项。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(1,1)(2,2,1) \\ &\quad (3,1)(4,2) \\ &=\psi(\Omega_{\omega}\times\Omega_2+\psi_{\Omega_2}(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_2))) \end{aligned}$$
+
+内部右因子进入 $\psi_{\Omega_2}(\Omega_2)$，意味着又有一层函数需要单独核对参数。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(1,1)(2,2,1) \\ &\quad (3,1)(4,2,1) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega))) \end{aligned}$$
+
+更内层参数达到 $\Omega_\omega$，尚未令最外面新尾项成为 $\Omega_2$，括号层次不能省。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(1,1)(2,2,1) \\ &\quad (3,2) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega\times\Omega_2)) \end{aligned}$$
+
+尾部函数参数终于追到共同背景 $\Omega_\omega\times\Omega_2$。结构对齐后，后继变化才有了新的参照。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2)=\psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega\times\Omega_2+1))$$
+
+一行末列把内函数参数改为共同背景加一。这个一只在内函数中，外部仍是原有背景加该函数。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,1)(3,2,1) \\ &\quad (4,2) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega\times\Omega_2)^2) \end{aligned}$$
+
+这里平方落在整个尾部函数值上，即 $\bigl(\psi_{\Omega_2}(\Omega_\omega\times\Omega_2)\bigr)^2$，别把平方移入函数。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)=\psi(\Omega_\omega\times\Omega_2+\Omega_2)$$
+
+新的外部尾项达到 $\Omega_2$，结束这一小段内函数的追赶。共同前项的右因子不变。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,1) \\ &\quad (4,2,1) \\ &=\psi(\Omega_\omega\times\Omega_2+\Omega_2\times\psi_{\Omega_2}(\Omega_\omega)) \end{aligned}$$
+
+后项扩为 $\Omega_2\times\psi_{\Omega_2}(\Omega_\omega)$，现在两处 $\Omega_2$ 各在不同层次。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,1) \\ &\quad (4,2,1)(5,2) \\ &=\psi(\Omega_{\omega}\times\Omega_2+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega}\times\Omega_2)) \end{aligned}$$
+
+右因子函数的参数追到 $\Omega_\omega\times\Omega_2$，不是把外部那个 $\Omega_2$ 也收进函数。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,1) \\ &\quad (4,2,1)(5,2)(4,2) \\ &=\psi(\Omega_{\omega}\times\Omega_2+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega}\times\Omega_2+\Omega_2)) \end{aligned}$$
+
+该内函数的参数再加 $\Omega_2$；先读内部和，再读外部乘积，最后读最外层的和。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,2)=\psi(\Omega_\omega\times\Omega_2+\Omega_2^{2})$$
+
+外部尾项成为 $\Omega_2^2$，它只是共同前项后面的平方，尚未改变共同前项的右因子。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3)=\psi(\Omega_{\omega}\times\Omega_2+\psi_{\Omega_3}(\Omega_3))$$
+
+尾项进入 $\psi_{\Omega_3}(\Omega_3)$。这一轮对应更高的坍缩上界，需重新追踪父项。
+
+$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1)=\psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_3}(\Omega_\omega))$$
+
+尾部函数参数达到 $\Omega_\omega$，函数下标仍为 $\Omega_3$；读法与第一轮相同，背景不同。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_3}(\Omega_\omega\times\Omega_2)) \end{aligned}$$
+
+内函数参数追到 $\Omega_\omega\times\Omega_2$。新出现的 $(4,2)$ 仍有不随第二行阶差增加的部分。
+
+再往上，新的替身是 $(4,2)$。它相对自己根 $(2,2)$ 的第二行阶差仍为零，而本轮对应结构需要第二行差一。
+
+$$4-2=2,\qquad2-2=0,\qquad3-2=1$$
+
+$$\text{现有内层阶差：}(2),\qquad\text{本轮须对齐的阶差：}(2,1)$$
+
+古月娜膝盖发颤，仍按父项链慢慢运转。压力让她辨出第二行的停顿，待推导核实，她才请霍雨浩记下。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3)(4,2)(5,3,1)(6,2)(5,3) \\ &=\psi(\Omega_{\omega}\times\Omega_2+\Omega_3\times\psi_{\Omega_3}(\Omega_{\omega}\times\Omega_2+\Omega_3)) \end{aligned}$$
+
+外部尾项为 $\Omega_3\times\psi_{\Omega_3}(\Omega_\omega\times\Omega_2+\Omega_3)$，乘法与内层加法别交换。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3)(4,3) \\ &=\psi(\Omega_{\omega}\times\Omega_2+\Omega_3^{2}) \end{aligned}$$
+
+尾项形成 $\Omega_3^2$，尚未令共同前项的右因子成为 $\Omega_3$；完成尾部与完成整轮是两件事。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3)(4,4,1) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_4}(\Omega_\omega)) \end{aligned}$$
+
+尾项继续进入 $\psi_{\Omega_4}(\Omega_\omega)$，说明还要把更高上界的结构纳入这轮基本列。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3)(4,4,1)(5,2)(4,4)(5,4) \\ &=\psi(\Omega_{\omega}\times\Omega_2+\Omega_4^{2}) \end{aligned}$$
+
+在指定结构中尾项达到 $\Omega_4^2$。蔡须坤先描根，再写末列，逐行核对进位。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3,1) \\ &= \psi(\Omega_\omega\times(\Omega_2+1)) \end{aligned}$$
+
+新末列 $(3,3,1)$ 提供一份 $\Omega_\omega$，与共同前项合写为 $\Omega_\omega\times(\Omega_2+1)$。
+
+随后 $(3,3)$ 进到 $(3,3,1)$，这一次由它承担增加一份 ${\Omega_\omega}$ 的作用。外观换了，判断办法没有换：先定共同背景，再看后项进入哪一层。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3,1)(3,3,1) \\ &= \psi(\Omega_\omega\times\Omega_2+\Omega_\omega\times2) \end{aligned}$$
+
+重复这份尾项，得到 $\Omega_\omega\times\Omega_2+\Omega_\omega\times2$；右侧有限系数从一到二。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3,1)(4) \\ &= \psi(\Omega_\omega\times(\Omega_2+\omega)) \end{aligned}$$
+
+有限尾项走到 $\omega$，右侧括号内是 $\Omega_2+\omega$，仍不等于 $\Omega_2\times\omega$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3,1)(4,1) \\ &= \psi(\Omega_\omega\times\Omega_2+\Omega_\omega\times\Omega) \end{aligned}$$
+
+后部右因子达到 $\Omega$，成为 $\Omega_\omega\times\Omega$；与共同前项仍以加法连接。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3,1)(4,2) \\ &= \psi(\Omega_\omega\times(\Omega_2\times2)) \end{aligned}$$
+
+后部也形成一份 $\Omega_\omega\times\Omega_2$，故共同右因子可写成 $\Omega_2\times2$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(4) \\ &= \psi(\Omega_\omega\times\Omega_2\times\omega) \end{aligned}$$
+
+有限份这类大段的极限为右乘 $\omega$；这里的 $\Omega_2\times\omega$ 在最外层左因子之后。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(4,2) \\ &= \psi(\Omega_\omega\times\Omega_2^{2}) \end{aligned}$$
+
+共同右因子进入 $\Omega_2^2$，不应把它与整式 $\Omega_\omega^2$ 混淆，底数所属层次不同。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(5,2) \\ &= \psi(\Omega_\omega\times\Omega_2^{\Omega_2}) \end{aligned}$$
+
+右因子的幂指数达到 $\Omega_2$，即 $\Omega_2^{\Omega_2}$，外面还保留左乘的 $\Omega_\omega$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(5,3) \\ &=\psi(\Omega_{\omega}\times\psi_{\Omega_3}(\Omega_3)) \end{aligned}$$
+
+共同右因子进入 $\psi_{\Omega_3}(\Omega_3)$，第二轮也重复了“幂、坍缩、追赶”的过程。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(5,3)(5,3) \\ &=\psi(\Omega_{\omega}\times\psi_{\Omega_3}(\Omega_3\times2)) \end{aligned}$$
+
+内部参数增加第二份 $\Omega_3$，并不是在函数值后面乘二，更不是复制整个最外层表达式。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(5,3,1) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_3}(\Omega_\omega)) \end{aligned}$$
+
+内部参数达到 $\Omega_\omega$。较高上界并不免去分析内部参数这一步。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(5,3,1)(6,1) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_3}(\Omega_\omega\times\Omega)) \end{aligned}$$
+
+内部参数出现 $\Omega_\omega\times\Omega$，还要继续走到本轮的 $\Omega_2$ 背景，再完成进位。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(5,3,1)(6,2) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_3}(\Omega_\omega\times\Omega_2)) \end{aligned}$$
+
+内部参数追到 $\Omega_\omega\times\Omega_2$，与本轮开始的共同背景对应上。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,3) \\ &= \psi(\Omega_\omega\times\Omega_3) \end{aligned}$$
+
+第二轮系数提升完成，成为 $\psi(\Omega_\omega\times\Omega_3)$。原来的 $(4,2)$ 此时才在相应位置进到 $(4,3)$。
+
+第五十七日，$(4,2)$ 的相应位置进到 $(4,3)$，系数达到 $\Omega_3$。霍雨浩与古月娜对照两轮：内部追赶、替身限制、阶差对齐，再显为外层系数提升。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,3)(3,3)(4,4,1)(5,4) \\ &= \psi(\Omega_\omega\times\Omega_4) \end{aligned}$$
+
+临近两个月时，把同样的父项分析再提升一层，得到右因子 $\Omega_4$；长式显示每层都须补齐相应内部结构。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1) \\ &= (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,3)(3,3)(4,4,1)(5,4)(4,4)(5,5,1)(6,5)\dots \\ &= \psi(\Omega_\omega^{2}) \end{aligned}$$
+
+任意有限层的系数提升组成基本列，才收束到 $\psi(\Omega_\omega^2)$。省略号代表同一构造对任意有限层成立，绝不是任选一个大数便等于极限。
+
+他们把替身一层层接下去。若用展开层次来示意，目标的内部可以排成下面的嵌套；这是一种说明基本列的非标准写法，不把无限字符串当成一条有限正规式。
+
+$$\psi(\Omega_\omega\times\Omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega_2+\psi_{\Omega_3}(\Omega_\omega\times\Omega_3+\dots)))$$
+
+每多一层，都要重新补齐那一层的内侧结构。随着有限层数没有上界，系数序列趋向 $\Omega_\omega$；在这套对应的基本列解释下，整体收束为上面的 $\psi(\Omega_\omega^2)$。
+
+$$\sup_{n<\omega}\Omega_{n+1}=\Omega_\omega,\qquad\sup_{n<\omega}(\Omega_\omega\times\Omega_{n+1})=\Omega_\omega\times\Omega_\omega=\Omega_\omega^2$$
+
+这一句不是宣称任意函数都与上确界交换。这里核对的是前面逐层构造的基本列与教材给定对应，而非单凭 $\psi$ 这个字形推出来的连续性。
+
+满两个月的那天，蔡须坤在二百米的横台前站稳了。
+
+肩上的压力仍沉。她把先前互相牵扯的几段分别接住，再按刚才确认的父项关系运转，末段终于平稳地续上。
+
+卢本韦在旁边重新试了一遍；古月娜追完最后一条祖先链，朝霍雨浩点头。他翻回最初那张纸，才划去旧猜想。
+
+$$\bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)=\psi(\Omega_\omega^2),\qquad \bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)\ne\psi(\Omega_\omega\times\Omega+\Omega_\omega)$$
+
+从踏上第一阶，到分析清楚 $(0)(1,1,1)(2,1)(1,1,1)$，他们用了整整两个月。霍雨浩的记录已换过一册，纸上每个回扯的位置，四人都曾在台阶上反复试过。
+
+蔡须坤扶着石沿喘气。压力使她看清接缝，推导让她知道怎样将它们接好；如今那股原已拥有的力量，终于多了一层能够说清的把握。
+
+回营时，诺当掌心的旧伤已经收口。奥斯卡仍将三层油纸包好的那根香肠留在最里面。蔡须坤背上的温热贴着她；卢本韦接过本子，古月娜替霍雨浩压住被风翻起的纸。
+
+石屋里，霍雨浩将本子放在旧砚台旁，写下这一段的三行。
+
+$$\text{定根}\longrightarrow\text{逐行查祖先}\longrightarrow\text{只提升满足条件的复制坐标}$$
+
+$$\text{外层不变部分：}\ \Omega_\omega,\qquad\text{本段系数：}\ \Omega\rightsquigarrow\Omega_2\rightsquigarrow\Omega_3\rightsquigarrow\cdots$$
+
+$$\text{有限展开：}\ \bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)[n],\quad n<\omega;\qquad\text{目标本身：}\ \bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)\quad\text{不能用某个固定的 }\bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)[n_0]\text{ 代替}$$
+
+两个月走到二百米。五百米还在山上。
+
+# 第一百零六章：无处不在的提升
+
+登阶进入第三个月，蔡须坤仍从二百米处重新站稳。两个月的反复分析，使她习惯先在压力下放慢运转，辨出接缝，再与纸上的推导对照。
+
+这次内层又有一处牵扯。卢本韦扶着石沿，与她各试一遍，古月娜沿旧记录追根。霍雨浩翻到新页，问：“再接一一一，会不会就是立方？”
+
+霍雨浩把问题写在纸上，仍留问号。
+
+$$(0)(1,1,1)(2,1)(1,1,1)=\psi(\Omega_\omega^2)$$
+
+$$\bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)\,(1,1,1)\stackrel{?}{=}\psi({\Omega_\omega}^3)$$
+
+这里的并列表示在 BMS 右端续接数字列，不是把两个序数相乘。古月娜从最外层的和开始，银色的指尖停在第一对括号上。
+
+“先看它加在什么位置。”
+
+蔡须坤收慢魂力，将受阻的位置指给霍雨浩。四人仍按前两个月的办法，一处处分析已有力量的来路；其他同伴也在身后跟着核对。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(1,1)=\psi(\Omega_\omega^{2}+\Omega)$$
+
+以 ${\Omega_\omega}^2$ 为共同前项，新增的仍是外部参数中的 $\Omega$；先核对这个小后项，再追到新末列。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(1,1)(2,1)=\psi(\Omega_{\omega}^{2}+\Omega^{2})$$
+
+后项形成 $\Omega^2$，平方没有落到共同前项上。左边多一列，不等于把整个旧结构平方。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2)=\psi(\Omega_{\omega}^{2}+\psi_{\Omega_2}(\Omega_2))$$
+
+后项进入 $\psi_{\Omega_2}(\Omega_2)$，是一个新内函数；外面共同的 ${\Omega_\omega}^2$ 保持不动。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)=\psi(\Omega_\omega^{2}+\psi_{\Omega_2}(\Omega_\omega))$$
+
+内函数参数达到 ${\Omega_\omega}$，函数上界仍为 $\Omega_2$。与前章相似的尾部，要在新背景上重算。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,1)=\psi(\Omega_\omega^{2}+\psi_{\Omega_2}(\Omega_\omega\times\Omega))$$
+
+接上 $(3,1)$，内函数参数成为 ${\Omega_\omega}\times\Omega$；这一列再次限制下一步进位。
+
+熟悉的 $(3,1)$ 又出现了。卢本韦先点出内层根，古月娜复核，霍雨浩才画上盾牌。蔡须坤记得此前的回扯，逐行核对阶差。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,1)(2,2)=\psi(\Omega_{\omega}^{2}+\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\Omega_2))$$
+
+内函数参数的后项先增加 $\Omega_2$，注意最外层参数并没有直接增加这一项。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,1)(2,2) \\ &\quad (3,2) \\ &=\psi(\Omega_{\omega}^{2}+\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\Omega_2^{2})) \end{aligned}$$
+
+继续使内层后项形成 $\Omega_2^2$，仍隔着 $\psi_{\Omega_2}$；三个层次由括号清楚分开。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,1)(2,2) \\ &\quad (3,3,1) \\ &= \psi(\Omega^2_\omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega+\psi_{\Omega_3}(\Omega_\omega))) \end{aligned}$$
+
+最内侧出现 $\psi_{\Omega_3}({\Omega_\omega})$，较高上界位于较深处，不能与外层函数合并。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,1)(2,2) \\ &\quad (3,3,1)(4,1) \\ &= \psi(\Omega^2_\omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega+\psi_{\Omega_3}(\Omega_\omega\times\Omega))) \end{aligned}$$
+
+这个最内函数参数又变为 ${\Omega_\omega}\times\Omega$；两处相同的乘积，分别属于两层不同的参数。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,1)(2,2) \\ &\quad (3,3,1)(4,1)(3,3)(4,3) \\ &=\psi(\Omega_{\omega}^{2}+\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\Omega_3^{2})) \end{aligned}$$
+
+内层后项达到 $\Omega_3^2$，前面的 ${\Omega_\omega}\times\Omega$ 不动；这并未把最外层背景变成 ${\Omega_\omega}^3$。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,1)(2,2,1)=\psi(\Omega^2_\omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega+\Omega_\omega))$$
+
+这一尾部形成 ${\Omega_\omega}\times\Omega+{\Omega_\omega}$，仍全部包在 $\psi_{\Omega_2}$ 内，不能挪到最外层相加。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,1)(2,2,1) \\ &\quad (3,1) \\ &= \psi(\Omega^2_\omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega\times2)) \end{aligned}$$
+
+内函数参数形成两份 ${\Omega_\omega}\times\Omega$。右侧乘二作用于这一乘积，不属于共同背景 ${\Omega_\omega}^2$。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,1)(3,1)=\psi(\Omega^2_\omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega^2))$$
+
+内函数的参数是 ${\Omega_\omega}\times\Omega^2$，底数 $\Omega$ 的平方位于右因子，不能看成 ${\Omega_\omega}^2$。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,1)(4,2,1)=\psi(\Omega_\omega^{2}+\psi_{\Omega_2}(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega)))$$
+
+内部右因子进入 $\psi_{\Omega_2}({\Omega_\omega})$，相同上界的内函数又嵌入一次；仍从最内层往外读。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,1)(4,2,1) \\ &\quad (5,1)(6,2,1) \\ &= \psi(\Omega^2_\omega+\psi_{\Omega_2}(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega)))) \end{aligned}$$
+
+这一式把上述内部结构再嵌一次，两个 ${\Omega_\omega}$ 的作用位置由各自右括号区分，不能删去中间函数。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)=\psi(\Omega_\omega^{2}+\psi_{\Omega_2}(\Omega_\omega\times\Omega_2))$$
+
+内函数参数的右因子达到 $\Omega_2$，这轮 $(3,1)$ 的作用完成；最外层仍以 ${\Omega_\omega}^2$ 开头。
+
+$(3,1)$ 对应的位置进到了 $(3,2)$。内部乘积从 ${\Omega_\omega}\times\Omega$ 提升到 ${\Omega_\omega}\times\Omega_2$，这轮确实发生了提升。
+
+$$\text{内层：}\quad {\Omega_\omega}\times\Omega\rightsquigarrow {\Omega_\omega}\times\Omega_2,\qquad\text{外部共同前项：}\quad {\Omega_\omega}^2$$
+
+不过，内部的一轮提升并没有把最外层共同前项也改成立方。蔡须坤对照内外两处，气息才沿原路平下来；霍雨浩将这一处压力反应另记在推导旁。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2) \\ &\quad (3,2) \\ &=\psi(\Omega_{\omega}^{2}+\psi_{\Omega_2}(\Omega_{\omega}\times\Omega_2+\Omega_2^{2})) \end{aligned}$$
+
+新内层背景之后再加 $\Omega_2^2$；整体是 ${\Omega_\omega}^2+\psi_{\Omega_2}(\cdots)$，不是两个外部平方的和。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2) \\ &\quad (3,3,1)(4,2) \\ &= \psi(\Omega_\omega^{2}+\psi_{\Omega_2}(\Omega_\omega\times\Omega_2+\psi_{\Omega_3}(\Omega_\omega\times\Omega_2))) \end{aligned}$$
+
+内层后项进入 $\psi_{\Omega_3}({\Omega_\omega}\times\Omega_2)$，对应列 $(4,2)$ 将承担下一轮替身。
+
+新的替身是 $(4,2)$。古月娜把它与前一章同一角色对照：同样要检查第二行祖先是否经过坏根，不能只因第一行加二便断定两行一起加。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2) \\ &\quad (3,3,1)(4,2)(3,3)(4,2)(5,3,1)(6,2) \\ &=\psi(\Omega_{\omega}^{2}+\psi_{\Omega_2}(\Omega_{\omega}\times\Omega_2+\Omega_3\times\psi_{\Omega_3}(\Omega_{\omega}\times\Omega_2))) \end{aligned}$$
+
+内层后项是 $\Omega_3$ 乘一个坍缩函数，其参数也追到 ${\Omega_\omega}\times\Omega_2$；两处相同背景分别归属。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2) \\ &\quad (3,3,1)(4,2)(3,3)(4,3) \\ &=\psi(\Omega_{\omega}^{2}+\psi_{\Omega_2}(\Omega_{\omega}\times\Omega_2+\Omega_3^{2})) \end{aligned}$$
+
+在内函数参数中形成 $\Omega_3^2$。平方仍是最内层和的后项，尚未替换它前面的右因子。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2) \\ &\quad (3,3,1)(4,2)(3,3,1) \\ &= \psi(\Omega_\omega^{2}+\psi_{\Omega_2}(\Omega_\omega\times(\Omega_2+1))) \end{aligned}$$
+
+内函数参数可合写为 ${\Omega_\omega}\times(\Omega_2+1)$，表示原有大段后再加一份 ${\Omega_\omega}$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2) \\ &\quad (3,3,1)(4,2)(3,3,1)(3,3,1) \\ &= \psi(\Omega^2_\omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega_2+\Omega_\omega\times2)) \end{aligned}$$
+
+内部有限尾项由一到二，成为 ${\Omega_\omega}\times\Omega_2+{\Omega_\omega}\times2$；二不能移进 $\Omega_2$ 的下标。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2) \\ &\quad (3,3,1)(4,2)(3,3,1)(4,2) \\ &= \psi(\Omega_\omega^{2}+\psi_{\Omega_2}(\Omega_\omega\times(\Omega_2\times2))) \end{aligned}$$
+
+内部形成两份 ${\Omega_\omega}\times\Omega_2$，右因子是 $\Omega_2\times2$；最外层共同背景仍只出现一次。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2) \\ &\quad (3,3,1)(4,2)(4,2) \\ &= \psi(\Omega_\omega^{2}+\psi_{\Omega_2}(\Omega_\omega\times\Omega_2^{2})) \end{aligned}$$
+
+内部右因子形成 $\Omega_2^2$，与最外层 ${\Omega_\omega}^2$ 不同底数，必须分别读。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2) \\ &\quad (3,3,1)(4,2)(5,3) \\ &=\psi(\Omega_{\omega}^{2}+\psi_{\Omega_2}(\Omega_{\omega}\times\psi_{\Omega_3}(\Omega_3))) \end{aligned}$$
+
+内部右因子进入 $\psi_{\Omega_3}(\Omega_3)$，是第二轮追赶在更高上界上的展开。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2) \\ &\quad (3,3,1)(4,2)(5,3,1) \\ &= \psi(\Omega_\omega^{2}+\psi_{\Omega_2}(\Omega_\omega\times\psi_{\Omega_3}(\Omega_\omega))) \end{aligned}$$
+
+该函数参数达到 ${\Omega_\omega}$，外面的 $\psi_{\Omega_2}$ 仍完整保留；不能因为都是坍缩函数就压成一层。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2) \\ &\quad (3,3,1)(4,3) \\ &= \psi(\Omega_\omega^{2}+\psi_{\Omega_2}(\Omega_\omega\times\Omega_3)) \end{aligned}$$
+
+内函数参数达到 ${\Omega_\omega}\times\Omega_3$，这一轮替身 $(4,2)$ 的作用完成，再往后按同样父项关系分析。
+
+$(4,2)$ 这一轮结束后，内部乘积走到 ${\Omega_\omega}\times\Omega_3$。继续对任意有限层作同样分析，内函数参数才会收束到 ${\Omega_\omega}^2$。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2,1)=\psi(\Omega_\omega^{2}+\psi_{\Omega_2}(\Omega_\omega^{2}))$$
+
+内函数参数终于达到 ${\Omega_\omega}^2$，与最外层共同背景同形；同形也仍隔着一层 $\psi_{\Omega_2}$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2,1) \\ &\quad (2,2)(3,1)(4,2,1)(5,2)(4,2,1) \\ &=\psi(\Omega_{\omega}^{2}+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega}^{2})) \end{aligned}$$
+
+新外部后项为 $\Omega_2\times\psi_{\Omega_2}({\Omega_\omega}^2)$。这次乘法已经在该内函数之外。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2,1) \\ &\quad (2,2)(3,2) \\ &=\psi(\Omega_{\omega}^{2}+\Omega_2^{2}) \end{aligned}$$
+
+外部后项形成 $\Omega_2^2$，对应的是前一步之后的新阶段；不能说最内层的平方自动跑到外面。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(1,1)(2,2,1)(3,2)(2,2,1) \\ &\quad (2,2)(3,3,1) \\ &= \psi(\Omega_\omega^{2}+\psi_{\Omega_3}(\Omega_\omega)) \end{aligned}$$
+
+外部后项进入 $\psi_{\Omega_3}({\Omega_\omega})$，还要走过相应更高上界的尾部，才能收束为 ${\Omega_\omega}$。
+
+接下来的更高上界也按相应父项关系分析，直至最外层后项到达下面这一式。每个人都得把这一步重新运转出来，不能只抄邻人的答案。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(1,1,1)=\psi(\Omega_\omega^{2}+\Omega_\omega)$$
+
+新加的 $(1,1,1)$ 最终只在最外层参数后添一份 ${\Omega_\omega}$。前面的 ${\Omega_\omega}^2$ 没有因此成为 ${\Omega_\omega}^3$。
+
+这次末列 $(1,1,1)$ 回到了“添一份 ${\Omega_\omega}$”的作用；但不能说提升效应没有发生。
+
+$$\text{内函数中完成：}\quad {\Omega_\omega}\times\Omega\rightsquigarrow {\Omega_\omega}\times\Omega_2\rightsquigarrow\cdots\rightsquigarrow {\Omega_\omega}^2$$
+
+$$\text{外层后项所经：}\quad\psi_{\Omega_2}({\Omega_\omega}^2),\quad\Omega_2^2,\quad\psi_{\Omega_3}({\Omega_\omega}),\quad\ldots,\quad {\Omega_\omega}$$
+
+提升发生在 $\psi_{\Omega_2}$ 及更深的结构里，先生成与外部背景同形的 ${\Omega_\omega}^2$，再形成外层相应的 $\Omega_2^2,\Omega_3^2$ 等幂次结构。最终外部只表现为加一份 ${\Omega_\omega}$，不能据此抹掉内部的工作。
+
+$$\bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)\,(1,1,1)=\psi({\Omega_\omega}^2+{\Omega_\omega}),\qquad \bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)\,(1,1,1)\ne\psi({\Omega_\omega}^3)$$
+
+霍雨浩划去旧答案。古月娜看过纸，又请卢本韦陪她在同一阶重试，两人确认受阻的先后与推导相符。
+
+他们在阴影下休息了片刻，便接着分析外层后项。霍雨浩留出共同前项的位置，剩下的纸只用来标新变化。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(1,1,1)(1,1,1)=\psi(\Omega^2_\omega+\Omega_\omega\times2)$$
+
+再添一项，外部尾部成为 ${\Omega_\omega}\times2$；共同前项为 ${\Omega_\omega}^2$，两者的加法顺序不能倒过来。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(2)=\psi(\Omega_\omega^{2}+\Omega_\omega\times\omega)$$
+
+一行末列令有限尾项的重复走向 ${\Omega_\omega}\times\omega$；这里不是把共同前项右乘 $\omega$。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(2,1)=\psi(\Omega_\omega^{2}+\Omega_\omega\times\Omega)$$
+
+后项变为 ${\Omega_\omega}\times\Omega$，于是重新出现“一个大段后还有一个较小大段”的背景。
+
+右端又出现 $(1,1,1)(2,1)$ 的组合。前章已经见过它如何引出系数提升，现在仍要先让新内函数追到整个外部背景。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(2,1)(1,1)(2,2,1)(3,2) \\ &\quad (2,2,1)(3,1) \\ &= \psi(\Omega_\omega^{2}+\Omega_\omega\times\Omega+\psi_{\Omega_2}(\Omega_\omega^{2}+\Omega_\omega\times\Omega)) \end{aligned}$$
+
+新开的内函数参数追到整个外部背景 ${\Omega_\omega}^2+{\Omega_\omega}\times\Omega$，对齐后才能分析下一轮提升。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(2,1)(1,1)(2,2,1)(3,2) \\ &\quad (2,2,1)(3,1)(2,2,1) \\ &= \psi(\Omega_\omega^{2}+\Omega_\omega\times(\Omega+1)) \end{aligned}$$
+
+在同一共同前项后又添一份 ${\Omega_\omega}$，后部可合写为 ${\Omega_\omega}\times(\Omega+1)$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(2,1)(1,1)(2,2,1)(3,2) \\ &\quad (2,2,1)(3,2) \\ &= \psi(\Omega_\omega^{2}+\Omega_\omega\times\Omega_2) \end{aligned}$$
+
+后部右因子达到 $\Omega_2$，所以全式仍是 $\psi({\Omega_\omega}^2+{\Omega_\omega}\times\Omega_2)$，不是三个 ${\Omega_\omega}$ 相乘。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1)(2,1)(1,1)(2,2,1)(3,2) \\ &\quad (2,2,1)(3,2)(2,2)(3,3,1)(4,3)(3,3,1)(4,3) \\ &= \psi(\Omega_\omega^{2}+\Omega_\omega\times\Omega_3) \end{aligned}$$
+
+后部右因子进到 $\Omega_3$，与前章的系数提升对应；把这一构造延伸到任意有限上界。
+
+$$(0)(1,1,1)(2,1)(1,1,1)(2,1)(1,1,1)=\psi(\Omega_\omega^{2}\times2)$$
+
+此时才形成第二份完整的 ${\Omega_\omega}^2$，写作 ${\Omega_\omega}^2\times2$。两个平方相加与一个立方不同。
+
+$$(0)(1,1,1)(2,1)(2)=\psi(\Omega_\omega^{2}\times\omega)$$
+
+这条基本列以有限份 ${\Omega_\omega}^2$ 为对应背景，结果为 ${\Omega_\omega}^2\times\omega$；无需再接一个 $(1,1,1)$。
+
+这里不用为了凑一个整段，再额外续接 $(1,1,1)$。教材给出的有限重复结构已有这条基本列的极限；应核对整段，而非按末列字形套上一章的答案。
+
+$$(0)(1,1,1)(2,1),(0)(1,1,1)(2,1)(1,1,1)(2,1),\dots$$
+
+$$\text{对应基本列收束：}\quad\psi({\Omega_\omega}^2\times\omega)$$
+
+卢本韦圈住自己多抄的那列。“留着，下次也对照着试。”
+
+顺着这一结构再向上，先辨认共同前项后的右乘部分。
+
+$$(0)(1,1,1)(2,1)(2,1)=\psi(\Omega_\omega^{2}\times\Omega)$$
+
+共同前项右乘部分达到 $\Omega$，为 ${\Omega_\omega}^2\times\Omega$；这仍在立方之前的当前结构中。
+
+右乘部分已经到达当前的参照层，这时再看新接第三行的一会引出什么。
+
+$$(0)(1,1,1)(2,1)(2,1)(1,1,1)=\psi(\Omega_\omega^{3})$$
+
+这次末列 $(1,1,1)$ 令参数中的 ${\Omega_\omega}^2\times\Omega$ 经提升达到 ${\Omega_\omega}^3$，作用取决于前面的背景。
+
+这一次，$(1,1,1)$ 才使参数的幂次再增一。同样一个末列，在 ${\Omega_\omega}^2$ 之后只加 ${\Omega_\omega}$，在 ${\Omega_\omega}^2\times\Omega$ 之后却能引起到 ${\Omega_\omega}^3$ 的提升，背景不能省。
+
+$$(0)(1,1,1)(2,1)(2,1)(1,1,1)(2,1)(2,1)(1,1,1)=\psi(\Omega_\omega^{3}\times2)$$
+
+把对应的大段再接一份，形成 ${\Omega_\omega}^3\times2$；与上一式比较，是立方后的有限重复。
+
+$$(0)(1,1,1)(2,1)(2,1)(2,1)(1,1,1)=\psi(\Omega_\omega^{4})$$
+
+另一种续接把参数中的 ${\Omega_\omega}$ 因子增加到四个，故为 ${\Omega_\omega}^4$。重复段与提高幂次要分别判定。
+
+$$(0)(1,1,1)(2,1)(3)=\psi(\Omega_\omega^{\omega})$$
+
+有限幂在这条基本列中收束到 ${\Omega_\omega}^\omega$；底数 ${\Omega_\omega}$ 固定，指数首先到可数极限。
+
+$$(0)(1,1,1)(2,1)(3,1)=\psi(\Omega_\omega^{\Omega})$$
+
+指数进入 $\Omega$，得到 ${\Omega_\omega}^\Omega$；此后新的提升效应会进入指数层。
+
+三百米处，蔡须坤忽然停住。肩背承受的重量还在，魂力里受阻的位置却变了；她试着加大外部右因子，胸口越发闷。古月娜在同阶复查，霍雨浩顺着两人的记录，把变化标进指数。
+
+霍雨浩把纸举高：“下面提升的，开始是指数。”
+
+$$\psi\bigl({\Omega_\omega}\times\boxed{\alpha}\bigr)\quad\text{与}\quad\psi\bigl({\Omega_\omega}^{\boxed{\alpha}}\bigr)$$
+
+卢本韦扶蔡须坤退回半步，古月娜沿括号往回指。一个是右因子，一个是幂指数；下面每一步，都要认清当前在哪一种结构里。
+
+$$(0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,1)=\psi(\Omega_\omega^{\Omega}+\psi_{\Omega_2}(\Omega_\omega\times\Omega))$$
+
+先在 ${\Omega_\omega}^\Omega$ 后开出 $\psi_{\Omega_2}({\Omega_\omega}\times\Omega)$，共同前项还未发生指数提升。
+
+$$(0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(2,2,1)=\psi(\Omega_\omega^{\Omega}+\psi_{\Omega_2}(\Omega_\omega^2))$$
+
+内函数参数达到 ${\Omega_\omega}^2$，所以对应列必须已经是 $(3,2)$；不能用尚未完成上一轮的 $(3,1)$ 替代。
+
+这里倒数第二列是 $(3,2)$，不能抄回 $(3,1)$。内部参数达到 ${\Omega_\omega}^2$ 的过程，已经用完了前一轮替身。
+
+$$\psi_{\Omega_2}({\Omega_\omega}\times\Omega)\quad\text{对应尚在追赶的内层，}\qquad\psi_{\Omega_2}({\Omega_\omega}^2)\quad\text{对应完成该轮后的内层。}$$
+
+蔡须坤改正那一笔，在压力下重新运转；卢本韦等她站稳，才松手。霍雨浩将这次结果与前两个月的同类片段并排。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(3,2) \\ &\quad (2,2,1) \\ &= \psi(\Omega_\omega^{\Omega}+\psi_{\Omega_2}(\Omega_\omega^3)) \end{aligned}$$
+
+内函数参数的幂次再增一，达到 ${\Omega_\omega}^3$，最外层共同背景仍是 ${\Omega_\omega}^\Omega$。
+
+$$(0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4)=\psi(\Omega_\omega^{\Omega}+\psi_{\Omega_2}(\Omega_\omega^\omega))$$
+
+内函数参数达到 ${\Omega_\omega}^\omega$，外面的 $\psi_{\Omega_2}$ 还没有撤去，括号不能省。
+
+$$(0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1)=\psi(\Omega_\omega^{\Omega}+\psi_{\Omega_2}(\Omega_\omega^{\Omega}))$$
+
+内函数参数追到 ${\Omega_\omega}^\Omega$，这时新替身 $(4,1)$ 出现，接下来须处理指数所在层的阶差。
+
+接着出现 $(4,1)$。它限制的已是新一层关系：内侧结构必须再追赶，才能使主项的指数由 $\Omega$ 进入更高上界。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (2,2)(3,2) \\ &=\psi(\Omega_{\omega}^{\Omega}+\Omega_2^{2}) \end{aligned}$$
+
+外部后项为 $\Omega_2^2$，这是新一轮的尾部，并非把前面的 ${\Omega_\omega}^\Omega$ 平方。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (2,2,1) \\ &= \psi(\Omega_\omega^{\Omega}+\Omega_\omega) \end{aligned}$$
+
+外部后项到 ${\Omega_\omega}$，最初替身仍在；这一步只是在主项后面添加一份 ${\Omega_\omega}$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (2,2,1)(2,2,1) \\ &= \psi(\Omega_\omega^{\Omega}+\Omega_\omega\times2) \end{aligned}$$
+
+尾部有两份 ${\Omega_\omega}$，即 ${\Omega_\omega}\times2$；不能把它并入主项的指数写成 ${\Omega_\omega}^{\Omega+2}$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (2,2,1)(3,1) \\ &= \psi(\Omega_\omega^{\Omega}+\Omega_\omega\times\Omega) \end{aligned}$$
+
+尾部达到 ${\Omega_\omega}\times\Omega$，与共同前项 ${\Omega_\omega}^\Omega$ 之间仍是加法。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (2,2,1)(3,2)(2,2,1) \\ &= \psi(\Omega_\omega^{\Omega}+\Omega_\omega^{2}) \end{aligned}$$
+
+尾部形成 ${\Omega_\omega}^2$。这段先重走较低幂次，正是新提升不能凭外形一步跳过的原因。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (2,2,1)(3,2)(4) \\ &= \psi(\Omega_\omega^{\Omega}+\Omega_\omega^{\omega}) \end{aligned}$$
+
+尾部达到 ${\Omega_\omega}^\omega$，仍未形成第二份 ${\Omega_\omega}^\Omega$；指数的差别要保留。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (2,2,1)(3,2)(4,1) \\ &= \psi(\Omega_\omega^{\Omega}\times2) \end{aligned}$$
+
+第二份 ${\Omega_\omega}^\Omega$ 形成，故可合成 ${\Omega_\omega}^\Omega\times2$，这是系数的变化。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (3) \\ &= \psi(\Omega_\omega^{\Omega}\times\omega) \end{aligned}$$
+
+有限份主项的重复走向右乘 $\omega$，而非在指数里加 $\omega$；后者是另一条结构。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (3,1) \\ &= \psi(\Omega_\omega^{\Omega}\times\Omega) \end{aligned}$$
+
+主项右乘部分到 $\Omega$，即 ${\Omega_\omega}^\Omega\times\Omega$；此时尚未到 ${\Omega_\omega}^{\Omega+1}$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (3,2)(2,2,1) \\ &= \psi(\Omega_\omega^{\Omega+1}) \end{aligned}$$
+
+本式才在指数上加一，成为 ${\Omega_\omega}^{\Omega+1}$；与上一式对照，它右乘的是底数 ${\Omega_\omega}$ 对应的整段。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (3,2)(4,1) \\ &= \psi(\Omega_\omega^{\Omega\times2}) \end{aligned}$$
+
+指数形成两份 $\Omega$，即 ${\Omega_\omega}^{\Omega\times2}$；不能读成 ${\Omega_\omega}^\Omega\times2$。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (4,1) \\ &= \psi(\Omega_\omega^{\Omega^{2}}) \end{aligned}$$
+
+指数进入 $\Omega^2$，指数里的幂与最外层底数的幂要逐层分开。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (5,1) \\ &= \psi(\Omega_\omega^{\Omega^\Omega}) \end{aligned}$$
+
+指数变成 $\Omega^\Omega$，最外层仍是以 ${\Omega_\omega}$ 为底，幂按右结合读取。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (5,2) \\ &=\psi(\Omega_{\omega}^{\psi_{\Omega_2}(\Omega_2)}) \end{aligned}$$
+
+指数进入 $\psi_{\Omega_2}(\Omega_2)$，坍缩函数这次位于幂指数里，不是外部相加的尾项。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (5,2,1) \\ &= \psi(\Omega_\omega^{\psi_{\Omega_2}(\Omega_\omega)}) \end{aligned}$$
+
+指数里的内函数参数达到 ${\Omega_\omega}$，与前面右因子追赶的套路相似，但作用位置已经改变。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (5,2,1)(6,2)(5,2,1) \\ &= \psi(\Omega_\omega^{\psi_{\Omega_2}(\Omega_\omega^2)}) \end{aligned}$$
+
+指数里的内函数参数达到 ${\Omega_\omega}^2$；平方没有落在整个主项上，须保留最外层指数括号。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,1) \\ &\quad (5,2,1)(6,2)(7,1)(8,2,1) \\ &= \psi(\Omega_\omega^{\psi_{\Omega_2}(\Omega_\omega^{\psi_{\Omega_2}(\Omega_\omega)})}) \end{aligned}$$
+
+指数函数参数又出现以 ${\Omega_\omega}$ 为底的幂，其指数仍是内函数。霍雨浩从最深处逐层添右括号。
+
+$$(0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,2)=\psi(\Omega_\omega^{\Omega_2})$$
+
+新替身对应位置进到 $(4,2)$，最外层主项的指数达到 $\Omega_2$；不是前面那种系数变为 $\Omega_2$。
+
+$(4,1)$ 对应的位置进到 $(4,2)$，这一轮结束。现在写在指数上的确实是 $\Omega_2$，不是把外面的函数下标改成 $\Omega_2$。
+
+$$\psi({\Omega_\omega}^{\Omega_2})\quad\text{与}\quad\psi_{\Omega_2}({\Omega_\omega}^\Omega)\quad\text{分别辨认}$$
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,1)(1,1)(2,2,1)(3,2)(4,2) \\ &\quad (2,2)(3,3,1)(4,3)(5,3) \\ &= \psi(\Omega_\omega^{\Omega_3}) \end{aligned}$$
+
+指数再进入 $\Omega_3$，中间仍须按相应有限层的基本列补齐，长式展示了这一轮对应片段。
+
+$$(0)(1,1,1)(2,1)(3,1)(1,1,1)=\psi(\Omega_\omega^{\Omega_\omega})$$
+
+指数提升到 ${\Omega_\omega}$，主项成为 ${\Omega_\omega}^{\Omega_\omega}$。它是双层同底数幂，尚非无穷高的塔。
+
+这次是指数层的提升：$\Omega\rightsquigarrow\Omega_2\rightsquigarrow\Omega_3\rightsquigarrow\cdots$。相应基本列收束后，主项指数达到 ${\Omega_\omega}$，后面还会在更深指数里重复类似现象。
+
+$$(0)(1,1,1)(2,1)(3,1)(1,1,1)(2,1)(1,1,1)=\psi(\Omega_\omega^{\Omega_\omega}+\Omega_\omega^2)$$
+
+在 ${\Omega_\omega}^{\Omega_\omega}$ 后增加 ${\Omega_\omega}^2$，较小幂次位于和的后面，不能合写成主项指数加二。
+
+$$(0)(1,1,1)(2,1)(3,1)(1,1,1)(2,1)(3,1)(1,1,1)=\psi(\Omega_\omega^{\Omega_\omega}\times2)$$
+
+两份完整的 ${\Omega_\omega}^{\Omega_\omega}$ 才合成 ${\Omega_\omega}^{\Omega_\omega}\times2$。这依然是外部有限系数。
+
+$$(0)(1,1,1)(2,1)(3,1)(2,1)=\psi(\Omega_\omega^{\Omega_\omega}\times\Omega)$$
+
+主项右乘 $\Omega$，仍没有在指数中增加 $\Omega$，要与下面两式分别比较。
+
+$$(0)(1,1,1)(2,1)(3,1)(2,1)(1,1,1)=\psi(\Omega_\omega^{\Omega_\omega+1})$$
+
+主项指数增加一，为 ${\Omega_\omega}^{{\Omega_\omega}+1}$；与 ${\Omega_\omega}^{\Omega_\omega}\times\Omega$ 是不同的结构。
+
+$$(0)(1,1,1)(2,1)(3,1)(2,1)(3,1)=\psi(\Omega_\omega^{\Omega_\omega+\Omega})$$
+
+主项指数增加 $\Omega$，为 ${\Omega_\omega}^{{\Omega_\omega}+\Omega}$，这里的加号已在指数括号内部。
+
+$$(0)(1,1,1)(2,1)(3,1)(2,1)(3,1)(1,1,1)=\psi(\Omega_\omega^{\Omega_\omega\times2})$$
+
+指数增加到第二份 ${\Omega_\omega}$，成为 ${\Omega_\omega}\times2$，所以主项是 ${\Omega_\omega}^{{\Omega_\omega}\times2}$。
+
+$$(0)(1,1,1)(2,1)(3,1)(3,1)=\psi(\Omega_\omega^{\Omega_\omega\times\Omega})$$
+
+指数中的右因子进到 $\Omega$，成为 ${\Omega_\omega}\times\Omega$；外面的底数仍为 ${\Omega_\omega}$。
+
+$$(0)(1,1,1)(2,1)(3,1)(3,1)(1,1,1)=\psi(\Omega_\omega^{\Omega_\omega^{2}})$$
+
+指数形成 ${\Omega_\omega}^2$，整个主项是 ${\Omega_\omega}^{{\Omega_\omega}^2}$；三处幂次要从最里侧向外辨认。
+
+$$(0)(1,1,1)(2,1)(3,1)(4,1)=\psi(\Omega_\omega^{\Omega_\omega^{\Omega}})$$
+
+指数再形成 ${\Omega_\omega}^\Omega$，整式中的幂按 ${\Omega_\omega}^{({\Omega_\omega}^\Omega)}$ 读取，不能按左结合算。
+
+$$(0)(1,1,1)(2,1)(3,1)(4,1)(1,1,1)=\psi(\Omega_\omega^{\Omega_\omega^{\Omega_\omega}})$$
+
+指数成为 ${\Omega_\omega}^{\Omega_\omega}$，得到三层塔 ${\Omega_\omega}^{{\Omega_\omega}^{\Omega_\omega}}$；任意固定的三层、四层都还不是塔高无界的极限。
+
+把每一个有限塔高都写完，不是把最后的省略号换成一个很大的整数。对于这套基本列，塔高没有有限上界；幂按右结合，层层送进更内的指数。
+
+$$t_1={\Omega_\omega},\qquad t_2={\Omega_\omega}^{\Omega_\omega},\qquad t_3={\Omega_\omega}^{({\Omega_\omega}^{\Omega_\omega})},\qquad t_{m+1}={\Omega_\omega}^{t_m}\quad(m\ge1)$$
+
+下面沿用教材对塔极限及 EBO 范围扩展记号的对应。等号中的无穷塔与无穷列是极限示意，不作为普通有限项参与逐列运算。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(3,2) \\ &= (0)(1,1,1)(2,1)(3,1)(4,1)(5,1)\dots \\ &= \psi(\Omega_\omega^{\Omega_\omega^{\Omega_\omega^{\cdot^{\cdot^{\cdot}}}}}) \\ &= \psi(\varepsilon_{\Omega_\omega+1}) \\ &= \psi(\Omega_{\omega+1}) \\ &= \mathrm{TFBO} \end{aligned}$$
+
+长链把有限塔高的共同构造收束为 TFBO；所写无穷塔与无穷列都是极限示意，最后两种参数写法沿用教材的扩展约定。
+
+教材将 $\mathrm{TFBO}$ 与 $\mathrm{BO}$ 放在一起，对照 $\mathrm{SCG}$ 函数增长率研究中的上、下界；这里保留这一背景说明，其精确界值依赖相应函数与理论的约定，不在这道山路题里另作证明。
+
+$$\psi(\Omega_{\omega+1})=\psi(\varepsilon_{\Omega_\omega+1})=\mathrm{TFBO}$$
+
+这一行与上式是同一教材约定的两种参数写法，沿用表格第703行的 EBO 扩展表达。
+
+两者写法相似，不能由字形推断结构接近。眼前的塔已经把刚才那些系数提升送进一层又一层的指数；只看两个简称，便会漏掉全部来路。蔡须坤把最初的加号页与这一页并排，才看清三百多米山道里，自己补全了多少旧时只会调动的力量。
+
+在横台复盘时，众人先核对前章留下的夹页题与两处来源差异，再回到当前这一段。
+
+霍雨浩又翻出教材夹页。第一条校核题采用原表第514行的数值，参数、乘数都按这条给定对应保留。
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(4,2)(4,1)(5,2,1)(5,2) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega+\Omega_2+\psi_{\Omega_2}(\Omega_\omega+\Omega_2))) \end{aligned}$$
+
+$$\psi\bigl(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega+\Omega_2+\psi_{\Omega_2}(\Omega_\omega+\Omega_2))\bigr)$$
+
+薛峰从内向外读：先把 $\Omega_\omega+\Omega_2$ 放进 $\psi_{\Omega_2}$，再将函数值加到 $\Omega_\omega+\Omega_2$ 后，把这个和放进外一层的 $\psi_{\Omega_2}$，最后左乘 $\Omega_\omega$，才进入最外层 $\psi$。这条题的括号与前面几条不同，不能照眼熟的格式补出 $\Omega_\omega\times\Omega$。
+
+夹页另有两处尚待核定的来源差异。古月娜把它们单独圈了出来：它们在正文里暂取的表达式可以用来对照，但另一候选没有因此被证明相等。
+
+$$\begin{aligned} \text{第一条原候选：}\quad&\psi(\Omega_\omega\times\Omega+\Omega_\omega+\psi_{\Omega_3}(\Omega_\omega\times\Omega+\Omega_\omega))\\ \text{当前保留：}\quad&\psi(\Omega_\omega\times\Omega+\Omega_\omega+\psi_{\Omega_3}(\Omega_\omega\times\Omega+\psi_{\Omega_4}(\Omega_\omega)))\end{aligned}$$
+
+$$\begin{aligned} \text{第二条原候选：}\quad&\psi(\Omega_\omega\times\Omega+\Omega_\omega+\Omega_3^2)\\ \text{当前保留：}\quad&\psi(\Omega_\omega\times\Omega+\Omega_\omega+\psi_{\Omega_3}(\Omega_\omega\times\Omega+\Omega_\omega))\end{aligned}$$
+
+“这两个差异，表格没有给出裁决。”霍雨浩写道，“保留问题，也是一种核对。”
+
+夏夜星空没催他们继续走。霍雨浩从夹页取出另外三条表格校核题，放在横台中央。
+
+“这三条按给定对应逐字核对。”他说，“不要凭刚才总结的局部规律改掉某个乘数。”
+
+第一条，原表第618行：
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(2,1)(1,1)(2,2,1)(3,2)(3,1) \\ &= \psi(\Omega_\omega^{2}\times\Omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega)) \end{aligned}$$
+
+$$\psi\bigl(\Omega_\omega^2\times\Omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega)\bigr)$$
+
+古月娜指出，外部前项 $\Omega_\omega^2\times\Omega$ 含平方，内函数参数 $\Omega_\omega\times\Omega$ 不含平方；外部共同背景与内函数参数要分别核对。这条题既没有把内函数升到上界 $\Omega_3$，也没有把整个外部背景放进内函数。
+
+第二条，原表第623行：
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(2,1)(1,1)(2,2,1)(3,2)(3,1)(2,2,1)(3,1)(2,2)(3,3,1)(4,3)(4,1) \\ &= \psi(\Omega_\omega^{2}\times\Omega+\Omega_\omega\times\Omega+\psi_{\Omega_3}(\Omega_\omega\times\Omega)) \end{aligned}$$
+
+$$\psi\bigl(\Omega_\omega^2\times\Omega+\Omega_\omega\times\Omega+\psi_{\Omega_3}(\Omega_\omega\times\Omega)\bigr),\qquad\psi_{\Omega_3}\ne\psi_{\Omega_2}$$
+
+这一条在 $\Omega_\omega^2\times\Omega$ 后还有一份 $\Omega_\omega\times\Omega$，最内侧函数上界也变了。霍雨浩逐对指过括号，卢本韦回到对应长列，古月娜再复核一次。
+
+第三条，原表第632行：
+
+$$\begin{aligned} & (0)(1,1,1)(2,1)(2,1)(1,1)(2,2,1)(3,2)(3,1)(2,2,1)(3,2)(2,2,1)(2,2,1) \\ &= \psi(\Omega_\omega\times(\Omega+1)+\Omega_\omega) \end{aligned}$$
+
+$$\psi\bigl(\Omega_\omega\times(\Omega+1)+\Omega_\omega\bigr)=\psi\bigl(\Omega_\omega\times\Omega+\Omega_\omega\times2\bigr)$$
+
+这一条按原表保留，右端没有第一条那份 $\Omega_\omega^2\times\Omega$。也不能为了与邻近公式整齐，擅自在这里补上平方。蔡须坤把原式重新抄了一遍，在等号下面画了两道线：从长列推测答案，与核对给定教材，是两种需要分别留下证据的工作。
+
+三条校核结束，大家又把前面那条夹页题翻回来，确认四条都已收在本子里。古月娜发现霍雨浩漏了一个右括号。
+
+“这个要留。”
+
+霍雨浩补上，卢本韦将对应列也圈了出来。
+
+接近四百米时，山风把本子的页角吹得哗哗响。夏夜星空在横台上写出下一阶段的预告：多重提升效应，以及提升链。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2)$$
+
+这是教材后续讨论的一个边界位置。眼下不必抢先给它后面的所有结构填上闭式。蔡须坤抬头，五百米的石桩已经能够看见，最后一段山路却比下面任何一段都安静。
