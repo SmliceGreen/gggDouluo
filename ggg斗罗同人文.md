@@ -101,10 +101,8 @@
 - [第一百零一章：午时三刻](#第一百零一章午时三刻)
 - [第一百零二章：银发女子](#第一百零二章银发女子)
 - [第一百零三章：最菜萌新](#第一百零三章最菜萌新)
-- [第一百零四章：bms的提升效应](#第一百零四章bms的提升效应)
-- [第一百零五章：替身挡住的那一步](#第一百零五章替身挡住的那一步)
 - [第一百零四章：bms提升效应](#第一百零四章bms提升效应)
-- [第一百零五章：替身挡住的那一步](#第一百零五章替身挡住的那一步-1)
+- [第一百零五章：替身挡住的那一步](#第一百零五章替身挡住的那一步)
 - [第一百零六章：无处不在的提升](#第一百零六章无处不在的提升)
 - [第一百零七章：TFBO之后道路](#第一百零七章tfbo之后道路)
 - [第一百零八章：同一路上的第二道门](#第一百零八章同一路上的第二道门)
@@ -112,6 +110,10 @@
 - [第一百一十章：把整座山写进下标](#第一百一十章把整座山写进下标)
 - [第一百一十一章：链的尽头，二百二十米](#第一百一十一章链的尽头二百二十米)
 - [第一百一十二章：混沌暴走](#第一百一十二章混沌暴走)
+- [第一百一十三章：两套记号](#第一百一十三章两套记号)
+- [第一百一十四章：下标深处](#第一百一十四章下标深处)
+- [第一百一十五章：谁也不能落下](#第一百一十五章谁也不能落下)
+- [第一百一十六章：三百米](#第一百一十六章三百米)
 # 第一章：开端
 唐三出生在附近一个不起眼的小村庄，村里的人都懂点基础的大数理论，村里从前有一位强者，据说他能构造出和 $\text{TREE}(3)$ 相当的大数。$\text{TREE}(3)$ 是一种极其庞大的数（别管这是啥，后面会讲）。
 
@@ -34221,1179 +34223,7 @@ test_alpha0 顿首
 "两年。"蔡须坤说。
 
 背上那一处，温了一下子
-# 第一百零四章：bms的提升效应
 
-夏夜星空到石屋时，奥斯卡正举着一个鸡蛋。
-
-“能吃。”她说。
-
-奥斯卡立刻把蛋磕进锅里。小舞笑着去拿碗，诺当伸手接，碰到掌心的伤，又把手缩了回去。
-
-十一人吃过早饭，夏夜星空在桌上摊开一卷山图。最高处写着二千五百，最底下的横线上写着五百。
-
-“都是米，算往上升了多少。前五百米，要把这一层重新分析清楚。”
-
-$$(0)(1,1,1)(2,2)$$
-
-“这一层，我们的魂力已经过了。”蔡须坤说。
-
-“力量到了。”夏夜星空点头，“你们用投影序数走过了那道界。可这段里面，每一步为什么对应这个序数，哪一处是乘，哪一处是改参数，分析还没有走全。山上补这一课。”
-
-蔡须坤看着那条横线。身子里的井静着，底下那团混沌还在睡。她把山图卷好，递给霍雨浩。
-
-“从哪里开始？”
-
-夏夜星空在两根石柱中间写下一行字。
-
-$$(0)(1,1,1)=\psi(\Omega_\omega)$$
-
-“从你们早就用熟的地方。”
-
-霍雨浩拿炭条在石上分出三行。除第一行的数必须保留外，每列后面补齐用的零都省略；若中间的零之后还有非零坐标，仍保留它的位置。读父项和阶差时，须把省略的行按零补回。
-
-$$a_1=\text{第一行},\quad a_2=\text{第二行},\quad a_3=\text{第三行};\qquad\text{省略的末尾坐标按零参与计算。}$$
-
-霍雨浩在本子上写下记号约定。最外面的 $\psi$ 是可数层坍缩，函数下标按坍缩上界书写。
-
-$$\psi=\psi_\Omega,\qquad\psi_{\Omega_2},\ \psi_{\Omega_3},\ \ldots\quad\text{均以上界作函数下标。}$$
-
-$$\psi(0)=1,\qquad\psi(\Omega)=\varepsilon_0,\qquad\psi_{\Omega_2}(0)=\Omega$$
-
-教材里见到旧编号 $\psi_1,\psi_2,\ldots$ 时，只按下面的对照换写，后续计算统一使用上界下标。
-
-$$\psi_1=\psi_{\Omega_2},\qquad\psi_2=\psi_{\Omega_3},\qquad\ldots$$
-
-“下标换成这个写法，参数别跟着乱改。”古月娜说，“$\Omega_2$ 本身，仍是 $\Omega_2$。”
-
-遇到后继参数，要按所在的 BOCF 结构核对有限相加的基本列，不能一律沿用 MOCF 中“再起一层指数塔”的读法。霍雨浩把这一句也记在页首。
-
-长式中的无限列和无限指数塔都是基本列极限的示意，不是一条真的写有无限多列的有限 BMS。具体到每次运转，只能使用有限项。
-
-蔡须坤的右脚刚落上第一阶，肩背便往下一沉。她抬左脚，膝盖只抬到一半，胸口那口气就被压了回来。
-
-卢本韦伸手托住她的胳膊，自己跨上同一阶，也弯了腰。霍雨浩扶着石沿上来，炭条在指间折成两截。古月娜最后落脚，银发贴在颈侧，呼吸顿了一顿。
-
-他们都有超过这层的魂力。蔡须坤一口气提起自己修来的力量，脚底的纹却只亮了一半，几处原本连贯的运转在压力下互相牵扯。她越想一并带过去，胸口便越闷。
-
-“慢一点。”卢本韦说，“先把最初那段留住，只动后面。”
-
-蔡须坤依言收慢。沉重的阻力将运转拖得极缓，平时一掠而过的接缝，这时竟能一处处分辨。前段仍然稳着，后面的乘数却在另一处受阻。
-
-霍雨浩蹲下，把受阻前后两种运转分开记。古月娜跟着试了一遍，抬手指向他圈出的右括号。
-
-“两处的先后不同。她刚才把它们当成一层了。”
-
-他们照基本列重新核对，再试。接缝处的牵扯松了，蔡须坤终于能把左脚移上来；肩上的重量仍在，汗从下颌滴到石阶上。
-
-“压力把你们省过去的细节压出来了。”夏夜星空说，“看清一处，再分析一处。”
-
-霍雨浩又在记录旁留了空白。身体察觉的差异，还要拿父项、阶差和对应式验证，不能只凭觉得顺畅就填等号。
-
-唐三在后面系好蓝银草，奥斯卡把水和补给递过来。蔡须坤、霍雨浩、卢本韦、古月娜在第一处横台上摊开本子。一式核对，一次尝试；他们开始学着用这份压力辨认自己的力量。
-
-$$(0)(1,1,1)(1)=\psi(\Omega_\omega)\times\omega$$
-
-末项 $(1)$ 把外部乘数推进到 $\omega$，前面的 ${\psi(\Omega_\omega)}$ 保持原样。
-
-$$(0)(1,1,1)(1)(2)=\psi(\Omega_\omega)\times\omega^\omega$$
-
-再接 $(2)$，变化落在乘数的指数上：$\omega\to\omega^\omega$。
-
-$$(0)(1,1,1)(1)(2,1)=\psi(\Omega_{\omega})\times\psi(\Omega)$$
-
-$(2,1)$ 在此处生成乘数 $\psi(\Omega)=\varepsilon_0$；它没有进入前面那个 $\psi$。
-
-$$(0)(1,1,1)(1)(2,1)(3,1)=\psi(\Omega_{\omega})\times\psi(\Omega^{2})$$
-
-连续的 $(2,1)(3,1)$ 把乘数内部参数由 $\Omega$ 推到 $\Omega^2$。
-
-“这一组只增加后面的乘数，前缀 $(0)(1,1,1)$ 对应的 ${\psi(\Omega_\omega)}$ 不变。”霍雨浩把乘号圈出来，继续往后核对。
-
-$$(0)(1,1,1)(1)(2,1)(3,2)=\psi(\Omega_{\omega})\times\psi(\Omega_2)$$
-
-末列换成 $(3,2)$，乘数的参数达到 $\Omega_2$，外面仍是 ${\psi(\Omega_\omega)}\times(\cdot)$。
-
-$$(0)(1,1,1)(1)(2,1)(3,2)(4,3)=\psi(\Omega_{\omega})\times\psi(\Omega_3)$$
-
-再添 $(4,3)$，参数进入 $\Omega_3$。注意 $\Omega_3$ 是参数，不是函数下标。
-
-$$\begin{aligned} & (0)(1,1,1)(1)(2,1,1) \\ &= (0)(1,1,1)(1)(2,1)(3,2)(4,3)\cdots \\ &= \psi(\Omega_\omega)^2 \end{aligned}$$
-
-中间那条省略号表示基本列的极限；乘数逼近 $\psi(\Omega_\omega)$，所以整式到 ${\psi(\Omega_\omega)}^2$。
-
-$$(0)(1,1,1)(1)(2,1,1)(1)(2,1,1)=\psi(\Omega_\omega)^3$$
-
-重复这里的 $(1)(2,1,1)$，得到第三个 ${\psi(\Omega_\omega)}$ 因子，故为 ${\psi(\Omega_\omega)}^3$。
-
-$$(0)(1,1,1)(1)(2,1,1)(2)=\psi(\Omega_\omega)^\omega$$
-
-末尾 $(2)$ 把有限个 ${\psi(\Omega_\omega)}$ 因子的重复推进到 ${\psi(\Omega_\omega)}^\omega$。
-
-$$(0)(1,1,1)(1)(2,1,1)(2)(3,1,1)=\psi(\Omega_\omega)^{\psi(\Omega_\omega)}$$
-
-接上 $(3,1,1)$，变化进入幂指数：$\omega\to {\psi(\Omega_\omega)}$，底数仍为 ${\psi(\Omega_\omega)}$。
-
-幂继续向右嵌套。霍雨浩在最上层的指数外添了一对括号，古月娜依次指回每个括号所属的层次。
-
-$$(0)(1,1,1)(1)(2,1,1)(2)(3,1,1)(3)(4,1,1)=\psi(\Omega_\omega)^{\psi(\Omega_\omega)^{\psi(\Omega_\omega)}}$$
-
-后段再复制一次这种结构，得到 ${\psi(\Omega_\omega)}^{{\psi(\Omega_\omega)}^{\psi(\Omega_\omega)}}$；幂按右结合读成 ${\psi(\Omega_\omega)}^{({\psi(\Omega_\omega)}^{\psi(\Omega_\omega)})}$。
-
-第三日，三十米处，蔡须坤停住了。她继续增加外部乘数，胸口的牵扯却越来越重。霍雨浩圈出下一题的右括号，古月娜沿着它向内指。
-
-“这次变的是参数。”
-
-卢本韦陪她固定前段，只试这一处。压力使两种运转的差别显出来，他们再回到式子核对。
-
-$$\psi(\Omega_\omega)\times\alpha,\qquad\psi(\Omega_\omega+\alpha)\quad\text{分别辨认乘法与参数中的加法。}$$
-
-$$(0)(1,1,1)(1,1)=\psi(\Omega_{\omega}+\Omega)$$
-
-此处 $(1,1)$ 已改变外层参数，增量为 $\Omega$；不能把结果读成 ${\psi(\Omega_\omega)}\times\Omega$。
-
-这里的 $(1,1)$ 对应二行 BMS 的 $(1,1)$ 型结构。在本处，它让外层参数增加 $\Omega$，其基本列仍逐层构造指数塔。不能沿用 MOCF 中“加一”的旧读法。
-
-$$(0)(1,1,1)(1,1)(1,1)=\psi(\Omega_{\omega}+\Omega\times2)$$
-
-相同列再接一次，增加第二份 $\Omega$，形成有序和 $\Omega\times2$。
-
-$$(0)(1,1,1)(1,1)(2)=\psi(\Omega_{\omega}+\Omega\times\omega)$$
-
-末尾的一行结构把这个有限重复推进到 $\Omega\times\omega$。
-
-$$(0)(1,1,1)(1,1)(2)(3)=\psi(\Omega_{\omega}+\Omega\times\omega^{\omega})$$
-
-再添一列一行结构，右乘部分由 $\omega$ 变为 $\omega^\omega$。
-
-$$(0)(1,1,1)(1,1)(2)(3,1)=\psi(\Omega_{\omega}+\Omega\times\psi(\Omega))$$
-
-固定的左因子 $\Omega$ 保留，后面的右因子改为 $\psi(\Omega)$。
-
-$$(0)(1,1,1)(1,1)(2)(3,1)(3,1)=\psi(\Omega_{\omega}+\Omega\times\psi(\Omega\times2))$$
-
-重复 $(3,1)$，增加的是内层参数的一份 $\Omega$，得到 $\psi(\Omega\times2)$。
-
-$$(0)(1,1,1)(1,1)(2)(3,1)(4,1)=\psi(\Omega_{\omega}+\Omega\times\psi(\Omega^{2}))$$
-
-第一坐标继续抬高，内层参数变成 $\Omega^2$；这与上一式的 $\Omega\times2$ 不同。
-
-$$(0)(1,1,1)(1,1)(2)(3,1)(4,2)=\psi(\Omega_{\omega}+\Omega\times\psi(\Omega_2))$$
-
-第二坐标升到二，内层参数进入 $\Omega_2$，外层的 $\Omega_\omega$ 仍保留。
-
-$$(0)(1,1,1)(1,1)(2)(3,1,1)=\psi(\Omega_{\omega}+\Omega\times\psi(\Omega_{\omega}))$$
-
-末列出现第三行的一，右因子达到 $\psi(\Omega_\omega)$。
-
-$(2)$ 在这一段隔出内层结构。其后的变化首先落在内层的 $\psi$，外面那份 $\Omega_\omega$ 及相应左因子留在原处。
-
-$$(0)(1,1,1)(1,1)(2)(3,1,1)(3,1)=\psi(\Omega_{\omega}+\Omega\times\psi(\Omega_{\omega}+\Omega))$$
-
-新接的 $(3,1)$ 在内层起作用，令内层参数 $\Omega_\omega\to\Omega_\omega+\Omega$。
-
-$$(0)(1,1,1)(1,1)(2)(3,1,1)(3,1)(4)(5,1,1)=\psi(\Omega_{\omega}+\Omega\times\psi(\Omega_{\omega}+\Omega\times\psi(\Omega_{\omega})))$$
-
-$(4)$ 再隔出一层；最内层的 $\psi(\Omega_\omega)$ 先乘 $\Omega$，再参与外层相加。
-
-$$(0)(1,1,1)(1,1)(2,1)=\psi(\Omega_{\omega}+\Omega^{2})$$
-
-$(1,1)(2,1)$ 相接，在这一位置形成 $\Omega^2$，作用范围要看整条 BMS。
-
-$$(0)(1,1,1)(1,1)(2,1)(2)=\psi(\Omega_{\omega}+\Omega^{2}\times\omega)$$
-
-再接 $(2)$，已有的 $\Omega^2$ 右乘 $\omega$，幂次数暂不变化。
-
-$$(0)(1,1,1)(1,1)(2,1)(2,1)=\psi(\Omega_{\omega}+\Omega^{3})$$
-
-换成 $(2,1)$，幂次数增一，得到 $\Omega^3$，不能误写成 $\Omega^2\times2$。
-
-$(n,1,0)$ 在当前结构中引入 $\Omega$ 的幂次；例如这里相邻的 $(1,1)(2,1)$ 给出 $\Omega^2$。它的具体贡献依赖整条 BMS，不能脱离位置逐列换算。
-
-$$(0)(1,1,1)(1,1)(2,1)(3)=\psi(\Omega_\omega+\Omega^\omega)$$
-
-后接 $(3)$，把有限幂的推进收束为 $\Omega^\omega$。
-
-$$(0)(1,1,1)(1,1)(2,1)(3)(4,1,1)=\psi(\Omega_\omega+\Omega^{\psi(\Omega_\omega)})$$
-
-$(4,1,1)$ 让幂指数由 $\omega$ 进到 ${\psi(\Omega_\omega)}$，底数 $\Omega$ 不变。
-
-$$(0)(1,1,1)(1,1)(2,1)(3,1)=\psi(\Omega_\omega+\Omega^\Omega)$$
-
-末列改成 $(3,1)$，在这个结构里生成 $\Omega^\Omega$。
-
-第八日，六十米处，古月娜把内层的一道银纹接错了。气息往胸口涌，她退回横台，等那口气平下去。
-
-蔡须坤挪到她身边，指出自己昨日也受阻的位置。卢本韦照两种顺序各试一次，霍雨浩在纸上圈出内外两对括号。
-
-“每次只认正在变的那一层。”
-
-古月娜接过炭条，自己改了最后一笔。
-
-$$(0)(1,1,1)(1,1)(2,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2))$$
-
-这里新增上界为 $\Omega_2$ 的坍缩层，整体为 $\psi(\Omega_\omega+{\psi_{\Omega_2}(\Omega_2)})$。
-
-$$(0)(1,1,1)(1,1)(2,2)(2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)\times\omega)$$
-
-固定 ${\psi_{\Omega_2}(\Omega_2)}$，它在外层参数中右乘 $\omega$；$\psi_{\Omega_2}$ 的参数仍为 $\Omega_2$。
-
-$$(0)(1,1,1)(1,1)(2,2)(2,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)\times\Omega)$$
-
-右乘部分由 $\omega$ 进到 $\Omega$，仍未改变 ${\psi_{\Omega_2}(\Omega_2)}$ 的内部。
-
-$$(0)(1,1,1)(1,1)(2,2)(2,1)(3,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)^{2})$$
-
-加上 $(3,2)$ 后出现第二份 ${\psi_{\Omega_2}(\Omega_2)}$ 因子，得到 ${\psi_{\Omega_2}(\Omega_2)}^2$。
-
-$$(0)(1,1,1)(1,1)(2,2)(2,1)(3,2)(3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)^{\omega})$$
-
-末尾的一行结构把 ${\psi_{\Omega_2}(\Omega_2)}$ 的有限幂推进到 ${\psi_{\Omega_2}(\Omega_2)}^\omega$。
-
-$$(0)(1,1,1)(1,1)(2,2)(2,1)(3,2)(3,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)^{\Omega})$$
-
-末列第二坐标为一，指数层变成 $\Omega$，得到 ${\psi_{\Omega_2}(\Omega_2)}^\Omega$。
-
-$$(0)(1,1,1)(1,1)(2,2)(2,1)(3,2)(3,1)(3,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)^{\Omega^{2}})$$
-
-重复同一列使幂指数中的 $\Omega$ 形成平方，结果为 ${\psi_{\Omega_2}(\Omega_2)}^{\Omega^2}$。
-
-$$(0)(1,1,1)(1,1)(2,2)(2,1)(3,2)(3,1)(4,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)^{\Omega^{\Omega}})$$
-
-提高第一坐标，幂指数由 $\Omega^2$ 进到 $\Omega^\Omega$。
-
-$$(0)(1,1,1)(1,1)(2,2)(2,1)(3,2)(3,1)(4,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2)^{\psi_{\Omega_2}(\Omega_2)})$$
-
-末列第二坐标提高到二，幂指数本身到 ${\psi_{\Omega_2}(\Omega_2)}$，结果是 ${\psi_{\Omega_2}(\Omega_2)}^{\psi_{\Omega_2}(\Omega_2)}$。
-
-$$(0)(1,1,1)(1,1)(2,2)(2,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times2))$$
-
-重复 $(2,2)$ 改动的是 ${\psi_{\Omega_2}(\Omega_2)}$ 的内部参数：$\Omega_2\to\Omega_2\times2$，并非外面乘二。
-
-霍雨浩另写一条去掉外层背景的对照式，与卢本韦确认相同的参数推进仍在发生：
-
-$$(0)(1,1)(2,2)(2,2)=\psi(\Omega_2\times2)$$
-
-回到上式，$\psi_{\Omega_2}$ 的参数由 $\Omega_2$ 进到 $\Omega_2\times2$；外层背景没有把这一步变成普通乘二。
-
-$$(0)(1,1,1)(1,1)(2,2)(3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\omega))$$
-
-$(3)$ 使内层参数的右系数达到 $\omega$，得到 $\Omega_2\times\omega$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\Omega))$$
-
-把末列改成 $(3,1)$，同一处右系数达到 $\Omega$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,1)(3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\Omega\times\omega))$$
-
-再接 $(3)$，参数中形成 $\Omega_2\times\Omega\times\omega$；乘法顺序不能对调。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,1)(3,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\Omega^{2}))$$
-
-重复 $(3,1)$，在 $\Omega_2$ 右边形成 $\Omega^2$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,1)(4)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\Omega^{\omega}))$$
-
-提高第一坐标，内层参数右端成为 $\Omega^\omega$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,1)(4,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\Omega^{\Omega}))$$
-
-提高第二坐标到一，右端进一步成为 $\Omega^\Omega$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,1)(4,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\psi_{\Omega_2}(\Omega_2)))$$
-
-$(3,1)(4,2)$ 又引入一个 ${\psi_{\Omega_2}(\Omega_2)}$，得到内层参数 $\Omega_2\times {\psi_{\Omega_2}(\Omega_2)}$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,1)(4,2)(2,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\psi_{\Omega_2}(\Omega_2)+\Omega_2))$$
-
-再添 $(2,2)$，在这整个参数后面加 $\Omega_2$；左边的 $\Omega_2\times {\psi_{\Omega_2}(\Omega_2)}$ 保留。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,1)(4,2)(4,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\psi_{\Omega_2}(\Omega_2\times2)))$$
-
-重复 $(4,2)$，改动更内层的参数；外层的 $\Omega_2\times(\cdot)$ 不变。
-
-像 $(1,1)(2,2)$、$(3,1)(4,2)$ 这样具有对应间隔的结构，在本段会引入 ${\psi_{\Omega_2}(\Omega_2)}$。续接相应的 $(n,2)$，可在这层函数参数中加 $\Omega_2$。更高层也有类似现象，须检查父项和所在层次，不能无条件套用。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,1)(4,2)(5)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\psi_{\Omega_2}(\Omega_2\times\omega)))$$
-
-末列 $(5)$ 将最内层的 $\Omega_2\times2$ 推进为 $\Omega_2\times\omega$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,1)(4,2)(5,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2\times\psi_{\Omega_2}(\Omega_2\times\Omega)))$$
-
-末列第二坐标变一，最内层的右系数到 $\Omega$，其余各层保持原位置。
-
-第十一日，卢本韦把两张纸并在一起。霍雨浩刚试完两种平方，肩背仍绷着；压力让其中一处先在内层受阻，另一处却牵动整个函数值。她按住纸角，请他先停在这处差别上。
-
-$$\bigl(\psi_{\Omega_2}(\Omega_2)\bigr)^2,\qquad\psi_{\Omega_2}(\Omega_2^2)$$
-
-“一个平方在括号外，一个在里面。位置不同，要按各自那条 BMS 核对。”
-
-霍雨浩重新核对第二坐标。蔡须坤与古月娜轮流再试，将感到受阻的先后和纸上的括号一一对照。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}))$$
-
-这里改变的是函数内部的参数幂次，不能写成 ${\psi_{\Omega_2}(\Omega_2)}^2$。
-
-相隔 $(1)$ 的连续两项 $(n,2)$，在此处引入参数的幂次结构：$\Omega_2\to\Omega_2^2$。把这一步看成函数值平方，就会认错下面整组。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2})\times\omega)$$
-
-现在取 ${\psi_{\Omega_2}(\Omega_2^2)}$ 右乘 $\omega$。看清乘号位于 $\psi_{\Omega_2}$ 的右括号外。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2})\times\Omega)$$
-
-右乘部分提高到 $\Omega$，函数内部仍为 $\Omega_2^2$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,1)(3,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2})\times\psi_{\Omega_2}(\Omega_2))$$
-
-末列引入右因子 ${\psi_{\Omega_2}(\Omega_2)}$，故外层参数出现 ${\psi_{\Omega_2}(\Omega_2^2)}\times {\psi_{\Omega_2}(\Omega_2)}$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,1)(3,2)(4,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2})^{2})$$
-
-再接一列后，右因子也达到 ${\psi_{\Omega_2}(\Omega_2^2)}$，整段变为 ${\psi_{\Omega_2}(\Omega_2^2)}^2$。
-
-$$\begin{aligned} & (0)(1,1,1)(1,1)(2,2)(3,2)(2,1)(3,2)(4,2) \\ &\quad (3,1)(4,2)(5,2) \\ &=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2})^{\psi_{\Omega_2}(\Omega_2^{2})}) \end{aligned}$$
-
-后段继续嵌套，幂指数本身达到 ${\psi_{\Omega_2}(\Omega_2^2)}$，整段为 ${\psi_{\Omega_2}(\Omega_2^2)}^{\psi_{\Omega_2}(\Omega_2^2)}$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}+\Omega_2))$$
-
-退回参数层看，新增 $(2,2)$ 产生的是 $\Omega_2^2+\Omega_2$。
-
-$(2,2)$ 在这组仍使相应参数增加 $\Omega_2$。后面的每式都要检查增量落在哪一层，不能只看末列相同。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,2)(3,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}+\Omega_2\times\Omega))$$
-
-在新增的 $\Omega_2$ 后右乘 $\Omega$，前面的 $\Omega_2^2$ 固定。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,2)(3,1)(4)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}+\Omega_2\times\Omega^{\omega}))$$
-
-$(4)$ 把后项提升为 $\Omega_2\times\Omega^\omega$，不动前项。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,2)(3,1)(4,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}+\Omega_2\times\Omega^{\Omega}))$$
-
-$(4,1)$ 则把同一幂指数推进到 $\Omega$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,2)(3,1)(4,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}+\Omega_2\times\psi_{\Omega_2}(\Omega_2)))$$
-
-$(4,2)$ 在后项内引入 ${\psi_{\Omega_2}(\Omega_2)}$，形成 $\Omega_2^2+\Omega_2\times {\psi_{\Omega_2}(\Omega_2)}$。
-
-$$\begin{aligned} & (0)(1,1,1)(1,1)(2,2)(3,2)(2,2)(3,1)(4,2) \\ &\quad (5,1)(6,2) \\ &=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}+\Omega_2\times\psi_{\Omega_2}(\Omega_2\times\psi_{\Omega_2}(\Omega_2)))) \end{aligned}$$
-
-再加 $(5,1)(6,2)$，${\psi_{\Omega_2}(\Omega_2)}$ 的参数也含有 $\Omega_2\times {\psi_{\Omega_2}(\Omega_2)}$，出现新的嵌套。
-
-$$\begin{aligned} & (0)(1,1,1)(1,1)(2,2)(3,2)(2,2)(3,1)(4,2) \\ &\quad (5,2) \\ &=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}+\Omega_2\times\psi_{\Omega_2}(\Omega_2^{2}))) \end{aligned}$$
-
-末项换成 $(5,2)$，更内层参数成为 $\Omega_2^2$，也就是引入 ${\psi_{\Omega_2}(\Omega_2^2)}$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(2,2)(3,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}\times2))$$
-
-两份 $\Omega_2^2$ 在参数里相加，得到 $\Omega_2^2\times2$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}\times\omega))$$
-
-$(3)$ 把这类有限重复推进到 $\Omega_2^2\times\omega$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(3,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}\times\Omega))$$
-
-末列第二坐标变一，相应右系数到 $\Omega$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(3,1)(4,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{2}\times\psi_{\Omega_2}(\Omega_2)))$$
-
-再接 $(4,2)$，右因子到 ${\psi_{\Omega_2}(\Omega_2)}$，其左边的 $\Omega_2^2$ 不动。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(3,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_2^{3}))$$
-
-相邻两列的第二坐标都为二，参数的幂次由二升到三，得到 $\Omega_2^3$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(4,1)=\psi(\Omega_\omega+\psi_{\Omega_2}(\Omega_2^{\Omega}))$$
-
-提高第一坐标，参数进入 $\Omega_2^\Omega$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,2)(4,2)=\psi(\Omega_\omega+\psi_{\Omega_2}(\Omega_2^{\Omega_2}))$$
-
-末列第二坐标变二，幂指数达到 $\Omega_2$，结果为 $\Omega_2^{\Omega_2}$。
-
-第十五日，霍雨浩在台阶上蹲得两腿发颤，仍没把内外层分开。蔡须坤替他压住纸，卢本韦提醒他先保留共同前项。
-
-他喘匀气，将下一组共同不变的部分描了一遍。
-
-$$\psi\bigl(\Omega_\omega+\psi_{\Omega_2}(\boxed{\alpha})\bigr)$$
-
-“先盯方框。$\alpha$ 换了，不等于 $\psi_{\Omega_2}$ 也换了。”
-
-$$(0)(1,1,1)(1,1)(2,2)(3,3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3))$$
-
-第二坐标进一步变三，参数跳到新的层次标记 $\Omega_3$；函数下标仍为 $\Omega_2$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,3)(3,3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3\times2))$$
-
-重复 $(3,3)$，在同一函数的参数中加第二份 $\Omega_3$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,3)(4)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3\times\omega))$$
-
-末列 $(4)$ 给 $\Omega_3$ 添上右因子 $\omega$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,3)(4,1)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3\times\Omega))$$
-
-把末列改为 $(4,1)$，右因子推进到 $\Omega$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,3)(4,1)(5,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3\times\psi_{\Omega_2}(\Omega_2)))$$
-
-再接 $(5,2)$，右因子变为 ${\psi_{\Omega_2}(\Omega_2)}$；它仍处于外面那层坍缩函数的参数中。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,3)(4,2)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3\times\Omega_2))$$
-
-末列第二坐标到二，右因子达到 $\Omega_2$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,3)(4,2)(5,3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3\times\psi_{\Omega_3}(\Omega_3)))$$
-
-再接 $(5,3)$，生成 $\psi_{\Omega_3}(\Omega_3)$；这里才真的出现新的函数下标。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,3)(4,3)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_3^{2}))$$
-
-相邻列的第二坐标同为三，在参数中形成 $\Omega_3^2$。
-
-$$(0)(1,1,1)(1,1)(2,2)(3,3)(4,4)=\psi(\Omega_{\omega}+\psi_{\Omega_2}(\Omega_4))$$
-
-末列第二坐标进到四，参数到 $\Omega_4$；外层函数仍没有换成 $\psi_{\Omega_4}$。
-
-第十九日，他们仍卡在九十米处。蔡须坤抬脚，又放下；熟练调动的力量到了这处接缝，在压力下分成两股互相牵扯。
-
-古月娜指出她把内函数当成了第二份外层基数。霍雨浩写出两种结构，卢本韦扶她站稳，等她重新核对。
-
-$$\Omega_\omega+{\psi_{\Omega_2}(\Omega_\omega)}\ \text{与}\ \Omega_\omega+\Omega_\omega\ \text{分开辨认}$$
-
-“先把这一道认清。我们都在这里。”
-
-$$(0)(1,1,1)(1,1)(2,2,1)=\psi(\Omega_\omega+\psi_{\Omega_2}(\Omega_\omega))$$
-
-这是内层参数走到 $\Omega_\omega$，整体尚非 $\psi(\Omega_\omega\times2)$。
-
-这是一个卡点。反复嵌套内函数，并不会立刻得到 $\psi(\Omega_\omega\times2)$；此时先得到 $\psi(\Omega_\omega+{\psi_{\Omega_2}(\Omega_\omega)})$，随后还有 $\psi(\Omega_\omega+{\psi_{\Omega_2}(\Omega_\omega)}\times2)$、$\psi(\Omega_\omega+{\psi_{\Omega_2}(\Omega_\omega)}\times\omega)$ 等。外层后项到 $\Omega_2$ 仍是一道要单独跨过的界。蔡须坤把那处括号改正，接缝的牵扯才逐渐松开。
-
-$$\psi(\Omega_\omega+\psi_{\Omega_2}(\Omega_\omega)\times2),\quad\psi(\Omega_\omega+\psi_{\Omega_2}(\Omega_\omega)\times\omega),\quad\dots$$
-
-两条都按完整形式核对。倍数与 $\omega$ 都在内函数外面，没有进入它的参数。
-
-$$(0)(1,1,1)(1,1)(2,2,1)(2,2)=\psi(\Omega_{\omega}+\Omega_2)$$
-
-新增 $(2,2)$ 后，外层参数中的后项到 $\Omega_2$；这一列的作用要结合前缀读。
-
-夏夜星空站在横台下面，看着他们把这一列重新运转完。“这只是下一步。一步也得认清。”
-
-$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,1)=\psi(\Omega_{\omega}+\Omega_2\times\Omega)$$
-
-固定新出现的 $\Omega_2$，让它右乘 $\Omega$。
-
-$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,1)(4,2)=\psi(\Omega_{\omega}+\Omega_2\times\psi_{\Omega_2}(\Omega_2))$$
-
-再接 $(4,2)$，右因子变为 ${\psi_{\Omega_2}(\Omega_2)}$。
-
-$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,1)(4,2,1)=\psi(\Omega_{\omega}+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega}))$$
-
-末列的第三行变一，右因子改为 ${\psi_{\Omega_2}(\Omega_\omega)}$，左因子仍是 $\Omega_2$。
-
-$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,2)=\psi(\Omega_{\omega}+\Omega_2^{2})$$
-
-末列 $(3,2)$ 与前面的 $(2,2)$ 配合，直接形成 $\Omega_2^2$。
-
-这里 $(2,2)(3,2)$ 在外层参数中产生 $\Omega_2^2$。与上面把平方放进 $\psi_{\Omega_2}$ 参数中的那组对照，作用层次已经不同。
-
-$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3)=\psi(\Omega_{\omega}+\psi_{\Omega_3}(\Omega_3))$$
-
-第二坐标再抬高，后项成为 $\psi_{\Omega_3}(\Omega_3)$，进入下一层坍缩。
-
-$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3)(3,3)=\psi(\Omega_{\omega}+\psi_{\Omega_3}(\Omega_3\times2))$$
-
-重复 $(3,3)$，在这层新函数的参数里增加一份 $\Omega_3$。
-
-$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3,1)=\psi(\Omega_\omega+\psi_{\Omega_3}(\Omega_\omega))$$
-
-末列出现第三行的一，将该函数的参数推进到 $\Omega_\omega$。
-
-$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3,1)(3,3)=\psi(\Omega_{\omega}+\Omega_3)$$
-
-追加 $(3,3)$，外层参数的后项达到 $\Omega_3$。
-
-$$\begin{aligned} & (0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3,1)(3,3)(4,2) \\ &\quad (5,3) \\ &=\psi(\Omega_{\omega}+\Omega_3\times\psi_{\Omega_3}(\Omega_3)) \end{aligned}$$
-
-把新出现的 $\Omega_3$ 右乘 $\psi_{\Omega_3}(\Omega_3)$，注意函数下标比 ${\psi_{\Omega_2}(\Omega_2)}$ 的下标高一层。
-
-$$\begin{aligned} & (0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3,1)(3,3)(4,2) \\ &\quad (5,3,1) \\ &=\psi(\Omega_{\omega}+\Omega_3\times\psi_{\Omega_3}(\Omega_{\omega})) \end{aligned}$$
-
-只改末列第三行，右因子变为 $\psi_{\Omega_3}(\Omega_\omega)$。
-
-$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3,1)(3,3)(4,3)=\psi(\Omega_{\omega}+\Omega_3^{2})$$
-
-这里在外层参数中形成 $\Omega_3^2$，并未把最外面的 $\psi$ 平方。
-
-$$(0)(1,1,1)(1,1)(2,2,1)(2,2)(3,3,1)(3,3)(4,4)=\psi(\Omega_{\omega}+\psi_{\Omega_4}(\Omega_4))$$
-
-第二坐标升到四，出现 $\psi_{\Omega_4}(\Omega_4)$；这仍只是后项的继续增长。
-
-他们把前面几组重新连起来，才走到这一阶段的结果。
-
-第二十日午后，四人把此前的接缝又核对了一轮。蔡须坤踩实台阶，霍雨浩记下结果，古月娜从末列重新追根。卢本韦看着纸，轻轻敲了敲最初那个零。
-
-“现在才轮到第二份。”
-
-$$(0)(1,1,1)(1,1,1)=\psi(\Omega_\omega\times2)$$
-
-到这里，第二个 $\Omega_\omega$ 才真正进入最外层参数；前面整段都不能省掉。
-
-末项 $(1,1,1)$ 在本段追根到 $(0)$，阶差为 $(1,1)$；各行要按父项关系判断是否随复制段抬升。教材先用带美元符号的占位符表示中间片段：
-
-$$(0)(\$_0)(1,1)(\$_1)(2,2)(\$_2)\dots$$
-
-$$\$_i\longleftrightarrow\mathfrak b_i\qquad\text{都只代表一段待填的结构，不是一个数字列。}$$
-
-为免把占位符看成数值，中间的片段改用 $\mathfrak b_i$ 占位，记成下面的结构示意；$\mathfrak b_i$ 不是数字列。
-
-$$(0)\,\mathfrak b_0\,(1,1)\,\mathfrak b_1\,(2,2)\,\mathfrak b_2\,\cdots$$
-
-其中 $(1,1),(2,2),\ldots$ 引出相应的 $\psi_{\Omega_2},\psi_{\Omega_3},\ldots$ 层次；由这条基本列的极限，外层再出现一份 $\Omega_\omega$。“极限”不是做了某个很大的有限次数。
-
-“同样的结构再走一次。”卢本韦说。
-
-$$(0)(1,1,1)(1,1,1)(1,1,1)=\psi(\Omega_\omega\times3)$$
-
-再接一列 $(1,1,1)$，多一份 $\Omega_\omega$；此处作用范围尚未改变。
-
-同样追根、复制、取对应极限，参数中再添一份 $\Omega_\omega$。这一次，古月娜先指出根，霍雨浩核对后才落下标记。
-
-$$(0)(1,1,1)(2)=\psi(\Omega_\omega\times\omega)$$
-
-末列 $(2)$ 把外层参数的有限系数推进到 $\omega$。
-
-$$(0)(1,1,1)(2)(1,1,1)=\psi(\Omega_\omega\times\omega+\Omega_\omega)$$
-
-在 $\Omega_\omega\times\omega$ 后再加 $\Omega_\omega$；序数加法按书写顺序进行。
-
-$$(0)(1,1,1)(2)(2)=\psi(\Omega_\omega\times\omega^2)$$
-
-再接 $(2)$，右端系数到 $\omega^2$，仍是同一个左因子。
-
-$$(0)(1,1,1)(2)(3,1)=\psi(\Omega_{\omega}\times\psi(\Omega))$$
-
-$(3,1)$ 在这里把右系数推进到 $\psi(\Omega)$。
-
-$$(0)(1,1,1)(2)(3,1,1)=\psi(\Omega_\omega\times\psi(\Omega_\omega))$$
-
-第三行的一让右系数达到 ${\psi(\Omega_\omega)}$，要看清这个 ${\psi(\Omega_\omega)}$ 仍位于最外层参数之内。
-
-$$(0)(1,1,1)(2)(3,1,1)(3,1,1)=\psi(\Omega_\omega\times\psi(\Omega_\omega\times2))$$
-
-重复 $(3,1,1)$，改变的是系数自身的坍缩参数，成为 $\psi(\Omega_\omega\times2)$。
-
-$$(0)(1,1,1)(2)(3,1,1)(4)(5,1,1)=\psi(\Omega_\omega\times\psi(\Omega_\omega\times\psi(\Omega_\omega)))$$
-
-再隔出一层，系数的参数包含 $\Omega_\omega\times {\psi(\Omega_\omega)}$，形成更深的嵌套。
-
-$$(0)(1,1,1)(2,1)=\psi(\Omega_\omega\times\Omega)$$
-
-最后，右系数走到 $\Omega$，完成这一段分析；前面的 $\Omega_\omega$ 一直保留。
-
-到此，$(1,1,1)$ 在所考察的位置上都表现为在 $\psi$ 参数内添一份 $\Omega_\omega$。蔡须坤据此提出下一步的猜想：
-
-$$(0)(1,1,1)(2,1)(1,1,1)\stackrel{?}{=}\psi(\Omega_\omega\times\Omega+\Omega_\omega)$$
-
-霍雨浩没有把问号擦掉。此前的局部规律，尚不能保证放在这个新位置仍然成立。
-
-第二十日黄昏，一百二十米的石桩就在蔡须坤身边。
-
-她照着猜想去接，后项刚亮，前面已经站稳的结构忽然向回牵。卢本韦托住她的胳膊，等她退回横台，才让她收住魂力。
-
-“不是力量不够。”蔡须坤低声说。
-
-她的魂力早已越过这层。如今压力拖慢运转，旧日熟练带过的接缝才逐处显露。霍雨浩把回扯发生的位置记在问号旁，请她明日仍在同一阶试。
-
-古月娜蹲下，指尖停在末列的一上。她先追第一行，再追第二行，追到最后，目光落回前面那列 $(2,1)$。
-
-“后面这个一一一，牵动的还不只是它自己。”
-
-夏夜星空把那张带问号的纸夹回本子。“明天从这里起，找中间的路。”
-
-诺当将本子装进干布袋，奥斯卡递过水囊，一个人喝完，再递给下一个。蔡兴坤坐在石桩边，把黑子鸡抱回怀里。唐三等最后一人站稳，才收回蓝银草。
-
-霍雨浩先将目标的前两项展开写在末页，留待下一日核对。
-
-他们采用从零编号的基本列约定：零项只截去末列，一项接上一份完整复制段。展开朝较小的结构走；登山时做的是理解并重新组织已有力量，不能把展开后列数增加当成序数变大。
-
-$$\begin{aligned}&\bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)[0]=(0)(1,1,1)(2,1),\\&\bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)[1]=(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)\end{aligned}$$
-
-登阶的前二十日，他们走到一百二十米。五百米的横线还在山图上头，谁也没有把猜想后的问号擦去。
-
-# 第一百零五章：替身挡住的那一步
-
-第二十一日清早，蔡须坤把带问号的纸摊开。过去二十日，四人每天登阶受压，退回横台记录，再带着推导重试。一行式子，有时要试许多天。
-
-$$(0)(1,1,1)(2,1)(1,1,1)\stackrel{?}{=}\psi(\Omega_\omega\times\Omega+\Omega_\omega)$$
-
-“今天不先填答案。”蔡须坤说，“找出这个一一一为什么接不上。”
-
-一百二十米以上，山道分出一层窄台。唐三先把蓝银草系在石桩上，另一端留给后面的人扶稳。夏夜星空站在窄台另一头，指尖向下，石面浮出三排细纹。
-
-“护住身体可以，里面的次序，要各自走完。”
-
-霍雨浩把前二十日的记录续在页首。以下的省略零都按三行补齐参与计算；式中没有下标的坍缩函数仍是可数层的那一个。
-
-$$\psi=\psi_\Omega,\qquad\psi_{\Omega_2}(0)=\Omega$$
-
-“参数和乘数都写全。”霍雨浩对卢本韦说，“每层都能直接看见。”
-
-卢本韦翻回前页，望着末尾的 $(3,2)$，将旧记录中的 $(3,1)$ 圈出。
-
-“缺的就是第二行这一点？”
-
-“这一点怎么来的，得看完。”古月娜答。
-
-$$(0)(1,1,1)(2,1)(1,1)=\psi(\Omega_\omega\times\Omega+\Omega)$$
-
-与上一章末式相比，新增的是最外层参数的后项 $\Omega$，前项 $\Omega_\omega\times\Omega$ 固定；先不要把这个加号读成幂次。
-
-$$(0)(1,1,1)(2,1)(1,1)(2)(3,1,1)=\psi(\Omega_{\omega}\times\Omega+\Omega\times\psi(\Omega_{\omega}))$$
-
-新增片段使后项成为 $\Omega\times\psi(\Omega_\omega)$。乘法在最外层参数内，右边的坍缩函数必须先辨清作用范围。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,1)=\psi(\Omega_{\omega}\times\Omega+\Omega^{2})$$
-
-这里的后项改为 $\Omega^2$。同样接在 $(1,1)$ 后面，末列的第二坐标不同，所得结构也不同。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2)=\psi(\Omega_{\omega}\times\Omega+\psi_{\Omega_2}(\Omega_2))$$
-
-后项由普通的 $\Omega$ 幂进入 $\psi_{\Omega_2}(\Omega_2)$；函数上界与函数参数各写一遍，不能合成一个下标。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)=\psi(\Omega_\omega\times\Omega+\psi_{\Omega_2}(\Omega_\omega))$$
-
-末列第三坐标从省略的零变成一，内层参数达到 $\Omega_\omega$；内函数仍是 $\psi_{\Omega_2}$，没有换上界。
-
-到这里，几条仍可沿用此前方法。蔡须坤想把它们合成“再添一个 ${\Omega_\omega}$”，卢本韦却感到两处受阻不同。霍雨浩请她们先比较各自的根。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)=\psi(\Omega_\omega\times\Omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega))$$
-
-$(3,1)$ 在内函数参数中生成右因子 $\Omega$。外层也有一个 $\Omega$，但两处与各自根列的阶差并不相同。
-
-这就是第一处关键。外层代表 $\Omega$ 的列相对最初根的阶差，和内层代表 $\Omega$ 的列相对自己根的阶差，并不相同。末尾零虽不写，参与计算时仍在原处。
-
-$$\Delta_{\rm outer}=(2,1),\qquad\Delta_{\rm inner}=(2),\qquad(2,1)\ne(2)$$
-
-$$\delta_1^{\rm outer}=2-0=2,\quad\delta_2^{\rm outer}=1-0=1,\quad\delta_1^{\rm inner}=3-1=2,\quad\delta_2^{\rm inner}=1-1=0$$
-
-“第一行相等，第二行还没齐。”古月娜说。
-
-$$\text{外层参照：}(0)\longrightarrow(2,1),\qquad\text{内层参照：}(1,1)\longrightarrow(3,1)$$
-
-$$\text{若内层对应列达到 }(3,2),\qquad3-1=2,\quad2-1=1$$
-
-这些箭头表示比较两列，不是把原有前缀真的改掉。要让新结构成立，必须经过能生成后一种阶差的中间基本列。额外的一轮结构，正是提升效应的来源。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)=\psi(\Omega_\omega\times\Omega+\Omega_2)$$
-
-加上 $(2,2)$ 后，最外层的后项达到 $\Omega_2$。这里不是把前式内函数的右端直接换成一个字母，须沿完整基本列核对。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,1) \\ &\quad(4,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2\times\psi_{\Omega_2}(\Omega_2)) \end{aligned}$$
-
-新的 $(3,1)(4,2)$ 作用于后项，给出 $\Omega_2\times\psi_{\Omega_2}(\Omega_2)$；左边第一份 $\Omega_2$ 不在内函数中。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2)=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{2})$$
-
-相应末列变为 $(3,2)$，后项形成 $\Omega_2^2$。这一步对应平方，不能写成 $\Omega_2\times2$。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &\quad(1,1)(2,2,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{2}+\psi_{\Omega_2}(\Omega_{\omega})) \end{aligned}$$
-
-前面的平方保留，尾段重新开出 $\psi_{\Omega_2}(\Omega_\omega)$。这是相加，不是把整个外层参数一起乘内函数。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &\quad(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{2}+\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\Omega_2^{2})) \end{aligned}$$
-
-内函数重新走过与外部相似的片段，参数中也出现 $\Omega_2^2$；两个平方位于不同括号层次。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &\quad(2,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{2}+\Omega_2) \end{aligned}$$
-
-同一外部平方后面增加 $\Omega_2$，有序和为 $\Omega_2^2+\Omega_2$；这里不能交换两项的位置。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &\quad(2,2)(3,1)(4,2,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{2}+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega})) \end{aligned}$$
-
-只将第二项扩展成 $\Omega_2\times\psi_{\Omega_2}(\Omega_\omega)$，第一项的平方保持不动。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &\quad(2,2)(3,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{2}\times2) \end{aligned}$$
-
-现在才有两份完整的 $\Omega_2^2$，写作 $\Omega_2^2\times2$；与上面的 $\Omega_2^2+\Omega_2$ 对照阅读。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &\quad(3) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{2}\times\omega) \end{aligned}$$
-
-有限份平方的重复在这一基本列中走向右乘 $\omega$；左边的平方没有变为 $\Omega_2^\omega$。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,2) \\ &\quad(3,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_2^{3}) \end{aligned}$$
-
-末列第二坐标升高后，多出的是同底数的一次幂，故为 $\Omega_2^3$，不是三份平方。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,3)=\psi(\Omega_{\omega}\times\Omega+\psi_{\Omega_3}(\Omega_3))$$
-
-后项进入新的坍缩上界 $\Omega_3$，参数也为 $\Omega_3$。下标升一层，与上一式多一次幂是两种变化。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,3,1)=\psi(\Omega_\omega\times\Omega+\psi_{\Omega_3}(\Omega_\omega))$$
-
-函数上界固定为 $\Omega_3$，参数从 $\Omega_3$ 进到 $\Omega_\omega$；第三行的一要在完整列中判断。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,3,1) \\ &\quad(4,1) \\ &= \psi(\Omega_\omega\times\Omega+\psi_{\Omega_3}(\Omega_\omega\times\Omega)) \end{aligned}$$
-
-新接 $(4,1)$ 把内函数参数改为 $\Omega_\omega\times\Omega$。这一项将继续承担替身的作用。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,3,1) \\ &\quad(4,1)(3,3)(4,3) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_3^{2}) \end{aligned}$$
-
-内侧相应结构走完后，最外层后项为 $\Omega_3^2$；此前最初的 $\Omega_\omega\times\Omega$ 仍未改变。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1) \\ &= (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2)(3,3,1) \\ &\quad(4,1)(3,3)(4,4,1)(5,1)\dots \\ &= \psi(\Omega_\omega\times(\Omega+1)) \end{aligned}$$
-
-此处写出的长链表示基本列的趋近，不是把无限多列当作一条有限 BMS。结果只增加一份 $\Omega_\omega$，尚未得到目标末列 $(1,1,1)$。
-
-第三十日，蔡须坤在一百四十米处试着给整段加上第二行的一，膝盖立刻被压弯。卢本韦托住她；古月娜留在同一阶，只改变这一行，感到牵扯恰从那列传来。
-
-“不是整块每个数都加。”古月娜用指尖点着 $(3,1)$ 的第二行。
-
-这一行的一，父项追到前面的 $(0)$，没有经过这次坏根 $(1,1)$。所以复制时第一行可以抬升，第二行仍留在一。霍雨浩给这一列单独画出了祖先经过条件。
-
-$$r=(1,1),\quad\Delta=(1,1),\quad\text{第二行祖先链：}\ (3,1)\longrightarrow(0)\quad\text{绕过 }r$$
-
-$$\text{该列第一份复制：}\ (3,1)\longmapsto(4,1),\qquad(4,2)\ \text{是此处误算}$$
-
-$$\text{同块中经过坏根的列：}\ (1,1)\longmapsto(2,2),\qquad(2,2,1)\longmapsto(3,3,1)$$
-
-较高行的父项沿前一行的父项链找更小的数，不能只沿整张表横着找最近的小数。第二行是否跟着加，是祖先关系决定的；末列的第三行只用于定根，不在这一阶差里加一。
-
-教材把这个现象叫“替身”。$(3,1)$ 使眼前这个 $(1,1)$ 无法按原来的直觉直接接成 $(1,1,1)$；它没有凭空创造新规则，而是让坏根和复制关系多走一层。
-
-$$\text{被阻住的局部期待：}\quad(1,1)\longrightarrow(1,1,1)$$
-
-$$\text{本段实际先走：}\quad(2,2)\longrightarrow(2,2,1),\qquad\psi({\Omega_\omega}\times\Omega+{\Omega_\omega})$$
-
-卢本韦在 $(3,1)$ 下画了一面小盾。蔡须坤笑得有些喘：“原来卡在这里。”
-
-四人轮流退到横台歇息，将刚走通的部分留在左边，右边从新背景重推。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(1,1) \\ &\quad(2,2,1) \\ &= \psi(\Omega_\omega\times\Omega+\Omega_\omega+\psi_{\Omega_2}(\Omega_\omega)) \end{aligned}$$
-
-以已经得到的 $\Omega_\omega\times\Omega+\Omega_\omega$ 为背景，后面又开一层内函数；新开层不会自动消去前缀。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(1,1) \\ &\quad(2,2,1)(3,1) \\ &= \psi(\Omega_\omega\times\Omega+\Omega_\omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega)) \end{aligned}$$
-
-这一层内函数参数再次右乘 $\Omega$，注意它在第二个加号之后，不能移到最外层前项上。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(1,1) \\ &\quad(2,2,1)(3,1)(2,2)(3,1)(4,2,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega}))) \end{aligned}$$
-
-新贡献落在最内侧的后项：$\Omega_2\times\psi_{\Omega_2}(\Omega_\omega)$；由内到外读完两层坍缩，再回到外层和。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(1,1) \\ &\quad(2,2,1)(3,1)(2,2)(3,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\Omega_2^{2})) \end{aligned}$$
-
-最内侧的后项成为 $\Omega_2^2$，外层第二份 $\Omega_\omega$ 仍与它隔着 $\psi_{\Omega_2}$。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(1,1) \\ &\quad(2,2,1)(3,1)(2,2)(3,3) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\psi_{\Omega_3}(\Omega_3))) \end{aligned}$$
-
-在内层参数中引入 $\psi_{\Omega_3}(\Omega_3)$，变化是上界更高的嵌套，外面一层上界仍为 $\Omega_2$。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(1,1) \\ &\quad(2,2,1)(3,1)(2,2)(3,3,1) \\ &= \psi(\Omega_\omega\times\Omega+\Omega_\omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega+\psi_{\Omega_3}(\Omega_\omega))) \end{aligned}$$
-
-最内函数参数进到 $\Omega_\omega$；两个函数的下标分别是 $\Omega_2$ 与 $\Omega_3$，不能因参数相同而合并。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(1,1) \\ &\quad(2,2,1)(3,1)(2,2,1) \\ &= \psi(\Omega_\omega\times\Omega+\Omega_\omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega+\Omega_\omega)) \end{aligned}$$
-
-内层参数也有了两项 $\Omega_\omega\times\Omega+\Omega_\omega$，与外部背景同形；“同形”仍不等于在同一层。
-
-$$\begin{aligned}&(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2)\\&=\psi(\Omega_\omega\times(\Omega+1)+\psi_{\Omega_2}(\Omega_\omega\times(\Omega+1)+1))\end{aligned}$$
-
-末尾一行结构在内层共同背景后加一。这里的 $+1$ 在 $\psi_{\Omega_2}$ 内，不能加到全式最后。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2)=\psi(\Omega_\omega\times(\Omega+1)+\Omega_2)$$
-
-后项达到外层可见的 $\Omega_2$。括号外的背景也可写成 $\Omega_\omega\times(\Omega+1)$，乘法顺序不变。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad(3,1)(4,2,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega})) \end{aligned}$$
-
-在外部 $\Omega_2$ 后接一份可数右因子，得到 $\Omega_2\times\psi_{\Omega_2}(\Omega_\omega)$，乘号没有进入该函数参数。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad(3,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\Omega_2^{2}) \end{aligned}$$
-
-后项为 $\Omega_2^2$，与第一轮同型；区别在于前面已经有第二份 $\Omega_\omega$。
-
-熟悉的 $(2,2)(3,2)$ 再次出现。卢本韦先指向最外层加号，请蔡须坤确认平方落在哪层。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad(3,2)(2,2)(3,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\Omega_2^{2}\times2) \end{aligned}$$
-
-两份平方在最外层参数内相加，缩写为 $\Omega_2^2\times2$；本式保留的两份 $\Omega_\omega$ 不计入这个二。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad(3,2)(3,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\Omega_2^{3}) \end{aligned}$$
-
-这一项将后部平方推进为立方。霍雨浩把幂指数上的三圈出，另把最外层两个加号连在同一条线上。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad(3,3) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_3)) \end{aligned}$$
-
-后项出现 $\psi_{\Omega_3}(\Omega_3)$。这轮也要重走更高上界，不能看到相似前缀就提前跳到结果。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad(3,3,1)(4,1) \\ &= \psi(\Omega_\omega\times(\Omega+1)+\psi_{\Omega_3}(\Omega_\omega\times\Omega)) \end{aligned}$$
-
-$\psi_{\Omega_3}$ 的参数达到 $\Omega_\omega\times\Omega$；左边新出现的 $(4,1)$ 要与自己的根比较。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad(3,3,1)(4,1)(3,3) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\Omega_3)) \end{aligned}$$
-
-在这个内函数里增加 $\Omega_3$，不是在全式最外层增加 $\Omega_3$；右括号给出了作用范围。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad(3,3,1)(4,1)(3,3)(4,1)(5,2,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\Omega_3\times\psi_{\Omega_2}(\Omega_{\omega}))) \end{aligned}$$
-
-内层后项变为 $\Omega_3\times\psi_{\Omega_2}(\Omega_\omega)$。这里更深处的上界回到 $\Omega_2$，不要求层层严格增大。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad(3,3,1)(4,1)(3,3)(4,2) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\Omega_3\times\Omega_2)) \end{aligned}$$
-
-内层后项中的右因子为 $\Omega_2$，形成 $\Omega_3\times\Omega_2$；不可把两个不同基数乘积读成平方。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad(3,3,1)(4,1)(3,3)(4,2)(5,3) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\Omega_3\times\psi_{\Omega_3}(\Omega_3))) \end{aligned}$$
-
-该右因子换成 $\psi_{\Omega_3}(\Omega_3)$，其函数上界与外面一层相同，仍须保留两对括号。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad(3,3,1)(4,1)(3,3)(4,2)(5,3,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\Omega_3\times\psi_{\Omega_3}(\Omega_{\omega}))) \end{aligned}$$
-
-内侧函数的参数变为 $\Omega_\omega$，外围 $\psi_{\Omega_3}$ 的参数仍以 $\Omega_\omega\times\Omega$ 起头。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad(3,3,1)(4,1)(3,3)(4,3) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\Omega_3^{2})) \end{aligned}$$
-
-内层后项此时形成 $\Omega_3^2$，两个 $\Omega_3$ 因子在同一参数层内；区别于前面的嵌套函数。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad(3,3,1)(4,1)(3,3)(4,4,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\psi_{\Omega_4}(\Omega_{\omega}))) \end{aligned}$$
-
-本式采用底稿当前保留的转换结果；它另有来源候选，未获指定表格确认。先记为待核的对应，不拿它单独推出新通则。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2) \\ &\quad(3,3,1)(4,1)(3,3,1) \\ &=\psi(\Omega_{\omega}\times\Omega+\Omega_{\omega}+\psi_{\Omega_3}(\Omega_{\omega}\times\Omega+\Omega_{\omega})) \end{aligned}$$
-
-这一条同样保留待核标记。它与上一条的候选表达式相似，恰好说明不能只凭右端眼熟就交换两条 BMS。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2,1)=\psi(\Omega_\omega\times(\Omega+2))$$
-
-新接的 $(2,2,1)$ 又提供一份 $\Omega_\omega$；两份合并为右系数二，得到 $\Omega_\omega\times(\Omega+2)$。
-
-第四十日，一百六十米的石纹亮了。原来“添一份 ${\Omega_\omega}$”的作用改由 $(2,2,1)$ 承担，替身 $(3,1)$ 仍在前面。霍雨浩对照压力下的记录，圈出变化的位置与背景。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(2,2,1) \\ &\quad (2,2,1) \\ &= \psi(\Omega_\omega\times\Omega+\Omega_\omega\times3) \end{aligned}$$
-
-同一位置再添一项，有限部分成为三；这里的三在乘法右侧括号内，尚未升到 $\Omega\times3$。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(3)=\psi(\Omega_\omega\times\Omega+\Omega_\omega\times\omega)$$
-
-有限个后加项的极限是 $\Omega_\omega\times\omega$，前项 $\Omega_\omega\times\Omega$ 仍然存在。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(3,1)=\psi(\Omega_\omega\times(\Omega\times2))$$
-
-已有一份 $\Omega_\omega\times\Omega$，后面又形成同样一份，故为 $\Omega_\omega\times(\Omega\times2)$。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(3,1) \\ &\quad (1,1)(2,2,1) \\ &= \psi(\Omega_\omega\times\Omega\times2+\psi_{\Omega_2}(\Omega_\omega)) \end{aligned}$$
-
-固定两份大段之后，继续增加 $\psi_{\Omega_2}(\Omega_\omega)$；这是更高背景上的同类尾部分析。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(3,1) \\ &\quad (1,1)(2,2,1)(3,1)(2,2,1)(3,1) \\ &= \psi(\Omega_\omega\times\Omega\times2+\psi_{\Omega_2}(\Omega_\omega\times\Omega\times2)) \end{aligned}$$
-
-这次内函数参数已经包含 $\Omega\times2$。原来的替身结构仍在，不能只把外部乘数改二、内部留一。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(3,1) \\ &\quad (2,2) \\ &=\psi(\Omega_{\omega}\times\Omega\times2+\Omega_2) \end{aligned}$$
-
-新尾部达到 $\Omega_2$，但大段右因子仍是 $\Omega\times2$，它没有因后项达到基数就自动升阶。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(3,1) \\ &\quad (2,2)(3,2) \\ &=\psi(\Omega_{\omega}\times\Omega\times2+\Omega_2^{2}) \end{aligned}$$
-
-再得到外部后项 $\Omega_2^2$；这一平方属于和的末项，与左边那一个有限乘数二各司其职。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(2,2,1)(3,1) \\ &\quad (2,2,1) \\ &= \psi(\Omega_\omega\times\Omega\times2+\Omega_\omega) \end{aligned}$$
-
-外部尾项达到 $\Omega_\omega$，于是两份大段之后又接一份小段，尚不能合并成第三份大段。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(3)=\psi(\Omega_\omega\times(\Omega\times\omega))$$
-
-右因子由有限份 $\Omega$ 进入 $\Omega\times\omega$。括号保留乘法次序，不能写成 $\omega\times\Omega$。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(3,1)=\psi(\Omega_\omega\times\Omega^{2})$$
-
-右因子达到 $\Omega^2$，左因子仍为 $\Omega_\omega$；不要误把结果看成 $\Omega_\omega^2$。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4)=\psi(\Omega_\omega\times\Omega^{\omega})$$
-
-本组推进的是右因子的指数，得到 $\Omega^\omega$，不是以 $\Omega_\omega$ 为底的幂。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,1)=\psi(\Omega_\omega\times\Omega^{\Omega})$$
-
-右因子成为 $\Omega^\Omega$。唐三在共同的左因子下画了一道蓝线，让每个人看清正在改变的位置。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2)=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_2))$$
-
-右因子转为 $\psi_{\Omega_2}(\Omega_2)$，从普通幂进入坍缩层；乘法仍在最外层参数内部。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2)(4,2)=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_2\times2))$$
-
-该内函数的参数增加第二份 $\Omega_2$。应读成函数参数乘二，不能读成函数值乘二。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2)(5,1)=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_2\times\Omega))$$
-
-内函数参数的右因子达到 $\Omega$，即 $\Omega_2\times\Omega$；外部乘法与内部乘法分属两层。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2)(5,1) \\ &\quad (6,2) \\ &=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_2\times\psi_{\Omega_2}(\Omega_2))) \end{aligned}$$
-
-内函数参数里出现 $\Omega_2\times\psi_{\Omega_2}(\Omega_2)$，同一上界的内函数又嵌入一次。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2)(5,2)=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_2^{2}))$$
-
-这里得到的是 $\psi_{\Omega_2}(\Omega_2^2)$，平方在函数内部；与 $\psi_{\Omega_2}(\Omega_2)^2$ 分开。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2)(5,3)=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_3))$$
-
-右因子的函数参数进入 $\Omega_3$，上界仍为 $\Omega_2$。参数取值高于下标并不意味着把函数下标一同改掉。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)=\psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega))$$
-
-参数达到 $\Omega_\omega$，与最外层左因子用同一个符号；一处是函数参数，一处是乘数。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(4,2,1)=\psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega\times2))$$
-
-内部参数先形成两份 $\Omega_\omega$。这不是把整个 $\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega)$ 复制两遍。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1)=\psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega\times\Omega))$$
-
-内部参数成为 $\Omega_\omega\times\Omega$，末尾 $(5,1)$ 在这层承担新的替身作用。
-
-这次挡在内层的是 $(5,1)$。它使对应的 $(3,1)$ 不能立刻完成所期待的进位。与第一轮一样，要继续补齐内侧参数，再回到外部系数。
-
-$$\text{外部关注：}\quad\Omega_\omega\times\boxed{\psi_{\Omega_2}(\Omega_\omega\times\Omega)}$$
-
-$$\text{内部仍要比较：}\quad {\Omega_\omega}\times\Omega,\quad {\Omega_\omega}\times\Omega+{\Omega_\omega},\quad {\Omega_\omega}\times\Omega\times2$$
-
-第四十六日，霍雨浩在压力下辨出两层受阻的先后。古月娜沿父项链复核，蔡须坤与卢本韦各试一次，才将它记入本子。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1) \\ &\quad (4,2)(5,1)(6,2,1) \\ &=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega}))) \end{aligned}$$
-
-内层后项为 $\Omega_2\times\psi_{\Omega_2}(\Omega_\omega)$；各层最初的 $\Omega_\omega$ 要沿右括号分别归属。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1) \\ &\quad (4,2)(5,2) \\ &=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_{\omega}\times\Omega+\Omega_2^{2})) \end{aligned}$$
-
-同一后项形成 $\Omega_2^2$，改变的仍是内函数参数的末项，而非外面共同的左因子。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1) \\ &\quad (4,2)(5,3,1) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega\times\Omega+\psi_{\Omega_3}(\Omega_\omega))) \end{aligned}$$
-
-内层后项进入 $\psi_{\Omega_3}(\Omega_\omega)$；要先求这一层结构，再组成上界为 $\Omega_2$ 的外一层。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1) \\ &\quad (4,2,1) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega\times\Omega+\Omega_\omega)) \end{aligned}$$
-
-内部后项达到 $\Omega_\omega$，所以该参数是 $\Omega_\omega\times\Omega+\Omega_\omega$，尚不等于平方。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1) \\ &\quad (4,2,1)(5,1) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega\times\Omega\times2)) \end{aligned}$$
-
-内部参数中形成两份 $\Omega_\omega\times\Omega$，末尾 $(5,1)$ 仍在限制进一步进位。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1) \\ &\quad (6,2) \\ &=\psi(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_2))) \end{aligned}$$
-
-内部右因子进入 $\psi_{\Omega_2}(\Omega_2)$，这一层也开始重复外面走过的坍缩结构。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,1)(4,2,1)(5,1) \\ &\quad (6,2,1) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega))) \end{aligned}$$
-
-更内侧参数达到 $\Omega_\omega$。相似片段再嵌一次，使基本列更长，不会因此变成简单的有限乘法。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)=\psi(\Omega_\omega\times\Omega_2)$$
-
-此时外部右因子才达到 $\Omega_2$，即 $\psi(\Omega_\omega\times\Omega_2)$，完成第一轮系数提升。
-
-$(3,1)$ 对应的位置终于变成 $(3,2)$，本轮替身的作用结束。这里说的是前后两条不同 BMS 的相应位置，不是展开时把已经保留的前缀悄悄改了。
-
-$$\psi({\Omega_\omega}\times\Omega)\quad\leadsto\quad\psi({\Omega_\omega}\times\Omega_2)$$
-
-第五十日，卢本韦终于在台阶上稳住这一轮。“提升的是后面的系数，最初左边的 ${\Omega_\omega}$ 还在。”
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(1,1)(2,2,1)=\psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega))$$
-
-在新的共同前项 $\Omega_\omega\times\Omega_2$ 之后，从 $\psi_{\Omega_2}(\Omega_\omega)$ 开始核对尾部。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(1,1)(2,2,1) \\ &\quad (3,1) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega\times\Omega)) \end{aligned}$$
-
-尾部内函数参数仍先形成 $\Omega_\omega\times\Omega$，不因背景已到 $\Omega_2$ 就直接跳到同样背景。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(1,1)(2,2,1) \\ &\quad (3,1)(2,2,1) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega\times\Omega+\Omega_\omega)) \end{aligned}$$
-
-内部参数增加一份 $\Omega_\omega$，这仍是一道局部的小步，外部背景保持 $\Omega_\omega\times\Omega_2$。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(1,1)(2,2,1) \\ &\quad (3,1)(2,2,1)(3,1) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega\times\Omega\times2)) \end{aligned}$$
-
-内部参数的右因子形成 $\Omega\times2$，继续保持乘法次序；二不属于最外层共同前项。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(1,1)(2,2,1) \\ &\quad (3,1)(4,2) \\ &=\psi(\Omega_{\omega}\times\Omega_2+\psi_{\Omega_2}(\Omega_{\omega}\times\psi_{\Omega_2}(\Omega_2))) \end{aligned}$$
-
-内部右因子进入 $\psi_{\Omega_2}(\Omega_2)$，意味着又有一层函数需要单独核对参数。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(1,1)(2,2,1) \\ &\quad (3,1)(4,2,1) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega\times\psi_{\Omega_2}(\Omega_\omega))) \end{aligned}$$
-
-更内层参数达到 $\Omega_\omega$，尚未令最外面新尾项成为 $\Omega_2$，括号层次不能省。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(1,1)(2,2,1) \\ &\quad (3,2) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega\times\Omega_2)) \end{aligned}$$
-
-尾部函数参数终于追到共同背景 $\Omega_\omega\times\Omega_2$。结构对齐后，后继变化才有了新的参照。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2)=\psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega\times\Omega_2+1))$$
-
-一行末列把内函数参数改为共同背景加一。这个一只在内函数中，外部仍是原有背景加该函数。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,1)(3,2,1) \\ &\quad (4,2) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_2}(\Omega_\omega\times\Omega_2)^2) \end{aligned}$$
-
-这里平方落在整个尾部函数值上，即 $\bigl(\psi_{\Omega_2}(\Omega_\omega\times\Omega_2)\bigr)^2$，别把平方移入函数。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)=\psi(\Omega_\omega\times\Omega_2+\Omega_2)$$
-
-新的外部尾项达到 $\Omega_2$，结束这一小段内函数的追赶。共同前项的右因子不变。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,1) \\ &\quad (4,2,1) \\ &=\psi(\Omega_\omega\times\Omega_2+\Omega_2\times\psi_{\Omega_2}(\Omega_\omega)) \end{aligned}$$
-
-后项扩为 $\Omega_2\times\psi_{\Omega_2}(\Omega_\omega)$，现在两处 $\Omega_2$ 各在不同层次。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,1) \\ &\quad (4,2,1)(5,2) \\ &=\psi(\Omega_{\omega}\times\Omega_2+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega}\times\Omega_2)) \end{aligned}$$
-
-右因子函数的参数追到 $\Omega_\omega\times\Omega_2$，不是把外部那个 $\Omega_2$ 也收进函数。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,1) \\ &\quad (4,2,1)(5,2)(4,2) \\ &=\psi(\Omega_{\omega}\times\Omega_2+\Omega_2\times\psi_{\Omega_2}(\Omega_{\omega}\times\Omega_2+\Omega_2)) \end{aligned}$$
-
-该内函数的参数再加 $\Omega_2$；先读内部和，再读外部乘积，最后读最外层的和。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,2)=\psi(\Omega_\omega\times\Omega_2+\Omega_2^{2})$$
-
-外部尾项成为 $\Omega_2^2$，它只是共同前项后面的平方，尚未改变共同前项的右因子。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3)=\psi(\Omega_{\omega}\times\Omega_2+\psi_{\Omega_3}(\Omega_3))$$
-
-尾项进入 $\psi_{\Omega_3}(\Omega_3)$。这一轮对应更高的坍缩上界，需重新追踪父项。
-
-$$(0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1)=\psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_3}(\Omega_\omega))$$
-
-尾部函数参数达到 $\Omega_\omega$，函数下标仍为 $\Omega_3$；读法与第一轮相同，背景不同。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_3}(\Omega_\omega\times\Omega_2)) \end{aligned}$$
-
-内函数参数追到 $\Omega_\omega\times\Omega_2$。新出现的 $(4,2)$ 仍有不随第二行阶差增加的部分。
-
-再往上，新的替身是 $(4,2)$。它相对自己根 $(2,2)$ 的第二行阶差仍为零，而本轮对应结构需要第二行差一。
-
-$$4-2=2,\qquad2-2=0,\qquad3-2=1$$
-
-$$\text{现有内层阶差：}(2),\qquad\text{本轮须对齐的阶差：}(2,1)$$
-
-古月娜膝盖发颤，仍按父项链慢慢运转。压力让她辨出第二行的停顿，待推导核实，她才请霍雨浩记下。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3)(4,2)(5,3,1)(6,2)(5,3) \\ &=\psi(\Omega_{\omega}\times\Omega_2+\Omega_3\times\psi_{\Omega_3}(\Omega_{\omega}\times\Omega_2+\Omega_3)) \end{aligned}$$
-
-外部尾项为 $\Omega_3\times\psi_{\Omega_3}(\Omega_\omega\times\Omega_2+\Omega_3)$，乘法与内层加法别交换。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3)(4,3) \\ &=\psi(\Omega_{\omega}\times\Omega_2+\Omega_3^{2}) \end{aligned}$$
-
-尾项形成 $\Omega_3^2$，尚未令共同前项的右因子成为 $\Omega_3$；完成尾部与完成整轮是两件事。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3)(4,4,1) \\ &= \psi(\Omega_\omega\times\Omega_2+\psi_{\Omega_4}(\Omega_\omega)) \end{aligned}$$
-
-尾项继续进入 $\psi_{\Omega_4}(\Omega_\omega)$，说明还要把更高上界的结构纳入这轮基本列。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3)(4,4,1)(5,2)(4,4)(5,4) \\ &=\psi(\Omega_{\omega}\times\Omega_2+\Omega_4^{2}) \end{aligned}$$
-
-在指定结构中尾项达到 $\Omega_4^2$。蔡须坤先描根，再写末列，逐行核对进位。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3,1) \\ &= \psi(\Omega_\omega\times(\Omega_2+1)) \end{aligned}$$
-
-新末列 $(3,3,1)$ 提供一份 $\Omega_\omega$，与共同前项合写为 $\Omega_\omega\times(\Omega_2+1)$。
-
-随后 $(3,3)$ 进到 $(3,3,1)$，这一次由它承担增加一份 ${\Omega_\omega}$ 的作用。外观换了，判断办法没有换：先定共同背景，再看后项进入哪一层。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3,1)(3,3,1) \\ &= \psi(\Omega_\omega\times\Omega_2+\Omega_\omega\times2) \end{aligned}$$
-
-重复这份尾项，得到 $\Omega_\omega\times\Omega_2+\Omega_\omega\times2$；右侧有限系数从一到二。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3,1)(4) \\ &= \psi(\Omega_\omega\times(\Omega_2+\omega)) \end{aligned}$$
-
-有限尾项走到 $\omega$，右侧括号内是 $\Omega_2+\omega$，仍不等于 $\Omega_2\times\omega$。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3,1)(4,1) \\ &= \psi(\Omega_\omega\times\Omega_2+\Omega_\omega\times\Omega) \end{aligned}$$
-
-后部右因子达到 $\Omega$，成为 $\Omega_\omega\times\Omega$；与共同前项仍以加法连接。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(3,3,1)(4,2) \\ &= \psi(\Omega_\omega\times(\Omega_2\times2)) \end{aligned}$$
-
-后部也形成一份 $\Omega_\omega\times\Omega_2$，故共同右因子可写成 $\Omega_2\times2$。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(4) \\ &= \psi(\Omega_\omega\times\Omega_2\times\omega) \end{aligned}$$
-
-有限份这类大段的极限为右乘 $\omega$；这里的 $\Omega_2\times\omega$ 在最外层左因子之后。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(4,2) \\ &= \psi(\Omega_\omega\times\Omega_2^{2}) \end{aligned}$$
-
-共同右因子进入 $\Omega_2^2$，不应把它与整式 $\Omega_\omega^2$ 混淆，底数所属层次不同。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(5,2) \\ &= \psi(\Omega_\omega\times\Omega_2^{\Omega_2}) \end{aligned}$$
-
-右因子的幂指数达到 $\Omega_2$，即 $\Omega_2^{\Omega_2}$，外面还保留左乘的 $\Omega_\omega$。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(5,3) \\ &=\psi(\Omega_{\omega}\times\psi_{\Omega_3}(\Omega_3)) \end{aligned}$$
-
-共同右因子进入 $\psi_{\Omega_3}(\Omega_3)$，第二轮也重复了“幂、坍缩、追赶”的过程。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(5,3)(5,3) \\ &=\psi(\Omega_{\omega}\times\psi_{\Omega_3}(\Omega_3\times2)) \end{aligned}$$
-
-内部参数增加第二份 $\Omega_3$，并不是在函数值后面乘二，更不是复制整个最外层表达式。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(5,3,1) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_3}(\Omega_\omega)) \end{aligned}$$
-
-内部参数达到 $\Omega_\omega$。较高上界并不免去分析内部参数这一步。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(5,3,1)(6,1) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_3}(\Omega_\omega\times\Omega)) \end{aligned}$$
-
-内部参数出现 $\Omega_\omega\times\Omega$，还要继续走到本轮的 $\Omega_2$ 背景，再完成进位。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,2)(5,3,1)(6,2) \\ &= \psi(\Omega_\omega\times\psi_{\Omega_3}(\Omega_\omega\times\Omega_2)) \end{aligned}$$
-
-内部参数追到 $\Omega_\omega\times\Omega_2$，与本轮开始的共同背景对应上。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,3) \\ &= \psi(\Omega_\omega\times\Omega_3) \end{aligned}$$
-
-第二轮系数提升完成，成为 $\psi(\Omega_\omega\times\Omega_3)$。原来的 $(4,2)$ 此时才在相应位置进到 $(4,3)$。
-
-第五十七日，$(4,2)$ 的相应位置进到 $(4,3)$，系数达到 $\Omega_3$。霍雨浩与古月娜对照两轮：内部追赶、替身限制、阶差对齐，再显为外层系数提升。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,3)(3,3)(4,4,1)(5,4) \\ &= \psi(\Omega_\omega\times\Omega_4) \end{aligned}$$
-
-临近两个月时，把同样的父项分析再提升一层，得到右因子 $\Omega_4$；长式显示每层都须补齐相应内部结构。
-
-$$\begin{aligned} & (0)(1,1,1)(2,1)(1,1,1) \\ &= (0)(1,1,1)(2,1)(1,1)(2,2,1)(3,2)(2,2)(3,3,1) \\ &\quad (4,3)(3,3)(4,4,1)(5,4)(4,4)(5,5,1)(6,5)\dots \\ &= \psi(\Omega_\omega^{2}) \end{aligned}$$
-
-任意有限层的系数提升组成基本列，才收束到 $\psi(\Omega_\omega^2)$。省略号代表同一构造对任意有限层成立，绝不是任选一个大数便等于极限。
-
-他们把替身一层层接下去。若用展开层次来示意，目标的内部可以排成下面的嵌套；这是一种说明基本列的非标准写法，不把无限字符串当成一条有限正规式。
-
-$$\psi(\Omega_\omega\times\Omega+\psi_{\Omega_2}(\Omega_\omega\times\Omega_2+\psi_{\Omega_3}(\Omega_\omega\times\Omega_3+\dots)))$$
-
-每多一层，都要重新补齐那一层的内侧结构。随着有限层数没有上界，系数序列趋向 $\Omega_\omega$；在这套对应的基本列解释下，整体收束为上面的 $\psi(\Omega_\omega^2)$。
-
-$$\sup_{n<\omega}\Omega_{n+1}=\Omega_\omega,\qquad\sup_{n<\omega}(\Omega_\omega\times\Omega_{n+1})=\Omega_\omega\times\Omega_\omega=\Omega_\omega^2$$
-
-这一句不是宣称任意函数都与上确界交换。这里核对的是前面逐层构造的基本列与教材给定对应，而非单凭 $\psi$ 这个字形推出来的连续性。
-
-满两个月的那天，蔡须坤在二百米的横台前站稳了。
-
-肩上的压力仍沉。她把先前互相牵扯的几段分别接住，再按刚才确认的父项关系运转，末段终于平稳地续上。
-
-卢本韦在旁边重新试了一遍；古月娜追完最后一条祖先链，朝霍雨浩点头。他翻回最初那张纸，才划去旧猜想。
-
-$$\begin{aligned}&\bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)=\psi(\Omega_\omega^2),\\&\bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)\ne\psi(\Omega_\omega\times\Omega+\Omega_\omega)\end{aligned}$$
-
-从踏上第一阶，到分析清楚 $(0)(1,1,1)(2,1)(1,1,1)$，他们用了整整两个月。霍雨浩的记录已换过一册，纸上每个回扯的位置，四人都曾在台阶上反复试过。
-
-蔡须坤扶着石沿喘气。压力使她看清接缝，推导让她知道怎样将它们接好；如今那股原已拥有的力量，终于多了一层能够说清的把握。
-
-回营时，诺当掌心的旧伤已经收口。奥斯卡仍将三层油纸包好的那根香肠留在最里面。蔡须坤背上的温热贴着她；卢本韦接过本子，古月娜替霍雨浩压住被风翻起的纸。
-
-石屋里，霍雨浩将本子放在旧砚台旁，写下这一段的三行。
-
-$$\text{定根}\longrightarrow\text{逐行查祖先}\longrightarrow\text{只提升满足条件的复制坐标}$$
-
-$$\text{外层不变部分：}\ \Omega_\omega,\qquad\text{本段系数：}\ \Omega\rightsquigarrow\Omega_2\rightsquigarrow\Omega_3\rightsquigarrow\cdots$$
-
-$$\begin{aligned}&\text{有限展开：}\ \bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)[n],\quad n<\omega;\\&\text{目标本身：}\ \bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)\\&\quad\text{不能用某个固定的 }\bigl((0)(1,1,1)(2,1)(1,1,1)\bigr)[n_0]\text{ 代替}\end{aligned}$$
-
-两个月走到二百米。五百米还在山上。
 # 第一百零四章：bms提升效应
 
 夏夜星空到石屋时，奥斯卡正举着一个鸡蛋。
@@ -42263,6 +41093,7 @@ $$
 “今天到这里。”
 
 古月娜点了点头。霍雨浩把炭条的碎末收在纸角，没有急着给下一页起名字。蔡须坤背起本子，等十一人都歇过气，才沿着已经走稳的路一同回营。
+
 # 第一百一十二章：混沌暴走
 
 回到山脚时，石屋里还没有点灯。
@@ -42742,3 +41573,3823 @@ $$
 山上的石阶渐渐没进夜色。
 
 写着二百二十米的那册本子，仍好好压在屋里的桌上。
+# 第一百一十三章：两套记号
+
+蔡须坤重新走到山阶前，是在那场暴走过去几天以后。
+
+这几天，最菜萌新没有再替她往深处探。她能做的事很少：把已经收下的混沌之力慢慢运转，觉得腕间发涩就停，歇过一阵，再从能够接续的地方开始。霍雨浩来过几次，每次都先问她能不能自己收住，没有再将精神力送进那口井。
+
+卢本韦把磨破的鞋底补好了。针脚歪了一处，她原想拆，被蔡须坤接过去，连着另外一只一同收进包里。
+
+“能踩稳就行。”
+
+说这句话时，她的手没有再抖。古月娜仍等她将一周魂力自行运转完，才把门边的本子递过来。
+
+十一人回到二百二十米横台，花的时间比下山时更长。旧路的压力没有消失，蔡须坤却没有抢着把果糕领域放出去。她先站稳，让自己确认，这一步是靠什么接住的。
+
+夏夜星空在横台上等着，身边压着一叠新页。纸上两列记号隔得很开，一边反复出现I，另一边则密密地套着M与ψ。
+
+卢本韦一眼看中了左边。蔡须坤翻到右边，读了半页，才发觉左手不知何时已经捏紧纸角。
+
+“我试M这边。”她说。
+
+“那我先理I。”卢本韦把自己的本子放到旁边，“你读不下去的时候，先告诉我停在哪层，别一个人闷着。”
+
+霍雨浩把两本都翻开。薛峰没有挤到最前，只接过最后一页，拿炭条在页角标好次序。那时没人留意，他留出的空白，比旁人宽得多。
+
+夏夜星空先让他们翻回旧页。早些时候经过的区间，在这份讲义里分别记作$0 \sim \psi(\Omega_\omega)$与$\psi(\Omega_\omega) \sim \psi(I)$。蔡须坤看见熟悉的左列，肩膀稍松了一点，又被右栏全新的写法拉住了目光。
+
+页首给I一侧留的标识是$I = 2\;1-2$，随后仍使用$I$；另一套的标识是$M = 2-2$，后面只保留$M$这一层符号。霍雨浩用笔杆压住那两个标识，提醒大家，这是讲义规定的记法，不能把里面的数字、分号和横线拆成一道普通的减法题。
+
+“也别看见两边最后相等，就把两边每一个字母都直接换掉。”他说。
+
+蔡须坤点头，将M侧最先用到的规则单独抄了下来。
+
+$$\psi_M(0) = 1$$
+
+$$\psi_M(x+1) = \psi_M(x) \times \omega$$
+
+她顺着第二条念，到了乘号后面停了一下。“右乘ω。顺序也得留住。”
+
+$$\psi_M(\# \sim M) = 2\;1-\{\psi_M(\# \sim x)\}$$
+
+第三条后面的说明，是$M$折叠容许点。讲义在这里没有给出更完整的构造细则。古月娜在旁边留了一道短线，叫他们先保留这条规则的原样，不要把位置标记当成一个已经算出的序数，往后面的每个括号里随便代。
+
+卢本韦原来觉得，I侧短得多，这一次总能省些事。可她刚要把第一处M换成Ω，霍雨浩就让她看下一行：同一个更深的边界，在两套记号里占据的位置已经不同。她慢慢把笔收回来，与蔡须坤并排核完下面几组。
+
+旧BMS的零补回脑中即可，纸上仍按此前的习惯省去每列末尾的零，只保留开头的零列。断行也只是续写，下一行不另起一个BMS。
+
+$$(0)(1,1)$$
+
+$$= \psi(\Omega)$$
+
+$$= \psi(M)$$
+
+$$(0)(1,1,1)$$
+
+$$= \psi(\Omega_\omega)$$
+
+$$= \psi(M \times \omega)$$
+
+$$(0)(1,1,1)(2,1,1)$$
+
+$$= \psi(\Omega_{\omega^2})$$
+
+$$= \psi(M \times \omega^2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)$$
+
+$$= \psi(\Omega_\Omega)$$
+
+$$= \psi(M \times \psi_M(M))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(1,1,1)$$
+
+$$= \psi(\Omega_{\Omega_\omega})$$
+
+$$= \psi(M \times \psi_M(M \times \omega))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)$$
+
+$$= \psi(\Omega_{\Omega_\Omega})$$
+
+$$= \psi(M \times \psi_M(M \times \psi_M(M)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)$$
+
+$$= \psi(\Omega_{\Omega_{\Omega_\Omega}})$$
+
+$$= \psi(M \times \psi_M(M \times \psi_M(M \times \psi_M(M))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I)$$
+
+$$= \psi(M^2)$$
+
+两人核到旧横台对应的那一式时，都没有立即动脚。左列仍是她们几天前才真正说清的结构，右边却多出一套陌生的解释。
+
+蔡须坤顺着M侧看完，低声说：“相等的是整条对应，不是随便挑两个内部符号，就能说它们同义。”
+
+夏夜星空没有接着讲，只将下面的纸向前推了一寸。横台上面第一阶的压力，便在这一寸之后等着她们。
+
+他们先用M侧的前两条规则核了几个有限的起点。由零出发，接一个后继，再接下一个，每一步右乘ω，先前认得的有限幂次便能够在这套记法里找到来路。
+
+蔡须坤没有顺势将这条后继规则搬到所有极限上。她把第三条仍原样留在旁边：到了容许点的折叠，不能只把有限后继做过几回，就说已经给出一般的极限规则。
+
+卢本韦原本打算只抄I侧，听到这里，也将M的规则留了一份。她用I讲得较短，仍要知道同伴为什么会在另一侧停住；否则她递出的帮助，可能只是一个蔡须坤早已知道、却仍接不回去的结果。
+
+薛峰将最早的短式翻回正面，请两人分别指出最外层ψ在哪里。这个问题太短，谁都以为不必再答，真正遮住后面的长页以后，却替接下来的比较留住了一个可靠的起点。
+
+最先露出来的，是在既有边界之后接有限的尾部。
+
+卢本韦读I侧很快，读到加一时甚至没有停。蔡须坤却把M平方外面的那层ψ重新描了一遍。她容易跟住的是括号内的加一，容易漏掉的，是这个加一到底加在谁的参数中。
+
+“你先说最后得到什么。”卢本韦提醒。
+
+“一个最外层ψ的值。里面先有M平方，再接这一段。”
+
+“那最外面的ψ还在？”
+
+蔡须坤抬头看了她一眼，没嫌这个问题太简单。她刚才在心里读过一遍，确实险些把这一层省掉。
+
+薛峰将两人的纸沿同一处等号对齐。他先不问深处为什么这样对应，只替她们查三件能当场看清的事：左列有没有抄少一列，外层括号有没有闭合，换到下一行时，前面的等号接的是哪一段。他找出一处漏写的右括号，蔡须坤补上以后，才发现自己先前那口气总接得不顺，正卡在这儿。
+
+轮到Ω与Ω下标的几处时，卢本韦原想凭熟悉的名字替她收尾。霍雨浩却让两人分别把答案遮住。I侧给出了较短的整体结构，M侧还必须把函数的下标与它吃进的参数分开。下标里已有一个ψ，并不表示括号内的参数也跟着消失。
+
+他们把这几行一起留下。每遇到一处看似能缩写的地方，先用左列认清是哪一个BMS，再读完整的右栏，免得只认出了一个结果的名字。
+
+薛峰先将前面共同的几列描在纸背，再把每条真正多出来的尾部留在正面。这样翻过去看时，变化很醒目；翻回来时，完整左列仍然能被接上。他没有把共同前缀另取一个字母，让后来的人还要去别页猜它是什么。
+
+蔡须坤照着试了一行，发现自己终于能把注意力留在当前参数中。她又将完整前缀补回正面，防止独立复算时忘记那段从哪里来。
+
+“这一处看着像只加了一点。”她说，“可要是外面那层放错，我连加在哪里都不知道。”
+
+霍雨浩便让她只说明眼前这一条，不提前猜以后所有加法的样子。先把当前对应读准确，再找下一条真正相同的位置，进度虽然慢些，前一页却不必因为后面一处变化而整本推翻。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2)(1)$$
+
+$$= \psi(I+1)$$
+
+$$= \psi(M^2+1)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2)(1,1)$$
+
+$$= \psi(I+\Omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(1))$$
+
+$$\psi_{\psi_M(M^2)}(1) = \psi_I(1) = \Omega$$
+
+$$\psi_M(M)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2)(1,1)(2,2,1)(3,2,1)(4,2)(3)(2,2)$$
+
+$$= \psi(I+\Omega_2)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2)(1,1,1)$$
+
+$$= \psi(I+\Omega_\omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(\omega))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2)(1,1,1)(2,1,1)(3,1)$$
+
+$$= \psi(I+\Omega_\Omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M))$$
+
+$$\psi_{\psi_M(M^2)}(M)=\psi_{\psi_M(M^2)}(\psi_M(M)) = \Omega_\Omega$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2)(1,1,1)(2,1,1)(3,1)(1,1,1)$$
+
+$$= \psi(I+\Omega_\Omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M \times \omega))$$
+
+$$\psi_{\psi_M(M^2)}(M \times \omega)=\Omega_{\Omega_\omega}$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2)(1,1,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)$$
+
+$$= \psi(I+\Omega_{\Omega_\omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M \times \psi_M(M)))$$
+
+$$\psi_{\psi_M(M^2)}(M \times \psi_M(M))=\Omega_{\Omega_\Omega}$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2)(1,1,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(1,1,1)$$
+
+$$= \psi(I+\Omega_{\Omega_\Omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M \times \psi_M(M \times \psi_M(M))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I+\psi_I(I))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2))$$
+
+$$\psi_{\psi_M(M^2)}(M^2) = \psi_I(I)$$
+
+到了讲义特别解释的那几处，蔡须坤终于问出了第一句真正难的问题：“既然有别的写法也能认出Ω，为什么这里偏要留着这一套？”
+
+霍雨浩点着后面的几行。“眼下相同，不等于后面的接法就可以混写。这份表自己也在留标准型的位置。先按同一套接下去，等要比较别的写法时，再把条件一起带上。”
+
+卢本韦把自己最初画的那根直接替换箭头擦掉了。她留下两边完整的式子，连那一点炭灰也没有急着吹走。
+
+接下来换动的地方，藏进了函数的下标。
+
+卢本韦第一次把这一段读完，蔡须坤没有应。她眼前M侧的ψ一个接一个，最里侧刚看清，外面包着它的那一层便从记忆里滑走。头顶的压力还在往肩上压，她不自觉地抬手揉了揉眼角，连纸上的加号都像在向两边挪。
+
+霍雨浩没替她念。他用一张空纸遮住右栏，只让她读到一对能独立闭合的括号。等她说清这是谁的下标，才露出下一截。
+
+“别一口气背完。先告诉我，外面这一层变了吗？”
+
+蔡须坤看了许久，摇头。
+
+“那就把没变的留着，找它里面真正动的地方。”
+
+卢本韦也慢下来。I侧虽然短，下标内的加一仍然不是给整个式子加一。她一度将那一小段读到Ω外面，薛峰的炭条随即停在纸边，等她自己沿括号走回来。
+
+山风卷起最上面的一张纸。唐三伸手按住，顺势将装本子的包往两人脚后挪了些，免得她们在原地调整时绊住。小舞把水递到卢本韦另一侧，没有让她空出正压着纸的手。那些没有直接写答案的人，也正在让这道题能继续写下去。
+
+最后，蔡须坤将M侧的函数头读清，卢本韦才接着念I侧。几个相似的尾部被她们并排放在一起：有的只多一个有限项，有的把整个旧段重新放进参数里；不能看见相同的数字，就认作同一类增量。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(1))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(1))$$
+
+$$\psi_{\psi_M(M^2)}(M^2+1) = \Omega_{\psi_I(I)+1}$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2)(2)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(2))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(\Omega))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(1,1,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(\Omega_\omega))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M \times \omega))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(1,1,1)(2,1,1)(3,1)(2)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I)+\psi_I(I))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2)+\psi_{\psi_M(M^2)}(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(1,1,1)(2,1,1)(3,1)(2,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I)+\psi_{\Omega_{\psi_I(I)+1}}(\Omega))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(1,1,1)(2,1,1)(3,1)(2,1)(1,1,1)(2,1,1)\\
+(3,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I)\times 2)$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2)\times 2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+1))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(2,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(2,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_I(I)))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(2,1)(1,1,1)(2,1,1)(3,1)(2,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_I(I))+\psi_{\Omega_{\psi_I(I)+1}}(\Omega))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2))+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(2,1)(1,1,1)(2,1,1)(3,1)(2,1)(2,1)(1,1,1)\\
+(2,1,1)(3,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_I(I))\times 2)$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2))\times 2)$$
+
+她们在这一组里停了两个下午。第二天下山，卢本韦还在用手指比划那处下标，差点把水袋扣到本子上。薛峰把袋子接过去，翻到她白天改过的一行，让她只说这一个加号归哪层。
+
+卢本韦说对了。他才把水还给她。
+
+“你现在也会拿题拦路了。”她说。
+
+薛峰笑了一下，却把那一行又默写了一遍。
+
+M侧真正难以维持的位置，是一层函数的参数里，又装进同一类函数的时候。
+
+蔡须坤最初还能凭声音记住顺序。等念到第三个相似的ψ，她忽然分不清自己是在重复前一层，还是已经走进新的参数。手底下写出来的括号全都闭合，式子的层次却已经错开了。
+
+卢本韦从I侧找出相应的那几行，把外面共同的部分念给她听。蔡须坤跟到一半，胸口生出一点熟悉的闷，立刻停了下来。
+
+她没有再碰井底。那天暴走时的感觉仍在，她怕自己因为着急，又去向更深处讨一分力。古月娜看见她按住手腕，便将纸接过来，先让她退到横台内侧。
+
+“这页不会跑。”古月娜说。
+
+蔡须坤歇了好一会儿，腕上的不适没有继续加重，才重新把本子接住。霍雨浩坐到她身边，没有共享一整篇答案，只把她刚才漏认的那对括号指出来。
+
+“你念到这里的时候，以为已经回到外面了。其实还在参数里面。”
+
+她沿着那一处走完，才看见真正的出口。
+
+这一回她换了办法。每往内读一层，先说清这一层的下标，再说参数；读完以后，必须说自己回到了哪一层。卢本韦以I侧短式核整体，薛峰对照每次返回的位置，霍雨浩专听有没有哪一处跳过。古月娜在旁边守着她的呼吸，没有替她把剩下的层次念完。
+
+几人的说话声变得很慢。纸面上那些看似相同的函数，也终于各自有了能被找到的位置。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(2,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_I(I)+1))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(2,1)(2,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_I(I)\times 2+1))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2)\times 2+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(1)))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(1)+1))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(1)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3)(2,1)(3)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(1)\times 2))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(1)\times 2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3)(3)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(2)))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(M)))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(I)))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(I)+1))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,1)(2,1)(3)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(I)+\psi_{\Omega_{\psi_I(I)+1}}(1)))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,1)(2,1)(3,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(I)\times 2))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2)\times 2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,1)(2,1)(3,1)(2,1)(3,1)(1,1,1)(2,1,1)\\
+(3,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(I)\times 3))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2)\times 3))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,1)(3)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(I+1)))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,1)(3,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_I(I))))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,1)(4)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(1))))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(1))))$$
+
+唐三再来接应时，她们仍没把这组全写完。蔡须坤的肩背已经直不起来，卢本韦也抹着额角的汗，谁都没有说再撑一下就能过去。
+
+她们把未完的一行夹好，留到第二天。那一晚，霍雨浩没有另出新题，只请薛峰把四人白天各自停住的位置记在空页上。第二天再看，最该补的是哪一段，终于不必从头猜。
+
+蔡须坤在山脚收过一阵魂力，才重新把纸拿起来。
+
+卢本韦问她，选M的时候是不是没想到会这样费力。她没有立即回答，翻回第一页，找出那条自己曾经连头尾都读不清的函数。
+
+“那天灰气上来的时候，我只知道底下有东西。”她说，“现在遇到这些，我还是会慌。但至少能试着说清，哪一处是我的，哪一处是我刚才没有看明白的。”
+
+她没有将混沌和M说成同一种力量。M只是纸上的表示，读清它不会替她平定井底，可一层层找回位置的过程，让她不再急着凭更大的力气挤过不懂的地方。
+
+卢本韦听完，把自己的I册放下，陪她将今天最后一处返回位置重新接过。两人都困，念错了便停，确认以后再往下。直到古月娜推门进来，她们才发现灯芯已经短了一截，桌边的水也凉了。
+
+等Ω重新出现在外面时，卢本韦险些以为自己终于走出了那片复杂的下标。
+
+她把式子读到Ω便停住，脚下也顺势向上探了一寸。那一寸没有落稳，膝盖先弯了下去。蔡须坤从旁边抓住她的袖子，古月娜托住另一边，三人一齐退回原处。
+
+纸没有错，是她没有读完。
+
+“它带着谁的下标？”霍雨浩问。
+
+卢本韦喘匀以后，低头把那一段重新说全。下标里旧有的函数值还在，后面的有限增量也还在。Ω露在外面，只是这一组对应的层次换了写法，不能因此把它底下托着的东西抹掉。
+
+蔡须坤反过来拿M侧帮了她一次。这里的变化可以在同一个较深函数的参数中看见，她指着其中尚能清楚比较的两处，让卢本韦先看有限增量落在哪儿，再回I侧找那一处。
+
+“我刚才只看见了熟悉的那个Ω。”卢本韦低声说。
+
+“我刚才只看见了太多ψ。”蔡须坤应道。
+
+两人对看了一眼，都没笑出来，倒是把各自最容易躲过去的那一栏，重新翻到朝着自己的方向。
+
+这一段中也有把整项取两次的情况。霍雨浩让她们把乘二所在的层次读出来：它究竟留在最外层ψ的参数里，还是被包进了某一个下标，必须按眼前的括号判断。有限增量、整项重复与更换函数上界，写出来可能都只差很短一截，接续时却不能混成一种动作。
+
+薛峰把这些不同的位置分在纸的两边，终于第一次不用等霍雨浩问，就指出卢本韦漏念的一层。
+
+这一次，薛峰先核了左列最末的一处展开。末列是三、二，坏根在前面的二、一；最高非零行在第二行，所以不能将第二行也跟着加上阶差。按这一条原式，新增段所用的第一行增量是一，下面的坐标保持原值。
+
+他把同一个原式的第零项、第一项、第二项分别写出。第一项与第二项各自从原式求来，第二项不靠将第一项再展开一次取得。
+
+$$\text{展开第零项：}\quad(0)(1,1,1)(2,1,1)(3,1)(2,1)$$
+
+$$\text{展开第一项：}\quad(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,1)$$
+
+$$\text{展开第二项：}\quad(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,1)(4,1)$$
+
+卢本韦逐列看过，蔡须坤再看新增段的第二行有没有误升。更长的有限项仍低于原式，不能用列数多少取代BMS本身的比较。
+
+这份复算能够确认左列的展开，M侧与I侧的完整对应仍要分别读清。薛峰将两类检查分开，才把纸交还给她们。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(1,1,1)(2,1,1)(3,1,1)(2)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+1}+\psi_I(I))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+1)+\psi_{\psi_M(M^2)}(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(1,1,1)(2,1,1)(3,1,1)(2,1)(3,2)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+1}+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1}))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+1)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(2)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+1}+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1}+1))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+1)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(2,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+1}+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1}+\psi_I(I)))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+1)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1)\\
++\psi_{\psi_M(M^2)}(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(2,1)(3,2)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+1}+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1}+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1})))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+1)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1)\\
++\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(3)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+1}+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1}+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1}+1)))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+1)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1)\\
++\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1)+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(3,1)(4,2)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+1}+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1}+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1}\\
++\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1}))))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+1)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1)\\
++\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2\\
++\psi_{\psi_M(M^2)}(M^2+1)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(3,2)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+1}\times 2)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+1)\times 2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(\Omega) )$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I) )$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I)+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+2}}(I)+1))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2\\
++\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,1)(2,1)(3,2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I)+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+2}}(I)+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1})))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2)\\
++\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,1)(2,1)(3,2)(4,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I)+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+2}}(I)+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+2}}(\Omega))))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2)\\
++\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,1)(3,1)$$
+
+$$=\! \psi(I\!+\!\psi_{\Omega_{\psi_I(I)+2}}(I)\!+\!\psi_{\Omega_{\psi_I(I)+1}}(I\!+\!\psi_{\Omega_{\psi_I(I)+2}}(I)\!+\!\psi_{\Omega_{\psi_I(I)+1}}(I\!+\!\psi_{\Omega_{\psi_I(I)+2}}(I)\!+\!\Omega)))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2)\\
++\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2)+\psi_{\psi_M(M^2)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,1)(3,1)(4,2)(5,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I)+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+2}}(I)+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+2}}(I)\\
++\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+2}}(\Omega)))))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2)\\
++\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2\\
++\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,1)(3,2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I)+\Omega_{\psi_I(I)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2)+\psi_{\psi_M(M^2)}(M^2+1))$$
+
+傍晚，卢本韦将那只被自己扯皱的袖口抚平，还给蔡须坤。
+
+“刚才拉得挺紧。”
+
+“不然让你滚下去？”
+
+卢本韦想起自己在山脚说过的那些话，没再嘴硬。她把第二天要核的纸接过来，先检查蔡须坤那一侧有没有被风打湿。
+
+越往后，I侧越容易给人一种已经摸到规律的错觉。加一、加二，再到加三，几个字足以说完，M侧却仍要把对应的函数头带在前面。
+
+蔡须坤这次没急着羡慕。她已经看见，自己若把同一个函数头漏掉，后面的有限增量就会像失去依托，仿佛谁都能拿来接在别处。
+
+卢本韦先把每一处共同的下标完整念过，再单独说出新添的部分。薛峰核左列，霍雨浩核她有没有将前面学过的结果误装到新的位置，古月娜请唐三、小舞也从最短的一行开始复述。
+
+诺当原本看着长页就发愁。他能记住前面几列，念到换行处却总想重新补一个零。薛峰把上下两行的接缝对齐，拿一根细枝沿整条左列慢慢划过去。那根细枝没有在换行处停，诺当也跟着把后半段接完了。
+
+“只是纸折过去了。”薛峰说。
+
+诺当点头，重新写过一次，终于没多出开头那一列。
+
+蔡须坤听见这句话时，忽然也把自己右栏最深的一处接上了。她先前总在视觉上回到新行，意识便想跟着退到最外层。可断行只替纸省地方，没有替她结束任何一个括号。
+
+她又从头读了一遍，这次没有靠猜。到最后一处有限增量时，卢本韦也接得很稳。两人将各自的纸交换，连着几天积在一处的困难，终于露出一条能逐段走完的路。
+
+夏夜星空没有把下一组的答案递过来，只让十一人分别说明自己现在能站稳的这一阶。霍雨浩站在最外侧，听到谁停住，便留在那儿等谁重新说完。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,1)(3,2)(4,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I)+\psi_{\Omega_{\psi_I(I)+2}}(\Omega))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2)+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,1)(4)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I+1))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,1)(4,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I+\Omega))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2+\psi_{\psi_M(M^2)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,1)(4,1)(4,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I+\psi_I(I)+\Omega))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2+\psi_{\psi_M(M^2)}(M^2)+\psi_{\psi_M(M^2)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,1)(5)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I+\psi_{\Omega_{\psi_I(I)+1}}(1)))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,1)(5,2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1})))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I+\Omega_{\psi_I(I)+1}))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2+\psi_{\psi_M(M^2)}(M^2+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,2)(4,2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I+\Omega_{\psi_I(I)+1}\times 2))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2+\psi_{\psi_M(M^2)}(M^2+1)\times 2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,2)(5,2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+2}}(I+\psi_{\Omega_{\psi_I(I)+2}}(I+\Omega_{\psi_I(I)+1})))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2+\psi_{\psi_M(M^2)}(M^2+1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,3)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,3)(2)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+2}+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+2}+1))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+2)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,3)(3,2)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+2}+\Omega_{\psi_I(I)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+2)+\psi_{\psi_M(M^2)}(M^2+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,3)(3,2)(4,3)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+2}+\psi_{\Omega_{\psi_I(I)+2}}(I+\Omega_{\psi_I(I)+2}))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+2)+\psi_{\psi_{\psi_M(M^2)}(M^2+2)}(M^2+\psi_{\psi_M(M^2)}(M^2+2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,3)(4,3)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+2}\times 2)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+2) \times 2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,3)(5)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+3}}(1))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+3)}(1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)(4,3)(5,4)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+3})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+3))$$
+
+他们真正踏上二百四十米时，已不是第一次来试这几级石阶。
+
+蔡须坤仍旧走得慢，却能在一处接续不畅之前，先认出是哪一层出了问题。卢本韦的I侧写得短，也终于不再把短当成容易。薛峰背着两人的旧页站到旁边，念出了最容易在断行处抄错的那一段，连他自己都怔了一下。
+
+横台上能坐的位置不多。唐三先将水袋放下，等后面的人都到了，才去卸自己的包。蔡兴坤把黑子鸡搁在膝上，小舞让诺当将刚才那根细枝留下，夹进了本子里。
+
+上方的石阶仍然没进雾里。蔡须坤翻到下一页，看见有限的加三之后，出现了一点更熟悉、也更难解释的ω。
+
+她没有往前试，只把纸递给卢本韦。
+
+“明天一起看这个。”
+
+横台上的问答没有按谁走得快来结束。蔡须坤听见后面有人卡住，原本已收起的M册又被她展开。卢本韦则退到小舞身边，让她把当前这条最外面的组织先说清。
+
+她们开始能够给出很小、却真正有用的帮助：指出一对漏认的括号，接住一处断行，或是等对方把原来的那口气重新喘匀。没人因此少学一条，后面的问话却终于不再只剩“这页我全看不懂”。
+
+那晚回到山脚，蔡须坤把M侧摊在灯下，先将今天真能说清的部分勾好。卢本韦坐在另一边，将I侧逐行压平，看到自己险些跌下去的那处，伸手摸了一下膝盖。
+
+霍雨浩没有催她们再读。薛峰却还留在桌前，把白天替同伴核过的那几行遮住，自己又写了一次。写错的地方很少，重写得最慢的，恰是他先前帮诺当接好的断行。
+
+蔡须坤看见，便将灯往他那边挪了挪。
+
+“明天你也坐前面。”她说。
+
+薛峰抬起头，过了一会儿才答好。
+
+二百四十米只比旧横台高二十米。这个数字写在册上很短，翻过去，纸却厚了不少。最后一行核完，古月娜推来的那杯热水已经凉了。蔡须坤喝了一口，才将本子收进包里。
+
+# 第一百一十四章：下标深处
+
+二百四十米以上的第一段，蔡须坤连续三天没有走过。
+
+最难的一次，她已经把右侧那条M式读完，脚抬起来，才发觉自己读出的最后一层，其实仍在前一层的参数里面。那只脚在半空停了很久，最终原样收回。
+
+卢本韦没有催。她自己的I侧也卡住了：有限的一、二、三都能说清，ω落进去以后，那条原先熟悉的下标，忽然显得比纸面长得多。
+
+薛峰将她们用过的纸分成三摞。一摞已经能独立复算，一摞只在听别人解释时懂，最后一摞则是谁也不肯再凭印象抄下去的。纸摞分完，最厚的是中间那一摞。
+
+“原来我会的是听你们说。”他低声道。
+
+霍雨浩把炭条递给他。“那就从你能自己接的一行开始。”
+
+上方的雾里没有露出新横台。风声贴着石壁转回来，十一人都在那几级台阶间找能歇脚的位置。唐三把绳子重新系过，留出够人退回的余地。古月娜站在蔡须坤身后，等她将呼吸稳住，才一起翻开新页。
+
+ω进入的，是Ω下标内部的一处，并没有让最外面的ψ换一个位置。
+
+卢本韦先看清了这一点，后面的念法却又快起来。她把熟悉的旧项略过，直接说加ω，霍雨浩便将后面两个字遮住，让她把前面也说一遍。
+
+“先把它的来处接回来。”
+
+她重新念完，终于听见自己省略的那一段。这里是在旧的函数值之后接ω；下一行再添有限的一，与把ω换成有限的一，是两种不同的写法。她把有限尾部留在原处，没有因为看见ω便将整条下标读成一个大概的极限。
+
+蔡须坤在M侧看见的，是原有函数头仍在，参数里那段有限增长走到了ω。她原想用几个字说明白，读到第二行便停住：同一个参数里还有前面保留的M平方，它没有因为新的ω出现而退走。
+
+两人开始交替读。卢本韦每读出I侧的一处，蔡须坤就指出M侧相应变化落在哪个括号里。霍雨浩只在两人说到不同层次时抬手，薛峰则在页边画短线，记下她们必须共同停顿的位置。
+
+第一遍，短线画得很密。第二遍，卢本韦等蔡须坤接完函数头再往下说，线便少了一半。
+
+她们仍然走不过那一级。膝盖在压力下发抖，背后的绳子却始终松着，谁都没有被人向上拖。夏夜星空等她们退回来，才让小舞也读一遍最短的那处。小舞停在和蔡须坤相同的位置，蔡须坤便坐下来，把自己刚刚找清的括号再指给她看。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\omega))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(3,2)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega}+\Omega_{\psi_I(I)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\omega)+\psi_{\psi_M(M^2)}(M^2+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(3,2)(4,3,1)(4,3)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega}+\Omega_{\psi_I(I)+2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\omega)+\psi_{\psi_M(M^2)}(M^2+2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(3,2,1)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega}\times 2)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\omega)\times 2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+\omega+1}}(\Omega))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+\omega+1}}(I))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,1)(3,2,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+\omega+1}}(I)+\Omega_{\psi_I(I)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M^2)+\psi_{\psi_M(M^2)}(M^2+\omega))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,1)(3,2,1)(4,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+\omega+1}}(I)+\psi_{\Omega_{\psi_I(I)+\omega+1}}(\Omega))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M^2)+\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,1)(4,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+\omega+1}}(I+\Omega))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M^2+\psi_{\psi_M(M^2)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,1)(4,1)(3,2,1)(4,1)(4,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+\omega+1}}(I+\psi_I(I))+\psi_{\Omega_{\psi_I(I)+\omega+1}}(I+\Omega))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M^2+\psi_{\psi_M(M^2)}(M^2))\\
++\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M^2+\psi_{\psi_M(M^2)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,1)(4,1)(4)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+\omega+1}}(I+\psi_I(I)+1))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M^2+\psi_{\psi_M(M^2)}(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,1)(5)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+\omega+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(1)))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,1)(5,2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+\omega+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1})))$$
+
+$$=\! \psi(M^2\!+\!\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M^2\!+\!\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2\!+\!\psi_{\psi_M(M^2)}(M^2\!+\!1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,1)(5,2,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+\omega+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+\omega})))$$
+
+$$=\! \psi(M^2\!+\!\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M^2\!+\!\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2\!+\!\psi_{\psi_M(M^2)}(M^2\!+\!\omega))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+\omega+1}}(I+\Omega_{\psi_I(I)+1}))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2)(3,2,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+\omega+1}}(I+\Omega_{\psi_I(I)+\omega}))$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+\omega)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2)(3,2,1)(4,2)(3,2,1)$$
+
+$$= \psi(I+\psi_{\Omega_{\psi_I(I)+\omega+1}}(I+\Omega_{\psi_I(I)+\omega})\times 2)$$
+
+$$= \psi(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+\omega+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+\omega))\times 2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2)(5,3)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\omega+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2)(5,3)(6,4)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega+2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\omega+2))$$
+
+那天她们没有越过新的刻度，却第一次把几条很相近的长式分别留在脑中。下山以后，薛峰把自己记过的停顿擦去一半，尝试不靠标记再读。
+
+读到最深的一处，他还会断。可断开的位置，已经能由他自己找出来了。
+
+夜里，卢本韦将白天的几种尾部分开，先不写新的对应，只请霍雨浩听自己把位置说清。她一直把有限的一念得很快，念到ω之后再添一，反倒需要停一下，确认这个一没有被自己吞进前面的部分。
+
+蔡须坤在另一边核M侧，听见她停，便将同一个位置递过来。两人的难点并不相同，可只要共同的输入仍在，就能知道眼下应该一起看哪一个括号。
+
+薛峰原本已准备回去睡，听见两人互相问，也留下来遮了一次答案。他第一次发现，自己在I侧能先看清的那一点，不必等到整套M全会了才算有用。把这一点说明白，蔡须坤便能从对应的位置继续往里找。
+
+有限的尾部开始排成更长的一列。ω乘二，ω乘三，再到ω平方，纸面上用到的字都不陌生，陌生的是它们被放进的位置。
+
+诺当把其中两行说反，蔡兴坤跟着也乱了。两人看着前面已经写好的几页，越想赶上，越容易跳过同样的括号。
+
+卢本韦原本正等蔡须坤算M侧，听见后面的声音，便先退了两级。她没有把自己的整本I笔记塞过去，只挑出当前这条下标，把有限倍数与幂次落下的位置分别指出。
+
+“先说乘的是谁。别急着说到最后。”
+
+蔡兴坤照着说了一遍，才发现自己把乘三读成了第三层。诺当则在断行处多添了一个括号。薛峰把两人的纸叠在一起，错处恰好落在不同位置，他便让两人各自找出对方的一处。
+
+上方，蔡须坤等到卢本韦回头，已经把M侧遇到的那个较短ψ项圈了出来。它在这份对应表里承担的是ω平方所在的位置，不能因为写起来比旁边短，就当成一个可以随处替换的普通常数。
+
+她没有给它另起名字，只沿整条M式读到这里，再读出去。
+
+“你刚才在教什么？”她问。
+
+“教他们别把第几层和乘几次混着说。”
+
+蔡须坤低头看了一眼自己的纸，悄悄将一个写在错误层次的三擦掉。卢本韦看见了，没有拆穿，只把两份纸重新对齐。
+
+同一条长式在讲义上出现了两回。薛峰逐列核到末尾，确认两回连右栏都相同，便在自己的目录里只给它记一个推进位置，另一回留作遮住答案后的复算。重复印出的式子仍然保留，山路却没有因此凭空多出一级。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2)(5,3,1)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega\times 2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\omega\times 2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2)(5,3,1)(6,3)(7,4,1)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega\times 3})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\omega\times 3))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega^2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi(2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(4,2)(5,3)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega^2+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi(2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(4,2)(5,3,1)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega^2+\omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi(2)+\omega))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(4,2)(5,3,1)(6,3)(7,4,1)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega^2+\omega\times 2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi(2)+\omega\times 2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(4,2)(5,3,1)(6,3,1)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega^2 \times 2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi(2)\times 2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(4,2)(5,3,1)(6,3,1)(6,3)\\
+(7,4,1)(8,4,1)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega^2 \times 3})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi(2)\times 3))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(4,2)(5,3,1)(6,3,1)(6,3)\\
+(7,4,1)(8,4,1)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega^2 \times 3})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi(2)\times 3))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(4,2,1)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\omega^3})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi(3)))$$
+
+一场雨落到纸边，最先模糊的是薛峰写的小字。他将那页护进衣襟，等雨歇才拿出来晾。
+
+蔡须坤把自己较干的那一页借给他。她看着他将重复式两次独立写出，心里忽然松了一点：这几日总是旁人等她，她也终于能把自己已经核清的部分，交给需要的人。
+
+后面的下标里，又装进了他们此前才费力认清的函数值。
+
+卢本韦翻开I侧，第一眼只觉得长。等她认真读进去，才意识到，外面看似相似的Ω仍留着，里面的旧项却已经从加法走到更复杂的乘法与嵌套。每次看到熟悉的ψ，她都得先问自己：这一个现在是值，是某个函数的下标，还是整个Ω的下标中的一部分。
+
+蔡须坤的M侧更密。她读到其中最长的一行时，手指顺着纸面挪到了尽头，意识却仍没有回到最外层。
+
+“我丢了。”她忽然说。
+
+卢本韦停住。“丢哪儿了？”
+
+“不知道。”
+
+她说完便垂下眼。最难堪的不是算不出下一项，而是连自己从哪里开始失去位置，都说不清。山上的压力还将她往下按，胸口的灰意跟着微微一动，她立刻将魂力收慢。
+
+古月娜没有碰她腕下，只扶着她退到平处，留出能自己调息的距离。霍雨浩将最长的一行折起来，先露出最外面函数的头尾。
+
+“先找回这一圈。里面可以等。”
+
+蔡须坤看了很久，终于将完整的外层说出来。薛峰这时递来另一张纸，上面没有答案，只有她先前依次读过的几处入口。哪一处读完应当返回，他都按她说过的顺序留好了。
+
+她顺着第一处往下找，第二处停住，第三处终于接上。卢本韦把I侧同一个位置递到旁边，让她看见，较短的表示也需要保留那一段，绝非因为换成M才多出了一道没有来由的难题。
+
+这一次蔡须坤没有整行重抄。她只重写了丢失位置的那一小段，再亲手将它放回完整长式。纸上的接缝仍明显，脑中的路却终于没有断。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)+\Omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)\times 2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2)}(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(4,2)(5,3)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)\times 2+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2)}(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(4,2)(5,3,1)(6,3,1)(7,1)\\
+(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)\times 3})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2)}(M^2)\times 2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(4,2,1)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)\times \omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(4,2,1)(4,2,1)$$
+
+$$= \psi(I+\Omega_{\psi_I(I)\times \omega^2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(4,2,1)(5,1)(4,2,1)$$
+
+$$= \psi(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}(I+1)})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(5)$$
+
+$$= \psi(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_I(I)\times \omega)})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(5,1)(4,2,1)$$
+
+$$= \psi(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(I)+1)})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2)+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(5,1)(5)$$
+
+$$= \psi(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(I+1))})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(6)$$
+
+$$= \psi(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_{\Omega_{\psi_I(I)+1}}(I+\psi_I(I)\times \omega))})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2\\
++\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(1)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(6,2)$$
+
+$$= \psi(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1})})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(6,2,1)$$
+
+$$= \psi(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+\omega})})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+\omega))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(6,2,1)(7,2,1)(8,1)$$
+
+$$= \psi(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}}(\Omega))})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_{\psi_{M}(M^2)}(M^2+1)}(M)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(6,2,1)(7,2,1)(8,1)$$
+
+$$= \psi(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}}(\Omega))})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_{\psi_{M}(M^2)}(M^2+1)}(M)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(6,2,1)(7,2,1)(8,1)(9,2)$$
+
+$$= \psi(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}}(I+\Omega_{\psi_I(I)+1}))})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_{\psi_{M}(M^2)}(M^2+1)}(M^2+\psi_{\psi_{M}(M^2)}(M^2+1))))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,1)(6,2,1)(7,2,1)(8,1)(9,2,1)\\
+(10,2,1)(11,1)$$
+
+$$= \psi(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}}(I+\Omega_{\psi_{\Omega_{\psi_I(I)+1}}(\Omega)}))})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_{\psi_{M}(M^2)}(M^2+1)}(M^2+\psi_{\psi_{M}(M^2)}(M^2+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M)))))))$$
+
+当天返回营地，薛峰的目录里添上了“入口、返回、外层”几个字。他写得很用力，炭粉落在指节上。
+
+霍雨浩看过，叫他试着替叶阳解释一行。起初薛峰还总回头等他补话，讲到后半段，却开始自己判断哪里应当先停。霍雨浩便没有再插进去。
+
+蔡须坤后来才问，自己选M是不是拖慢了队伍。
+
+卢本韦正晾着薛峰那张受潮的目录，听见便停住手。“我今天漏下标的时候，也有人等我。”
+
+“可我这一边更长。”
+
+“那就告诉我长在哪里。你不说，我只能看见你在发呆。”
+
+蔡须坤握着纸，过了一会儿，才把自己最容易丢失的返回位置指出来。卢本韦照着看，很快也迷了一次，这才明白，刚才那种长久的沉默里，她其实已经试着走过了多少层。
+
+两人没有换掉各自主攻的记号。I侧负责先认整体，M侧保留更细的函数组织，遇到明确的困难就把位置交出来。薛峰将她们新说清的地方补进目录，霍雨浩最后核过，几人的分工才从最初的一句约定，慢慢长成了能在难处真正接上的帮助。
+
+更深的Ω下标终于一层一层叠了上去，随后在新的一行里，I侧出现了乘二。
+
+卢本韦把两页放到一起，没敢立即说这就是把前面的过程再来一次。旧页中的每一层仍要按那一层自身的规则核对，不能因为最后写成了一个短式，就将中间都当成毫无区别的重复。
+
+蔡须坤却在M侧看见了一处很清楚的变化。原先那些越来越深的下标，都被保留在更复杂的参数组织中；到了这一行，最外层ψ里面仍有M平方，接在后面的却换成一个明确的M侧函数值。
+
+她将两行分别读出，没有把整个结果误读成两个最外层ψ的值相加。
+
+“乘二在I里面这一层，外面的ψ还是同一个。”她说。
+
+卢本韦点头，继而又问：“那M那边为什么不是把M平方也乘二？”
+
+蔡须坤原想说因为I对应M平方，话到一半便停住。她们在第一天就提醒过自己，相同的坍缩值，不能拿来证明两套体系的内部符号可以随意互换。
+
+霍雨浩将这个问题留在纸边，要求她只说眼前已经给出的对应。她便把M侧完整读完，明确它在这一式里如何写，没有顺势造出一个跨体系的通用替换规则。
+
+古月娜看见她停住，反倒点了点头。她们此前最容易犯的错，是以为停下来就会退步，遇到缺少依据的地方也要赶着接。眼下这一步能够停住，后面的纸才不至于全压在一个未经说明的猜想上。
+
+十一人分开复算这组末尾。薛峰第一次比霍雨浩更早说清一处外层位置，他自己愣了愣，又把左列从头核过，确认不是猜中才将纸递出去。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)$$
+
+$$= \psi(I+\Omega_{\Omega_{\psi_I(I)+1}})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2)}(M^2+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(3,2,1)$$
+
+$$= \psi(I+\Omega_{\Omega_{\psi_I(I)+\omega}})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2)}(M^2+\omega)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(3,2,1)(4,2,1)(5,2)$$
+
+$$= \psi(I+\Omega_{\Omega_{\Omega_{\psi_I(I)+1}}})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2)}(M^2+1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(3,2,1)(4,2,1)(5,2)\\
+(3,2,1)(4,2,1)(5,2)$$
+
+$$= \psi(I+\Omega_{\Omega_{\Omega_{\Omega_{\psi_I(I)+1}}}})$$
+
+$$=\! \psi(M^2\!+\!\psi_{\psi_M(M^2)}(M^2\!+\!\psi_{\psi_M(M^2)}(M^2\!+\!\psi_{\psi_M(M^2)}(M^2\!+\!\psi_{\psi_M(M^2)}(M^2\!+\!1)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4)$$
+
+$$= \psi(I\times 2)$$
+
+$$= \psi(M^2+\psi_M(M^2))$$
+
+那晚，蔡须坤没有把M侧收起来。
+
+卢本韦问她要不要换一天用I。她想了一阵，摇头：“我能借你的看路。但这边已经走到这里，总得知道自己是怎么走过来的。”
+
+卢本韦没有再劝，只将灯移到两本中间。两种记号铺在同一张桌上，谁也不再想着只看自己较顺手的那一侧。
+
+卢本韦又回头看了一遍M侧，将方才差点写出的直接替换式留在废纸上。
+
+同一条BMS在两套记号里给出相等的完整值，并不自动说明两套内部表示有一个保留每种加法、乘法的逐符号替换。她若凭那一处熟悉的边界，就将I乘二写成M平方乘二，等于偷偷加上了讲义尚未给她的条件。
+
+霍雨浩让她把这个条件说出来，她一时答不上，便没有继续用。
+
+蔡须坤从当前的M式指出实际出现的那段函数值，把它重新放到最外层ψ的参数里。两人终于能够不靠一个想当然的替换，也把眼前这一条对照说清。那张废纸被卢本韦折起来，夹在最容易再犯同样错误的地方，留下的不是新公式，而是需要先问的一句话。
+
+以I乘二为背景以后，旧时熟悉的尾部再一次出现。
+
+这一次最先停笔的是薛峰。他把刚写的下标擦掉，翻回前章，找出当时含有旧函数值的那几行。
+
+“这里的背景已经变了。”他说。
+
+卢本韦顺着看过去。她在前面的参数里留住了乘二，下标里的旧函数值却还写着原来的参数。两个位置一个改、一个没改，整条式子读起来仍然顺口，真正比较时却已经不是这一页给出的那条。
+
+她没有马上把错处全改掉，先将原来写下的版本保留在页边，再抄一遍当前讲义的写法。两份并排以后，蔡须坤才也看见自己M侧漏掉的一处：更深的参数中，新的背景需要被完整带回，不能只在最外面写过一次便算交代完。
+
+霍雨浩将两人的位置对照，又叫薛峰说这处差异为什么值得停。
+
+“只要后面还用到这个函数值，就得知道它是从哪一个参数求出来的。名字长得像，不能替它补回参数。”
+
+薛峰说到最后，声音仍有点紧。他并没有突然变得什么都懂，但这一次，他能把自己发现的问题讲到旁人也看见为止。
+
+唐三让出靠石壁的那一小块平处，叶阳将湿纸换成干纸，奥斯卡把补给分到几人手里。卢本韦咬了一口，才发现自己已经很久没有离开那几道下标。蔡须坤接过纸时看了薛峰一眼，主动把右栏朝他转过去。
+
+“你再替我查一遍，别只查她的。”
+
+薛峰坐下来，从她能够自己说明的最外层开始核。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I\times 2+\psi_I(I))$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{M}(M^2)}(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4)(3,2)$$
+
+$$= \psi(I\times 2+\Omega_{\psi_I(I)+1})$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{M}(M^2)}(M^2+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4)(3,2,1)$$
+
+$$= \psi(I\times 2+\Omega_{\psi_I(I)+\omega})$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{M}(M^2)}(M^2+\omega))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4)(3,2,1)(4,2,1)(5,2)$$
+
+$$= \psi(I\times 2+\Omega_{\Omega_{\psi_I(I)+1}})$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{M}(M^2)}(M^2+\psi_{\psi_{M}(M^2)}(M^2+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4)(3,2,1)(4,2,1)(5,2)(4)$$
+
+$$= \psi(I\times 2+\psi_I(I\times 2))$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{M}(M^2)}(M^2+\psi_{M}(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4)(4)$$
+
+$$= \psi(I\times 2+\psi_{\Omega_{\psi_I(I\times 2)+1}}(1))$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{\psi_{M}(M^2)}(M^2+\psi_{M}(M^2)+1)}(1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,1)(1,1,1)(2,1,1)\\
+(3,1)(2)$$
+
+$$= \psi(I\times 2+\psi_{\Omega_{\psi_I(I\times 2)+1}}(I))$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{\psi_{M}(M^2)}(M^2+\psi_{M}(M^2)+1)}(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)$$
+
+$$= \psi(I\times 2+\psi_{\Omega_{\psi_I(I\times 2)+1}}(I+\Omega_{\psi_I(I)+1}))$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{\psi_{M}(M^2)}(M^2+\psi_{M}(M^2)+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(3,2,1)(4,2,1)\\
+(5,2)(4)$$
+
+$$= \psi(I\times 2+\psi_{\Omega_{\psi_I(I\times 2)+1}}(I\times 2))$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{\psi_{M}(M^2)}(M^2+\psi_{M}(M^2)+1)}(M^2+\psi_M(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(4)$$
+
+$$= \psi(I\times 2+\psi_{\Omega_{\psi_I(I\times 2)+1}}(I\times 2+1))$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{\psi_{M}(M^2)}(M^2+\psi_{M}(M^2)+1)}(M^2+\psi_M(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3)$$
+
+$$= \psi(I\times 2+\Omega_{\psi_I(I\times 2)+1})$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{M}(M^2)}(M^2+\psi_{M}(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3)(6,4)$$
+
+$$= \psi(I\times 2+\Omega_{\psi_I(I\times 2)+2})$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{M}(M^2)}(M^2+\psi_{M}(M^2)+2))$$
+
+同伴之间的帮助，也从替人指一个错字，慢慢变成了守住一条完整的来路。谁要是说不清自己当前借用的是哪一页的结果，就先把那一处留空，等查回去再补。
+
+夏夜星空看完他们互相留下的空处，没有催着擦净。那些还没有填上的位置，让她看见他们到底在哪里遇到了难题。
+
+第二天一早，薛峰先用空白纸写下昨天改过的一条，随后把正面盖住，从共同的左列重新说明。
+
+他先说自己已经核过哪一列，再说I侧改变的参数，最后才请蔡须坤指出M侧相应位置。蔡须坤听到一半，看见他没有沿着答案倒着猜，便将自己的纸完全收起来，等他讲完。
+
+一遍结束，霍雨浩只补了一处需要更精确的话。薛峰低头将那一句改好，神色却与以往只等别人打勾时不同。他已经能先守住一段，让同伴来查它哪里不够，而不是等整份解释送到面前才开始跟着点头。
+
+此后遇到更长的左列，卢本韦会先将纸交给他；M侧出现旧参数的时候，蔡须坤也会主动请他对照前页。队伍里靠前的位置，就这样一点点有了他的份。
+
+再上山后，有限的三与四接连出现，接着，M侧有一处原先的函数头换了更深的参数组织。
+
+卢本韦先读完I侧，发现这里走到的是I乘ω。她没有把有限的三、四划掉，也没有把最后一行读成“再多一次”。有限的每一次仍在自己的位置，ω这一行必须看完整BMS怎样变，不能将末尾一个数字当作万能的进位开关。
+
+蔡须坤的难处，则落在一个很小的加号上。它藏在M侧函数的下标里，加号后面有另一个M；这个M一旦漏掉，后面接着读出的每一层，都会像是在旧页上重复。
+
+她连续两次念漏。第三次，卢本韦将自己的I侧翻过去，没有让她继续照结果认路。
+
+“先把你自己这一处说给我听。我的晚点再看。”
+
+蔡须坤闭了闭眼，将那一层函数头重新读完。额角的汗慢慢滑到下巴，她没有擦，等自己明确听见那个M，才让卢本韦翻回左栏。
+
+霍雨浩随即请她指出，为什么这一处变化不能塞进最外面那层ψ的参数里。她沿原来的括号，从函数下标读回主参数，终于将两个位置分开。
+
+后面的人在这一段落下了些距离。蔡兴坤还要借助停顿标记，诺当要从原有接缝重新查，古月娜便留在他们旁边，一处处核完整的左列。唐三也没有急着向上赶，将能退回的绳结再摸过一次。
+
+前面四人等到了黄昏。薛峰将最短的I式读给后面听，霍雨浩补足容易漏的前提，蔡须坤与卢本韦则交换着读各自的表示。十一人的答案并不同时出来，却终于都能从自己的纸接回脚下这一级。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)$$
+
+$$= \psi(I\times 2+\Omega_{\psi_I(I\times 2)+\omega})$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{M}(M^2)}(M^2+\psi_{M}(M^2)+\omega))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)(6,3,1)$$
+
+$$= \psi(I\times 2+\Omega_{\psi_I(I\times 2)+\omega^2})$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{M}(M^2)}(M^2+\psi_{M}(M^2)+\psi(2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)(6,3,1)(7,3)$$
+
+$$= \psi(I\times 2+\Omega_{\Omega_{\psi_I(I\times 2)+1}})$$
+
+$$=\! \psi(M^2\!+\!\psi_M(M^2)\!+\!\psi_{\psi_{M}(M^2)}(M^2\!+\!\psi_{M}(M^2)\!+\!\psi_{\psi_{M}(M^2)}(M^2\!+\!\psi_{M}(M^2)\!+\!1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)(6,3,1)(7,3)\\
+(5,3,1)(6,3,1)(7,3)$$
+
+$$= \psi(I\times 2+\Omega_{\Omega_{\Omega_{\psi_I(I\times 2)+1}}})$$
+
+$$= \psi(M^2+\psi_M(M^2)+\psi_{\psi_{M}(M^2)}(M^2+\psi_{M}(M^2)+\psi_{\psi_{M}(M^2)}(M^2+\psi_{M}(M^2)\\
++\psi_{\psi_{M}(M^2)}(M^2+\psi_{M}(M^2)+1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)(6,3,1)\\
+(7,3)(6)$$
+
+$$= \psi(I\times 3)$$
+
+$$= \psi(M^2+\psi_M(M^2)\times 2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)(6,3,1)(7,3)\\
+(6,3)(7,4,1)(8,4,1)(9,4)(8)$$
+
+$$= \psi(I\times 4)$$
+
+$$= \psi(M^2+\psi_M(M^2)\times 3)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1))$$
+
+二百六十米的横台露出来时，卢本韦先靠着石壁坐了下去。
+
+蔡须坤把水放在她手边，手腕依旧平稳。果糕领域在她方才最吃力的时候，只短暂铺到身周，等心神能重新留在纸上，就被她收了回去。它没有替她读懂那个藏在下标里的M。
+
+薛峰落到横台上，向后看了一眼，才发现自己已经能与霍雨浩并排接住后面的问话。他把本子抱紧，没有说自己追上了，只主动去找诺当那一处仍旧不顺的换行。
+
+回到石屋后，几人很久都没开口。
+
+纸上从二百四十米到二百六十米的那一道短线，耗去了他们接连许多次上下山的力气。蔡须坤拆开鞋底补过的一处，看见线还牢牢连着，便又原样收好。
+
+卢本韦把自己的I册递给她，M册则留到手边。她们没有交换负责的那一套记号，只交换今天最容易丢失位置的那几页。
+
+“我也得知道你是从哪儿停下来的。”卢本韦说。
+
+霍雨浩将两套笔记的共同左列核齐，再把炭条交给薛峰。薛峰接过去，没有先翻标准答案，开始从空白处重写当天最难的一段。
+
+古月娜从门口进来，看见桌边的位置换了，便将水一杯杯放好。薛峰还没习惯坐在这样靠前的位置，伸手接杯时碰了一下纸角。蔡须坤把纸压住，等他继续往下写。
+
+窗外的山仍旧很高。三百米尚在更上方，今晚他们先把二百六十米真正留在自己手中。
+
+# 第一百一十五章：谁也不能落下
+
+二百六十米以上，石阶转过一段背阴的山壁。
+
+雨水沿岩缝往下滴，落在脚边，声音很轻。人站得久了，鞋底却会一点点凉透。唐三将绳子绕过外侧的石柱，诺当蹲下去摸索结扣，小舞把能坐人的那一处先擦干。
+
+蔡须坤在岩壁前展开M册，第一眼便认出了上一段末尾那截很难读顺的函数头。它没有离开，如今成了后面许多长式中都要保留的背景。
+
+卢本韦把I册摆到旁边。背景在她这边只占很短的一段，可接在后面的东西越来越复杂，已经不能只凭看见旧名字，就迅速替蔡须坤指一条路。
+
+薛峰走到两人身后，先核共同的左列。霍雨浩等他核完，才将另一份纸压上去。
+
+“今天你先说哪里变化，我来听。”
+
+薛峰拿着笔，没有立刻答。他从来没有在最开始就承担这样的问话。后面十一人各自的本子摊开，连蔡兴坤怀里的黑子鸡也安静下来，只有雨水仍从上方一滴滴落下。
+
+最先接回来的，是原有背景之后那些已经学过的函数值。
+
+薛峰从I侧说起，读完尾部，才请卢本韦补充。他漏念了一层外面的加法，卢本韦没有替他往后说，只在纸边敲了一下。他顺着重新找过，脸慢慢红起来，最终还是自己把漏掉的部分接全。
+
+蔡须坤的M侧读得更慢。新的背景包含M平方与一个较深的函数值，后面又接更早学过的结构。她最容易在后半段认出熟悉的函数头，便以为已经返回整式开头。
+
+这一天她换了位置，将整条式子的最外层指给薛峰看，让他在她每次读到中途时，先问一句现在有没有离开这一层。
+
+薛峰起先只会照问。到第三行，他已经能在蔡须坤自己犹豫以前停笔，因为她说出的返回位置和眼前的闭括号并没有对上。
+
+蔡须坤退回去重读，发现他指出的地方确实少接了一截。
+
+“这回你拦得对。”她说。
+
+薛峰慢慢松开捏紧的笔杆。霍雨浩看过那一处，没有再重复解释，只请他将原因讲给叶阳听。
+
+叶阳听到中途便卡住。薛峰又从最外面开始，讲得很笨，每一句都要确认对方有没有跟到当前的位置。蔡须坤原本想继续写，听着两人的停顿，却也将自己还没真懂的一处找了出来。
+
+原来自己能顺着别人的声音过去，与换一个人仍能独立讲清，差着很长一段。她把那一处重新圈回待核的页里，没因为已经走到二百六十米，就将它当成过去了的事。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I\times \omega+\psi_I(I))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_M(M^2)}(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2)$$
+
+$$= \psi(I\times \omega+\psi_{\Omega_{\psi_I(I)+1}}(I+\Omega_{\psi_I(I)+1}))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2)}(M^2+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4)$$
+
+$$= \psi(I\times \omega+\psi_{\Omega_{\psi_I(I)+1}}(I\times 2))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_M(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)\\
+(4,2)(5,3,1)(6,3,1)(7,3)(6)$$
+
+$$= \psi(I\times \omega+\psi_{\Omega_{\psi_I(I)+1}}(I\times 3))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_M(M^2)\times 2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)$$
+
+$$= \psi(I\times \omega+\psi_{\Omega_{\psi_I(I)+1}}(I\times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_{\psi_M(M^2)}(M^2+1)}(M^2+\psi_{\psi_M(M^2+M)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(3,2)$$
+
+$$= \psi(I\times \omega+\Omega_{\psi_I(I)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_M(M^2)}(M^2+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)\\
+(4,2,1)(3,2,1)(4,2,1)(5,2)(4)$$
+
+$$= \psi(I\times \omega+\psi_I(I\times 2))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_M(M^2)}(M^2+\psi_M(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)\\
+(4,2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3)$$
+
+$$= \psi(I\times \omega+\psi_{\Omega_{\psi_I(I\times 2)+1}}(I\times 2+\Omega_{\psi_I(I\times 2)+1}))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_{\psi_M(M^2)}(M^2+\psi_M(M^2)+1)}(M^2+\psi_M(M^2)\\
++\psi_{\psi_M(M^2)}(M^2+\psi_M(M^2)+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)\\
+(4,2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)(6,3,1)(7,3)(6)$$
+
+$$= \psi(I\times \omega+\psi_{\Omega_{\psi_I(I\times 2)+1}}(I\times 3))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_{\psi_M(M^2)}(M^2+\psi_M(M^2)+1)}(M^2+\psi_M(M^2)\times 2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)\\
+(4,2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)(6,3,1)(7,3)(6,3,1)$$
+
+$$= \psi(I\times \omega+\psi_{\Omega_{\psi_I(I\times 2)+1}}(I\times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_{\psi_M(M^2)}(M^2+\psi_M(M^2)+1)}(M^2+\psi_{\psi_M(M^2+M)}(1)))$$
+
+这组纸没有在一天之内收完。雨停了一阵，又从岩壁上流下来。小舞换过两次擦地的布，古月娜则陪着后面的几人，将同一处外层位置反复认清。
+
+薛峰下山前把自己的解释写在页背，发现字比正面还多。他没有再誊一遍，只把真正能替同伴指出来的一句话，留在最上面。
+
+新的函数值接在背景之后，随后，I侧终于又出现了一个完整的I。
+
+卢本韦读到这里，先没有动脚。她把前面的I乘ω与后面的I分开念过，再说明它们仍一起处在最外层ψ的参数里。
+
+蔡须坤在M侧找到相应的那一段。它并没有跟前面的复杂背景合成一团难以辨认的长串，最后补入的那一部分仍能单独指出。她读完以后，请卢本韦再沿整条I式回看，确认自己找中的确是当前尾部，而不是前面已存在的另一处。
+
+薛峰发现同一行在讲义里又印了一回。这一回不只左列相同，I侧与M侧也完全一致。他照先前的方法，将重复项完整保留，再遮住正面独立核过，没把它记成第二次越过新的高度。
+
+这时，后面忽然传来一声急促的擦响。
+
+诺当脚下一滑，伸手扶石壁，手指没能扣住。他正在解释的那一段也跟着断了，身子向外偏去。唐三立即收紧外侧的绳子，小舞扣住他的手腕，卢本韦已经从上方退回来，肩膀抵住他，将人送回干些的那块石面。
+
+“先别接那句话。”她说，“站稳再说。”
+
+诺当喘着气，仍想把刚才漏下的词补出来。薛峰蹲到他身边，将纸放低，先找回他原来指着的地方，没有从别人已经讲到的末尾开始催。
+
+古月娜在外侧护着几人，等绳子重新松下来，才让唐三调整扣结。雨水从她发梢滴下，她没空去擦。前面四人原本可以继续往上试，此刻却都停住了自己的那一页。
+
+等诺当终于完整说完，卢本韦才收回手，拧去袖口沾上的水。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)\\
+(4,2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)(6,3,1)(7,3)(6,3,1)(5,3)$$
+
+$$= \psi(I\times \omega+\Omega_{\psi_I(I\times 2)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_M(M^2)}(M^2+\psi_M(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)\\
+(4,2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)(6,3,1)(7,3)(6,3,1)(5,3,1)\\
+(6,3,1)(7,3)(6)$$
+
+$$= \psi(I\times \omega+\psi_I(I\times 3))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_M(M^2)}(M^2+\psi_M(M^2)\times 2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)\\
+(4,2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)(6,3,1)(7,3)(6,3,1)(5,3,1)(6,3,1)\\
+(7,3)(6,3)(7,4,1)(8,4,1)(9,4)(8,4,1)(7,4,1)(8,4,1)(9,4)(8)$$
+
+$$= \psi(I\times \omega+\psi_I(I\times 4))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_M(M^2)}(M^2+\psi_M(M^2)\times 3))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I\times \omega+\psi_I(I\times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(1,1,1)\\
+(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I\times \omega+\psi_I(I\times \omega)\times 2)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(1))\times 2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(2)$$
+
+$$= \psi(I\times \omega+\psi_I(I\times \omega)\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(1)+1)}(1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(2,1)(1,1,1)(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I\times \omega+\psi_{\Omega_{\psi_I(I\times \omega)+1}}(I\times \omega))$$
+
+$$=\! \psi(M^2\!+\!\psi_{\psi_M(M^2+M)}(1)\!+\!\psi_{\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(1)+1)}(M^2\!+\!\psi_{\psi_M(M^2+M)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(2,1)(3,2)$$
+
+$$= \psi(I\times \omega+\Omega_{\psi_I(I\times \omega)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(1)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(2,1)(3,2,1)$$
+
+$$= \psi(I\times \omega+\Omega_{\psi_I(I\times \omega)+\omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(1)+\omega))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(2,1)(3,2,1)(4,2,1)(5,2)$$
+
+$$= \psi(I\times \omega+\Omega_{\Omega_{\psi_I(I\times \omega)+1}})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(1)+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(2,1)(3,2,1)(4,2,1)(5,2)(4)$$
+
+$$= \psi(I\times \omega+I)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_M(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(2,1)(3,2,1)(4,2,1)(5,2)(4)$$
+
+$$= \psi(I\times \omega+I)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_M(M^2))$$
+
+蔡须坤把本子移到较干的一侧，薄薄的领域只在几人身周留了一会儿。各人的魂力不再因急乱而互相牵扯，肩上的压力却仍旧各自压着。
+
+她没有让那层光陪着所有人向上走。诺当缓过来后，光便收回，她也重新从自己的那一式接起。刚才停下的地方依旧要核，没有谁因为帮过同伴，就能省掉这一遍。
+
+诺当歇过以后，先去摸了摸自己滑倒时被绳子勒住的那一处，才坐回本子前。他原本打算不再问了，免得大家一直在这儿等，薛峰却已经将刚才未完的纸放到他手边。
+
+“你停的是这儿，不是整本。”
+
+诺当看了很久，终于将最外面的组织说出来。说到里面仍然卡，便把指尖停在卡住的位置，不再拿一句都差不多糊过去。
+
+卢本韦听见，便放心地回到自己的那页。后面有了能够继续的入口，她也不必一边向上读，一边担心是不是谁已经不敢再开口。霍雨浩替蔡须坤核过一处，薛峰接着补另一处，四人之间的检查开始能够真正轮换。
+
+I加在后面，接着走向有限倍数，再走向乘ω的更深层次。卢本韦这一次没有只盯着新出现的那个倍数，而是回到整个乘法的位置。
+
+她将自己的停顿说给霍雨浩听：“这里前面的背景变了，后面能加的东西也得跟着看。不能抓住一个乘二，就认作前面同一行再抄两遍。”
+
+霍雨浩让她接着解释右侧。她在M侧卡住，蔡须坤便指着其中同一个函数值，念到有限重复的地方，再念到下一行参数发生变化的地方。哪一处是已有整项的有限倍数，哪一处已经进入更深的参数组织，两人终于能够互相提醒。
+
+薛峰没有等她们说完才抄。他先把共同的BMS核好，依每条式子实际的层次，给两个本子留出相同的对照位置。左列较长的一行跨到了下页，他把页角折出一个很小的记号，使后来的人不至于把下一页误当成新的起点。
+
+蔡兴坤翻到那一处，果然先想补零，看到记号才停。她抬头向薛峰笑了一下，随即自己把那一列从头接完。
+
+这一段没有谁摔倒，却比刚才还磨人。许多地方只错一点，整行念起来并不会立刻卡住。卢本韦念到最后，才被霍雨浩请回起点，肩背都像跟着沉了一遍。
+
+她原想说自己刚才只是口误，看到纸上同样漏掉的一层，又将这句话咽下去。她擦去旧行，重新写全，再把解释交给薛峰来核。
+
+薛峰核得很慢，却没有因为她是队里先前讲得快的人就放过那一处。卢本韦抬眼看他，最后倒先笑了：“行，就这么查。”
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3)$$
+
+$$= \psi(I\times \omega+I+\Omega_{\psi_{I}(I\times \omega + I)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_M(M^2)+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(1)\\
++\psi_M(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)\\
+(6,3,1)(7,3)(6)$$
+
+$$= \psi(I\times \omega+I\times 2)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)+\psi_M(M^2)\times 2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)$$
+
+$$= \psi(I\times \omega \times 2)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)\times 2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(4,2)(5,3,1)\\
+(6,3,1)(7,3)(6,3,1)$$
+
+$$= \psi(I\times \omega \times 3)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(1)\times 3)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(2,1,1)$$
+
+$$= \psi(I\times \omega^2)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(2,1,1)(2,1,1)$$
+
+$$= \psi(I\times \omega^3)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(3))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)$$
+
+$$= \psi(I\times \Omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M))$$
+
+雨后的石阶亮了一层薄光。走到能站稳的地方，霍雨浩先回头，让后面的几人各自说出今天最容易误认的一处。
+
+答案并不一样。有人怕漏列，有人会把有限倍数说进幂次，也有人只要看到重复的函数头，就记不起自己在哪个参数里。几人将这些差别留下，下次互核时，终于知道该问对方什么。
+
+当乘号后面的因子本身又是一层ψ时，卢本韦也慢得和蔡须坤差不多了。
+
+她能读清I侧的最外层，往里一进，却总会把因子内部的变化与外面添尾部的动作混在一起。她原先依靠较短写法维持的速度，到这里暂时停住。
+
+蔡须坤的M侧没能替她立刻解围。新结构本就更长，前面的背景又必须完整保留，两人读到不同位置停下来，反倒一时不知道先帮谁。
+
+“先把同一条左列找到。”霍雨浩说。
+
+他将两人的纸对齐，让她们各自说出已经确定的最外层，再让薛峰从尾部核是否还是当前这一式。共同的左列确认以后，M侧的某一层才有了能够与I侧对照的位置。
+
+她们每人只解释自己真能说明的那一截。另一人听懂，再往外接。霍雨浩听着，发现自己留在页边的一处旧记法也没有跟上当前参数，便当着几人的面停笔重写。
+
+薛峰没有立即去接后半行，反倒指住了那一处：“前面那份参数，也得带回来。”
+
+霍雨浩看过，点头。
+
+这一下让薛峰自己也安静了片刻。他先前检查的，多半是旁人的抄写；现在连讲得最清楚的人，也会在疲惫时漏掉来路。核对不是谁永远给谁打勾，谁先看清，谁就该将这一处守住。
+
+后面的唐三接过已核好的纸，却没直接照着向上走。他先让诺当把其中最外面的一层说出来，自己再解释尾部。古月娜坐到两人旁边，替他们守着当前所用的那一页，直到他们能不翻旧纸也说清为止。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I\times \psi_I(I))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,1)(3,2)$$
+
+$$= \psi(I\times \psi_I(I)+\Omega_{\psi_I(I)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2))+\psi_{\psi_M(M^2)}(M^2+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,1)(3,2,1)(4,2,1)(5,2)(4)$$
+
+$$= \psi(I\times \psi_I(I)+\psi_I(I\times 2))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2))+\psi_{\psi_M(M^2)}(M^2+\psi_M(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,1)(3,2,1)(4,2,1)(5,2)(4,2,1)$$
+
+$$= \psi(I\times \psi_I(I)+\psi_I(I\times \omega))$$
+
+$$=\! \psi(M^2\!+\!\psi_{\psi_M(M^2+M)}(M\!\times\! \psi_{\psi_M(M^2)}(M^2))\!+\!\psi_{\psi_M(M^2)}(M^2\!+\!\psi_{\psi_M(M^2+M)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I\times \psi_I(I)+\psi_I(I\times \psi_I(I)))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2))+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(M\\
+\times \psi_{\psi_M(M^2)}(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,1)(4,2)(5,3)$$
+
+$$= \psi(I\times \psi_I(I)+\Omega_{\psi_I(I\times \psi_I(I))+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2))+\psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(M\\
+\times \psi_{\psi_M(M^2)}(M^2))+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,1)(4,2)(5,3,1)(6,3,1)(7,3)(6)$$
+
+$$= \psi(I\times \psi_I(I)+I)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2))+\psi_M(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,1)(4,2)(5,3,1)(6,3,1)(7,3)(6,3,1)$$
+
+$$= \psi(I\times \psi_I(I)+I\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2))+\psi_{\psi_M(M^2+M)}(1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,1)(4,2)(5,3,1)(6,3,1)(7,3)(6,3,1)(7,1)(1,1,1)(2,1,1)\\
+(3,1)(2)$$
+
+$$= \psi(I\times \psi_I(I)\times 2)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2)) \times 2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,1)(4,2)(5,3,1)(6,3,1)(7,3)(6,3,1)(7,1)(6,3)(7,4,1)\\
+(8,4,1)(9,4)(8)$$
+
+$$= \psi(I\times \psi_I(I)\times 2+I)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2)) \times 2 + \psi_M(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,1)(4,2)(5,3,1)(6,3,1)(7,3)(6,3,1)(7,1)(6,3)(7,4,1)(8,4,1)\\
+(9,4)(8,4,1)(9)$$
+
+$$= \psi(I\times \psi_I(I)\times 3)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2)) \times 3)$$
+
+当天收纸时，薛峰特意将这一组的左列多描了一遍。它们长得太像，后来一旦在别处再出现，就要先认清是不是同一条输入。
+
+他还不知道这份准备很快会派上用场。霍雨浩看见他在页边补的目录，便将其余几份纸也交来，让他统一核过。
+
+霍雨浩后来将自己白天的错处留给薛峰再查了一次。
+
+薛峰原以为他会把旧行擦掉，见仍在，便把自己核过的来路也写在旁边。这里并没有因为讲解者说得顺，就免去对参数的追查；疲劳时最容易留下的，恰是那些过去许多次都没有读错的熟悉部分。
+
+蔡须坤看过两人的纸，把自己最深的一处也留出来。卢本韦则要求他们反过来查她的I侧，哪怕她正读得很快，也照样拦。
+
+奥斯卡送补给来时，看见四个人各拿着别人的一页，找了一会儿才弄清本子是谁的。他没催他们收，只把能留到明天的那份分开，让他们先将手里这口吃完。
+
+更深的因子开始反复出现，整体仍留在乘号后面。
+
+蔡须坤最吃力的那一行，几乎读到气息都乱了。她停下来，先将手从纸上撤开，等腕间的魂力重新顺畅接续，再回来找刚才读过的出口。
+
+卢本韦没有让她重新从第一字开始。她把I侧整体读给她听，让她先确认当前这一行的外层究竟组织成什么样。随后，M侧才从同一个位置重新展开。
+
+“如果先看完整个右栏，我会觉得哪里都要记。”蔡须坤说。
+
+“那先把外面的留住，里面一次只补一处。”
+
+她们用了很长时间才做到。添在尾部的一小段，与因子内部换入的新参数，纸面上可能用到相同的I，位置却必须一处处认。某些更短的右式，只能作为这一条已经给出的对应来读，还不能替代她们对完整左列的核查。
+
+薛峰在这一段没有再只是站在旁边。他先独立写I侧，再请霍雨浩遮去答案，重新说明同一个BMS在哪一列与前式发生差别。答案不见以后，最外面的路竟仍能留在脑中，他这才敢把纸递给蔡须坤，试着去核M侧相同位置的作用。
+
+他还不能像她那样读完所有深层函数，蔡须坤也没有让他装作能读。她将自己已说明的部分接给他，其余仍由自己从原式往下核。两人的帮助落在明确的位置，不必靠谁将整页都背下来维持。
+
+天色暗后，夏夜星空请他们收纸。没有人争着再向上试一次。霍雨浩起身时，才发现自己按在膝上的那只手僵了很久，薛峰将本子接过去，让他先活动手指。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,1)(4,2,1)$$
+
+$$= \psi(I\times \psi_I(I)\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,1)(4,2,1)(5,1)$$
+
+$$= \psi(I\times \psi_I(I)\times \Omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2)+\psi_{\psi_M(M^2)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,1)(4,2,1)(5,1)(4,2,1)$$
+
+$$= \psi(I\times \psi_{\Omega_{\psi_I(I)+1}}(I+1))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2)+\psi_{\psi_M(M^2)}(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,2)$$
+
+$$= \psi(I\times \Omega_{\psi_I(I)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,2)(3,2,1)(4,2,1)(5,2)(4)$$
+
+$$= \psi(I\times \psi_I(I\times 2))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2+\psi_M(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,2)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)(6,3,1)(7,3)(6,3,1)\\
+(7,2)(6,3)$$
+
+$$= \psi(I\times \psi_I(I\times 2)+\Omega_{\psi_I(I\times 2) + 1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2+\psi_M(M^2)))+\psi_{\psi_{M}(M^2)}(M^2\\
++\psi_M(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,2)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)(6,3,1)(7,3)(6,3,1)(7,3)$$
+
+$$= \psi(I\times \Omega_{\psi_I(I\times 2) + 1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2+\psi_M(M^2)+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)\\
+(5,2)(4,2,1)(5,2)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)(6,3,1)(7,3)(6,3,1)(7,3)\\
+(5,3,1)(6,3,1)(7,3)(6,3)(7,4,1)(8,4,1)(9,4)(8,4,1)(9,3)(8,4)$$
+
+$$= \psi(I\times \Omega_{\psi_I(I\times 3) + 1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2+\psi_M(M^2)\times 2+1)))$$
+
+那晚，他们把新写的I侧与M侧分开存好，再用共同的BMS页号接在一起。
+
+卢本韦不愿让两本越翻越乱，蔡须坤也不肯把M侧缩成只够自己看懂的几个暗号。薛峰替两人留了能真正对应起来的入口，霍雨浩再逐一核过。灯下的工作很慢，第二天上山时，四人却第一次没有先花半个时辰找昨晚丢失的位置。
+
+最后几式把变化推进到更深的参数里，随后，I侧写出了I平方。
+
+卢本韦看着这个短得近乎轻巧的结果，很久没有出声。她的膝盖仍在发抖，纸上却只有这么一点。
+
+“别先只念结果。”薛峰说。
+
+她回头看了他一眼，依言将前面的对应从左到右读过。到了M侧，蔡须坤接上自己的那一栏。那些几天来反复读不完的函数头仍在，最深的一段也仍要放回完整括号里，它们没有被这个短结果抹去。
+
+霍雨浩随后请两人交换问法。蔡须坤要卢本韦说明I平方出现在哪一层，卢本韦则请她指出M侧当前函数的下标与参数分别到哪里结束。薛峰核左列，古月娜再请后面的几人轮流解释自己能看清的一处。
+
+一轮结束，蔡须坤才将脚向上移。
+
+她没有觉得肩上的重量骤然减轻。真正变得清楚的，是先前一受压就混作一团的几处接续。她能先守住自己已经认出的外层，再将内部那一段慢慢接回。卢本韦紧跟着站稳，霍雨浩将本子收起，薛峰也没有等人提醒便说出了自己的核查位置。
+
+后面的人还需要时间。四人站在已经能够稳定停住的地方，分别接住不同的问话，没有用同一个答案把所有人的困难一并盖过。
+
+古月娜最后陪着蔡兴坤把那一行接完，抬头时，二百八十米的横台已从雾中露了出来。她向前面四人点了一下头，才与其余人继续往上走。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I\times \psi_I(I\times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(2,1,1)$$
+
+$$= \psi(I\times \psi_I(I\times \omega^2))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)$$
+
+$$= \psi(I\times\psi_I(I\times \Omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(M))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)\\
+(2,1,1)(3,1)(2)$$
+
+$$= \psi(I\times\psi_I(I\times \psi_I(I)))$$
+
+$$=\! \psi(M^2\!+\!\psi_{\psi_M(M^2+M)}(M\!\times\! \psi_{\psi_M(M^2)}(M^2\!+\!\psi_{\psi_M(M^2+M)}(M\!\times\! \psi_{\psi_M(M^2)}(M^2)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)\\
+(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I\times\psi_I(I\times \psi_I(I\times \omega)))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_{M}(M^2+M)}(1))))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)\\
+(2,1,1)(3,1)(2,1,1)(3,1)$$
+
+$$= \psi(I\times\psi_I(I\times \psi_I(I\times \Omega)))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2+\psi_{\psi_M(M^2+M)}(M\times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_{M}(M^2+M)}(M))))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2))$$
+
+十一人都到了横台上，绳子才被唐三收好。
+
+卢本韦把自己坐的位置挪出一半，蔡须坤靠过来，连说话也懒得再分长句。薛峰仍看着刚写完的末行，嘴唇轻轻动着，像在确认它确实能不靠旁人的提示留在心里。
+
+霍雨浩听了一阵，没有打断。他只在薛峰把完整的一遍说完以后，将水递过去。
+
+这次，薛峰接水时没有撞到纸角。
+
+从这里往下看，二百六十米的横台被山壁遮住，只剩绳子绕过的那一截石柱。
+
+诺当说起自己滑倒的地方，仍有些不好意思。卢本韦摆手，叫他先把刚才真能自己讲清的那一处再留一份，回去替别的人核。
+
+“下回我也会漏。”她说，“你看出来就拦。”
+
+诺当点头，把那根细枝从本子里取出来。小舞将纸铺平，等他开始。
+
+蔡须坤坐在另一边，看着M册从最早几条短式翻到现在，才发现自己仍有许多地方需要同伴提醒。可这些提醒已经能落到具体的某一层，不再只有一句笼统的“我没懂”。
+
+她将那口气慢慢放下，手背贴了贴身后熟悉的温热。那点属于残魂的暖意安安静静贴着，等她的呼吸重新放平。
+
+二百八十米写进山图时，四个人的纸先被收齐。随后，其他人的解释也一份份接上。山路没有因此变轻，横台上却再没有谁独自抱着一整页不知该向谁开口。
+
+# 第一百一十六章：三百米
+
+二百八十米之后，薛峰没有立刻翻过旧页。
+
+新讲义的头几行放在他膝上，他却将前一天收好的两本册子重新打开，一页页往回找。卢本韦以为他又漏了某一处函数头，正要接话，便看见他已经把两条完整的左列并排放到了纸上。
+
+“这条我们读过。”他说。
+
+蔡须坤顺着看了一遍，确实一列也不差。她去核M侧，卢本韦看I侧，霍雨浩则将上一段的目录从头找来。
+
+后面的人暂时坐下。唐三还没将绳结向上挪，古月娜也没有催前面的人先去试。几天以来，大家都盼着早一点看见三百米，此刻一处很小的疑问，却把十一人一同留在了原地。
+
+薛峰将炭条放稳，手没有再像最初那样急着收回来。他知道自己还不能证明哪一种写法合适，但同一条左列出现过，就是出现过，不能因为新页摆在后面，就当它从未见过。
+
+他们找出了三处需要另行核对的对应。
+
+这一页的第一行，与旧册里I乘一个ψ值的那一行，有着相同的完整BMS；第二行也能在旧册的另一处乘法结构中找到。第四行的左列，更正是上一段末尾才用来认清I平方的原式。
+
+可新页给它们写下的I侧表达，分别换成了带I平方的另一种结构。
+
+卢本韦原来已经要照着新页读，听到这里，慢慢把手移开。“那不能把它们当成又往上走了三步。”
+
+霍雨浩点头。右端写得不同，不能只凭字面便断言数值一定不同；坍缩表示中还会遇到规范化与同值写法。可讲义没有在这里给出足够说明，他们也没有当场完成相应证明，便不能悄悄把这种关系当成已经讲清的通用结论。
+
+三行仍原样保留，旁边另记“同一输入的异文，待核对”。夹在其中的另一条，也按自己的左列单独核，没被这处问题一并抹掉。
+
+蔡须坤最先有些不甘。她为了M侧那几层函数花了很久，眼下若留下一处未定，总像前面白走了一截。卢本韦把两本推到她面前，叫她看自己昨天已经能够独立解释的那些页。
+
+“能说清的还在。没说清的，也得让它留着。”
+
+薛峰将三处左列各自对应的旧页找齐，放在新页旁边。以前他帮大家核对换行，是怕抄错；现在他需要守住的是，同一个输入不能只因为讲义换了一页，就被当成另一道已经解决的新题。
+
+夏夜星空看过他们留下的标记，没有要求他们为赶路将它擦掉。她让几人先把确实能够说明的结构整理好，待核的关系另留一处，不拿它来证明脚下的新台阶已经通过。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 + \psi_I(I))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2)}(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^2 + \psi_I(I\times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 + \psi_I(I^2))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 + \psi_I(I^2)\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)+1)}(1))$$
+
+蔡须坤将笔从那三处移开，深吸一口气，翻到下一组。
+
+薛峰没有得到一个现成的新答案，却终于能将疑问完整交给同伴。霍雨浩把他找出的旧页夹在最前，留待以后核查。那份目录第一次成了所有人都会主动来借的东西。
+
+接下来的结构，继续在I平方之后补入更深的尾部。
+
+卢本韦先把每一行的背景读出，再确认加在后面的那一段归哪个括号。她已经不急着把所有相近的结果排成一条严格上升的直线；有些左列不同，右侧却给出相同表达，仍要保留各自的结构，按当前这条BMS来说明。
+
+蔡须坤则在M侧留住整段背景。那里面不只有M平方，还包括前面才辨清的较深函数值。她读到尾部时，常会本能地想将前面省成几个自己认得的暗号，随后又把笔停住。
+
+卢本韦看见，便问她前面省掉的是什么。
+
+她第一次只说旧背景，卢本韦没应。第二次，她将具体的函数头与参数重新念全，卢本韦才把后面的I侧接过来。
+
+“你要是连自己都暂时说不全，我就没法靠这个帮你查。”
+
+蔡须坤抬头看她，最后将几个暗号全部擦去。M侧难的地方，本就有很大一部分藏在被她想省掉的位置。纸上能省多少字，与脑中有没有留住结构，是两件必须分开看的事。
+
+薛峰也没有将几处相同的右侧直接合并。他把完整左列分别核过，指出相同部分在哪里结束，哪一列仍有差别，再把它们交给后面的人复述。
+
+古月娜陪着蔡兴坤、小舞看同一处。她没有替前面四人下结论，而是让后面的几人把自己需要的那层先讲清。听懂以后，再把当前这条左列独立接回去，谁也不靠一句“前面已经会了”略过。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2)$$
+
+$$= \psi(I^2 + \Omega_{\psi_I(I^2)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4)$$
+
+$$= \psi(I^2 + I)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_M(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)\\
+(6,3,1)(7,3)(6)$$
+
+$$= \psi(I^2 + I\times 2)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_M(M^2)\times 2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)$$
+
+$$= \psi(I^2 + I\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,1)\\
+(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 + I\times \psi_I(I))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,1)\\
+(1,1,1)(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^2 + I\times \psi_I(I\times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,1)\\
+(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 + I\times \psi_I(I^2))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,1)\\
+(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 + I\times \psi_I(I^2))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)$$
+
+$$= \psi(I^2 + I\times \Omega_{\psi_I(I^2)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)\\
+(3,2,1)(4,2,1)(5,2)(4)$$
+
+$$= \psi(I^2 + I\times \psi_I(I^2+I))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+\psi_M(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)\\
+(3,2,1)(4,2,1)(5,2)(4,2,1)$$
+
+$$= \psi(I^2 + I\times \psi_I(I^2+I\times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+\psi_{\psi_M(M^2+M)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)\\
+(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)$$
+
+$$= \psi(I^2 + I\times \psi_I(I^2+I\times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+\psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+1)))))$$
+
+一旬里，山脚的灯常常留到很晚。
+
+蔡须坤写M，卢本韦核I，霍雨浩在两本之间认参数，薛峰则能先找出重复输入与重见的尾部。四人做事的次序并不固定，谁先看清，便将那一处留给其余人检查。起初还要几遍才能接上的讨论，慢慢能够在同一页里说完。
+
+有限倍数之后，背景开始进入更明显的幂次结构。
+
+卢本韦将I平方乘二与后面出现的I立方分别圈出，没有将它们当成一句“继续增大”带过。I侧短，恰好能让她先看清当前运算的位置；读到M侧，却仍要由蔡须坤指出相应变化在多深的参数之中。
+
+蔡须坤最吃力的那一行，左列已经跨过好几行，M侧也跟着分开写。她的手指从第一行挪到第二行时，下意识地想换一口气，脑中的结构便断了一下。
+
+薛峰立即将另一张纸推到下方，接住前一行留下的位置。上面的BMS没有重新开始，右侧也没有因为排版结束一个函数。她先把尚未闭合的那一层说明，再往下念，终于没有靠猜测把后半段拼进去。
+
+霍雨浩随后换了一种问法，让她从最深处读回外面。开始时她几乎句句停，卢本韦便在同一张I页上等着，不提前报出最后的短结果。等蔡须坤真正回到外层，她才指出两个表示在这一条完整对应上如何相接。
+
+外面的风渐渐小了，石壁上的水仍没有干。唐三将绳子重新收短，诺当替几人把能站稳的地方擦过。四人轮流起身试阶，另外三人就将纸留在对方够得着的位置。
+
+这时，领先已经不必由谁说出来。蔡须坤能独立找回M侧的深层位置，卢本韦能在I侧先认清整体，霍雨浩能核两边接续的前提，薛峰则能在答案没摆好以前，先将共同的输入守住。
+
+后面的同伴仍各有卡住的地方。他们把多出来的这一点余裕，分给了那些具体的停顿。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)\\
+(5,2)(4)$$
+
+$$= \psi(I^2 \times 2)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) \times 2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)\\
+(4,2)(5,3,1)(6,3,1)(7,3)(6,3,1)(7,3)(6)$$
+
+$$= \psi(I^2 \times 3)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) \times 3)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^2 \times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + 1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)$$
+
+$$= \psi(I^2 \times \Omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 \times \psi_I(I))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^2 \times \psi_I(I\times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)\\
+(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 \times \psi_I(I^2))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)\\
+(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^2 \times \psi_I(I^2 \times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2 + 1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)\\
+(3,1)(2,1,1)(3,1)$$
+
+$$= \psi(I^2 \times \psi_I(I^2 \times \Omega))$$
+
+$$=\! \psi(M^2\!+\!\psi_{\psi_M(M^2+M)}(M^2 \!+\! \psi_{\psi_M(M^2)}(M^2 \!+\! \psi_{\psi_M(M^2+M)}(M^2 \!+\! \psi_{\psi_M(M^2)}(1)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)\\
+(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)$$
+
+$$= \psi(I^2 \times \psi_I(I^2 \times \psi_I(I^2 \times \Omega)))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2\\
++ \psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(1)))))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^3)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_M(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^3\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_M(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^4)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_M(M^2)\times 2))$$
+
+I立方与I四次方写过以后，卢本韦没有急着去猜更高的终点。她把当前已经核清的几种运算分开，又回头问了一遍：最外层ψ是不是还在？
+
+这一次，蔡须坤、霍雨浩与薛峰几乎同时答了出来。几人听见彼此的声音，都笑了一下，又各自把完整理由补上。
+
+幂次终于也不再只取有限的数。
+
+卢本韦能够读出I的ω次方，接到后面仍会被相似的写法绕住。指数里加一，指数自身再乘一段，与整座幂之后接一个乘数，纸上往往只差很短的位置，不能靠声音里那一个“乘”字分辨。
+
+霍雨浩把她两次停错的地方留在纸边，没有给每一种都另起一个新字母。她们已经被长式困住够久，眼下更需要把原来的完整结构读顺，而非再添一串只有自己记得住的代称。
+
+蔡须坤在M侧也遇到同样的困难。更深的参数里，又放入同一类函数值，外侧的括号仍须一路保留。她先看最外层，再从最内层读回，每回返回都说清现在是在指数的对应中，还是已经回到整个坍缩参数。
+
+薛峰听到中途，忽然指出一处：“你在这里读回外面了，手却还指着内层。”
+
+蔡须坤停下，重新沿着他的指尖找过去。错的正是她刚才最想跳过的地方。
+
+她把那一处独立写清，让薛峰再核，然后主动将下一条也交给他。最早那个只在页角留白的人，已经能在她最费力的那一侧，找出明确的帮助位置。
+
+到I的I次方附近时，卢本韦第一次比蔡须坤晚了半拍。她没有抢着把话补完，先让对方说清M侧，再回自己的I侧查指数的括号。换了记号以后，谁都会有看得较早的时候，也会有需要别人等的时候。
+
+古月娜听完两人的解释，将同一条递给唐三。她们在前面已经找到一条可走的路，后面的人仍需亲自将这一段接完。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3)$$
+
+$$= \psi(I^\omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^{\omega+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(1)+\psi_M(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3)(2,1,1)(3,1)(3)$$
+
+$$= \psi(I^{\omega\times 2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(1)\times 2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3)(3)$$
+
+$$= \psi(I^{\omega^2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)$$
+
+$$= \psi(I^{\Omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^{\psi_I(I)})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M)}(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^{\psi_I(I^2)})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M)}(M^2\\
++ \psi_{\psi_M(M^2+M)}(M^2)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(1,1,1)(2,1,1)(3,1)(3)$$
+
+$$= \psi(I^{\psi_I(I^\omega)})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M)}(M^2\\
++ \psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(1))))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(1,1,1)(2,1,1)(3,1)(3,1)$$
+
+$$= \psi(I^{\psi_I(I^\Omega)})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M)}(M^2\\
++ \psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M))))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(2)$$
+
+$$= \psi(I^I)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^I\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^{I + 1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)+\psi_M(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(2,1,1)(3,1)(3,1)(2)$$
+
+$$= \psi(I^{I \times 2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2) \times 2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(2,1,1)(3,1)(3,1)(2,1,1)(3,1)(3,1)(2)$$
+
+$$= \psi(I^{I \times 3})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2) \times 3))$$
+
+这一组收尾时，蔡须坤将手从纸上拿开，发现指腹已经被炭条磨黑。
+
+卢本韦递来湿布，自己却还在低声念指数中的那一段。蔡须坤听出她没有漏，便没打断，只替她将快被风翻过去的页角压住。
+
+幂塔继续往里延伸，纸面上却不能随着塔高无限拉长。
+
+霍雨浩将最长的一式分成几行，先让每行在一对完整的括号或一段明确的运算之后续接。能留在同一行的就留着，真正超出纸宽的才换行。他没有靠缩小字迹，把那些最容易读错的下标挤成一团。
+
+卢本韦从I侧检查幂次的括号。塔里的幂按原式各自的指数范围来读，不能因为视觉上换到左边，就把后半段当成新的底数。她把停顿说给薛峰听，薛峰则核左列有没有在相似的几列之间漏掉一次重复。
+
+蔡须坤将M侧读到最深的一层。函数头重复得太多，她在其中一处停了很久，额角又沁出汗。
+
+这一次她没有独自硬撑，直接把纸转向霍雨浩：“这里我回不去。”
+
+霍雨浩沿她已经说明的来路追过去，找到应当返回的位置，却没有替她接完。卢本韦将I侧同一个层次留在旁边，薛峰用指尖守着下一处还未合上的括号。蔡须坤自己将最后那一段读回来，终于能指出为什么外面还剩着这一层。
+
+她靠着石壁歇了一会儿，才重新起身。果糕领域短暂浮起，又被她收拢到身周，没有试图伸到上方替谁承接整段考核。她知道，真正需要留住的是自己清楚听见的那一步，不能把领域的安稳当成所有括号都已核完。
+
+走到最后几条时，四人开始能够在不同的纸上同时复算，再交换着解释。相同之处核得更快，真正不同的位置反而停得更仔细。霍雨浩听完薛峰的整段说明，终于将本子交还给他，没有再让他从头补一遍。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(3)$$
+
+$$= \psi(I^{I \times \omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)$$
+
+$$= \psi(I^{I \times \Omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(2)$$
+
+$$= \psi(I^{I^2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^{I^2}\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2))+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(3)$$
+
+$$= \psi(I^{I^2\times \omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2)+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(3,1)(2)$$
+
+$$= \psi(I^{I^3})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2)\times 2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(3,1)(3,1)(2)$$
+
+$$= \psi(I^{I^4})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2)\times 3)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4)$$
+
+$$= \psi(I^{I^\omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)$$
+
+$$= \psi(I^{I^\Omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(2)$$
+
+$$= \psi(I^{I^I})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(2,1,1)$$
+
+$$= \psi(I^{I^I}\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2))+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(3)$$
+
+$$= \psi(I^{I^I\times \omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2)+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(3,1)(2)$$
+
+$$= \psi(I^{I^{I+1}})$$
+
+$$=\! \psi(M^2\!+\!\psi_{\psi_M(M^2+M)}(M^2 \!+\! \psi_{\psi_M(M^2+M)}(M^2\!+\!\psi_{\psi_M(M^2+M)}(M^2)\!+\!\psi_M(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(3,1)(4)$$
+
+$$= \psi(I^{I^{I+\omega}})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2)\\
++\psi_{\psi_M(M^2+M)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(3,1)(4,1)(2)$$
+
+$$= \psi(I^{I^{I\times 2}})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2)\times 2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(4)$$
+
+$$= \psi(I^{I^{I\times \omega}})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2+1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(4,1)(2)$$
+
+$$= \psi(I^{I^{I^2}})$$
+
+$$=\! \psi(M^2\!+\!\psi_{\psi_M(M^2+M)}(M^2 \!+\! \psi_{\psi_M(M^2+M)}(M^2\!+\!\psi_{\psi_M(M^2+M)}(M^2\!+\!\psi_M(M^2)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(5)$$
+
+$$= \psi(I^{I^{I^\omega}})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2\\
++\psi_{\psi_M(M^2+M)}(1)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(5,1)(2)$$
+
+$$= \psi(I^{I^{I^I}})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)))))$$
+
+三百米的石桩已在上方，刻痕只露出一半。卢本韦抬头看了很久，又低头将最后一条幂塔的对应完整看完。
+
+她没有先走。蔡须坤也将M册留在手里，等待那一处被讲义用红色标出的末行。前面所有细长的幂塔，都还不是她们可以替最后一行预写答案的理由。
+
+蔡须坤看见M平方加M，第一反应竟是自己早在许多页以前就读过它。
+
+她将旧册翻回去，果然找到了。可那一次，它出现在更深的函数头里，是某一个内层函数所用的参数。现在这一行，M平方加M直接成为最外层ψ所吃进的整个参数，位置已经不同。
+
+“先前在里面见过，和现在整条式子走到这里，不是一回事。”她说。
+
+卢本韦顺着I侧找回同一处，Ω的下标也必须完整保留。她没有因最后的M式比前面短，就把那一截I侧的下标略去。
+
+霍雨浩请薛峰从共同的BMS再核一遍。薛峰认清最后一列，指出它与此前那几条幂塔对应的不同位置，才把左列交给蔡须坤复述。
+
+这一行写完，蔡须坤终于将手慢慢松开。卢本韦把两份纸压齐，霍雨浩等她们各自说完，再请其余人说明自己能够独立认出的部分。讲义在这一处以红色收束EBO到JO的这一段路，他们也将它留在完整的对应里，没有只摘走一个更短的结果。
+
+薛峰又把左列的前三个展开项单独核了一回。末列四、二的坏根在三、一，新增段仍依当前坏部生成，第二行保留原值。每一项都从同一原式出发，先前经过的幂塔对应可以用来对照，不能替代这一次具体的根与阶差。
+
+$$\text{展开第零项：}\quad(0)(1,1,1)(2,1,1)(3,1)$$
+
+$$\text{展开第一项：}\quad(0)(1,1,1)(2,1,1)(3,1)(4,1)$$
+
+$$\text{展开第二项：}\quad(0)(1,1,1)(2,1,1)(3,1)(4,1)(5,1)$$
+
+第一处发生差别的列，已经让这些有限项处在原式之下，后面写得再长，也不会靠增加列数追成原式本身。蔡须坤、卢本韦与霍雨浩分别核完，才把这份左列检查与两套完整对应放在一起。
+
+$$\textcolor{red}{(0)(1,1,1)(2,1,1)(3,1)(4,2)}$$
+
+$$\textcolor{red}{= \psi(\Omega_{I+1})}$$
+
+$$\textcolor{red}{= \psi(M^2+M)}$$
+
+最先走到石桩前的，是蔡须坤、卢本韦、霍雨浩与薛峰。
+
+蔡须坤先落稳脚，卢本韦等自己把I侧完整接续，才将另一只脚跟上。霍雨浩回头核过刚才有人问住的一处，薛峰则能不翻答案，将自己的整段说明说完。
+
+三百米的横台亮起来。四人没有把本子收走，分别站到后面同伴够得着的位置。唐三、小舞、诺当、奥斯卡、蔡兴坤、叶阳与古月娜随后陆续站稳，最后一人到了，绳子才真正松下来。
+
+卢本韦坐下以后，很久才伸手去接水。
+
+蔡须坤的M册摊在膝上，右边那一页已经被她翻得发软。她将最后一条看过，又回到前面那三处待核的异文，确认没有因为看见终点就把疑问擦掉。能完整说明的路已经留下，尚需证明的关系也仍有清楚的位置。
+
+薛峰把四人的纸收在一起，随后才去接其余人的本子。收过来时，他发现大家已经习惯先问他哪一页能找到共同的左列。他应着，一份份归好，手上的动作终于不再迟疑。
+
+夏夜星空看过他们站稳的地方，目光在前面四人之间停了一会儿，才请大家先歇。
+
+从二百二十米到这里，蔡须坤一直主攻更繁复的M表示，卢本韦沿I表示认清整体，霍雨浩守住两侧解释所依赖的条件，薛峰则从核页、接缝，走到了能够独立复算和指出问题。此刻四人的分析与接续确实更早稳住，其余同伴也各自走到了横台，没有谁被一道快答留在下方。
+
+古月娜将卢本韦身后的包放平，又把蔡须坤的水接满。她仍坐在几人之间，听见薛峰替诺当接回一处换行，便放心地把自己的那页重新展开。
+
+蔡须坤仰头，五百米仍在更高的雾里。离这一项的目标还有二百米，离中分山顶还有二千二百米，两年的考核也没有因为队伍在山脚休养就停下来。
+
+她没有急着给下一页起名字，只将手背贴了贴身后那点平静的温热，接过卢本韦递来的本子。
+
+“三百米，先写上。”
+
+霍雨浩将笔递过去。薛峰压住页角，等新刻度写稳，十一人才把今天这一段真正收好。
+
+
+二百八十米之后，薛峰没有立刻翻过旧页。
+
+新讲义的头几行放在他膝上，他却将前一天收好的两本册子重新打开，一页页往回找。卢本韦以为他又漏了某一处函数头，正要接话，便看见他已经把两条完整的左列并排放到了纸上。
+
+“这条我们读过。”他说。
+
+蔡须坤顺着看了一遍，确实一列也不差。她去核M侧，卢本韦看I侧，霍雨浩则将上一段的目录从头找来。
+
+后面的人暂时坐下。唐三还没将绳结向上挪，古月娜也没有催前面的人先去试。几天以来，大家都盼着早一点看见三百米，此刻一处很小的疑问，却把十一人一同留在了原地。
+
+薛峰将炭条放稳，手没有再像最初那样急着收回来。他知道自己还不能证明哪一种写法合适，但同一条左列出现过，就是出现过，不能因为新页摆在后面，就当它从未见过。
+
+他们找出了三处需要另行核对的对应。
+
+这一页的第一行，与旧册里I乘一个ψ值的那一行，有着相同的完整BMS；第二行也能在旧册的另一处乘法结构中找到。第四行的左列，更正是上一段末尾才用来认清I平方的原式。
+
+可新页给它们写下的I侧表达，分别换成了带I平方的另一种结构。
+
+卢本韦原来已经要照着新页读，听到这里，慢慢把手移开。“那不能把它们当成又往上走了三步。”
+
+霍雨浩点头。右端写得不同，不能只凭字面便断言数值一定不同；坍缩表示中还会遇到规范化与同值写法。可讲义没有在这里给出足够说明，他们也没有当场完成相应证明，便不能悄悄把这种关系当成已经讲清的通用结论。
+
+三行仍原样保留，旁边另记“同一输入的异文，待核对”。夹在其中的另一条，也按自己的左列单独核，没被这处问题一并抹掉。
+
+蔡须坤最先有些不甘。她为了M侧那几层函数花了很久，眼下若留下一处未定，总像前面白走了一截。卢本韦把两本推到她面前，叫她看自己昨天已经能够独立解释的那些页。
+
+“能说清的还在。没说清的，也得让它留着。”
+
+薛峰将三处左列各自对应的旧页找齐，放在新页旁边。以前他帮大家核对换行，是怕抄错；现在他需要守住的是，同一个输入不能只因为讲义换了一页，就被当成另一道已经解决的新题。
+
+夏夜星空看过他们留下的标记，没有要求他们为赶路将它擦掉。她让几人先把确实能够说明的结构整理好，待核的关系另留一处，不拿它来证明脚下的新台阶已经通过。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 + \psi_I(I))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2)}(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^2 + \psi_I(I\times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 + \psi_I(I^2))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 + \psi_I(I^2)\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)+1)}(1))$$
+
+蔡须坤将笔从那三处移开，深吸一口气，翻到下一组。
+
+薛峰没有得到一个现成的新答案，却终于能将疑问完整交给同伴。霍雨浩把他找出的旧页夹在最前，留待以后核查。那份目录第一次成了所有人都会主动来借的东西。
+
+接下来的结构，继续在I平方之后补入更深的尾部。
+
+卢本韦先把每一行的背景读出，再确认加在后面的那一段归哪个括号。她已经不急着把所有相近的结果排成一条严格上升的直线；有些左列不同，右侧却给出相同表达，仍要保留各自的结构，按当前这条BMS来说明。
+
+蔡须坤则在M侧留住整段背景。那里面不只有M平方，还包括前面才辨清的较深函数值。她读到尾部时，常会本能地想将前面省成几个自己认得的暗号，随后又把笔停住。
+
+卢本韦看见，便问她前面省掉的是什么。
+
+她第一次只说旧背景，卢本韦没应。第二次，她将具体的函数头与参数重新念全，卢本韦才把后面的I侧接过来。
+
+“你要是连自己都暂时说不全，我就没法靠这个帮你查。”
+
+蔡须坤抬头看她，最后将几个暗号全部擦去。M侧难的地方，本就有很大一部分藏在被她想省掉的位置。纸上能省多少字，与脑中有没有留住结构，是两件必须分开看的事。
+
+薛峰也没有将几处相同的右侧直接合并。他把完整左列分别核过，指出相同部分在哪里结束，哪一列仍有差别，再把它们交给后面的人复述。
+
+古月娜陪着蔡兴坤、小舞看同一处。她没有替前面四人下结论，而是让后面的几人把自己需要的那层先讲清。听懂以后，再把当前这条左列独立接回去，谁也不靠一句“前面已经会了”略过。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2)$$
+
+$$= \psi(I^2 + \Omega_{\psi_I(I^2)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4)$$
+
+$$= \psi(I^2 + I)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_M(M^2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)\\
+(6,3,1)(7,3)(6)$$
+
+$$= \psi(I^2 + I\times 2)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_M(M^2)\times 2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)$$
+
+$$= \psi(I^2 + I\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,1)\\
+(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 + I\times \psi_I(I))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,1)\\
+(1,1,1)(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^2 + I\times \psi_I(I\times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,1)\\
+(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 + I\times \psi_I(I^2))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,1)\\
+(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 + I\times \psi_I(I^2))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)$$
+
+$$= \psi(I^2 + I\times \Omega_{\psi_I(I^2)+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)\\
+(3,2,1)(4,2,1)(5,2)(4)$$
+
+$$= \psi(I^2 + I\times \psi_I(I^2+I))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+\psi_M(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)\\
+(3,2,1)(4,2,1)(5,2)(4,2,1)$$
+
+$$= \psi(I^2 + I\times \psi_I(I^2+I\times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+\psi_{\psi_M(M^2+M)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)\\
+(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)$$
+
+$$= \psi(I^2 + I\times \psi_I(I^2+I\times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+\psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+1)))))$$
+
+一旬里，山脚的灯常常留到很晚。
+
+蔡须坤写M，卢本韦核I，霍雨浩在两本之间认参数，薛峰则能先找出重复输入与重见的尾部。四人做事的次序并不固定，谁先看清，便将那一处留给其余人检查。起初还要几遍才能接上的讨论，慢慢能够在同一页里说完。
+
+有限倍数之后，背景开始进入更明显的幂次结构。
+
+卢本韦将I平方乘二与后面出现的I立方分别圈出，没有将它们当成一句“继续增大”带过。I侧短，恰好能让她先看清当前运算的位置；读到M侧，却仍要由蔡须坤指出相应变化在多深的参数之中。
+
+蔡须坤最吃力的那一行，左列已经跨过好几行，M侧也跟着分开写。她的手指从第一行挪到第二行时，下意识地想换一口气，脑中的结构便断了一下。
+
+薛峰立即将另一张纸推到下方，接住前一行留下的位置。上面的BMS没有重新开始，右侧也没有因为排版结束一个函数。她先把尚未闭合的那一层说明，再往下念，终于没有靠猜测把后半段拼进去。
+
+霍雨浩随后换了一种问法，让她从最深处读回外面。开始时她几乎句句停，卢本韦便在同一张I页上等着，不提前报出最后的短结果。等蔡须坤真正回到外层，她才指出两个表示在这一条完整对应上如何相接。
+
+外面的风渐渐小了，石壁上的水仍没有干。唐三将绳子重新收短，诺当替几人把能站稳的地方擦过。四人轮流起身试阶，另外三人就将纸留在对方够得着的位置。
+
+这时，领先已经不必由谁说出来。蔡须坤能独立找回M侧的深层位置，卢本韦能在I侧先认清整体，霍雨浩能核两边接续的前提，薛峰则能在答案没摆好以前，先将共同的输入守住。
+
+后面的同伴仍各有卡住的地方。他们把多出来的这一点余裕，分给了那些具体的停顿。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)\\
+(5,2)(4)$$
+
+$$= \psi(I^2 \times 2)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) \times 2)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)\\
+(4,2)(5,3,1)(6,3,1)(7,3)(6,3,1)(7,3)(6)$$
+
+$$= \psi(I^2 \times 3)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) \times 3)$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^2 \times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + 1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)$$
+
+$$= \psi(I^2 \times \Omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 \times \psi_I(I))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^2 \times \psi_I(I\times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)\\
+(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^2 \times \psi_I(I^2))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)\\
+(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^2 \times \psi_I(I^2 \times \omega))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2 + 1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)\\
+(3,1)(2,1,1)(3,1)$$
+
+$$= \psi(I^2 \times \psi_I(I^2 \times \Omega))$$
+
+$$=\! \psi(M^2\!+\!\psi_{\psi_M(M^2+M)}(M^2 \!+\! \psi_{\psi_M(M^2)}(M^2 \!+\! \psi_{\psi_M(M^2+M)}(M^2 \!+\! \psi_{\psi_M(M^2)}(1)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)\\
+(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)$$
+
+$$= \psi(I^2 \times \psi_I(I^2 \times \psi_I(I^2 \times \Omega)))$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2\\
++ \psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(1)))))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^3)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_M(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^3\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_M(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^4)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_M(M^2)\times 2))$$
+
+I立方与I四次方写过以后，卢本韦没有急着去猜更高的终点。她把当前已经核清的几种运算分开，又回头问了一遍：最外层ψ是不是还在？
+
+这一次，蔡须坤、霍雨浩与薛峰几乎同时答了出来。几人听见彼此的声音，都笑了一下，又各自把完整理由补上。
+
+幂次终于也不再只取有限的数。
+
+卢本韦能够读出I的ω次方，接到后面仍会被相似的写法绕住。指数里加一，指数自身再乘一段，与整座幂之后接一个乘数，纸上往往只差很短的位置，不能靠声音里那一个“乘”字分辨。
+
+霍雨浩把她两次停错的地方留在纸边，没有给每一种都另起一个新字母。她们已经被长式困住够久，眼下更需要把原来的完整结构读顺，而非再添一串只有自己记得住的代称。
+
+蔡须坤在M侧也遇到同样的困难。更深的参数里，又放入同一类函数值，外侧的括号仍须一路保留。她先看最外层，再从最内层读回，每回返回都说清现在是在指数的对应中，还是已经回到整个坍缩参数。
+
+薛峰听到中途，忽然指出一处：“你在这里读回外面了，手却还指着内层。”
+
+蔡须坤停下，重新沿着他的指尖找过去。错的正是她刚才最想跳过的地方。
+
+她把那一处独立写清，让薛峰再核，然后主动将下一条也交给他。最早那个只在页角留白的人，已经能在她最费力的那一侧，找出明确的帮助位置。
+
+到I的I次方附近时，卢本韦第一次比蔡须坤晚了半拍。她没有抢着把话补完，先让对方说清M侧，再回自己的I侧查指数的括号。换了记号以后，谁都会有看得较早的时候，也会有需要别人等的时候。
+
+古月娜听完两人的解释，将同一条递给唐三。她们在前面已经找到一条可走的路，后面的人仍需亲自将这一段接完。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3)$$
+
+$$= \psi(I^\omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^{\omega+1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(1)+\psi_M(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3)(2,1,1)(3,1)(3)$$
+
+$$= \psi(I^{\omega\times 2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(1)\times 2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3)(3)$$
+
+$$= \psi(I^{\omega^2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)$$
+
+$$= \psi(I^{\Omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(1,1,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^{\psi_I(I)})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M)}(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^{\psi_I(I^2)})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M)}(M^2\\
++ \psi_{\psi_M(M^2+M)}(M^2)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(1,1,1)(2,1,1)(3,1)(3)$$
+
+$$= \psi(I^{\psi_I(I^\omega)})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M)}(M^2\\
++ \psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(1))))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(1,1,1)(2,1,1)(3,1)(3,1)$$
+
+$$= \psi(I^{\psi_I(I^\Omega)})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M)}(M^2\\
++ \psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M))))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(2)$$
+
+$$= \psi(I^I)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^I\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(2,1,1)(3,1)(2)$$
+
+$$= \psi(I^{I + 1})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)+\psi_M(M^2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(2,1,1)(3,1)(3,1)(2)$$
+
+$$= \psi(I^{I \times 2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2) \times 2))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(2,1,1)(3,1)(3,1)(2,1,1)(3,1)(3,1)(2)$$
+
+$$= \psi(I^{I \times 3})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2) \times 3))$$
+
+这一组收尾时，蔡须坤将手从纸上拿开，发现指腹已经被炭条磨黑。
+
+卢本韦递来湿布，自己却还在低声念指数中的那一段。蔡须坤听出她没有漏，便没打断，只替她将快被风翻过去的页角压住。
+
+幂塔继续往里延伸，纸面上却不能随着塔高无限拉长。
+
+霍雨浩将最长的一式分成几行，先让每行在一对完整的括号或一段明确的运算之后续接。能留在同一行的就留着，真正超出纸宽的才换行。他没有靠缩小字迹，把那些最容易读错的下标挤成一团。
+
+卢本韦从I侧检查幂次的括号。塔里的幂按原式各自的指数范围来读，不能因为视觉上换到左边，就把后半段当成新的底数。她把停顿说给薛峰听，薛峰则核左列有没有在相似的几列之间漏掉一次重复。
+
+蔡须坤将M侧读到最深的一层。函数头重复得太多，她在其中一处停了很久，额角又沁出汗。
+
+这一次她没有独自硬撑，直接把纸转向霍雨浩：“这里我回不去。”
+
+霍雨浩沿她已经说明的来路追过去，找到应当返回的位置，却没有替她接完。卢本韦将I侧同一个层次留在旁边，薛峰用指尖守着下一处还未合上的括号。蔡须坤自己将最后那一段读回来，终于能指出为什么外面还剩着这一层。
+
+她靠着石壁歇了一会儿，才重新起身。果糕领域短暂浮起，又被她收拢到身周，没有试图伸到上方替谁承接整段考核。她知道，真正需要留住的是自己清楚听见的那一步，不能把领域的安稳当成所有括号都已核完。
+
+走到最后几条时，四人开始能够在不同的纸上同时复算，再交换着解释。相同之处核得更快，真正不同的位置反而停得更仔细。霍雨浩听完薛峰的整段说明，终于将本子交还给他，没有再让他从头补一遍。
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(3)$$
+
+$$= \psi(I^{I \times \omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)$$
+
+$$= \psi(I^{I \times \Omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(2)$$
+
+$$= \psi(I^{I^2})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(2,1,1)$$
+
+$$= \psi(I^{I^2}\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2))+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(3)$$
+
+$$= \psi(I^{I^2\times \omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2)+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(3,1)(2)$$
+
+$$= \psi(I^{I^3})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2)\times 2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(3,1)(3,1)(2)$$
+
+$$= \psi(I^{I^4})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2)\times 3)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4)$$
+
+$$= \psi(I^{I^\omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)$$
+
+$$= \psi(I^{I^\Omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(2)$$
+
+$$= \psi(I^{I^I})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(2,1,1)$$
+
+$$= \psi(I^{I^I}\times \omega)$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2))+1))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(3)$$
+
+$$= \psi(I^{I^I\times \omega})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2)+1)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(3,1)(2)$$
+
+$$= \psi(I^{I^{I+1}})$$
+
+$$=\! \psi(M^2\!+\!\psi_{\psi_M(M^2+M)}(M^2 \!+\! \psi_{\psi_M(M^2+M)}(M^2\!+\!\psi_{\psi_M(M^2+M)}(M^2)\!+\!\psi_M(M^2))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(3,1)(4)$$
+
+$$= \psi(I^{I^{I+\omega}})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2)\\
++\psi_{\psi_M(M^2+M)}(1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(3,1)(4,1)(2)$$
+
+$$= \psi(I^{I^{I\times 2}})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2)\times 2)))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(4)$$
+
+$$= \psi(I^{I^{I\times \omega}})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2+1))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(4,1)(2)$$
+
+$$= \psi(I^{I^{I^2}})$$
+
+$$=\! \psi(M^2\!+\!\psi_{\psi_M(M^2+M)}(M^2 \!+\! \psi_{\psi_M(M^2+M)}(M^2\!+\!\psi_{\psi_M(M^2+M)}(M^2\!+\!\psi_M(M^2)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(5)$$
+
+$$= \psi(I^{I^{I^\omega}})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2\\
++\psi_{\psi_M(M^2+M)}(1)))))$$
+
+$$(0)(1,1,1)(2,1,1)(3,1)(4,1)(5,1)(2)$$
+
+$$= \psi(I^{I^{I^I}})$$
+
+$$= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)))))$$
+
+三百米的石桩已在上方，刻痕只露出一半。卢本韦抬头看了很久，又低头将最后一条幂塔的对应完整看完。
+
+她没有先走。蔡须坤也将M册留在手里，等待那一处被讲义用红色标出的末行。前面所有细长的幂塔，都还不是她们可以替最后一行预写答案的理由。
+
+蔡须坤看见M平方加M，第一反应竟是自己早在许多页以前就读过它。
+
+她将旧册翻回去，果然找到了。可那一次，它出现在更深的函数头里，是某一个内层函数所用的参数。现在这一行，M平方加M直接成为最外层ψ所吃进的整个参数，位置已经不同。
+
+“先前在里面见过，和现在整条式子走到这里，不是一回事。”她说。
+
+卢本韦顺着I侧找回同一处，Ω的下标也必须完整保留。她没有因最后的M式比前面短，就把那一截I侧的下标略去。
+
+霍雨浩请薛峰从共同的BMS再核一遍。薛峰认清最后一列，指出它与此前那几条幂塔对应的不同位置，才把左列交给蔡须坤复述。
+
+这一行写完，蔡须坤终于将手慢慢松开。卢本韦把两份纸压齐，霍雨浩等她们各自说完，再请其余人说明自己能够独立认出的部分。讲义在这一处以红色收束EBO到JO的这一段路，他们也将它留在完整的对应里，没有只摘走一个更短的结果。
+
+薛峰又把左列的前三个展开项单独核了一回。末列四、二的坏根在三、一，新增段仍依当前坏部生成，第二行保留原值。每一项都从同一原式出发，先前经过的幂塔对应可以用来对照，不能替代这一次具体的根与阶差。
+
+$$\text{展开第零项：}\quad(0)(1,1,1)(2,1,1)(3,1)$$
+
+$$\text{展开第一项：}\quad(0)(1,1,1)(2,1,1)(3,1)(4,1)$$
+
+$$\text{展开第二项：}\quad(0)(1,1,1)(2,1,1)(3,1)(4,1)(5,1)$$
+
+第一处发生差别的列，已经让这些有限项处在原式之下，后面写得再长，也不会靠增加列数追成原式本身。蔡须坤、卢本韦与霍雨浩分别核完，才把这份左列检查与两套完整对应放在一起。
+
+$$\textcolor{red}{(0)(1,1,1)(2,1,1)(3,1)(4,2)}$$
+
+$$\textcolor{red}{= \psi(\Omega_{I+1})}$$
+
+$$\textcolor{red}{= \psi(M^2+M)}$$
+
+最先走到石桩前的，是蔡须坤、卢本韦、霍雨浩与薛峰。
+
+蔡须坤先落稳脚，卢本韦等自己把I侧完整接续，才将另一只脚跟上。霍雨浩回头核过刚才有人问住的一处，薛峰则能不翻答案，将自己的整段说明说完。
+
+三百米的横台亮起来。四人没有把本子收走，分别站到后面同伴够得着的位置。唐三、小舞、诺当、奥斯卡、蔡兴坤、叶阳与古月娜随后陆续站稳，最后一人到了，绳子才真正松下来。
+
+卢本韦坐下以后，很久才伸手去接水。
+
+蔡须坤的M册摊在膝上，右边那一页已经被她翻得发软。她将最后一条看过，又回到前面那三处待核的异文，确认没有因为看见终点就把疑问擦掉。能完整说明的路已经留下，尚需证明的关系也仍有清楚的位置。
+
+薛峰把四人的纸收在一起，随后才去接其余人的本子。收过来时，他发现大家已经习惯先问他哪一页能找到共同的左列。他应着，一份份归好，手上的动作终于不再迟疑。
+
+夏夜星空看过他们站稳的地方，目光在前面四人之间停了一会儿，才请大家先歇。
+
+从二百二十米到这里，蔡须坤一直主攻更繁复的M表示，卢本韦沿I表示认清整体，霍雨浩守住两侧解释所依赖的条件，薛峰则从核页、接缝，走到了能够独立复算和指出问题。此刻四人的分析与接续确实更早稳住，其余同伴也各自走到了横台，没有谁被一道快答留在下方。
+
+古月娜将卢本韦身后的包放平，又把蔡须坤的水接满。她仍坐在几人之间，听见薛峰替诺当接回一处换行，便放心地把自己的那页重新展开。
+
+蔡须坤仰头，五百米仍在更高的雾里。离这一项的目标还有二百米，离中分山顶还有二千二百米，两年的考核也没有因为队伍在山脚休养就停下来。
+
+她没有急着给下一页起名字，只将手背贴了贴身后那点平静的温热，接过卢本韦递来的本子。
+
+“三百米，先写上。”
+
+霍雨浩将笔递过去。薛峰压住页角，等新刻度写稳，十一人才把今天这一段真正收好。
+
+
+二百八十米之后，薛峰没有立刻翻过旧页。
+
+新讲义的头几行放在他膝上，他却将前一天收好的两本册子重新打开，一页页往回找。卢本韦以为他又漏了某一处函数头，正要接话，便看见他已经把两条完整的左列并排放到了纸上。
+
+“这条我们读过。”他说。
+
+蔡须坤顺着看了一遍，确实一列也不差。她去核M侧，卢本韦看I侧，霍雨浩则将上一段的目录从头找来。
+
+后面的人暂时坐下。唐三还没将绳结向上挪，古月娜也没有催前面的人先去试。几天以来，大家都盼着早一点看见三百米，此刻一处很小的疑问，却把十一人一同留在了原地。
+
+薛峰将炭条放稳，手没有再像最初那样急着收回来。他知道自己还不能证明哪一种写法合适，但同一条左列出现过，就是出现过，不能因为新页摆在后面，就当它从未见过。
+
+他们找出了三处需要另行核对的对应。
+
+这一页的第一行，与旧册里I乘一个ψ值的那一行，有着相同的完整BMS；第二行也能在旧册的另一处乘法结构中找到。第四行的左列，更正是上一段末尾才用来认清I平方的原式。
+
+可新页给它们写下的I侧表达，分别换成了带I平方的另一种结构。
+
+卢本韦原来已经要照着新页读，听到这里，慢慢把手移开。“那不能把它们当成又往上走了三步。”
+
+霍雨浩点头。右端写得不同，不能只凭字面便断言数值一定不同；坍缩表示中还会遇到规范化与同值写法。可讲义没有在这里给出足够说明，他们也没有当场完成相应证明，便不能悄悄把这种关系当成已经讲清的通用结论。
+
+三行仍原样保留，旁边另记“同一输入的异文，待核对”。夹在其中的另一条，也按自己的左列单独核，没被这处问题一并抹掉。
+
+蔡须坤最先有些不甘。她为了M侧那几层函数花了很久，眼下若留下一处未定，总像前面白走了一截。卢本韦把两本推到她面前，叫她看自己昨天已经能够独立解释的那些页。
+
+“能说清的还在。没说清的，也得让它留着。”
+
+薛峰将三处左列各自对应的旧页找齐，放在新页旁边。以前他帮大家核对换行，是怕抄错；现在他需要守住的是，同一个输入不能只因为讲义换了一页，就被当成另一道已经解决的新题。
+
+夏夜星空看过他们留下的标记，没有要求他们为赶路将它擦掉。她让几人先把确实能够说明的结构整理好，待核的关系另留一处，不拿它来证明脚下的新台阶已经通过。
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2)\\
+= \psi(I^2 + \psi_I(I))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2)}(M^2))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)\\
+= \psi(I^2 + \psi_I(I\times \omega))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(1)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)\\
+= \psi(I^2 + \psi_I(I^2))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)\\
+= \psi(I^2 + \psi_I(I^2)\times \omega)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2)\\
++ \psi_{\psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)+1)}(1))
+\end{gathered}
+$$
+
+蔡须坤将笔从那三处移开，深吸一口气，翻到下一组。
+
+薛峰没有得到一个现成的新答案，却终于能将疑问完整交给同伴。霍雨浩把他找出的旧页夹在最前，留待以后核查。那份目录第一次成了所有人都会主动来借的东西。
+
+接下来的结构，继续在I平方之后补入更深的尾部。
+
+卢本韦先把每一行的背景读出，再确认加在后面的那一段归哪个括号。她已经不急着把所有相近的结果排成一条严格上升的直线；有些左列不同，右侧却给出相同表达，仍要保留各自的结构，按当前这条BMS来说明。
+
+蔡须坤则在M侧留住整段背景。那里面不只有M平方，还包括前面才辨清的较深函数值。她读到尾部时，常会本能地想将前面省成几个自己认得的暗号，随后又把笔停住。
+
+卢本韦看见，便问她前面省掉的是什么。
+
+她第一次只说旧背景，卢本韦没应。第二次，她将具体的函数头与参数重新念全，卢本韦才把后面的I侧接过来。
+
+“你要是连自己都暂时说不全，我就没法靠这个帮你查。”
+
+蔡须坤抬头看她，最后将几个暗号全部擦去。M侧难的地方，本就有很大一部分藏在被她想省掉的位置。纸上能省多少字，与脑中有没有留住结构，是两件必须分开看的事。
+
+薛峰也没有将几处相同的右侧直接合并。他把完整左列分别核过，指出相同部分在哪里结束，哪一列仍有差别，再把它们交给后面的人复述。
+
+古月娜陪着蔡兴坤、小舞看同一处。她没有替前面四人下结论，而是让后面的几人把自己需要的那层先讲清。听懂以后，再把当前这条左列独立接回去，谁也不靠一句“前面已经会了”略过。
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2)\\
+= \psi(I^2 + \Omega_{\psi_I(I^2)+1})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)\\
++1))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4)\\
+= \psi(I^2 + I)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_M(M^2))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2)(5,3,1)\\
+(6,3,1)(7,3)(6)\\
+= \psi(I^2 + I\times 2)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_M(M^2)\times 2)
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)\\
+= \psi(I^2 + I\times \omega)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(1))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,1)\\
+(1,1,1)(2,1,1)(3,1)(2)\\
+= \psi(I^2 + I\times \psi_I(I))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,1)\\
+(1,1,1)(2,1,1)(3,1)(2,1,1)\\
+= \psi(I^2 + I\times \psi_I(I\times \omega))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(1))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,1)\\
+(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)\\
+= \psi(I^2 + I\times \psi_I(I^2))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,1)\\
+(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)\\
+= \psi(I^2 + I\times \psi_I(I^2))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)\\
+= \psi(I^2 + I\times \Omega_{\psi_I(I^2)+1})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+1)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)\\
+(3,2,1)(4,2,1)(5,2)(4)\\
+= \psi(I^2 + I\times \psi_I(I^2+I))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+\psi_M(M^2))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)\\
+(3,2,1)(4,2,1)(5,2)(4,2,1)\\
+= \psi(I^2 + I\times \psi_I(I^2+I\times \omega))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+\psi_{\psi_M(M^2+M)}(1))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)\\
+(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)\\
+= \psi(I^2 + I\times \psi_I(I^2+I\times \omega))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+\psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M^2)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+1)))))
+\end{gathered}
+$$
+
+一旬里，山脚的灯常常留到很晚。
+
+蔡须坤写M，卢本韦核I，霍雨浩在两本之间认参数，薛峰则能先找出重复输入与重见的尾部。四人做事的次序并不固定，谁先看清，便将那一处留给其余人检查。起初还要几遍才能接上的讨论，慢慢能够在同一页里说完。
+
+有限倍数之后，背景开始进入更明显的幂次结构。
+
+卢本韦将I平方乘二与后面出现的I立方分别圈出，没有将它们当成一句“继续增大”带过。I侧短，恰好能让她先看清当前运算的位置；读到M侧，却仍要由蔡须坤指出相应变化在多深的参数之中。
+
+蔡须坤最吃力的那一行，左列已经跨过好几行，M侧也跟着分开写。她的手指从第一行挪到第二行时，下意识地想换一口气，脑中的结构便断了一下。
+
+薛峰立即将另一张纸推到下方，接住前一行留下的位置。上面的BMS没有重新开始，右侧也没有因为排版结束一个函数。她先把尚未闭合的那一层说明，再往下念，终于没有靠猜测把后半段拼进去。
+
+霍雨浩随后换了一种问法，让她从最深处读回外面。开始时她几乎句句停，卢本韦便在同一张I页上等着，不提前报出最后的短结果。等蔡须坤真正回到外层，她才指出两个表示在这一条完整对应上如何相接。
+
+外面的风渐渐小了，石壁上的水仍没有干。唐三将绳子重新收短，诺当替几人把能站稳的地方擦过。四人轮流起身试阶，另外三人就将纸留在对方够得着的位置。
+
+这时，领先已经不必由谁说出来。蔡须坤能独立找回M侧的深层位置，卢本韦能在I侧先认清整体，霍雨浩能核两边接续的前提，薛峰则能在答案没摆好以前，先将共同的输入守住。
+
+后面的同伴仍各有卡住的地方。他们把多出来的这一点余裕，分给了那些具体的停顿。
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)(4)\\
+= \psi(I^2 \times 2)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) \times 2)
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1)(3,2,1)(4,2,1)(5,2)(4,2,1)(5,2)(4,2)\\
+(5,3,1)(6,3,1)(7,3)(6,3,1)(7,3)(6)\\
+= \psi(I^2 \times 3)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2) \times 3)
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)\\
+= \psi(I^2 \times \omega)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + 1))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)\\
+= \psi(I^2 \times \Omega)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(1)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2)\\
+= \psi(I^2 \times \psi_I(I))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)\\
+= \psi(I^2 \times \psi_I(I\times \omega))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(1))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)\\
+(3,1)(2)\\
+= \psi(I^2 \times \psi_I(I^2))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)\\
+(3,1)(2,1,1)\\
+= \psi(I^2 \times \psi_I(I^2 \times \omega))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2\\
++ 1))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)\\
+(3,1)(2,1,1)(3,1)\\
+= \psi(I^2 \times \psi_I(I^2 \times \Omega))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2\\
++ \psi_{\psi_M(M^2)}(1)))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)\\
+(3,1)(2,1,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)\\
+= \psi(I^2 \times \psi_I(I^2 \times \psi_I(I^2 \times \Omega)))\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2\\
++ \psi_{\psi_M(M^2)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2)}(1)))))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)\\
+= \psi(I^3)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_M(M^2)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)\\
+= \psi(I^3\times \omega)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_M(M^2)+1))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)\\
+= \psi(I^4)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_M(M^2)\times 2))
+\end{gathered}
+$$
+
+I立方与I四次方写过以后，卢本韦没有急着去猜更高的终点。她把当前已经核清的几种运算分开，又回头问了一遍：最外层ψ是不是还在？
+
+这一次，蔡须坤、霍雨浩与薛峰几乎同时答了出来。几人听见彼此的声音，都笑了一下，又各自把完整理由补上。
+
+幂次终于也不再只取有限的数。
+
+卢本韦能够读出I的ω次方，接到后面仍会被相似的写法绕住。指数里加一，指数自身再乘一段，与整座幂之后接一个乘数，纸上往往只差很短的位置，不能靠声音里那一个“乘”字分辨。
+
+霍雨浩把她两次停错的地方留在纸边，没有给每一种都另起一个新字母。她们已经被长式困住够久，眼下更需要把原来的完整结构读顺，而非再添一串只有自己记得住的代称。
+
+蔡须坤在M侧也遇到同样的困难。更深的参数里，又放入同一类函数值，外侧的括号仍须一路保留。她先看最外层，再从最内层读回，每回返回都说清现在是在指数的对应中，还是已经回到整个坍缩参数。
+
+薛峰听到中途，忽然指出一处：“你在这里读回外面了，手却还指着内层。”
+
+蔡须坤停下，重新沿着他的指尖找过去。错的正是她刚才最想跳过的地方。
+
+她把那一处独立写清，让薛峰再核，然后主动将下一条也交给他。最早那个只在页角留白的人，已经能在她最费力的那一侧，找出明确的帮助位置。
+
+到I的I次方附近时，卢本韦第一次比蔡须坤晚了半拍。她没有抢着把话补完，先让对方说清M侧，再回自己的I侧查指数的括号。换了记号以后，谁都会有看得较早的时候，也会有需要别人等的时候。
+
+古月娜听完两人的解释，将同一条递给唐三。她们在前面已经找到一条可走的路，后面的人仍需亲自将这一段接完。
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3)\\
+= \psi(I^\omega)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(1)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3)(2,1,1)(3,1)(2)\\
+= \psi(I^{\omega+1})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(1)+\psi_M(M^2)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3)(2,1,1)(3,1)(3)\\
+= \psi(I^{\omega\times 2})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(1)\times 2))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3)(3)\\
+= \psi(I^{\omega^2})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(2)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)\\
+= \psi(I^{\Omega})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(1,1,1)(2,1,1)(3,1)(2)\\
+= \psi(I^{\psi_I(I)})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M)}(M^2))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(1,1,1)(2,1,1)(3,1)(2,1,1)(3,1)(2)\\
+= \psi(I^{\psi_I(I^2)})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M)}(M^2\\
++ \psi_{\psi_M(M^2+M)}(M^2)))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(1,1,1)(2,1,1)(3,1)(3)\\
+= \psi(I^{\psi_I(I^\omega)})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M)}(M^2\\
++ \psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(1))))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(1,1,1)(2,1,1)(3,1)(3,1)\\
+= \psi(I^{\psi_I(I^\Omega)})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M \times \psi_{\psi_M(M)}(M^2\\
++ \psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M))))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(2)\\
+= \psi(I^I)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(2,1,1)\\
+= \psi(I^I\times \omega)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)+1))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(2,1,1)(3,1)(2)\\
+= \psi(I^{I + 1})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2)+\psi_M(M^2)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(2,1,1)(3,1)(3,1)(2)\\
+= \psi(I^{I \times 2})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2) \times 2))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(2,1,1)(3,1)(3,1)(2,1,1)(3,1)(3,1)(2)\\
+= \psi(I^{I \times 3})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2) \times 3))
+\end{gathered}
+$$
+
+这一组收尾时，蔡须坤将手从纸上拿开，发现指腹已经被炭条磨黑。
+
+卢本韦递来湿布，自己却还在低声念指数中的那一段。蔡须坤听出她没有漏，便没打断，只替她将快被风翻过去的页角压住。
+
+幂塔继续往里延伸，纸面上却不能随着塔高无限拉长。
+
+霍雨浩将最长的一式分成几行，先让每行在一对完整的括号或一段明确的运算之后续接。能留在同一行的就留着，真正超出纸宽的才换行。他没有靠缩小字迹，把那些最容易读错的下标挤成一团。
+
+卢本韦从I侧检查幂次的括号。塔里的幂按原式各自的指数范围来读，不能因为视觉上换到左边，就把后半段当成新的底数。她把停顿说给薛峰听，薛峰则核左列有没有在相似的几列之间漏掉一次重复。
+
+蔡须坤将M侧读到最深的一层。函数头重复得太多，她在其中一处停了很久，额角又沁出汗。
+
+这一次她没有独自硬撑，直接把纸转向霍雨浩：“这里我回不去。”
+
+霍雨浩沿她已经说明的来路追过去，找到应当返回的位置，却没有替她接完。卢本韦将I侧同一个层次留在旁边，薛峰用指尖守着下一处还未合上的括号。蔡须坤自己将最后那一段读回来，终于能指出为什么外面还剩着这一层。
+
+她靠着石壁歇了一会儿，才重新起身。果糕领域短暂浮起，又被她收拢到身周，没有试图伸到上方替谁承接整段考核。她知道，真正需要留住的是自己清楚听见的那一步，不能把领域的安稳当成所有括号都已核完。
+
+走到最后几条时，四人开始能够在不同的纸上同时复算，再交换着解释。相同之处核得更快，真正不同的位置反而停得更仔细。霍雨浩听完薛峰的整段说明，终于将本子交还给他，没有再让他从头补一遍。
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(3)\\
+= \psi(I^{I \times \omega})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+1)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)\\
+= \psi(I^{I \times \Omega})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2)}(1))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(2)\\
+= \psi(I^{I^2})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(2,1,1)\\
+= \psi(I^{I^2}\times \omega)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2))+1))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(3)\\
+= \psi(I^{I^2\times \omega})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2)+1)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(3,1)(2)\\
+= \psi(I^{I^3})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2)\times 2)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(3,1)(3,1)(3,1)(3,1)(2)\\
+= \psi(I^{I^4})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_M(M^2)\times 3)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(4)\\
+= \psi(I^{I^\omega})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(1)\\
+)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(4,1)\\
+= \psi(I^{I^\Omega})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(4,1)(2)\\
+= \psi(I^{I^I})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(4,1)(2,1,1)\\
+= \psi(I^{I^I}\times \omega)\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2))+1))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(4,1)(3)\\
+= \psi(I^{I^I\times \omega})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2)+1)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(4,1)(3,1)(2)\\
+= \psi(I^{I^{I+1}})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+\psi_M(M^2))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(4,1)(3,1)(4)\\
+= \psi(I^{I^{I+\omega}})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)+\psi_{\psi_M(M^2+M)}(1))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(4,1)(3,1)(4,1)(2)\\
+= \psi(I^{I^{I\times 2}})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)\times 2)))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(4,1)(4)\\
+= \psi(I^{I^{I\times \omega}})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2\\
++1))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(4,1)(4,1)(2)\\
+= \psi(I^{I^{I^2}})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2\\
++\psi_M(M^2)))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(4,1)(5)\\
+= \psi(I^{I^{I^\omega}})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2\\
++\psi_{\psi_M(M^2+M)}(1)))))
+\end{gathered}
+$$
+
+$$
+\begin{gathered}
+(0)(1,1,1)(2,1,1)(3,1)(4,1)(5,1)(2)\\
+= \psi(I^{I^{I^I}})\\
+= \psi(M^2+\psi_{\psi_M(M^2+M)}(M^2 + \psi_{\psi_M(M^2+M)}(M^2+\psi_{\psi_M(M^2+M)}(M^2\\
++\psi_{\psi_M(M^2+M)}(M^2)))))
+\end{gathered}
+$$
+
+三百米的石桩已在上方，刻痕只露出一半。卢本韦抬头看了很久，又低头将最后一条幂塔的对应完整看完。
+
+她没有先走。蔡须坤也将M册留在手里，等待那一处被讲义用红色标出的末行。前面所有细长的幂塔，都还不是她们可以替最后一行预写答案的理由。
+
+蔡须坤看见M平方加M，第一反应竟是自己早在许多页以前就读过它。
+
+她将旧册翻回去，果然找到了。可那一次，它出现在更深的函数头里，是某一个内层函数所用的参数。现在这一行，M平方加M直接成为最外层ψ所吃进的整个参数，位置已经不同。
+
+“先前在里面见过，和现在整条式子走到这里，不是一回事。”她说。
+
+卢本韦顺着I侧找回同一处，Ω的下标也必须完整保留。她没有因最后的M式比前面短，就把那一截I侧的下标略去。
+
+霍雨浩请薛峰从共同的BMS再核一遍。薛峰认清最后一列，指出它与此前那几条幂塔对应的不同位置，才把左列交给蔡须坤复述。
+
+这一行写完，蔡须坤终于将手慢慢松开。卢本韦把两份纸压齐，霍雨浩等她们各自说完，再请其余人说明自己能够独立认出的部分。讲义在这一处以红色收束EBO到JO的这一段路，他们也将它留在完整的对应里，没有只摘走一个更短的结果。
+
+薛峰又把左列的前三个展开项单独核了一回。末列四、二的坏根在三、一，新增段仍依当前坏部生成，第二行保留原值。每一项都从同一原式出发，先前经过的幂塔对应可以用来对照，不能替代这一次具体的根与阶差。
+
+$$
+\begin{gathered}
+\text{展开第零项：}\quad(0)(1,1,1)(2,1,1)(3,1)\\
+\text{展开第一项：}\quad(0)(1,1,1)(2,1,1)(3,1)(4,1)\\
+\text{展开第二项：}\quad(0)(1,1,1)(2,1,1)(3,1)(4,1)(5,1)
+\end{gathered}
+$$
+
+第一处发生差别的列，已经让这些有限项处在原式之下，后面写得再长，也不会靠增加列数追成原式本身。蔡须坤、卢本韦与霍雨浩分别核完，才把这份左列检查与两套完整对应放在一起。
+
+$$
+\textcolor{red}{(0)(1,1,1)(2,1,1)(3,1)(4,2) = \psi(\Omega_{I+1}) = \psi(M^2+M)}
+$$
+
+最先走到石桩前的，是蔡须坤、卢本韦、霍雨浩与薛峰。
+
+蔡须坤先落稳脚，卢本韦等自己把I侧完整接续，才将另一只脚跟上。霍雨浩回头核过刚才有人问住的一处，薛峰则能不翻答案，将自己的整段说明说完。
+
+三百米的横台亮起来。四人没有把本子收走，分别站到后面同伴够得着的位置。唐三、小舞、诺当、奥斯卡、蔡兴坤、叶阳与古月娜随后陆续站稳，最后一人到了，绳子才真正松下来。
+
+卢本韦坐下以后，很久才伸手去接水。
+
+蔡须坤的M册摊在膝上，右边那一页已经被她翻得发软。她将最后一条看过，又回到前面那三处待核的异文，确认没有因为看见终点就把疑问擦掉。能完整说明的路已经留下，尚需证明的关系也仍有清楚的位置。
+
+薛峰把四人的纸收在一起，随后才去接其余人的本子。收过来时，他发现大家已经习惯先问他哪一页能找到共同的左列。他应着，一份份归好，手上的动作终于不再迟疑。
+
+夏夜星空看过他们站稳的地方，目光在前面四人之间停了一会儿，才请大家先歇。
+
+从二百二十米到这里，蔡须坤一直主攻更繁复的M表示，卢本韦沿I表示认清整体，霍雨浩守住两侧解释所依赖的条件，薛峰则从核页、接缝，走到了能够独立复算和指出问题。此刻四人的分析与接续确实更早稳住，其余同伴也各自走到了横台，没有谁被一道快答留在下方。
+
+古月娜将卢本韦身后的包放平，又把蔡须坤的水接满。她仍坐在几人之间，听见薛峰替诺当接回一处换行，便放心地把自己的那页重新展开。
+
+蔡须坤仰头，五百米仍在更高的雾里。离这一项的目标还有二百米，离中分山顶还有二千二百米，两年的考核也没有因为队伍在山脚休养就停下来。
+
+她没有急着给下一页起名字，只将手背贴了贴身后那点平静的温热，接过卢本韦递来的本子。
+
+“三百米，先写上。”
+
+霍雨浩将笔递过去。薛峰压住页角，等新刻度写稳，十一人才把今天这一段真正收好。
