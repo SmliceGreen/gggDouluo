@@ -53,6 +53,8 @@ TEXT_MACRO = re.compile(r'\\(?:text|textbf|textrm|mathrm|operatorname|mathcal)\s
 def math_to_latex(txt):
     """Convert a math chunk: unicode -> commands, stacked sub/superscripts merge,
     CJK -> \\text{}, existing \\text{..} groups left untouched."""
+    # \textcolor{#RRGGBB} -> \textcolor[HTML]{RRGGBB}（# 在定义里会被当成参数号）
+    txt = re.sub(r'\\(textcolor|color)\{#([0-9A-Fa-f]{6})\}', r'\\\1[HTML]{\2}', txt)
     out, i, n = [], 0, len(txt)
     while i < n:
         c = txt[i]
@@ -93,7 +95,12 @@ def math_to_latex(txt):
         if done:
             continue
         if c == '#' or c == '%':
-            DIAG.append('bare %r in math' % c)
+            # #RRGGBB 是十六进制颜色码（\textcolor{#...}），不能转义
+            if c == '#' and re.match(r'#[0-9A-Fa-f]{6}', txt[i:]):
+                out.append(c)
+                i += 1
+                continue
+            # # 是 Veblen 函数的序列记号，% 也可能出现在数学里；均需转义
             out.append('\\' + c)
             i += 1
             continue
@@ -119,7 +126,8 @@ def fix_matrices(body):
 
 TEXT_ESC = {'&': r'\&', '%': r'\%', '#': r'\#', '_': r'\_', '{': r'\{',
             '}': r'\}', '~': r'\textasciitilde{}', '^': r'\textasciicircum{}',
-            '<': r'\textless{}', '>': r'\textgreater{}'}
+            '<': r'\textless{}', '>': r'\textgreater{}',
+            '–': '--', '—': '---'}  # en-dash / em-dash -> LaTeX 连字符
 CODE_ESC = dict(TEXT_ESC)
 CODE_ESC['\\'] = r'\textbackslash{}'
 CODE_ESC['$'] = r'\$'
@@ -260,8 +268,8 @@ def main():
 
     def grab(m):
         body = m.group(1)
-        if '$' in body:
-            DIAG.append('display match contains $: ' + body[:60].replace('\n', ' '))
+        if re.search(r'(?<!\\)\$', body):
+            DIAG.append('display match contains unescaped $: ' + body[:60].replace('\n', ' '))
         # sanity: top-level & or \\ inside a display block would break \[..\]
         depth, k = 0, 0
         while k < len(body):
@@ -436,6 +444,7 @@ def main():
     print('blocks:', len(blocks), 'lines out:', body.count('\n'))
     leftover = sorted({c for c in body if ord(c) > 127 and not (0x4E00 <= ord(c) <= 0x9FFF)
                        and not (0x3000 <= ord(c) <= 0x303F) and not (0xFF00 <= ord(c) <= 0xFFEF)
+                       and not (0x0370 <= ord(c) <= 0x03FF)  # Greek: bookmark text keeps Unicode
                        and c not in '—…“”‘’·üé'})
     print('leftover non-ascii (unmapped):', [(hex(ord(c)), c) for c in leftover])
     for d in DIAG[:20]:
