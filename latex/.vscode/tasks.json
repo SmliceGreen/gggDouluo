@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "发布小说到 GitHub",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "-X",
+        "utf8",
+        "${workspaceFolder}/publish.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

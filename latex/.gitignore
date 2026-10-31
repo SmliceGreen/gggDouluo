@@ -1,5 +1,7 @@
-# Local compilation output; the PDF beside the source is the published copy.
+# Generated build output and local caches.
 build/
+__pycache__/
+*.pyc
 *.aux
 *.log
 *.toc
@@ -11,3 +13,4 @@ build/
 *.blg
 *.bcf
 *.run.xml
+.pdf-*.tmp
