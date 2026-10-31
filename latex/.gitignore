@@ -1,0 +1,13 @@
+# Local compilation output; the PDF beside the source is the published copy.
+build/
+*.aux
+*.log
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+*.blg
+*.bcf
+*.run.xml
