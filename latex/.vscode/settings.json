@@ -1,31 +1,28 @@
 {
   "latex-workshop.latex.tools": [
     {
-      "name": "xelatexmk",
-      "command": "latexmk",
+      "name": "中文路径编译",
+      "command": "python",
       "args": [
-        "-xelatex",
-        "-synctex=1",
-        "-interaction=nonstopmode",
-        "-file-line-error",
-        "-halt-on-error",
-        "-latexoption=-no-shell-escape",
-        "-outdir=%OUTDIR%",
-        "%DOC%"
+        "-X",
+        "utf8",
+        "%DIR%/publish.py",
+        "--build-only"
       ]
     }
   ],
   "latex-workshop.latex.recipes": [
     {
-      "name": "XeLaTeX（自动更新目录和书签）",
+      "name": "编译《ggg斗罗同人文》并更新目录书签",
       "tools": [
-        "xelatexmk"
+        "中文路径编译"
       ]
     }
   ],
   "latex-workshop.latex.recipe.default": "first",
   "latex-workshop.latex.build.forceRecipeUsage": true,
-  "latex-workshop.latex.autoBuild.run": "onFileChange",
+  "latex-workshop.latex.build.enableMagicComments": false,
+  "latex-workshop.latex.autoBuild.run": "onSave",
   "latex-workshop.latex.outDir": "%DIR%/build",
   "latex-workshop.view.pdf.viewer": "tab",
   "files.encoding": "utf8",
