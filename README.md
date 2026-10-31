@@ -12,3 +12,13 @@
 
 许可证：
 https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+
+## 阅读与排版文件
+
+- [Markdown 原稿](ggg斗罗同人文.md)
+- [原排版 PDF](ggg斗罗同人文.pdf)
+- [LaTeX 排版版 PDF（含章节书签）](latex/gggDouluo.pdf)
+- [LaTeX 源码与 VS Code 编译说明](latex/README.md)
+
+LaTeX 版采用 A4、微软雅黑 12pt，含 142 个书签，共 1472 页，约 4.93 MiB。
