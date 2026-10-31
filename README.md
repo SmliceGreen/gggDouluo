@@ -1,3 +1,44 @@
+# ggg斗罗同人文
+
+- [最新 PDF（含章节书签）](ggg斗罗同人文.pdf)
+- [小说 LaTeX 主稿](ggg斗罗同人文.tex)
+
+仓库根目录只维护一份小说主稿和一份阅读用 PDF。
+
+## 写作与编译
+
+双击 `ggg斗罗同人文.code-workspace` 打开工程，再编辑同目录的 `.tex`。后续章节放在文件末尾 `\backmatter` 与 `\end{document}` 之前，沿用 `\chapter{章节标题}`。
+
+本机桌面“ggg斗罗同人文（写作）”和 `ggg斗罗同人文_LaTeX` 文件夹直接指向本仓库根目录，访问的是同一份主稿。
+
+需要 Python 3、TeX Live（XeLaTeX）、Git，以及 VS Code 的 [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)。字体包括微软雅黑、Consolas、TeX Gyre Termes、Latin Modern Math、DejaVu Sans；其他系统需提供对应字体或修改字体设置。
+
+- `Ctrl+Alt+B` 编译，保存源码也会编译。
+- `Ctrl+Alt+V` 预览。
+- 编译成功后，根目录的 `ggg斗罗同人文.pdf` 自动更新，包含目录和章节书签。
+
+```sh
+python -X utf8 publish.py --build-only
+```
+
+编译入口直接调用 XeLaTeX，支持中文目录与文件名，并重复编译直到目录和引用稳定。请使用工作区文件，以加载本工程配置。
+
+## 一键发布
+
+写完并保存后，双击桌面“一键发布ggg斗罗同人文”，或本目录的 `一键发布.cmd`。也可运行：
+
+```sh
+python -X utf8 publish.py
+```
+
+工具会编译并更新根目录的同名 PDF，提交小说和相关配置，推送到 GitHub 的 `main` 分支。可用 `--message "本次更新说明"` 指定提交说明；`--force --build-only` 可强制重新编译。
+
+Git 需要已登录且有仓库写入权限，工具不保存账号密码。编译失败会保留上次成功的 PDF；源码未变化时复用已验证 PDF，避免重复提交；上传失败会保留本地提交，下次运行继续上传。
+
+`build` 只存本地编译辅助文件，已排除在提交之外。旧 Markdown 和重复 PDF 已从当前目录结构中移除，旧版本可以在 Git 历史中查看。
+
+## 许可
+
 © 2026 Smlice Green
 
 本作品采用 **CC BY-NC-SA 4.0（署名—非商业性使用—相同方式共享 4.0 国际）** 许可证。
@@ -12,14 +53,3 @@
 
 许可证：
 https://creativecommons.org/licenses/by-nc-sa/4.0/
-
-
-## 阅读与写作
-
-- [最新 PDF（含章节书签）](ggg斗罗同人文.pdf)
-- [小说 LaTeX 主稿](latex/ggg斗罗同人文.tex)
-- [LaTeX 目录中的 PDF 副本](latex/ggg斗罗同人文.pdf)
-- [写作、编译及一键发布说明](latex/README.md)
-- [迁移前 Markdown 存档](ggg斗罗同人文.md)
-
-后续章节直接修改 LaTeX 主稿。一键发布工具自动更新两处 PDF 并提交 GitHub。编译支持中文文件名与路径。

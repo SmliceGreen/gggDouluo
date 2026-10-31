@@ -19,15 +19,15 @@ BOOK = "ggg斗罗同人文"
 PROJECT = Path(__file__).absolute().parent  # Keep Chinese junction paths for compilation.
 EXPECTED_REMOTE = "github.com/smlicegreen/gggdouluo"
 MANAGED = {
-    "README.md", f"{BOOK}.pdf",
-    "latex/.gitignore", "latex/AGENTS.md", "latex/README.md",
-    "latex/publish.py", "latex/一键发布.cmd",
-    "latex/.vscode/settings.json", "latex/.vscode/extensions.json",
-    "latex/.vscode/tasks.json", f"latex/{BOOK}.code-workspace",
-    f"latex/{BOOK}.tex", f"latex/{BOOK}.pdf",
-    # Track the one-time removal of the previous English-named files.
-    "latex/.latexmkrc", "latex/gggDouluo.tex", "latex/gggDouluo.pdf",
-    "latex/gggDouluo.code-workspace",
+    "README.md", "AGENTS.md", ".gitignore", "publish.py", "一键发布.cmd",
+    ".vscode/settings.json", ".vscode/extensions.json", ".vscode/tasks.json",
+    f"{BOOK}.tex", f"{BOOK}.pdf", f"{BOOK}.code-workspace",
+}
+LEGACY_PATHS = {
+    "ggg斗罗同人文.md", "latex/.gitignore", "latex/AGENTS.md", "latex/README.md",
+    "latex/publish.py", "latex/一键发布.cmd", "latex/.vscode/settings.json",
+    "latex/.vscode/extensions.json", "latex/.vscode/tasks.json",
+    f"latex/{BOOK}.tex", f"latex/{BOOK}.pdf", f"latex/{BOOK}.code-workspace",
 }
 
 
@@ -179,11 +179,18 @@ def git(repository: Path, *arguments: str, check: bool = True) -> subprocess.Com
     return result
 
 
+
+def managed_paths(repository: Path) -> set[str]:
+    tracked = set(git(repository, "ls-files", "-z").stdout.strip("\0").split("\0"))
+    removed_legacy = {name for name in LEGACY_PATHS if name in tracked and not (repository / name).exists()}
+    return MANAGED | removed_legacy
+
+
 def find_repository(project: Path) -> Path:
     location = project.resolve()
     repository = Path(git(location, "rev-parse", "--show-toplevel").stdout.strip()).resolve()
-    if location != repository / "latex":
-        raise PublishError("请从本仓库的 latex 写作工程运行发布工具。")
+    if location != repository:
+        raise PublishError("请从本仓库根目录的写作工程运行发布工具。")
     branch = git(repository, "branch", "--show-current").stdout.strip()
     if branch != "main":
         raise PublishError("当前不是 main 分支；请切回主分支后再发布。")
@@ -193,7 +200,7 @@ def find_repository(project: Path) -> Path:
     if normalized != EXPECTED_REMOTE:
         raise PublishError("origin 并非本小说的 GitHub 仓库，本次不会上传。")
     staged = set(git(repository, "diff", "--cached", "--name-only", "-z").stdout.strip("\0").split("\0")) - {""}
-    if staged - MANAGED:
+    if staged - managed_paths(repository):
         raise PublishError("暂存区中还有其他文件，请先处理那些文件，再发布小说；本次未提交。")
     say("正在检查 GitHub 仓库状态……")
     git(repository, "fetch", "origin")
@@ -207,10 +214,13 @@ def publish_book(project: Path, compilation: dict, message: str | None) -> None:
     repository = find_repository(project)
     if digest(project / f"{BOOK}.tex") != compilation["source_sha256"]:
         raise PublishError("主稿在编译后发生变化，请保存后重新发布。")
-    atomic_copy(project / f"{BOOK}.pdf", repository / f"{BOOK}.pdf")
     tracked = set(git(repository, "ls-files", "-z").stdout.strip("\0").split("\0"))
-    candidates = sorted(name for name in MANAGED if (repository / name).exists() or name in tracked)
+    allowed = managed_paths(repository)
+    candidates = sorted(name for name in allowed if (repository / name).exists() or name in tracked)
     git(repository, "add", "--all", "--", *candidates)
+    staged = set(git(repository, "diff", "--cached", "--name-only", "-z").stdout.strip("\0").split("\0")) - {""}
+    if staged - allowed:
+        raise PublishError("暂存区在发布过程中出现了其他文件，本次未提交。")
     changed = git(repository, "diff", "--cached", "--quiet", check=False)
     if changed.returncode == 1:
         git(repository, "diff", "--cached", "--check")
