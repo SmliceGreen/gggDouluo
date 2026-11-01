@@ -18,3 +18,4 @@ LatexBuild/
 *.pdf
 .vscode/
 ggg斗罗同人文.code-workspace
+_pandoc_header.tex
