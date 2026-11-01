@@ -4,7 +4,7 @@
 \PassOptionsToPackage{space}{xeCJK}
 \documentclass[
   12pt,
-  fontset=none,oneside,openany]{ctexbook}
+  oneside,openany]{ctexbook}
 \usepackage{xcolor}
 \usepackage[a4paper,top=15mm,bottom=15mm,left=15mm,right=15mm,footskip=9mm]{geometry}
 \usepackage{amsmath,amssymb}
@@ -21,21 +21,11 @@
 \fi
 \usepackage{lmodern}
 \ifPDFTeX\else
-  % xetex/luatex font selection
+  % xetex/luatex font selection — CJK 字体由 ctex 自动检测
   \setmainfont[]{TeX Gyre Termes}
-  \setsansfont[]{Microsoft YaHei}
+  \setsansfont[]{TeX Gyre Heros}
   \setmonofont[]{Consolas}
   \setmathfont[]{Latin Modern Math}
-  \ifXeTeX
-    \usepackage{xeCJK}
-    \setCJKmainfont[]{Microsoft YaHei}
-    \setCJKsansfont[]{Microsoft YaHei}
-    \setCJKmonofont[]{Microsoft YaHei}
-  \fi
-  \ifLuaTeX
-    \usepackage[]{luatexja-fontspec}
-    \setmainjfont[]{Microsoft YaHei}
-  \fi
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -87,12 +77,6 @@
 \newunicodechar{∩}{\ensuremath{\cap}}
 \newfontfamily\NovelSymbolFont{DejaVuSans.ttf}
 \newunicodechar{�}{{\NovelSymbolFont �}}
-\setCJKmainfont{Microsoft YaHei}[Scale=1,BoldFont={Microsoft YaHei Bold}]
-\setCJKsansfont{Microsoft YaHei}[Scale=1,BoldFont={Microsoft YaHei Bold}]
-\setCJKmonofont{Microsoft YaHei}[Scale=1]
-\setCJKfamilyfont{zhhei}{Microsoft YaHei Bold}[Scale=1]
-\setCJKfamilyfont{zhsong}{Microsoft YaHei}[Scale=1]
-\setCJKfamilyfont{zhkai}{Microsoft YaHei}[Scale=1]
 \ctexset{chapter={format=\Large\bfseries\raggedright,beforeskip=8pt,afterskip=16pt}}
 \setcounter{secnumdepth}{-1}
 \setcounter{tocdepth}{0}
