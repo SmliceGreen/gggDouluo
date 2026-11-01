@@ -14,3 +14,7 @@ __pycache__/
 *.bcf
 *.run.xml
 .pdf-*.tmp
+LatexBuild/
+*.pdf
+.vscode/
+ggg斗罗同人文.code-workspace
