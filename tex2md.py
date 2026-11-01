@@ -224,7 +224,7 @@ def fix_tilde(body):
     return body.replace('~', ' ')
 
 def remove_backmatter_tail(body):
-    """截断 \backmatter 或 \end{document} 之后的内容。"""
+    r"""截断 \backmatter 或 \end{document} 之后的内容。"""
     for marker in [r'\backmatter', r'\end{document}']:
         idx = body.find(marker)
         if idx >= 0:
