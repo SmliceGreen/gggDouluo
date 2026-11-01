@@ -149,7 +149,8 @@ def compile_book(project: Path, force: bool = False) -> dict:
     log = (build / f"{BOOK}.log").read_text(encoding="utf-8", errors="replace")
     if "Missing character:" in log or re.search(r"Overfull \\[hv]box", log):
         raise PublishError(f"发现缺字或超宽内容，本次未发布。请检查：{build / (BOOK + '.log')}")
-    pages = re.findall(r"Output written on .*?\((\d+)\s+pages?[,)]", log, re.S)
+    # TeX can wrap a long output path and split the page count between digits.
+    pages = re.findall(r"Output written on .*?\((\d(?:\s*\d)*)\s+pages?[,)]", log, re.S)
     generated = build / f"{BOOK}.pdf"
     if not pages or not generated.is_file():
         raise PublishError("编译没有生成可确认页数的 PDF，本次未发布。")
@@ -161,7 +162,7 @@ def compile_book(project: Path, force: bool = False) -> dict:
         raise PublishError("生成的 PDF 不完整，本次未发布。")
     atomic_copy(generated, published)
     data = {"fingerprint": fingerprint, "source_sha256": source_hash,
-            "pdf_sha256": digest(published), "pages": int(pages[-1]),
+            "pdf_sha256": digest(published), "pages": int("".join(pages[-1].split())),
             "compiled_at": time.strftime("%Y-%m-%d %H:%M:%S")}
     receipt.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     say(f"编译完成：{data['pages']} 页，{published.stat().st_size / 1024**2:.2f} MiB。")
