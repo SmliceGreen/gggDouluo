@@ -2,16 +2,17 @@ name: Build & Release PDFs
 
 on:
   push:
+    branches:
+      - main
     tags:
       - 'v*'
-    branches:
-      - rewriteLatex
     paths:
       - '*.tex'
       - '*.md'
       - '*.cls'
       - '*.sty'
       - '_md2tex.py'
+      - 'tex2md.py'
       - '.github/workflows/build-release.yml'
   workflow_dispatch:
 
