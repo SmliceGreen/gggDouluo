@@ -1,8 +1,18 @@
+# Generated build output and local caches.
+build/
+__pycache__/
+*.pyc
 *.aux
 *.fdb_latexmk
 *.fls
 *.pdf
 *.log
 *.synctex.gz
+*.toc
+*.out
+*.xdv
+*.blg
+*.bcf
+*.run.xml
+*.pdf-*.tmp
 LatexBuild/
-.vscode/
