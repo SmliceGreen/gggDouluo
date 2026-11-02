@@ -8,6 +8,6 @@
 
 编译：`python -X utf8 publish.py --build-only`。Python 直接调用 XeLaTeX，支持中文路径，并自动更新目录、引用和章节书签。成功后更新根目录同名 PDF；`build` 只存本地编译辅助文件。
 
-发布：`python -X utf8 publish.py`，或双击 `一键发布.cmd`，会提交本小说及相关工具并推送 GitHub。仅在用户要求发布或已有明确授权时运行发布命令；日常检查用 `--build-only`。
+发布：`python -X utf8 publish.py`，或双击 `一键发布.cmd`，会提交本小说及相关工具并推送 GitHub，随后运行 `clean_pdf_history.py` 清理 main 历史中的旧 PDF 并使用带精确版本保护的强制推送。清理前备份 Git bundle 到桌面的 `Douluo历史备份`；这会改变历史提交编号。仅在用户要求发布或已有明确授权时运行发布命令；日常检查用 `--build-only`。
 
 编译失败不得发布，不要提交 `build`、日志或辅助文件，不要重新生成 `latex` 目录中的重复 PDF。历史版本通过 Git 历史查询。

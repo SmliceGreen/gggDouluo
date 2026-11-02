@@ -19,7 +19,7 @@ BOOK = "ggg斗罗同人文"
 PROJECT = Path(__file__).absolute().parent  # Keep Chinese junction paths for compilation.
 EXPECTED_REMOTE = "github.com/smlicegreen/gggdouluo"
 MANAGED = {
-    "README.md", "AGENTS.md", ".gitignore", "publish.py", "一键发布.cmd",
+    "README.md", "AGENTS.md", ".gitignore", "publish.py", "clean_pdf_history.py", "一键发布.cmd",
     ".vscode/settings.json", ".vscode/extensions.json", ".vscode/tasks.json",
     f"{BOOK}.tex", f"{BOOK}.pdf", f"{BOOK}.code-workspace",
 }
@@ -215,6 +215,11 @@ def publish_book(project: Path, compilation: dict, message: str | None) -> None:
     repository = find_repository(project)
     if digest(project / f"{BOOK}.tex") != compilation["source_sha256"]:
         raise PublishError("主稿在编译后发生变化，请保存后重新发布。")
+    import clean_pdf_history
+    try:
+        clean_pdf_history.preflight(repository)
+    except clean_pdf_history.CleanupError as error:
+        raise PublishError(f"发布前检查未通过：{error}") from error
     tracked = set(git(repository, "ls-files", "-z").stdout.strip("\0").split("\0"))
     allowed = managed_paths(repository)
     candidates = sorted(name for name in allowed if (repository / name).exists() or name in tracked)
@@ -242,6 +247,12 @@ def publish_book(project: Path, compilation: dict, message: str | None) -> None:
     remote_line = git(repository, "ls-remote", "origin", "refs/heads/main").stdout.split()
     if not remote_line or remote_line[0] != local:
         raise PublishError("远端提交校验未通过，请检查网络后重试。")
+    # Each release rewrites main so older PDF versions are not reachable there.
+    try:
+        clean_pdf_history.clean(repository)
+    except clean_pdf_history.CleanupError as error:
+        raise PublishError(f"源码和 PDF 已提交，但旧 PDF 历史清理未完成：{error}") from error
+    local = git(repository, "rev-parse", "HEAD").stdout.strip()
     say(f"发布完成：https://github.com/SmliceGreen/gggDouluo/commit/{local}")
 
 
