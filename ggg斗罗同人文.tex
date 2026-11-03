@@ -18777,15 +18777,678 @@ test\_alpha0 托住她的手，等她将根、截断与提升条件都核过，�
 
 霍雨浩等他核完，才将长纸折好。原先画在纸边的双魂核问题没有被挤走，旁边多了四个各有用处的例子，也多了几条能指出具体位置的回答。
 
+梅天狸替众人把矩阵讲义按顺序收好，染色的例子、一般规则与生成路径各有自己的位置。
+
+大长老等最后一张纸叠平，才让奥斯卡将水递过来。
+
+``这一份先收好。另起一页，前后的编号和记号都要重新说明。''
+
+\chapter{第六十五章：0Y山形与直接展开}\label{chapter:65}
+
+长桌上换了一叠空白纸。梅天狸将已经收好的讲义放到窗边，只把新的笔记本留在众人面前。
+
+test\_alpha0 在纸上写下 ``0Y''，接着写出四个正整数。
+
+\NovelDisplay{C65YINTRO01}{s=\langle1,3,4,3\rangle.}
+
+``这一课从序列本身开始。''他说，``先约定怎样读，再找父项，随后直接在山形里展开。''
+
+尖括号中的数按先后次序组成一条序列。一个数占据一个位置，相同的数出现在不同位置，仍应保留各自的位置。讲义里的普通非空输入由正整数组成，首项为一。
+
+霍雨浩给同一条序列留了三张纸：第一张记录原数，第二张画逐层取差的山形，第三张专记父项。蔡兴坤看见三张纸，先将自己准备抄三遍原数的手收了回来。
+
+``原数始终留在第一张。后面两张记它怎样连接，展开结果另外放。''霍雨浩说。
+
+程序也按这个顺序安排：读取输入，建立父项，复制需要展开的部分，回填数值，最后显示各项。每段代码负责一件明确的事，五段依次连接，才是一份可以运行的单文件程序。
+
+大长老让小舞先按四个数的位置落笔。
+
+蔡须坤拿来一张空纸，给四个位置标上零、一、二、三。霍雨浩在纸边注明：本章的列号、层号与程序下标一律从零开始，纸上的第一项位于零号列。
+
+大长老将序列的底层记作 \(H_{j,0}\)。第二个下标每增加一，就向山形上方走一层；底层层号为零，越往上，层号越大。
+
+\NovelDisplay{C65YA04}{(H_{0,0},H_{1,0},H_{2,0},H_{3,0})=(1,3,4,3).}
+
+``底层先向左，找最近的严格更小项。''小舞一边说，一边从第二个位置往前连，``三连到一，四连到它左边的三，最后的三则要越过四，也越过相等的三，连到最前面的一。''
+
+她将找到的父项列号记入 \(P_{j,0}\)，没有替最前面的一编造父项。
+
+\NovelDisplay{C65YA05}{P_{1,0}=0,\qquad P_{2,0}=1,\qquad P_{3,0}=0.}
+
+有父项的位置，向上一层取当前值与父项值的差。值已经是一的位置向上补一，不再为它添加父项。
+
+\NovelDisplay{C65YA06}{H_{j,r+1}=H_{j,r}-H_{P_{j,r},r}\quad\text{（本层有父项时）},}
+\NovelDisplay{C65YA07}{H_{j,r}=1\quad\Longrightarrow\quad H_{j,r+1}=1.}
+
+于是第二层成为一、二、一、二。再往上，不能重新横扫整层，候选要沿前一层的父项链去找。霍雨浩让卢本韦握住最后一列的连线，自己将这一层的二与父项列中的一作差。
+
+\NovelDisplay{C65YA08}{(H_{0,1},H_{1,1},H_{2,1},H_{3,1})=(1,2,1,2),}
+\NovelDisplay{C65YA09}{(H_{0,2},H_{1,2},H_{2,2},H_{3,2})=(1,1,1,1).}
+
+``这一层全是一，就停。''卢本韦说。
+
+唐三把底层的四圈了一下。它的上一层已经是一，所以这一列只记下一层父项。另两列三的上一层仍为二，才各自多留一层连接。
+
+\NovelDisplay{C65YA10}{P_0=[],\quad P_1=[0,0],\quad P_2=[1],\quad P_3=[0,0].}
+
+这里的空方括号表示该列没有父项记录。\(P_j\) 中的第一个数对应底层，第二个数对应上一层。记下的是列号，不是该位置的数值；同一个零可以在不同层出现，仍须知道它属于哪一层。
+
+蔡兴坤将第二列的两个零对齐，又把第三列下面空出的位置留着。
+
+``不能为了让它们一样长，给空位补一个零。零已经是第一列的编号了。''
+
+``正是。''大长老说，``山形里的补一，与父项表里没有记录，是两件事。''
+
+霍雨浩将这一页整理成 Python 程序。他先写输入部分：允许用空格、英文逗号或中文逗号隔开正整数，有限的非空序列以一开头。格式错误便退回，绝不拿一个读到一半的数继续计算。
+
+前面演算用过的空结果，仍可以由程序内部返回；读者直接留空输入时，程序却无从判断是不是忘了填写，因此要求重新输入。特殊的 \(1,\omega\) 则另留一个标记，不能混同于有限数字序列。
+
+``这里先写输入与求父项的两段。''霍雨浩将纸铺开，``后面接上展开和交互入口，按顺序合在一起，便是一份完整程序。''
+
+% NOVEL_ZEROY_CODE_01_BEGIN
+\begin{Verbatim}[fontsize=\small,breaklines=true,breakanywhere=true]
+"""0Y 山形直接展开，Python 3.10+，仅依赖标准库。"""
+
+from __future__ import annotations
+
+import re
+
+INVALID_SEQUENCE = "序列不合法，请重新输入"
+INVALID_COUNT = "展开项数不合法，请输入正整数"
+Sequence = list[int] | None  # None 表示边界标记 Limit（1,ω）。
+
+
+class InvalidSequence(ValueError):
+    def __init__(self) -> None:
+        super().__init__(INVALID_SEQUENCE)
+
+
+def parse_sequence(text: str) -> Sequence:
+    """读取空格、英文逗号或中文逗号分隔的序列。"""
+    if not isinstance(text, str):
+        raise InvalidSequence()
+    text = text.strip().replace("，", ",")
+    if text == "Limit" or re.fullmatch(r"1(?:\s*,\s*|\s+)(?:ω|w)", text):
+        return None
+    # 检查完整格式，拒绝“2x”、小数和连续逗号产生的空项。
+    if not re.fullmatch(r"[0-9]+(?:(?:\s*,\s*|\s+)[0-9]+)*", text):
+        raise InvalidSequence()
+    try:
+        seq = [int(value) for value in re.split(r"[\s,]+", text)]
+    except ValueError as error:
+        raise InvalidSequence() from error
+    if seq[0] != 1 or any(value < 1 for value in seq):
+        raise InvalidSequence()
+    return seq
+\end{Verbatim}
+% NOVEL_ZEROY_CODE_01_END
+
+霍雨浩将输入函数旁边的空处留给众人，没有立即翻到下一页。
+
+``先说明这段代码收进什么，又交出去什么。''他说，``传入的是一段文字，返回的是一列整数；只有边界标记，才用单独的 \mbox{\texttt{None}} 表示。''
+
+\NovelDisplay{C65YBC01}{\mbox{\texttt{parse\_sequence}}(\text{``1, 3 4，3''})=[1,3,4,3].}
+
+小舞用笔依次点过 \mbox{\texttt{strip}}、\mbox{\texttt{replace}} 和 \mbox{\texttt{fullmatch}}。第一步去掉输入两端的空白，第二步把中文逗号换成英文逗号，第三步检查整段文字的格式。顺序走完，才允许把各项转成整数。
+
+``只把逗号劈开，还不够？''奥斯卡问。
+
+霍雨浩在纸上写了一个数字二，又紧挨着添了个字母。若只读开头的数字，就会把没有写完整的一项悄悄接进序列。程序里用 \mbox{\texttt{fullmatch}}，要求从头到尾符合规则，字母便不能混过去。
+
+正则表达式中的 \mbox{\texttt{[0-9]+}} 表示至少一个十进制数字。其后的重复部分，要求每个新数字前面都有合法的分隔：一枚逗号及它两侧可有的空白，或者一段空白。于是空格与逗号可以混用，相邻两个逗号之间却必须有数字。
+
+蔡兴坤将四种写法排成一行。
+
+\begin{Verbatim}[fontsize=\small,breaklines=true,breakanywhere=true]
+1 3 4 3
+1,3,4,3
+1，3，4，3
+1, 3 4，3
+\end{Verbatim}
+
+它们经过处理，都得到同一份整数列表。她又在最后一行加一个逗号，程序便要求重新输入。
+
+``尾巴上缺了一项，也不会替我补。''
+
+霍雨浩点头。只有整段格式通过以后，\mbox{\texttt{re.split}} 才按逗号或空白切开，\mbox{\texttt{int}} 再逐项读成整数。前面的格式检查已经挡住空项，此处的转换异常也仍有专门处理，最后都交由 \mbox{\texttt{InvalidSequence}} 报出同一句提示。
+
+卢本韦接过来检查数值条件。普通的非空输入，首项要是一，后面的数都应是正整数；零、负数和小数不进入这张山形。
+
+``检查文字格式与检查数值，各自负责一件事。''她说，``即使能读成整数，开头写成二，仍然不能直接拿来用。''
+
+代码开头的 \mbox{\texttt{Sequence}} 是类型名称。\mbox{\texttt{list[int]}} 说明普通序列是一列整数，竖线后的 \mbox{\texttt{None}} 则留给边界输入。它们让读代码的人看清函数可能接收的两种情形，不改变序列本身的展开规则。
+
+唐三将 \mbox{\texttt{None}} 写在一张单独的小纸上，旁边画了个空列表。
+
+``这两个得分开放。空列表还有自己的结果，边界标记则走另一条分支。''
+
+\NovelDisplay{C65YBC02}{[]\quad\text{是空结果},\qquad\mbox{\texttt{None}}\quad\text{是程序约定的边界标记}.}
+
+大长老让他保留这张区别。读者没有填写输入时，程序会要求重输；合法展开得到空序列时，则正常显示空结果。界面上的空白与计算中的空列表各有来由，不能统一退成同一种情形。
+
+至于 \(\langle1,\omega\rangle\)，程序在读整数以前便认出它，用边界标记保存。它没有把 \(\omega\) 交给 \mbox{\texttt{int}}，也没有凭空给一个普通列表添上无穷多项。
+
+父项函数接在输入部分后面。它只在 0Y 山形上取差和追链，留下连接表。
+
+% NOVEL_ZEROY_CODE_02_BEGIN
+\begin{Verbatim}[fontsize=\small,breaklines=true,breakanywhere=true]
+def mountain_parents(seq: list[int]) -> list[list[int]]:
+    """在 0Y 山形上逐层取差，返回各列、各层的父项列号。"""
+    if any(type(value) is not int or value < 1 for value in seq):
+        raise InvalidSequence()
+    if seq and seq[0] != 1:
+        raise InvalidSequence()
+    parents: list[list[int]] = [[] for _ in seq]
+    values = [[value] for value in seq]
+    row = 0
+    while True:
+        changed = False
+        for i in range(len(seq)):
+            if values[i][row] == 1:
+                values[i].append(1)
+                continue
+            # 底层直接向左找较小项；更高层沿上一层的父项链寻找。
+            p = i - 1 if row == 0 else parents[i][row - 1]
+            while p >= 0 and values[i][row] <= values[p][row]:
+                p = p - 1 if row == 0 else (
+                    parents[p][row - 1] if row - 1 < len(parents[p]) else -1
+                )
+            if p < 0:
+                raise InvalidSequence()
+            parents[i].append(p)
+            values[i].append(values[i][row] - values[p][row])
+            changed = True
+        if not changed:  # 这一层全为 1，山形构造完成。
+            return parents
+        row += 1
+\end{Verbatim}
+% NOVEL_ZEROY_CODE_02_END
+
+霍雨浩让奥斯卡先读函数里三个最容易混淆的名字。
+
+``\mbox{\texttt{seq}} 是原序列，\mbox{\texttt{values}} 是逐层算出的山形数值，\mbox{\texttt{parents}} 留的是父项列号。最外层的列表都按列排，里面才按层排。''
+
+他在最后一列下方标出两处读取位置。
+
+\NovelDisplay{C65YBD01}{\mbox{\texttt{values[3][0]}}=3,\qquad\mbox{\texttt{values[3][1]}}=2,}
+\NovelDisplay{C65YBD02}{\mbox{\texttt{parents[3][0]}}=0,\qquad\mbox{\texttt{parents[3][1]}}=0.}
+
+前两处读到数值，后两处读到连接的位置。两个零各属一层，分别说明该层的父项在零号列。它们没有把最后一列的三与二改写成零。
+
+蔡须坤将自己的纸转过来，故意把第二层候选重新从左边全找一遍。小舞没有看她最后写出的数，只按住程序里的那次跳转。
+
+``这里已经用 \mbox{\texttt{parents[i][row - 1]}} 起步。上一层留下什么父项，才沿什么路往前。''
+
+在底层，\mbox{\texttt{row}} 等于零，搜索从左邻列 \mbox{\texttt{i - 1}} 开始。若候选值大于或等于当前值，就继续左移。到了更高层，起点改为本列上一层的父项；候选不合格时，也沿那个候选在上一层的父项继续追。
+
+\NovelDisplay{C65YBD03}{\text{底层： }p=i-1,\qquad\text{高层： }p=\mbox{\texttt{parents[i][row-1]}}.}
+
+所以内层 \mbox{\texttt{while}} 处理的是沿链寻找，外层 \mbox{\texttt{while}} 处理的是逐层建山。两个循环改变的对象不同。奥斯卡在前者旁边写下``换候选列''，在后者旁边写下``换层号''，终于没有再把两个 \mbox{\texttt{while}} 看成重复的一段。
+
+当候选列号小于零，左侧已经没有可用位置，函数便报出非法序列。这里先检查 \(p<0\)，也避免了把负一误用成 Python 列表末项的索引。
+
+卢本韦看见程序先处理数值为一的位置，才去访问上一层父项。
+
+``若它已经是一，就向上补一，然后 \mbox{\texttt{continue}}。这一列没有下一层父项记录，也不会走进后面的索引。''
+
+这条分支使长短不同的父项列表各自保留长度。零号列从头到尾没有父项，数值仍可在各层补一；二号列只需要底层的那条线，父项表便只有一个数。画图时把各列补齐到同样高度，不意味着程序也要给空记录补出一条线。
+
+霍雨浩指向 \mbox{\texttt{append}}。找到父项以后，本层的列号添进 \mbox{\texttt{parents[i]}}，本层两项的差添进 \mbox{\texttt{values[i]}}。每添一个值，便为下一层留下可以读取的位置。
+
+``当前层的数一直保留，差值接在它后面。''他说，``因此下次层号增加一，取到的就是刚算好的差。''
+
+\NovelDisplay{C65YBD04}{\mbox{\texttt{values[i].append}}\bigl(\mbox{\texttt{values[i][row]}}-\mbox{\texttt{values[p][row]}}\bigr).}
+
+\mbox{\texttt{changed}} 在每层开始时设为假。只要有一个位置找到父项、产生新差值，它便变成真。整层都只剩一时，没有位置再产生父项，这个值仍为假，函数从循环里返回。
+
+小舞用指尖沿二、三两列的数往上走。每次真正作差，减去的都是严格更小的正整数，所得仍为正整数，并且比当前值小。她在某个位置上追到一，就将笔尖停在那里。
+
+``这条路在有限输入上能一层一层收住。''她说，``\mbox{\texttt{while True}} 后面有明确的退出条件。''
+
+test\_alpha0 把最上方那排一压平。程序所做的工作仍局限于眼前的有限山形，层数由数值与父项关系决定；写了一个循环，并没有让它在纸外同时完成尚未算出的部分。
+
+小舞没有马上催霍雨浩写下一段。她把程序返回的四列父项单独抄到新纸上，将原来的序列盖住。
+
+``既然说连接留全了，先用它还原一次。''
+
+唐三在每列最上方放上一。没有父项的层保持一；有父项的层，则用上方的值，加上父项列在同一层的值。列从左往右排好，每列从上往下算，所需的两个数便都已经在纸上。
+
+\NovelDisplay{C65YA11}{H_{j,r}=H_{j,r+1}+H_{P_{j,r},r}\quad\text{（本层存在父项时）}.}
+
+零号列没有父项，底层仍是一。一号列有两层父项，都指向零号列，便先还原上层的二，再得到底层的三。
+
+\NovelDisplay{C65YA12}{H_{1,1}=1+1=2,\qquad H_{1,0}=2+1=3.}
+
+二号列只留一层父项，指向一号列。它的上方是一，一号列底层刚算出三，故这一列底层得到四。三号列有两层父项，都回零号列，最后又还原成三。
+
+\NovelDisplay{C65YA13}{H_{2,0}=1+H_{1,0}=4,\qquad H_{3,0}=(1+1)+1=3.}
+
+卢本韦将盖住序列的纸移开，两边的四个数一一对齐。
+
+``父项表里的那个一，是一号列。还原出来的四，才是这个位置的数值。''她说。
+
+蔡兴坤把刚想添在空记录后面的零擦去。若补出这条不存在的线，原本应保持一的地方也会开始相加，反走就对不上了。她将空位留好，才把纸交还给霍雨浩。
+
+卢本韦继续看向展开所需的接头。她按住末列的两个零，问道：``旧末列删去以后，新添的根要连到哪里？若只把旧线整段搬过去，应该还差一个接头。''
+
+test\_alpha0 将她指着的那一处留亮，另外几根线暂时收低。
+
+``接头确实要单独处理。下一步，你们要把新根与坏段其余位置分开看。先留好这张父项表，不能等结果出来以后，再倒着替它补理由。''
+
+霍雨浩在程序后留了一页空白，写上待补的函数名 \mbox{\texttt{expand}}。卢本韦将父项纸压在双魂核图旁边，最初问的那个交会点仍在纸角，没有被新记号遮住。
+
+霍雨浩把写有父项函数的纸移到左边，右侧重新放好原序列与刚核对完的父项表。
+
+\NovelDisplay{C65YB01}{s=\langle1,3,4,3\rangle,\qquad P=[\,[],[0,0],[1],[0,0]\,].}
+
+``现在补那个接头。''卢本韦说。
+
+她把末列单独移开，留下前三列。末列的最高一条父项记录在层号一，指向零号列，所以坏根位于零号列，坏段是原零、一、二号列，长度为三。
+
+\NovelDisplay{C65YB02}{\mbox{\texttt{end}}=3,\quad\mbox{\texttt{top}}=1,\quad\mbox{\texttt{root}}=0,\quad\mbox{\texttt{width}}=3.}
+
+唐三将删去末列后留下的底层数保持在原位。蔡兴坤手里托着待复制的父项线，却在新根的位置停住，没有将旧根的空记录直接照搬。
+
+``新根若仍一条线都没有，就只会还原成一。''她说，``这不是我们要接的那一项。''
+
+大长老让她翻到旧末列。新根在切断层以下的父项，要接续旧末列相应层的父项；复制下一段时，再把这份连接移向前一段。切断层及更高层，则保留旧根原先已有的父项。
+
+霍雨浩将坏段长度写作 \(\mbox{\texttt{width}}=3\)，副本编号暂记作 \(w\)，与代码循环中的 \mbox{\texttt{copy}} 对照。长度、编号与列号各自留在对应位置。
+
+\NovelDisplay{C65YB03}{\text{新根的第 }r\text{ 层父项}=\begin{cases}P_{3,r}+(w-1)\times\mbox{\texttt{width}},&r<1,\\P_{0,r},&r\ge1\text{ 且原记录存在。}\end{cases}}
+
+``我们这里旧根没有更高层的记录。''小舞指着空方括号，``因此第一段新根只有一层父项，连回零号列。''
+
+坏段其余列则逐个看原父项的位置。父项在坏根之前，就仍指向原来的好段；父项在坏段以内，才平移到同一份副本中的对应列。
+
+\NovelDisplay{C65YB04}{p\longmapsto\begin{cases}p+w\times\mbox{\texttt{width}},&p\ge\mbox{\texttt{root}},\\p,&p<\mbox{\texttt{root}}.\end{cases}}
+
+这是复制连接时的列号规则。它没有要求所有层的数值同时加同一个差，数值要等新父项全部接好以后，再沿山形计算。
+
+第一份副本落在三、四、五号列，对应的父项表依次为：
+
+\NovelDisplay{C65YB05}{P_3^{\rm new}=[0],\quad P_4^{\rm new}=[3,3],\quad P_5^{\rm new}=[4].}
+
+卢本韦先查新根。它上方的一加上零号列底层的一，底层便还原成二。再查四号列：上一层是一加一得二，底层则是这个二，加三号列刚算出的二，得到四。五号列只有一层父项，一加四，得到五。
+
+\NovelDisplay{C65YB06}{H_{j,r}=H_{j,r+1}+H_{P_{j,r},r}\quad\text{（存在父项时）},}
+\NovelDisplay{C65YB07}{\text{第一份副本的底层：}\quad2,4,5.}
+
+``从左往右算，左边父项列已经算完；每列又从上往下回填，上方的值也已经有了。''霍雨浩将两个方向画在纸边，``这样就不会拿一个还没求出的值去相加。''
+
+诺当把新增的三列接到原来的前三列之后，列数恰好成为六。
+
+\NovelDisplay{C65YB08}{s[0]=\langle1,3,4\rangle,}
+\NovelDisplay{C65YB09}{s[1]=\langle1,3,4,\textcolor[HTML]{1D4ED8}{2,4,5}\rangle,}
+\NovelDisplay{C65YB10}{s[2]=\langle1,3,4,\textcolor[HTML]{1D4ED8}{2,4,5},\textcolor[HTML]{15803D}{3,5,6}\rangle.}
+
+蔡须坤将第二份副本的新根连到第一份副本的根。它的父项列号是三，数值由一加二还原成三；后面的两列也循着自己的连接，成为五、六。
+
+她没有把上面的两次结果再塞回输入。这里的第一项、第二项，都以同一个原序列为起点。
+
+霍雨浩在先前空出来的位置补全展开函数。
+
+% NOVEL_ZEROY_CODE_03_BEGIN
+\begin{Verbatim}[fontsize=\small,breaklines=true,breakanywhere=true]
+def expand(sequence: Sequence, index: int) -> list[int]:
+    """直接求原 0Y 序列的第 index 个普通展开项，index 可从 0 开始。"""
+    if type(index) is not int or index < 0:
+        raise ValueError("展开参数必须是非负整数")
+    if sequence is None:
+        return [1, index + 2]
+    parents = mountain_parents(sequence)
+    if not sequence or sequence[-1] == 1:
+        return sequence[:-1]
+
+    # 末列最高的父项决定坏根；坏根至末列之前是要复制的坏段。
+    end = len(sequence) - 1
+    top = len(parents[end]) - 1
+    root = parents[end][top]
+    width = end - root
+    copied = [col[:] for col in parents[:end]]
+
+    for copy in range(1, index + 1):
+        for i in range(root, end):
+            if i == root:
+                # 新根下方的父项接续原末列的父项；较高层仍接原根的父项。
+                col = [
+                    parents[end][row] + (copy - 1) * width
+                    if row < top else parents[root][row]
+                    for row in range(max(len(parents[root]), top))
+                ]
+            else:
+                # 段内父项随副本平移，指向好段的父项保持原位。
+                col = [p + copy * width if p >= root else p for p in parents[i]]
+            copied.append(col)
+
+    # 直接在复制后的 0Y 山形中还原数值：当前值 = 上方值 + 父项同层值。
+    height = max(map(len, copied), default=0) + 1
+    values = [[1] * height for _ in copied]
+    for i, col in enumerate(copied):
+        for row in range(len(col) - 1, -1, -1):
+            values[i][row] = values[i][row + 1] + values[col[row]][row]
+    return [col[0] for col in values]
+\end{Verbatim}
+% NOVEL_ZEROY_CODE_03_END
+
+霍雨浩先将函数开头的三条分支各自勾出，没有让众人一眼跳到复制循环。
+
+第一条检查展开编号是非负整数。第二条处理边界标记，直接给出一与 \(\mbox{\texttt{index}}+2\)。第三条处理空序列和末项为一的情形，返回去掉最后一项的结果。
+
+\NovelDisplay{C65YBE01}{\langle1,\omega\rangle[n]=\langle1,n+2\rangle,\qquad n\ge0,}
+\NovelDisplay{C65YBE02}{\langle1\rangle[n]=\langle\ \rangle,\qquad\langle1,1\rangle[n]=\langle1\rangle.}
+
+蔡兴坤把 \(n=1\) 与 \(n=3\) 分别代进第二行，见所得相同，便在旁边留下记录。这个分支只删去右端一项，不因编号加大而额外添东西。她又把空结果画成空尖括号，提醒自己它仍是一次合法计算的结果。
+
+``若末尾有两个一呢？''诺当问。
+
+``一次去掉最右边那个。''她将 \mbox{\texttt{sequence[:-1]}} 的末端划出边界，``这个切片没有要求把所有的一都删去。''
+
+末项大于一时，程序才继续找坏根。\mbox{\texttt{end}} 是原末项的列号，\mbox{\texttt{top}} 是它最高一条父项记录的层号，\mbox{\texttt{root}} 从该层记录里读出坏根列号。列号和层号都从零开始。
+
+霍雨浩将最后一列的 \([0,0]\) 翻给唐三看：长度是二，所以最高层号是一；在这一层读出的零，才是根的位置。二、一、零各有自己的含义，没有哪个数可以直接代替另一个。
+
+\NovelDisplay{C65YBE03}{\mbox{\texttt{top}}=\operatorname{len}(P_{\mbox{\texttt{end}}})-1,\qquad\mbox{\texttt{root}}=P_{\mbox{\texttt{end}},\mbox{\texttt{top}}}.}
+
+唐三读到 \mbox{\texttt{if i == root}} 时，特意停了一下。根在零号列也是正常情况，程序明确比较当前列号是否等于根号；若只拿根号本身作真假判断，零号根便会被错过。
+
+坏段宽度是 \mbox{\texttt{end - root}}。Python 的 \mbox{\texttt{range(root, end)}} 包含根列，停在原末列之前，恰好走过要复制的那一段。原末列单独删去，不能再混进副本。
+
+\mbox{\texttt{copied}} 先接收删去末列后的父项记录。外层切片取这些列，里面的 \mbox{\texttt{col[:]}} 则逐列复制列表；后来往新结果里添连接，原来的父项表仍留在原处。
+
+``每求一项，都从原序列重新进来。''蔡须坤将两张演算纸分开，``上一次已经长出的那几列，不会偷偷成为下一次的原输入。''
+
+\mbox{\texttt{range(1, index + 1)}} 负责追加多少份坏段。编号为零时，这个循环为空，结果就是原序列删末项；编号为二时，循环依次处理第一份、第二份，不会漏掉末尾那一份。
+
+到了新根，公式里的 \(w-1\) 与其余列的 \(w\) 尤其要看清。新根接续的是前一段末端已经提供的连接；段内其他位置，则连到本份副本中已经平移过去的父项。
+
+卢本韦故意把第一份新根的平移量也写成 \(w\times\mbox{\texttt{width}}\)。第一份副本从三号列开始，这条错误连线竟回到了三号列自身。
+
+她没有接着往下相加，而是先把那根回线移开。
+
+``我们要用的父项，应当已经在左侧算完。根若绕回自己，这个条件就没了。''
+
+霍雨浩把第一份的零号父项、第二份的三号父项并排写出。它们恰好分别指向原根与上一份副本的根，\(w-1\) 对应的位置也有了具体落点。
+
+代码给新根生成的层数，是 \mbox{\texttt{max(len(parents[root]), top)}}。切断层以下需要接续的父项要保留；旧根原先更高的记录也要保留。\mbox{\texttt{row < top}} 只处理切断层以下，到了切断层及以上便读取旧根记录，没有额外编造一层父项。
+
+其余列的判断则只看原父项是否落在坏段中。指向坏段的连接随本份副本平移，指向更左侧好段的连接保持列号。小舞将两种连接分别按住，让诺当检查新线落在纸的哪一边。
+
+随后是数值回填。\mbox{\texttt{height}} 比最长父项记录多一层，用来放顶层的一；\mbox{\texttt{values}} 先将这些位置都设为一。没有父项的层继续保留这个基础值，有父项的层才按上方与左侧父项相加。
+
+\mbox{\texttt{enumerate(copied)}} 从左向右走过各列，\mbox{\texttt{range(len(col)-1, -1, -1)}} 则在本列从最高父项层倒着走到底层。前一个负一是停止边界，后一个负一规定倒序步长，零号层仍会被算到。
+
+奥斯卡读到这两个方向，终于将先前写在纸边的箭头与循环一一对上。
+
+``左边先好，上面先好，然后才算这一格。最后只取每列的零号层，串回一条序列。''
+
+他沿着返回语句中的 \mbox{\texttt{col[0]}} 点过每一列，没再把整张父项表当作最后结果抄出去。
+
+奥斯卡把程序从输入读到返回结果，每次都指给诺当看：原序列在何处，父项记录在何处，最后怎样重新得到一列数。
+
+``连接接对了，山形本身就能告诉你结果。''test\_alpha0 说，``但别因为眼前这一例新增的是二、四、五，就把后面的例子也全猜成等差。''
+
+他让小舞换用最短的 \(\langle1,4\rangle\)。这次末列有三层父项记录，展开时新根要接续的层数也随之改变。
+
+\NovelDisplay{C65YB11}{\langle1,4\rangle[1]=\langle1,3\rangle,}
+\NovelDisplay{C65YB12}{\langle1,4\rangle[2]=\langle1,3,6\rangle,}
+\NovelDisplay{C65YB13}{\langle1,4\rangle[3]=\langle1,3,6,10\rangle.}
+
+蔡兴坤沿第二份副本向上查了一层，指尖停在中间那个三上。它与前一份副本相连，不同层相加的结果最终汇到底层，便得到六。再往后一份，底层得到十。
+
+``一层一层接，下面的差就不必保持一样。''她把原先随手写的等差草稿翻过去，换上实际的父项记录。
+
+卢本韦没有把程序收起。前面两条主例的根都在零号列，她想再核一次：根若不在最前面，保留的那一截会不会被副本拖动。
+
+小舞将输入换成三个数。
+
+\NovelDisplay{C65YBG01}{t=\langle1,2,4\rangle,\qquad P=[\,[],[0],[1,1]\,].}
+
+这次末列的最高父项在一号列。\mbox{\texttt{end}} 为二，\mbox{\texttt{top}} 为一，\mbox{\texttt{root}} 为一，坏段宽度只有一。零号列位于根之前，保留在原处；一号列属于原坏段，同样先留在结果中。
+
+\NovelDisplay{C65YBG02}{\mbox{\texttt{end}}=2,\quad\mbox{\texttt{top}}=1,\quad\mbox{\texttt{root}}=1,\quad\mbox{\texttt{width}}=1.}
+
+新添的根接到一号列，上方的一与那一列底层的二相加，成为三。第二份副本的根再接到刚还原出的新根，底层成为四。
+
+\NovelDisplay{C65YBG03}{t[0]=\langle1,2\rangle,\qquad t[1]=\langle1,2,3\rangle,}
+\NovelDisplay{C65YBG04}{t[2]=\langle1,2,3,4\rangle.}
+
+唐三将最左边的一压住，诺当再数后面新增了几列。前缀一直保留，坏段的位置也由实际根号决定，程序没有将每次复制都硬放回零号列。
+
+``一般的输入，根要重新找。''卢本韦说，``不能把上一个例子的零留在变量里。''
+
+霍雨浩指向函数内部重新计算父项和根的几行，每次调用都会走过那里。于是这份程序面对新序列，取得的是新序列自己的 \mbox{\texttt{root}} 与 \mbox{\texttt{width}}。
+
+他们又用列数核一遍结果。设原序列有 \(m\) 项，末项大于一，坏段宽度为 \mbox{\texttt{width}}；第零项先留下 \(m-1\) 项，取编号 \(n\) 时再添 \(n\) 份坏段。
+
+\NovelDisplay{C65YBG05}{\text{结果项数}=m-1+n\times\mbox{\texttt{width}}.}
+
+这一条用于检查有没有漏添或重复一列。它不能代替父项计算：列数相同，连接与数值仍可能不同。诺当把列数核对放在最后，先等小舞连对父项，再数纸面实际多出多少位置。
+
+蔡兴坤又将程序里新根的层数指给大长老看。刚才根在一号列时，为什么要同时比较旧根的记录长度与 \mbox{\texttt{top}}，不能只取后者？
+
+test\_alpha0 没有让她背那一行，另写了一条能用上这个分支的序列。
+
+\NovelDisplay{C65YBJ01}{u=\langle1,4,10\rangle,\qquad P=[\,[],[0,0,0],[1,1,1]\,].}
+
+这次仍只有三列。末列的父项记录有三层，最高层号为二，根在一号列，坏段宽度为一。旧根自己也有三层记录，长度为三，大于切断层号二。
+
+\NovelDisplay{C65YBJ02}{\mbox{\texttt{top}}=2,\quad\mbox{\texttt{root}}=1,\quad\operatorname{len}(P_1)=3.}
+
+霍雨浩在旧根的最上面那条父项下画了一道短线。它属于二号层，仍指向零号列。新根的零号、一号层接续原末列的父项，二号层却要保留这条旧根记录。
+
+\NovelDisplay{C65YBJ03}{\text{第一份新根的父项：}\quad[1,1,0].}
+
+``\mbox{\texttt{row < top}} 到一号层为止。二号层进入后面的分支，读旧根。''霍雨浩说。
+
+唐三在新根最上方放一，再逐层往下还原。二号层有父项，得到二；一号层把这个二加上旧根同层的三，得到五；底层再加旧根的四，最终成为九。
+
+\NovelDisplay{C65YBJ04}{H_{2,3}=1,\quad H_{2,2}=1+1=2,}
+\NovelDisplay{C65YBJ05}{H_{2,1}=2+3=5,\quad H_{2,0}=5+4=9.}
+
+蔡兴坤若只保留切断层以下的两条记录，就会把二号层当作没有父项的一。她沿那条漏掉的连接比了一次，果然看见后面的五也跟着少了一，底层成了八。
+
+她把错误结果留在旁边，原图里缺失的零号列连线也一并圈出。错误发生的那一层清清楚楚，不必拿最后相差一去猜是哪个加法算错。
+
+第二份新根的低两层接到前一份新根，高层仍接零号列。按同样的顺序回填，便继续得到十六。
+
+\NovelDisplay{C65YBJ06}{u[1]=\langle1,4,9\rangle,\qquad u[2]=\langle1,4,9,16\rangle,}
+\NovelDisplay{C65YBJ07}{u[3]=\langle1,4,9,16,25\rangle.}
+
+卢本韦让诺当先不要将结果写成平方数的通式，而是把二号层那条保留的父项画完。方才认识了正确的结果，仍须确认结果经过了哪些连接。
+
+``这里的 \mbox{\texttt{max}} 有两件事要顾到。''她将程序压在图边，``切断层以下接续的记录不能少，旧根原先较高的记录也不能丢。''
+
+小舞把前一例根号为一的纸放在左边，把这一例放在右边。两者根号相同，层数却不同，程序计算的 \mbox{\texttt{top}} 与记录长度也不同。她按实际数据逐一核完，没有把前一例的切断层号带过来。
+
+霍雨浩这才在 \mbox{\texttt{range(max(len(parents[root]), top))}} 下面补上一个小勾。那一行每个名字都在图里找到了位置，读起来便不再只是几个括号套在一起。
+
+霍雨浩接着补上组织输出的函数。代码里的项数是要显示多少项，所以从一数到 \mbox{\texttt{count}}；底层展开函数仍允许编号为零。两者各有用途，不能因为编号相近就混在一起。
+
+% NOVEL_ZEROY_CODE_04_BEGIN
+\begin{Verbatim}[fontsize=\small,breaklines=true,breakanywhere=true]
+def _format_results(sequence: Sequence, count: int) -> str:
+    if type(count) is not int or count < 1:
+        raise ValueError(INVALID_COUNT)
+    lines = []
+    for n in range(1, count + 1):
+        # 每项都从原序列展开，而不是把上一项再展开。
+        result = expand(sequence, n)
+        value = ",".join(map(str, result)) if result else "（空序列）"
+        lines.append(f"第{n}项：{value}")
+    return "\n".join(lines)
+
+
+def calculate(sequence: str, count: int) -> str:
+    """供其他 Python 程序调用；非法序列返回指定提示。"""
+    try:
+        return _format_results(parse_sequence(sequence), count)
+    except InvalidSequence:
+        return INVALID_SEQUENCE
+    except ValueError as error:
+        return str(error)
+\end{Verbatim}
+% NOVEL_ZEROY_CODE_04_END
+
+霍雨浩让诺当分别圈住两个函数的返回类型。\mbox{\texttt{expand}} 返回整数列表，\mbox{\texttt{calculate}} 则返回读者最终看到的多行文字。中间的 \mbox{\texttt{\_format\_results}} 正负责把前者排成后者。
+
+\mbox{\texttt{count}} 要求为正整数。它表示输出多少个编号，从一开始显示；核心函数的 \mbox{\texttt{index}} 则表示某一次展开所取的编号，允许为零。项数为零会在输入界面被退回，直接求第零项却仍是一项合法的数学操作。
+
+\NovelDisplay{C65YBF01}{\text{项数}=3\quad\Longrightarrow\quad s[1],\ s[2],\ s[3].}
+
+蔡兴坤在 \mbox{\texttt{range(1, count + 1)}} 上画了一条短线。Python 的右边界不取到，所以上界加一，第三项才会真正出现在输出中。
+
+循环每次把同一条原序列交给 \mbox{\texttt{expand}}，只改变编号 \(n\)。得到结果以后，\mbox{\texttt{map(str, result)}} 将各个整数转成文字，逗号的 \mbox{\texttt{join}} 再把它们连起来，输出时便有明确的分隔。
+
+若结果为空，程序显示``（空序列）''。这个分支只改变显示文字，数学上返回的结果仍是空列表，不会往序列里塞进一个额外的零。
+
+唐三将三行输出上下排齐，每行左边写编号，右边写该项。他又指向最后一次 \mbox{\texttt{join}}，那里连接的是各行，中间使用换行符，所以结果不会全部挤在同一行里。
+
+\mbox{\texttt{calculate}} 把输入解析与结果组织接起来。解析遇到非法序列，就返回约定的提示；项数检查遇到问题，则返回对应的项数提示。两条错误路线各自留着，读者才知道该重填哪一个输入。
+
+卢本韦将一条合法序列的项数改成负一，返回的果然是项数提示。她再把首项的一改成二，同样的位置便读到了序列提示。
+
+``错误发生在什么地方，就说清哪个地方。''她将两次记录并排留在程序页边。
+
+程序返回的每一行，都同时写着展开编号和结果。唐三用手遮住最左侧的编号，让诺当只看变长的序列；诺当看了一会儿，又把他的手轻轻移开。
+
+``留着。长得像，也要知道是哪一项。''
+
+最后一段负责交互输入。序列不合法时，退回序列这一问；项数写错时，只重新询问项数，前面已经输入的合法序列不必重抄。两处都可以输入 \mbox{\texttt{q}} 退出。
+
+% NOVEL_ZEROY_CODE_05_BEGIN
+\begin{Verbatim}[fontsize=\small,breaklines=true,breakanywhere=true]
+def _read_count() -> int:
+    while True:
+        text = input("请输入展开项数（输出第1项到第N项）：").strip()
+        if text.lower() == "q":
+            raise EOFError
+        if re.fullmatch(r"[0-9]+", text):
+            try:
+                count = int(text)
+                if count >= 1:
+                    return count
+            except ValueError:
+                pass
+        print(INVALID_COUNT)
+
+
+def main() -> None:
+    print("0Y 序列展开，输入 q 退出。")
+    try:
+        while True:
+            text = input("请输入序列（空格或逗号隔开）：")
+            if text.strip().lower() == "q":
+                return
+            try:
+                sequence = parse_sequence(text)
+                if sequence is not None:
+                    mountain_parents(sequence)
+            except InvalidSequence:
+                print(INVALID_SEQUENCE)
+                continue
+            print(_format_results(sequence, _read_count()))
+            print()
+    except (EOFError, KeyboardInterrupt):
+        print()
+
+
+if __name__ == "__main__":
+    main()
+\end{Verbatim}
+% NOVEL_ZEROY_CODE_05_END
+
+霍雨浩让众人沿一次完整输入走过主函数。
+
+最外面的循环先询问序列。输入 \mbox{\texttt{q}} 时直接结束；普通输入先交给解析函数，再确认父项山形能够建立。若出现 \mbox{\texttt{InvalidSequence}}，提示之后的 \mbox{\texttt{continue}} 会回到外层循环开头，重新询问序列，不会继续催问展开项数。
+
+序列通过以后，才进入 \mbox{\texttt{\_read\_count}}。这个函数有自己的循环：项数不合格，便在里面再次询问；读到正整数才返回。前面已经解析好的序列仍保存在主函数中。
+
+蔡须坤先写下合法序列，又把项数写成一个字母。下一次提示出现时，她只需重新填写项数，刚才的四个整数还好好留在左侧。
+
+``外面管序列，里面管项数。''她说，``两个循环的回到开头，也各自回到自己的开头。''
+
+在项数提示处输入 \mbox{\texttt{q}}，代码抛出 \mbox{\texttt{EOFError}}，由主函数最外侧的处理一并结束；读到输入结束或手动中断，也从这里退出。它们与非法序列走的路线不同，不会因此多显示一次序列错误。
+
+奥斯卡把这几条出口分别用笔指了一遍。直到看到每一条都能落到明确位置，他才将自己刚试过的非法输入划掉。
+
+最后两行 \mbox{\texttt{if \_\_name\_\_ == "\_\_main\_\_"}} 控制程序入口。直接运行文件时，交互询问从这里开始；把文件导入其他 Python 程序时，函数会准备好，询问却不会自行跳出来。
+
+这样，读者可以直接运行文件，按提示填写；也可以导入 \mbox{\texttt{calculate}}，把序列文字和项数作为两个参数传入，接收同样格式的结果。
+
+霍雨浩在页脚写下两种用法，只各演示一遍。第一种由人依次回答序列、项数，第二种在代码里直接调用。它们最后走到同一个展开函数，因而相同输入应得到相同的各项结果。
+
+\begin{Verbatim}[fontsize=\small,breaklines=true,breakanywhere=true]
+calculate("1 3 4 3", 3)
+calculate("1,3,4,3", 3)
+\end{Verbatim}
+
+诺当把两次输出的编号也逐一核齐。纸上保留了原序列、项数与各项结果，下一次复查时，便不必只凭一串越来越长的数猜自己当时做到了哪里。
+
+小舞先把三个数分开写成空格形式，又改成逗号形式，霍雨浩记录的结果相同。蔡兴坤故意将项数写成零，纸上便只返回项数提示，没有把先前那条序列当作错误丢掉。
+
+奥斯卡照着她的样子，又试了一次负数输入。下一回，他将序列第一个一改成二，程序才退回了指定的那句话。
+
+\begin{Verbatim}[fontsize=\small,breaklines=true,breakanywhere=true]
+序列不合法，请重新输入
+\end{Verbatim}
+
+``输入检查与展开计算，各自留下依据。''卢本韦把这句提示写在程序页边，``它能替我们挡住输入错误，也能按规则算项，不能替每一句更强的结论作证明。''
+
+test\_alpha0 从原序列依次看向父项、复制结果与回填数值的记录。
+
+``0Y 这一页，从输入到输出已经接成一条完整的路。日后改动时，也沿这条路查，先确定哪一步发生了变化。''
+
+程序写齐以后，test\_alpha0 让众人轮换着核对。写函数的人先把手移开，由另一人只拿输入与规则复算，最后再对程序结果。
+
+唐三负责原序列有没有被改动。他将同一条原序列连求两次第一项，两次结果一致，纸面上的原数也保持原位。随后再求第二项，输入仍是原来那四个整数。
+
+蔡须坤沿 \mbox{\texttt{copied}} 看了一遍，确认副本与原父项表分开保存。若为了省事，直接在原父项列表后面追加，新的一次计算便会把上次的副本也读进去；这样即使第一次看起来无误，第二次仍会出问题。
+
+小舞接手数值还原。她在第一份副本的新根下写二，又追到四号列的上一层，先算出二，再回底层得到四。她将这些手算值与程序返回的前三个新增数核齐，才继续看第二份副本。
+
+诺当负责边界。第零项不追加坏段，空序列正常返回空列表，末项为一时只删去最后一项。不同情况写在不同小纸上，以免只用一条例子恰好绕过所有分支。
+
+卢本韦则只看非法输入。连续逗号、负数、小数和数字后接字母，都应得到那句固定提示。她又保留合法序列，只把项数换成零，确认这一次出现的是项数提示。
+
+霍雨浩把其中三次检查写成简短的 \mbox{\texttt{assert}}。条件成立时它继续往下走，条件不成立便停在那一行，方便指出哪一项核对没有通过。这几行是导入函数后可另行执行的验算调用，主程序仍是前面按顺序排好的五段。
+
+\begin{Verbatim}[fontsize=\small,breaklines=true,breakanywhere=true]
+assert expand([1, 3, 4, 3], 1) == [1, 3, 4, 2, 4, 5]
+assert expand([1, 4, 10], 2) == [1, 4, 9, 16]
+assert calculate("1,,2", 3) == "序列不合法，请重新输入"
+\end{Verbatim}
+
+奥斯卡看着断言没有显示新结果，先以为纸上的程序没有动。霍雨浩让他把第二行的十六临时写成十五，验算立即停在那一行。
+
+``它检查相不相等。日常显示结果，仍由前面的输出函数负责。''
+
+奥斯卡将十五改回十六，又在页边留下两种用途：一份给人看结果，一份替自己查改动。它们都调用同一套展开函数，检查时却问着不同的问题。
+
+众人核完，霍雨浩把函数之间的职责再说了一遍。\mbox{\texttt{parse\_sequence}} 处理输入文字，\mbox{\texttt{mountain\_parents}} 建立山形父项，\mbox{\texttt{expand}} 复制连接并还原整数列表，\mbox{\texttt{\_format\_results}} 组织显示，\mbox{\texttt{main}} 则安排询问与重试。
+
+\NovelDisplay{C65YBK01}{\text{原序列}\longrightarrow\text{父项山形}\longrightarrow\text{复制后的连接},}
+\NovelDisplay{C65YBK02}{\text{复制后的连接}\longrightarrow\text{逐层回填}\longrightarrow\text{展开结果}.}
+
+大长老沿着这条顺序指过所有记录。下一次若读不进输入，就查解析；父项表不同，就查候选链；连接相同而数值不同，便查回填方向与相加位置。每个名字都对应一段能单独指出来的工作，问题也终于能够落到具体地方。
+
+蔡须坤将这一页放在完整代码后面。它没有代替前面的讲解，却给日后重读留下了一条清楚的次序。
+
+蔡须坤将五段代码按先后次序抄在一起，交给霍雨浩核了一遍。从读取序列到显示结果，缺一段就会有未定义的函数。确认都齐了，她才将最上面的页角折起，夹在 0Y 算例后面。
+
+梅天狸给两份讲义各系好纸带。霍雨浩在新笔记的页首写明输入约定，蔡须坤则将代码与手算的父项表放在同一夹页里。
+
+小舞将桌面最后一点碎纸收起，抬头看见大长老仍在核对刚才的列号，便静静等他看完。
+
 窗外云影缓缓移过石阶。梅天狸合上墨碟，诺当将余下的空纸收进夹页，众人正要起身，殿外忽然传来一阵急促的脚步声。
 
 test\_alpha0 搁下笔，望向殿门。
 
-\chapter{第六十五章：碎紫来报，暗流涌动}\label{ux7b2cux516dux5341ux4e94ux7ae0ux788eux7d2bux6765ux62a5ux6697ux6d41ux6d8cux52a8}
+\chapter{第六十六章：碎紫来报，暗流涌动}\label{ux7b2cux516dux5341ux4e94ux7ae0ux788eux7d2bux6765ux62a5ux6697ux6d41ux6d8cux52a8}
 
-黑板上那条标准 BMS 的定义还没擦。
+长桌上那份 0Y 讲义还没收起，逐层取差的山形旁边压着刚核过的程序。
 
-找父列，找坏根，算阶差，往后抄，抄的时候哪一行跟着往上加、哪一行不动，一条一条写得清清楚楚。八个人坐在底下，盯着那几行字，谁也没出声。大长老刚才把最后一条讲完，粉笔往板槽里一放，殿里就静下来了。这条定义他们啃了小半个月，今天才算从头到尾看全了。
+从序列取差建山，沿父项找坏根，复制连接，再回填每一列的数值，一步一步都留在纸上。八个人围在桌边，目光尚未从最后的结果上移开。大长老核完那条父链，笔往桌上一搁，殿里便静了下来。前后两份讲义各自写全，众人这才觉得一天的演算有了着落。
 
 霍雨浩的本子摊在膝盖上，笔尖停在半空，停了很久才落下去，在那几行字底下画了一道横线。
 
@@ -19273,7 +19936,7 @@ test\_alpha0 点了一下头。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第六十六章：进宫救帝}\label{ux7b2cux516dux5341ux516dux7ae0ux8fdbux5babux6551ux5e1d}
+\chapter{第六十七章：进宫救帝}\label{ux7b2cux516dux5341ux516dux7ae0ux8fdbux5babux6551ux5e1d}
 
 靠在墙根底下的，是雪星亲王。
 
@@ -19733,7 +20396,7 @@ test\_alpha0 点了一下头。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第六十七章：假面太子}\label{ux7b2cux516dux5341ux4e03ux7ae0ux5047ux9762ux592aux5b50}
+\chapter{第六十八章：假面太子}\label{ux7b2cux516dux5341ux4e03ux7ae0ux5047ux9762ux592aux5b50}
 
 黑甲将领站定了，抬起了右手。
 
@@ -20137,7 +20800,7 @@ test\_alpha0 点了一下头。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第六十八章：冰霜怒涛}\label{ux7b2cux516dux5341ux516bux7ae0ux51b0ux971cux6012ux6d9b}
+\chapter{第六十九章：冰霜怒涛}\label{ux7b2cux516dux5341ux516bux7ae0ux51b0ux971cux6012ux6d9b}
 
 ``准备冲出去''这几个字刚落地，真霜斗罗身上的气息就变了。
 
@@ -20595,7 +21258,7 @@ Y(1,3,6) 的魂力。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第六十九章：深渊}\label{ux7b2cux516dux5341ux4e5dux7ae0ux6df1ux6e0a}
+\chapter{第七十章：深渊}\label{ux7b2cux516dux5341ux4e5dux7ae0ux6df1ux6e0a}
 
 担架在当中。
 
@@ -21095,7 +21758,7 @@ Y(1,3,4,2,5,9)。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第七十章：帅气本源}\label{ux7b2cux4e03ux5341ux7ae0ux5e05ux6c14ux672cux6e90}
+\chapter{第七十一章：帅气本源}\label{ux7b2cux4e03ux5341ux7ae0ux5e05ux6c14ux672cux6e90}
 
 黑触手朝巷子口扑过去的那一下，真霜斗罗扭过头，看的却是坑当中的胡帅。
 
@@ -21577,7 +22240,7 @@ Y(1,3,7,12) 的帅气本源，在真身里放开了。刚才那往里吸的黑�
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第七十一章：震天斧}\label{ux7b2cux4e03ux5341ux4e00ux7ae0ux9707ux5929ux65a7}
+\chapter{第七十二章：震天斧}\label{ux7b2cux4e03ux5341ux4e00ux7ae0ux9707ux5929ux65a7}
 
 雪帝那堵雪墙还竖在胡峰身后。墙面上一层一层地往外冒冰蓝的纹路，冷气从纹路里渗出来，渗到胡峰的后背上，他后脖颈子上的汗毛结了一层霜。
 
@@ -22067,7 +22730,7 @@ Y(1,3,7,12) 的帅气本源，在真身里放开了。刚才那往里吸的黑�
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第七十二章：香肠篮球锤}\label{ux7b2cux4e03ux5341ux4e8cux7ae0ux9999ux80a0ux7beeux7403ux9524}
+\chapter{第七十三章：香肠篮球锤}\label{ux7b2cux4e03ux5341ux4e8cux7ae0ux9999ux80a0ux7beeux7403ux9524}
 
 大坑那边。
 
@@ -22579,7 +23242,7 @@ Y(1,3,7,12) 的帅气本源，在真身里放开了。刚才那往里吸的黑�
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第七十三章：八级定装魂导炮弹}\label{ux7b2cux4e03ux5341ux4e09ux7ae0ux516bux7ea7ux5b9aux88c5ux9b42ux5bfcux70aeux5f39}
+\chapter{第七十四章：八级定装魂导炮弹}\label{ux7b2cux4e03ux5341ux4e09ux7ae0ux516bux7ea7ux5b9aux88c5ux9b42ux5bfcux70aeux5f39}
 
 锤子跟斧子顶在一块儿，顶了二十息。
 
@@ -23075,7 +23738,7 @@ Y(1,3,7,12) 的人，一颗八级的炮弹要不了他的命。炸开的那一�
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第七十四章：养猪场第一股东phyrion}\label{ux7b2cux4e03ux5341ux56dbux7ae0ux517bux732aux573aux7b2cux4e00ux80a1ux4e1cphyrion}
+\chapter{第七十五章：养猪场第一股东phyrion}\label{ux7b2cux4e03ux5341ux56dbux7ae0ux517bux732aux573aux7b2cux4e00ux80a1ux4e1cphyrion}
 
 几个人跑到巷子口的时候，大帝已经让小舞扶着坐了起来。
 
@@ -23613,7 +24276,7 @@ phyrion 跟在他身后，深蓝的长袍在夜风里飘。小白猪一溜小跑
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第七十五章：Y(1,3,10)}\label{ux7b2cux4e03ux5341ux4e94ux7ae0y1310}
+\chapter{第七十六章：Y(1,3,10)}\label{ux7b2cux4e03ux5341ux4e94ux7ae0y1310}
 
 皇城上头的烟，还没散干净。
 
@@ -24153,7 +24816,7 @@ phyrion 站在密室当中，那团粉光照着这两个人。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第七十六章：守护所爱之人}\label{ux7b2cux4e03ux5341ux516dux7ae0ux5b88ux62a4ux6240ux7231ux4e4bux4eba}
+\chapter{第七十七章：守护所爱之人}\label{ux7b2cux4e03ux5341ux516dux7ae0ux5b88ux62a4ux6240ux7231ux4e4bux4eba}
 
 那一整天，八个人几乎都在睡。
 
@@ -24655,7 +25318,7 @@ phyrion 头都没回。
 
 她把头发拨开，抬起脚，跟上了前头那几个人。她走得不快，一步一步，走得很稳，朝着皇家修炼堂那边去了。
 
-\chapter{第七十七章：2-投影序数的初步介绍}\label{ux7b2cux4e03ux5341ux4e03ux7ae02-ux6295ux5f71ux5e8fux6570ux7684ux521dux6b65ux4ecbux7ecd}
+\chapter{第七十八章：2-投影序数的初步介绍}\label{ux7b2cux4e03ux5341ux4e03ux7ae02-ux6295ux5f71ux5e8fux6570ux7684ux521dux6b65ux4ecbux7ecd}
 
 皇家修炼堂的最深处，一片被七层封印笼罩的地下宫殿中，果糕小队八人围坐在一片由魂力晶石铺就的圆形平台之上。
 
@@ -25058,7 +25721,7 @@ Phyrion指着这个公式说：``可以发现左边又比右边多一层了。''
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第七十八章：小队思考和温情}\label{ux7b2cux4e03ux5341ux516bux7ae0ux5c0fux961fux601dux8003ux548cux6e29ux60c5}
+\chapter{第七十九章：小队思考和温情}\label{ux7b2cux4e03ux5341ux516bux7ae0ux5c0fux961fux601dux8003ux548cux6e29ux60c5}
 
 火堆旁的沉默持续了很久。
 
@@ -25510,7 +26173,7 @@ Phyrion低下头，伸手摸了摸她的脑袋。
 
 石门缓缓关闭。果糕小队众人坐在原地，久久没有动弹。
 
-\chapter{第七十九章：引入多个2-投影序数}\label{ux7b2cux4e03ux5341ux4e5dux7ae0ux5f15ux5165ux591aux4e2a2-ux6295ux5f71ux5e8fux6570}
+\chapter{第八十章：引入多个2-投影序数}\label{ux7b2cux4e03ux5341ux4e5dux7ae0ux5f15ux5165ux591aux4e2a2-ux6295ux5f71ux5e8fux6570}
 
 清晨，皇家修炼堂。
 
@@ -25822,7 +26485,7 @@ Phyrion的语速加快了一些：
 
 ``这就是投影序数的自举能力。每到一个新的容许序数，整个体系就会自动升级，开始对应更高层级的结构。''
 
-\chapter{第八十章：从OFP到I(1,0,0)}\label{ux7b2cux516bux5341ux7ae0ux4eceofpux5230i100}
+\chapter{第八十一章：从OFP到I(1,0,0)}\label{ux7b2cux516bux5341ux7ae0ux4eceofpux5230i100}
 
 清晨的皇家修炼堂，灵气如潮水般在穹顶下缓缓流动。魂力晶石散发出淡金色的柔光，将石台照得通亮。
 
@@ -26186,7 +26849,7 @@ Phyrion的声音变得异常严肃。
 
 ``\textbf{那可就是踩坑了。}''
 
-\chapter{第八十一章：杀上反射极限}\label{ux7b2cux516bux5341ux4e00ux7ae0ux6740ux4e0aux53cdux5c04ux6781ux9650}
+\chapter{第八十二章：杀上反射极限}\label{ux7b2cux516bux5341ux4e00ux7ae0ux6740ux4e0aux53cdux5c04ux6781ux9650}
 
 ``这个坑，是当年 test\_alpha0 也踩过的。''
 
@@ -26686,7 +27349,7 @@ Phyrion转过身，面对着魂力黑板，写下了今天的最后一行字：
 
 窗外，晨光正好。
 
-\chapter{第八十二章：最小的lift提升}\label{ux7b2cux516bux5341ux4e8cux7ae0ux6700ux5c0fux7684liftux63d0ux5347}
+\chapter{第八十三章：最小的lift提升}\label{ux7b2cux516bux5341ux4e8cux7ae0ux6700ux5c0fux7684liftux63d0ux5347}
 
 phyrion负手而立，目光如炬，缓缓扫过众人，沉声道：``回顾昨日所学------''
 
@@ -27150,7 +27813,7 @@ phyrion看着众人疲惫的面容，冷峻的面容上罕见地浮现出一丝�
 
 夜色已深。窗外万籁俱寂，唯有远处偶尔传来几声虫鸣。方才那些灵光闪烁的算式早已消散于虚空，只余下满室静谧，和众人心中久久不散的震撼。
 
-\chapter{第八十三章：扽力的奥秘}\label{ux7b2cux516bux5341ux4e09ux7ae0ux627dux529bux7684ux5965ux79d8}
+\chapter{第八十四章：扽力的奥秘}\label{ux7b2cux516bux5341ux4e09ux7ae0ux627dux529bux7684ux5965ux79d8}
 
 夜色深沉。
 
@@ -27632,7 +28295,7 @@ Phyrion的身影消失在了夜色之中。
 
 只有夜风知道。
 
-\chapter{第八十四章：T-1Y}\label{ux7b2cux516bux5341ux56dbux7ae0t-1y}
+\chapter{第八十五章：T-1Y}\label{ux7b2cux516bux5341ux56dbux7ae0t-1y}
 
 众人将这句话默默记在心中。
 
@@ -28184,7 +28847,7 @@ Phyrion站在门口，看着这一幕，没有说话。
 
 众人缓缓起身，拖着疲惫的身体走出了修炼堂。
 
-\chapter{第八十五章：超限反射的阶梯}\label{ux7b2cux516bux5341ux4e94ux7ae0ux8d85ux9650ux53cdux5c04ux7684ux9636ux68af}
+\chapter{第八十六章：超限反射的阶梯}\label{ux7b2cux516bux5341ux4e94ux7ae0ux8d85ux9650ux53cdux5c04ux7684ux9636ux68af}
 
 清晨的修炼堂里，魂力晶石散发着柔和而稳定的光芒。
 
@@ -28534,7 +29197,7 @@ KNK的耳朵猛地竖了起来：``\allowbreak{}\NovelInline{I04886}{\Pi_{\omega
 
 Phyrion没有停下。他以 \allowbreak{}\NovelInline{I04897}{\Pi\text{-}\Phi(1,0)}\allowbreak{} 为新的基底,这个函数是每取\allowbreak{}\NovelInline{I04898}{\Pi}\allowbreak{}的不动点，之后加上1，继续向上攀登相当于\allowbreak{}\NovelInline{I04899}{f(α)→\Pi_α}\allowbreak{}的φ函数,是下标的不动点进位。
 
-\chapter{第八十六章：拓展反射层级}\label{ux7b2cux516bux5341ux516dux7ae0ux62d3ux5c55ux53cdux5c04ux5c42ux7ea7}
+\chapter{第八十七章：拓展反射层级}\label{ux7b2cux516bux5341ux516dux7ae0ux62d3ux5c55ux53cdux5c04ux5c42ux7ea7}
 
 第二天，小队继续修炼，接着推导更高层级的内容
 
@@ -28966,7 +29629,7 @@ Phyrion走到门口，回头看了众人一眼。
 
 而在这条阶梯的尽头，还有更高的山峰在等待着他们。
 
-\chapter{第八十七章：殊途同归的两条路}\label{ux7b2cux516bux5341ux4e03ux7ae0ux6b8aux9014ux540cux5f52ux7684ux4e24ux6761ux8def}
+\chapter{第八十八章：殊途同归的两条路}\label{ux7b2cux516bux5341ux4e03ux7ae0ux6b8aux9014ux540cux5f52ux7684ux4e24ux6761ux8def}
 
 修炼堂已经三天没有亮过灯了。
 
@@ -29284,7 +29947,7 @@ Phyrion的声音仿佛还在石壁间回荡。他此前留下的那个问题，�
 
 ``\allowbreak{}\NovelInline{I05130}{\psi(\psi_a(\Omega_{a+2}\times\psi_{\Omega_{a+1}}(\psi_{a_2}(\Omega_{a_2+2}\times \psi_{\Omega_{a_2+1}}(\psi_{a_3}(\cdots))))))}\allowbreak{}''
 
-\chapter{第八十八章：六个月的尽头}\label{ux7b2cux516bux5341ux516bux7ae0ux516dux4e2aux6708ux7684ux5c3dux5934}
+\chapter{第八十九章：六个月的尽头}\label{ux7b2cux516bux5341ux516bux7ae0ux516dux4e2aux6708ux7684ux5c3dux5934}
 
 皇家修炼堂的石门在清晨第一缕光里推开。
 
@@ -29776,7 +30439,7 @@ test\_alpha0 转过身来。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第八十九章：兽潮}\label{ux7b2cux516bux5341ux4e5dux7ae0ux517dux6f6e}
+\chapter{第九十章：兽潮}\label{ux7b2cux516bux5341ux4e5dux7ae0ux517dux6f6e}
 
 逃出来的人是夜里到天州的。
 
@@ -30494,7 +31157,7 @@ test\_alpha0 抓住了这一下。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第九十章：天州}\label{ux7b2cux4e5dux5341ux7ae0ux5929ux5dde}
+\chapter{第九十一章：天州}\label{ux7b2cux4e5dux5341ux7ae0ux5929ux5dde}
 
 帝天让那一剑劈退了三里。
 
@@ -31272,7 +31935,7 @@ test\_alpha0 没有立刻回答。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第九十一章：一万年前那一炷香}\label{ux7b2cux4e5dux5341ux4e00ux7ae0ux4e00ux4e07ux5e74ux524dux90a3ux4e00ux70b7ux9999}
+\chapter{第九十二章：一万年前那一炷香}\label{ux7b2cux4e5dux5341ux4e00ux7ae0ux4e00ux4e07ux5e74ux524dux90a3ux4e00ux70b7ux9999}
 
 风从十二根白玉柱之间穿过去。
 
@@ -32124,7 +32787,7 @@ test\_alpha0 没有说话。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第九十二章：总得有一个成的}\label{ux7b2cux4e5dux5341ux4e8cux7ae0ux603bux5f97ux6709ux4e00ux4e2aux6210ux7684}
+\chapter{第九十三章：总得有一个成的}\label{ux7b2cux4e5dux5341ux4e8cux7ae0ux603bux5f97ux6709ux4e00ux4e2aux6210ux7684}
 
 ``接着说。''test\_alpha0 说，``你们走岔了。''
 
@@ -32918,7 +33581,7 @@ test\_alpha0 站直了身子，对着那个方向，慢慢拱了拱手。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第九十三章：那封信}\label{ux7b2cux4e5dux5341ux4e09ux7ae0ux90a3ux5c01ux4fe1}
+\chapter{第九十四章：那封信}\label{ux7b2cux4e5dux5341ux4e09ux7ae0ux90a3ux5c01ux4fe1}
 
 出天斗城的第四天，官道分了岔。
 
@@ -33576,7 +34239,7 @@ test\_alpha0 站直了身子，对着那个方向，慢慢拱了拱手。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第九十四章：没有词的歌}\label{ux7b2cux4e5dux5341ux56dbux7ae0ux6ca1ux6709ux8bcdux7684ux6b4c}
+\chapter{第九十五章：没有词的歌}\label{ux7b2cux4e5dux5341ux56dbux7ae0ux6ca1ux6709ux8bcdux7684ux6b4c}
 
 唐三从分殿出来的时候，卢本韦正站在街口的商帮会馆门口。会馆的管事是个穿绸衫的胖子，手里捧着霍雨浩早上描的那张拓样，陪在她旁边，一脸的笑。会馆门口搭着一个茶摊，其他人都坐在那儿歇脚。
 
@@ -34210,7 +34873,7 @@ test\_alpha0 站直了身子，对着那个方向，慢慢拱了拱手。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第九十五章：长老令}\label{ux7b2cux4e5dux5341ux4e94ux7ae0ux957fux8001ux4ee4}
+\chapter{第九十六章：长老令}\label{ux7b2cux4e5dux5341ux4e94ux7ae0ux957fux8001ux4ee4}
 
 在落枫住下的头五天，唐三每天早上都去城北那个茶棚。
 
@@ -34806,7 +35469,7 @@ test\_alpha0 站直了身子，对着那个方向，慢慢拱了拱手。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第九十六章：藏卷楼}\label{ux7b2cux4e5dux5341ux516dux7ae0ux85cfux5377ux697c}
+\chapter{第九十七章：藏卷楼}\label{ux7b2cux4e5dux5341ux516dux7ae0ux85cfux5377ux697c}
 
 那天傍晚，梅天狸在南会馆楼上那间屋子里，把八个人叫齐了。
 
@@ -35312,7 +35975,7 @@ Dispher 坐回去，在册子上记了一行。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第九十七章：从签订那天起}\label{ux7b2cux4e5dux5341ux4e03ux7ae0ux4eceux7b7eux8ba2ux90a3ux5929ux8d77}
+\chapter{第九十八章：从签订那天起}\label{ux7b2cux4e5dux5341ux4e03ux7ae0ux4eceux7b7eux8ba2ux90a3ux5929ux8d77}
 
 川风斗罗笑了一声。
 
@@ -35822,7 +36485,7 @@ Smile Lee 摆了摆手。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第九十八章：望潮镇}\label{ux7b2cux4e5dux5341ux516bux7ae0ux671bux6f6eux9547}
+\chapter{第九十九章：望潮镇}\label{ux7b2cux4e5dux5341ux516bux7ae0ux671bux6f6eux9547}
 
 从落枫出来，往东南走了整整一个月，就闻见了海。
 
@@ -36388,7 +37051,7 @@ Smile Lee 摆了摆手。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第九十九章：六百里}\label{ux7b2cux4e5dux5341ux4e5dux7ae0ux516dux767eux91cc}
+\chapter{第一百章：六百里}\label{ux7b2cux4e5dux5341ux4e5dux7ae0ux516dux767eux91cc}
 
 芦花鸡是第二天天不亮叫的。
 
@@ -36954,7 +37617,7 @@ Smile Lee 摆了摆手。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第一百章：灯还亮着}\label{ux7b2cux4e00ux767eux7ae0ux706fux8fd8ux4eaeux7740}
+\chapter{第一百零一章：灯还亮着}\label{ux7b2cux4e00ux767eux7ae0ux706fux8fd8ux4eaeux7740}
 
 梅天狸出城的第十天夜里，藏卷楼七层的灯还亮着。
 
@@ -37572,7 +38235,7 @@ Dispher 没往纸上写。他把笔搁在砚台边上，看着窗户纸。窗户
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第一百零一章：午时三刻}\label{ux7b2cux4e00ux767eux96f6ux4e00ux7ae0ux5348ux65f6ux4e09ux523b}
+\chapter{第一百零二章：午时三刻}\label{ux7b2cux4e00ux767eux96f6ux4e00ux7ae0ux5348ux65f6ux4e09ux523b}
 
 四更天，客栈后院的井台上落了一层霜。
 
@@ -38270,7 +38933,7 @@ Dispher 站在人后头看着。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第一百零二章：银发女子}\label{ux7b2cux4e00ux767eux96f6ux4e8cux7ae0ux94f6ux53d1ux5973ux5b50}
+\chapter{第一百零三章：银发女子}\label{ux7b2cux4e00ux767eux96f6ux4e8cux7ae0ux94f6ux53d1ux5973ux5b50}
 
 蔡须坤站在沙子上，没动。
 
@@ -38792,7 +39455,7 @@ Dispher 站在人后头看着。
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{第一百零三章：最菜萌新}\label{ux7b2cux4e00ux767eux96f6ux4e09ux7ae0ux6700ux83dcux840cux65b0}
+\chapter{第一百零四章：最菜萌新}\label{ux7b2cux4e00ux767eux96f6ux4e09ux7ae0ux6700ux83dcux840cux65b0}
 
 鸡是天不亮就叫的。
 
@@ -39356,7 +40019,7 @@ test\_alpha0 顿首
 
 背上那一处，温了一下子
 
-\chapter{第一百零四章：bms提升效应}\label{ux7b2cux4e00ux767eux96f6ux56dbux7ae0bmsux63d0ux5347ux6548ux5e94}
+\chapter{第一百零五章：bms提升效应}\label{ux7b2cux4e00ux767eux96f6ux56dbux7ae0bmsux63d0ux5347ux6548ux5e94}
 
 夏夜星空到石屋时，奥斯卡正举着一个鸡蛋。
 
@@ -40237,7 +40900,7 @@ a_1=\text{第一行},\quad a_2=\text{第二行},\quad a_3=\text{第三行};%
 
 登阶的前二十日，他们暂歇在七十米石桩下方。五百米的横线还在山图上头，谁也没有把猜想后的问号擦去。
 
-\chapter{第一百零五章：替身挡住的那一步}\label{ux7b2cux4e00ux767eux96f6ux4e94ux7ae0ux66ffux8eabux6321ux4f4fux7684ux90a3ux4e00ux6b65}
+\chapter{第一百零六章：替身挡住的那一步}\label{ux7b2cux4e00ux767eux96f6ux4e94ux7ae0ux66ffux8eabux6321ux4f4fux7684ux90a3ux4e00ux6b65}
 
 第二十一日清早，蔡须坤把带问号的纸摊开。过去二十日，四人每天登阶受压，退回横台记录，再带着推导重试。一行式子，有时要试许多天。
 
@@ -41303,7 +41966,7 @@ r=(1,1),\quad\Delta=(1,1),\quad\text{第二行祖先链：}\ (3,1)\longrightarro
 
 两个月，他们终于分析清楚七十米这一层。五百米还在山上。
 
-\chapter{第一百零六章：无处不在的提升}\label{ux7b2cux4e00ux767eux96f6ux516dux7ae0ux65e0ux5904ux4e0dux5728ux7684ux63d0ux5347}
+\chapter{第一百零七章：无处不在的提升}\label{ux7b2cux4e00ux767eux96f6ux516dux7ae0ux65e0ux5904ux4e0dux5728ux7684ux63d0ux5347}
 
 登阶进入第三个月，蔡须坤从七十米处重新站稳。两个月的反复分析，使她习惯先在压力下放慢运转，辨出接缝，再与纸上的推导对照。
 
@@ -42381,7 +43044,7 @@ t_1={\Omega_\omega},\qquad t_2={\Omega_\omega}^{\Omega_\omega},\qquad t_3={\Omeg
 
 众人把最后一页夹进本子，一起沿来路回营。那些曾经只凭熟练便掠过的接缝，如今在纸上有了根、有了阶差，也有了每个人改错时留下的笔迹。
 
-\chapter{第一百零七章：TFBO之后道路}\label{ux7b2cux4e00ux767eux96f6ux4e03ux7ae0tfboux4e4bux540eux9053ux8def}
+\chapter{第一百零八章：TFBO之后道路}\label{ux7b2cux4e00ux767eux96f6ux4e03ux7ae0tfboux4e4bux540eux9053ux8def}
 
 一百二十米的石桩上多了一条细细的炭痕。
 
@@ -43337,7 +44000,7 @@ t_1={\Omega_\omega},\qquad t_2={\Omega_\omega}^{\Omega_\omega},\qquad t_3={\Omeg
 
 她把最后一口温水递给古月娜。四人收好笔，等后面七人也将各自的错处记完，才一起退回能歇脚的横台，沿旧路回营。
 
-\chapter{第一百零八章：同一路上的第二道门}\label{ux7b2cux4e00ux767eux96f6ux516bux7ae0ux540cux4e00ux8defux4e0aux7684ux7b2cux4e8cux9053ux95e8}
+\chapter{第一百零九章：同一路上的第二道门}\label{ux7b2cux4e00ux767eux96f6ux516bux7ae0ux540cux4e00ux8defux4e0aux7684ux7b2cux4e8cux9053ux95e8}
 
 清早，卢本韦将两页笔记摊在同一块石头上。
 
@@ -44112,7 +44775,7 @@ t_1={\Omega_\omega},\qquad t_2={\Omega_\omega}^{\Omega_\omega},\qquad t_3={\Omeg
 
 山图上，一百六十米的石桩就在转弯另一侧，却还没有落到他们脚下。霍雨浩没有提前画勾，只在当前页末留下一行空白，等明天把第二段的来路填进去。
 
-\chapter{第一百零九章：bms的两重提升}\label{ux7b2cux4e00ux767eux96f6ux4e5dux7ae0bmsux7684ux4e24ux91cdux63d0ux5347}
+\chapter{第一百一十章：bms的两重提升}\label{ux7b2cux4e00ux767eux96f6ux4e5dux7ae0bmsux7684ux4e24ux91cdux63d0ux5347}
 
 翌日清早，风把上方石桩旁的叶子吹开了一瞬，``一百六十''的刻字露出来，又被摇回去的树影遮住。
 
@@ -44969,7 +45632,7 @@ t_1={\Omega_\omega},\qquad t_2={\Omega_\omega}^{\Omega_\omega},\qquad t_3={\Omeg
 
 收好最后一张错页，蔡须坤把湿纸放在炉边烘。奥斯卡端来热汤，诺当替大家挪开地上的杂物。她喝了半碗，才发觉握笔的手一直在抖。卢本韦看见了，将勺子递过来，顺手把最后一张还没干的纸翻了一面。
 
-\chapter{第一百一十章：把整座山写进下标}\label{ux7b2cux4e00ux767eux4e00ux5341ux7ae0ux628aux6574ux5ea7ux5c71ux5199ux8fdbux4e0bux6807}
+\chapter{第一百一十一章：把整座山写进下标}\label{ux7b2cux4e00ux767eux4e00ux5341ux7ae0ux628aux6574ux5ea7ux5c71ux5199ux8fdbux4e0bux6807}
 
 一百六十米的石桩留在了身后。
 
@@ -45894,7 +46557,7 @@ t_1={\Omega_\omega},\qquad t_2={\Omega_\omega}^{\Omega_\omega},\qquad t_3={\Omeg
 
 她说完又看了眼山图。二百二十米的石桩还在前面，五百米的横线更远，最高处仍是二千五百。她将山图卷好，放在十一人的行李之间，等第二天再一同带上去。
 
-\chapter{第一百一十一章：链的尽头，二百二十米}\label{ux7b2cux4e00ux767eux4e00ux5341ux4e00ux7ae0ux94feux7684ux5c3dux5934ux4e8cux767eux4e8cux5341ux7c73}
+\chapter{第一百一十二章：链的尽头，二百二十米}\label{ux7b2cux4e00ux767eux4e00ux5341ux4e00ux7ae0ux94feux7684ux5c3dux5934ux4e8cux767eux4e8cux5341ux7c73}
 
 蔡须坤第一次看清二百二十米的石桩，是在一个没有风的早晨。
 
@@ -46832,7 +47495,7 @@ t_1={\Omega_\omega},\qquad t_2={\Omega_\omega}^{\Omega_\omega},\qquad t_3={\Omeg
 
 古月娜点了点头。霍雨浩把炭条的碎末收在纸角，没有急着给下一页起名字。蔡须坤背起本子，等十一人都歇过气，才沿着已经走稳的路一同回营。
 
-\chapter{第一百一十二章：混沌暴走}\label{ux7b2cux4e00ux767eux4e00ux5341ux4e8cux7ae0ux6df7ux6c8cux66b4ux8d70}
+\chapter{第一百一十三章：混沌暴走}\label{ux7b2cux4e00ux767eux4e00ux5341ux4e8cux7ae0ux6df7ux6c8cux66b4ux8d70}
 
 回到山脚时，石屋里还没有点灯。
 
@@ -47312,7 +47975,7 @@ t_1={\Omega_\omega},\qquad t_2={\Omega_\omega}^{\Omega_\omega},\qquad t_3={\Omeg
 
 写着二百二十米的那册本子，仍好好压在屋里的桌上。
 
-\chapter{第一百一十三章：两套记号}\label{ux7b2cux4e00ux767eux4e00ux5341ux4e09ux7ae0ux4e24ux5957ux8bb0ux53f7}
+\chapter{第一百一十四章：两套记号}\label{ux7b2cux4e00ux767eux4e00ux5341ux4e09ux7ae0ux4e24ux5957ux8bb0ux53f7}
 
 蔡须坤重新走到山阶前，是在那场暴走过去几天以后。
 
@@ -48578,7 +49241,7 @@ M侧真正难以维持的位置，是一层函数的参数里，又装进同一�
 
 二百四十米只比旧横台高二十米。这个数字写在册上很短，翻过去，纸却厚了不少。最后一行核完，古月娜推来的那杯热水已经凉了。蔡须坤喝了一口，才将本子收进包里。
 
-\chapter{第一百一十四章：下标深处}\label{ux7b2cux4e00ux767eux4e00ux5341ux56dbux7ae0ux4e0bux6807ux6df1ux5904}
+\chapter{第一百一十五章：下标深处}\label{ux7b2cux4e00ux767eux4e00ux5341ux56dbux7ae0ux4e0bux6807ux6df1ux5904}
 
 二百四十米以上的第一段，蔡须坤连续三天没有走过。
 
@@ -49683,7 +50346,7 @@ M侧真正难以维持的位置，是一层函数的参数里，又装进同一�
 
 窗外的山仍旧很高。三百米尚在更上方，今晚他们先把二百六十米真正留在自己手中。
 
-\chapter{第一百一十五章：谁也不能落下}\label{ux7b2cux4e00ux767eux4e00ux5341ux4e94ux7ae0ux8c01ux4e5fux4e0dux80fdux843dux4e0b}
+\chapter{第一百一十六章：谁也不能落下}\label{ux7b2cux4e00ux767eux4e00ux5341ux4e94ux7ae0ux8c01ux4e5fux4e0dux80fdux843dux4e0b}
 
 二百六十米以上，石阶转过一段背阴的山壁。
 
@@ -50679,7 +51342,7 @@ I加在后面，接着走向有限倍数，再走向乘ω的更深层次。卢�
 
 二百八十米写进山图时，四个人的纸先被收齐。随后，其他人的解释也一份份接上。山路没有因此变轻，横台上却再没有谁独自抱着一整页不知该向谁开口。
 
-\chapter{第一百一十六章：三百米}\label{ux7b2cux4e00ux767eux4e00ux5341ux516dux7ae0ux4e09ux767eux7c73}
+\chapter{第一百一十七章：三百米}\label{ux7b2cux4e00ux767eux4e00ux5341ux516dux7ae0ux4e09ux767eux7c73}
 
 二百八十米之后，薛峰没有立刻翻过旧页。
 
@@ -51698,7 +52361,7 @@ I立方与I四次方写过以后，卢本韦没有急着去猜更高的终点。
 
 霍雨浩将笔递过去。薛峰压住页角，等新刻度写稳，十一人才把今天这一段真正收好。
 
-\chapter{第一百一十七章：寻找心中的bms矩阵}\label{ux7b2cux4e00ux767eux4e00ux5341ux4e03ux7ae0ux5bfbux627eux5fc3ux4e2dux7684bmsux77e9ux9635}
+\chapter{第一百一十八章：寻找心中的bms矩阵}\label{ux7b2cux4e00ux767eux4e00ux5341ux4e03ux7ae0ux5bfbux627eux5fc3ux4e2dux7684bmsux77e9ux9635}
 
 三百米的刻度写下以后，蔡须坤原以为，第二天醒来时，自己会轻松一些。
 
@@ -52250,7 +52913,7 @@ I立方与I四次方写过以后，卢本韦没有急着去猜更高的终点。
 
 后面还是空的。
 
-\chapter{第一百一十八章：从能够展开的地方}\label{ux7b2cux4e00ux767eux4e00ux5341ux516bux7ae0ux4eceux80fdux591fux5c55ux5f00ux7684ux5730ux65b9}
+\chapter{第一百一十九章：从能够展开的地方}\label{ux7b2cux4e00ux767eux4e00ux5341ux516bux7ae0ux4eceux80fdux591fux5c55ux5f00ux7684ux5730ux65b9}
 
 雨停后的第二天，唐三将一页写满的纸放在蔡须坤床边，压纸的是一颗从鞋底剔下来的小石子。
 
@@ -53489,7 +54152,7 @@ I立方与I四次方写过以后，卢本韦没有急着去猜更高的终点。
 
 霍雨浩接过笔，在三百二十旁边落下一点。古月娜伸手扶她起身，卢本韦在另一侧背好本子；他们歇过这一阵，才沿旧路慢慢下山。
 
-\chapter{第一百一十九章：把长路接在一起}\label{ux7b2cux4e00ux767eux4e00ux5341ux4e5dux7ae0ux628aux957fux8defux63a5ux5728ux4e00ux8d77}
+\chapter{第一百二十章：把长路接在一起}\label{ux7b2cux4e00ux767eux4e00ux5341ux4e5dux7ae0ux628aux957fux8defux63a5ux5728ux4e00ux8d77}
 
 到三百二十米以后，蔡须坤终于睡了一个没有被长式惊醒的觉。
 
@@ -54859,7 +55522,7 @@ I立方与I四次方写过以后，卢本韦没有急着去猜更高的终点。
 
 蔡须坤将今天的纸收好，在封套上记下三百四十。古月娜替她拿住一端，等墨迹不再发亮，才与她一起把本子放回包里。
 
-\chapter{第一百二十章：在风里守住彼此}\label{ux7b2cux4e00ux767eux4e8cux5341ux7ae0ux5728ux98ceux91ccux5b88ux4f4fux5f7cux6b64}
+\chapter{第一百二十一章：在风里守住彼此}\label{ux7b2cux4e00ux767eux4e8cux5341ux7ae0ux5728ux98ceux91ccux5b88ux4f4fux5f7cux6b64}
 
 三百四十米的横台上，小舞第一个把本子重新打开。
 
@@ -56001,7 +56664,7 @@ I立方与I四次方写过以后，卢本韦没有急着去猜更高的终点。
 
 蔡须坤把包背到肩上，走到转弯处，向下方的小舞伸出手。小舞扶着落稳，再把手伸给后面的人。
 
-\chapter{第一百二十一章：IFP的到达}\label{ux7b2cux4e00ux767eux4e8cux5341ux4e00ux7ae0ifpux7684ux5230ux8fbe}
+\chapter{第一百二十二章：IFP的到达}\label{ux7b2cux4e00ux767eux4e8cux5341ux4e00ux7ae0ifpux7684ux5230ux8fbe}
 
 过了三百五十五米，古月娜将前一天留下的两处记号重新翻给大家看。
 
@@ -57380,7 +58043,7 @@ I的Ω₂下标、整份对象重复和下标中的新增项，需要分别追�
 
 这一回，她合上本子时，知道明天还愿意把它打开。
 
-\chapter{第一百二十二章：I(1,0)的路}\label{ux7b2cux4e00ux767eux4e8cux5341ux4e8cux7ae0i10ux7684ux8def}
+\chapter{第一百二十三章：I(1,0)的路}\label{ux7b2cux4e00ux767eux4e8cux5341ux4e8cux7ae0i10ux7684ux8def}
 
 三百七十米的石桩仍在身后，小舞已经向上试了两次。
 
@@ -58554,7 +59217,7 @@ I_{I_{I_{\psi_{I(1,0)}(I(1,0))+1}}} = \psi_{M}(M^2\times \psi_{M}(M^2\times \psi
 
 ``明天接着来。''
 
-\chapter{第一百二十三章：容许点进位}\label{ux7b2cux4e00ux767eux4e8cux5341ux4e09ux7ae0ux5bb9ux8bb8ux70b9ux8fdbux4f4d}
+\chapter{第一百二十四章：容许点进位}\label{ux7b2cux4e00ux767eux4e8cux5341ux4e09ux7ae0ux5bb9ux8bb8ux70b9ux8fdbux4f4d}
 
 第五个月，三百八十米上方那几级，成了他们每天最熟悉的地方。
 
@@ -59948,7 +60611,7 @@ I侧的第二参数在这里继续增加，M侧保留自己的折叠项，原序
 
 离五百米还有一百一十米，他们已经知道，这个数不能靠多写几个等号缩短。
 
-\chapter{第一百二十四章：二元I函数}\label{ux7b2cux4e00ux767eux4e8cux5341ux56dbux7ae0ux4e8cux5143iux51fdux6570}
+\chapter{第一百二十五章：二元I函数}\label{ux7b2cux4e00ux767eux4e8cux5341ux56dbux7ae0ux4e8cux5143iux51fdux6570}
 
 第六个月，古月娜带回一叠更厚的纸。
 
@@ -61423,7 +62086,7 @@ I侧的第二参数在这里继续增加，M侧保留自己的折叠项，原序
 
 四百米以上，山阶仍一层层没入云中。她们坐下，先等最后一个人把水喝完。
 
-\chapter{第一百二十五章：多元I函数和M}\label{ux7b2cux4e00ux767eux4e8cux5341ux4e94ux7ae0ux591aux5143iux51fdux6570ux548cm}
+\chapter{第一百二十六章：多元I函数和M}\label{ux7b2cux4e00ux767eux4e8cux5341ux4e94ux7ae0ux591aux5143iux51fdux6570ux548cm}
 
 第七个月，新页上的参数又多了起来。
 
@@ -62968,7 +63631,7 @@ I侧的对照在这里没有继续逐条列出，卢本韦便把I册暂时合到
 
 他们歇够这一口气，再走剩下的九十米。
 
-\chapter{第一百二十六章：走过雨季}\label{ux7b2cux4e00ux767eux4e8cux5341ux516dux7ae0ux8d70ux8fc7ux96e8ux5b63}
+\chapter{第一百二十七章：走过雨季}\label{ux7b2cux4e00ux767eux4e8cux5341ux516dux7ae0ux8d70ux8fc7ux96e8ux5b63}
 
 三百七十米之后，他们没有立刻看见另一座横台。
 
@@ -64102,7 +64765,7 @@ I侧的对照在这里没有继续逐条列出，卢本韦便把I册暂时合到
 
 卢本韦把水壶递过来。蔡须坤接住，等最后一个人坐到横台上，才将本子合好。
 
-\chapter{第一百二十七章：没有人替你走过的那一步}\label{ux7b2cux4e00ux767eux4e8cux5341ux4e03ux7ae0ux6ca1ux6709ux4ebaux66ffux4f60ux8d70ux8fc7ux7684ux90a3ux4e00ux6b65}
+\chapter{第一百二十八章：没有人替你走过的那一步}\label{ux7b2cux4e00ux767eux4e8cux5341ux4e03ux7ae0ux6ca1ux6709ux4ebaux66ffux4f60ux8d70ux8fc7ux7684ux90a3ux4e00ux6b65}
 
 第六个月开始，山上连着晴了几天。
 
@@ -65513,7 +66176,7 @@ I侧的对照在这里没有继续逐条列出，卢本韦便把I册暂时合到
 
 唐三点头。山风从横台上过去，十一人的纸角一齐动了动，没有谁急着先把别人的那份合上。
 
-\chapter{第一百二十八章：风雪留下的空行}\label{ux7b2cux4e00ux767eux4e8cux5341ux516bux7ae0ux98ceux96eaux7559ux4e0bux7684ux7a7aux884c}
+\chapter{第一百二十九章：风雪留下的空行}\label{ux7b2cux4e00ux767eux4e8cux5341ux516bux7ae0ux98ceux96eaux7559ux4e0bux7684ux7a7aux884c}
 
 第八个月，山路旁的树叶开始一片片变色。
 
@@ -67023,7 +67686,7 @@ I侧的对照在这里没有继续逐条列出，卢本韦便把I册暂时合到
 
 蔡须坤没有先答。她伸手摸过石桩，等自己的呼吸完全平下来，才望向更高的那片雾。
 
-\chapter{第一百二十九章：一年之后，第一考完成}\label{ux7b2cux4e00ux767eux4e8cux5341ux4e5dux7ae0ux4e00ux5e74ux4e4bux540eux7b2cux4e00ux8003ux5b8cux6210}
+\chapter{第一百三十章：一年之后，第一考完成}\label{ux7b2cux4e00ux767eux4e8cux5341ux4e5dux7ae0ux4e00ux5e74ux4e4bux540eux7b2cux4e00ux8003ux5b8cux6210}
 
 第十一个月，他们再次从四百八十米向上。
 
@@ -68493,7 +69156,7 @@ I侧的对照在这里没有继续逐条列出，卢本韦便把I册暂时合到
 
 从第一次站到中分山脚，到最先两人通过第一考，正好一年。下面的伙伴仍在努力，五百米刻痕上的光，安静地照着她们各自收好的纸。
 
-\chapter{第一百三十章：双领域与第二考}\label{ux7b2cux4e00ux767eux4e09ux5341ux7ae0ux53ccux9886ux57dfux4e0eux7b2cux4e8cux8003}
+\chapter{第一百三十一章：双领域与第二考}\label{ux7b2cux4e00ux767eux4e09ux5341ux7ae0ux53ccux9886ux57dfux4e0eux7b2cux4e8cux8003}
 
 蔡兴坤上到五百米时，天已经快黑了。
 
@@ -69143,7 +69806,7 @@ I侧的对照在这里没有继续逐条列出，卢本韦便把I册暂时合到
 
 海风迎面吹来，怀里的封套被她压得很稳。最外面那张纸上，写着牢大的名字。
 
-\chapter{第一百三十一章：归航}\label{ux7b2cux4e00ux767eux4e09ux5341ux4e00ux7ae0ux5f52ux822a}
+\chapter{第一百三十二章：归航}\label{ux7b2cux4e00ux767eux4e09ux5341ux4e00ux7ae0ux5f52ux822a}
 
 五人走到海湾时，返程的船已经靠在岸边。
 
@@ -69641,7 +70304,7 @@ I侧的对照在这里没有继续逐条列出，卢本韦便把I册暂时合到
 
 这一次，井边那阵低低的笑声停了。
 
-\chapter{第一百三十二章：破镜}\label{ux7b2cux4e00ux767eux4e09ux5341ux4e8cux7ae0ux7834ux955c}
+\chapter{第一百三十三章：破镜}\label{ux7b2cux4e00ux767eux4e09ux5341ux4e8cux7ae0ux7834ux955c}
 
 女人脸上的笑容僵住了。
 
@@ -70225,7 +70888,7 @@ I侧的对照在这里没有继续逐条列出，卢本韦便把I册暂时合到
 
 不知不觉间，他们离学院大门，已经只剩下短短的一段路。
 
-\chapter{第一百三十三章：重回史莱克}\label{ux7b2cux4e00ux767eux4e09ux5341ux4e09ux7ae0ux91cdux56deux53f2ux83b1ux514b}
+\chapter{第一百三十四章：重回史莱克}\label{ux7b2cux4e00ux767eux4e09ux5341ux4e09ux7ae0ux91cdux56deux53f2ux83b1ux514b}
 
 走到校门前，蔡须坤才发现，门内还添了一间值守的小屋。
 
@@ -70875,7 +71538,7 @@ I侧的对照在这里没有继续逐条列出，卢本韦便把I册暂时合到
 
 让人类与魂兽共同发展。
 
-\chapter{第一百三十四章：再战梅长老}\label{ux7b2cux4e00ux767eux4e09ux5341ux56dbux7ae0ux518dux6218ux6885ux957fux8001}
+\chapter{第一百三十五章：再战梅长老}\label{ux7b2cux4e00ux767eux4e09ux5341ux56dbux7ae0ux518dux6218ux6885ux957fux8001}
 
 第二天一早，五人便来到了训练场。
 
@@ -71429,7 +72092,7 @@ Y(1,3)%
 
 五人随着她离开学院，向总殿而去。
 
-\chapter{第一百三十五章：遵循本心}\label{ux7b2cux4e00ux767eux4e09ux5341ux4e94ux7ae0ux9075ux5faaux672cux5fc3}
+\chapter{第一百三十六章：遵循本心}\label{ux7b2cux4e00ux767eux4e09ux5341ux4e94ux7ae0ux9075ux5faaux672cux5fc3}
 
 总殿的石阶出现在眼前时，蔡须坤下意识地扶了一下肩上的行囊。
 
@@ -71993,7 +72656,7 @@ test\_alpha0的手掌轻轻一合，投影随之淡去。
 
 三颗大小各不相同，仍可长期稳定运行。
 
-\chapter{第一百三十六章：三核之间}\label{ux7b2cux4e00ux767eux4e09ux5341ux516dux7ae0ux4e09ux6838ux4e4bux95f4}
+\chapter{第一百三十七章：三核之间}\label{ux7b2cux4e00ux767eux4e09ux5341ux516dux7ae0ux4e09ux6838ux4e4bux95f4}
 
 卢本韦将最后几个字写完，笔却仍停在纸上。
 
@@ -72553,7 +73216,7 @@ test\_alpha0望向五人，停了片刻。
 
 这一次，她看得比方才更仔细。
 
-\chapter{第一百三十七章：天州纪念馆}\label{ux7b2cux4e00ux767eux4e09ux5341ux4e03ux7ae0ux5929ux5ddeux7eaaux5ff5ux9986}
+\chapter{第一百三十八章：天州纪念馆}\label{ux7b2cux4e00ux767eux4e09ux5341ux4e03ux7ae0ux5929ux5ddeux7eaaux5ff5ux9986}
 
 离开总殿时，蔡须坤将那本记着魂核的册子放进了行囊。
 
@@ -73161,7 +73824,7 @@ test\_alpha0的石像近在眼前。
 
 ``人类与魂兽，要改变了。''
 
-\chapter{第一百三十八章：重返星斗}\label{ux7b2cux4e00ux767eux4e09ux5341ux516bux7ae0ux91cdux8fd4ux661fux6597}
+\chapter{第一百三十九章：重返星斗}\label{ux7b2cux4e00ux767eux4e09ux5341ux516bux7ae0ux91cdux8fd4ux661fux6597}
 
 离开那片灌木以后，古月娜走在了更前面。
 
@@ -73905,7 +74568,7 @@ test\_alpha0的石像近在眼前。
 
 湖边安静下来。灭世狼王却没有退开，它抬起头，迎上赤王的目光，仍站在那块平石旁边。
 
-\chapter{第一百三十九章：湖畔的商议}\label{ux7b2cux4e00ux767eux4e09ux5341ux4e5dux7ae0ux6e56ux7554ux7684ux5546ux8bae}
+\chapter{第一百四十章：湖畔的商议}\label{ux7b2cux4e00ux767eux4e09ux5341ux4e5dux7ae0ux6e56ux7554ux7684ux5546ux8bae}
 
 赤王的话没有被湖风吹散。
 
@@ -74563,7 +75226,7 @@ test\_alpha0的石像近在眼前。
 
 ``嗯。''蔡须坤抬起头，``一起做。''
 
-\chapter{第一百四十章：故人现身}\label{ux7b2cux4e00ux767eux56dbux5341ux7ae0ux6545ux4ebaux73b0ux8eab}
+\chapter{第一百四十一章：故人现身}\label{ux7b2cux4e00ux767eux56dbux5341ux7ae0ux6545ux4ebaux73b0ux8eab}
 
 赤王的前爪刚从纸边收回，远处忽然传来一个声音。
 
@@ -75223,7 +75886,7 @@ test\_alpha0正伸手扶住一页滑落的纸。蔡兴坤将旁边的石块递�
 
 ``已经一万年了。''
 
-\chapter{第一百四十一章：传灵初试}\label{ux7b2cux4e00ux767eux56dbux5341ux4e00ux7ae0ux4f20ux7075ux521dux8bd5}
+\chapter{第一百四十二章：传灵初试}\label{ux7b2cux4e00ux767eux56dbux5341ux4e00ux7ae0ux4f20ux7075ux521dux8bd5}
 
 回到天州以后，蔡须坤才发现，湖边那几张纸，远远装不下建起一座传灵塔要做的事。
 
@@ -75935,7 +76598,7 @@ test\_alpha0接过最后一页，认真看完。
 
 ``一起。''
 
-\chapter{第一百四十二章：临行之赠}\label{chapter:142}
+\chapter{第一百四十三章：临行之赠}\label{chapter:143}
 
 第二天，奥斯卡起得比院中的工匠还早。
 
@@ -76417,7 +77080,7 @@ test\_alpha0站在门边，将蔡须坤取出来确认的旧封套看了一眼�
 
 六人的身影，终于一同进入了落日森林。
 
-\chapter{第一百四十三章：雾深之处}\label{chapter:143}
+\chapter{第一百四十四章：雾深之处}\label{chapter:144}
 
 进了落日森林，脚下那条旧径只延续了半日。
 
@@ -77129,7 +77792,7 @@ test\_alpha0站在门边，将蔡须坤取出来确认的旧封套看了一眼�
 
 ``终有一日，我会让人类和魂兽，进入空前的大团结。''
 
-\chapter{第一百四十四章：何罪之有}\label{chapter:144}
+\chapter{第一百四十五章：何罪之有}\label{chapter:145}
 
 古月娜先听见了一声龙吟。
 
@@ -77639,7 +78302,7 @@ test\_alpha0。
 
 他看上去，竟像真的恢复了肉身。
 
-\chapter{第一百四十五章：深渊中的囚徒}\label{chapter:145}
+\chapter{第一百四十六章：深渊中的囚徒}\label{chapter:146}
 
 牢大的手指动了一下。
 
@@ -77779,205 +78442,151 @@ test\_alpha0。
 
 光中的身体，却已第三次重新凝聚。
 
-蔡兴坤忽然转过身。
-
-``只要结束这里，他就能停下来了。''
-
-她说得很快，像是在抓住眼前最后一件还能够由自己去做的事。
-
-蔡须坤望向她。
-
-``谁告诉你的？''
+蔡兴坤忽然转过身，黑色的魂力重新卷上肩头。
 
 ``只能有一个人离开。''
 
-蔡兴坤的声音陡然抬高，眼眶已经红透。
+她向前逼近，声音夹在黑翼掠过的风里。
 
-``你还要等到什么时候？等他再倒下一次？''
-
-黑色的魂力重新卷起。
-
-蔡须坤才转回半个身子，黑子鸡便已冲到面前。她抬手将篮球挡住，冲击沿手臂一直压到肩头，刚要站稳，身后的旋风又卷住了衣角。
-
-蔡兴坤从旋风里逼近。
-
-这一击，她没有再绕开正面。双翼向内一合，压住球面上的光，手掌紧跟着落向蔡须坤肩前。
-
-蔡须坤侧身格开，另一只手扣住她的手腕，想借势将人压住。
-
-可蔡兴坤已经猜到她会这样做。
-
-掌边的暗光骤然一散，化作数道贴身的羽影。蔡须坤不得不松手，篮球回转，将其中几道拍开，最后一道却仍擦过她的腰侧。
-
-她连退三步。
-
-蔡兴坤没有停。
-
-``爱是自私的，是占有的。''
-
-她的声音夹在黑翼掠过的风里，第一次这样直白地冲向蔡须坤。
-
-``他以前的生命已经为你而死，但是我爱他，我真的爱他！''
+``爱是自私的，是占有的。他以前的生命已经为你而死，但是我爱他，我真的爱他！''
 
 蔡须坤的手猛地一紧。
 
-篮球上的光骤然亮起，正面撞开了那片黑翼。蔡兴坤被逼得向后翻身，落地时，脚跟在石面上拖出两道深痕。
+篮球上的光正面撞开黑翼，蔡兴坤向后翻身，脚跟在石面上拖出两道深痕。她还要再往前，蔡须坤已经压着急促的呼吸，朝她喊了出来。
 
 ``他当时护着的是我们所有人！''
 
-蔡须坤的声音也变了。
-
-她胸口起伏着，眼前却忽然掠过那道背对众人的身影。明明已经过去那么久，想起来时，她还是能听见同伴撤离的脚步，想起自己最后回头，看见的那一段路。
-
-蔡兴坤的嘴唇发抖。
+蔡兴坤的脚步停了一瞬。
 
 ``我知道。我也在那里。''
 
-她望向两人之间那片不断明灭的光。
+她本想接着说，自己也等了这么久，也想让他睁开眼以后先看见自己。可光中的牢大又一次被撞倒，伸向地面的手还没有撑稳，肩背便重新失去了形状。
 
-牢大又一次被击倒，手肘撑住地面，想爬起来。下一只亡灵已经从侧面扑近，将他重重撞回灰土里。
+那些话，忽然堵在了她喉间。
 
-蔡兴坤眼里刚涌上的泪，被她用力眨了回去。
+两人暂时分开了，亡灵却没有停。他每一次重新出现，都还要迎着相同的残刃，连喘息的空隙都越来越短。
 
-``可我也想让他看着我。''
+蔡兴坤望着那道身影，想起的却是另一段路。
 
-她向前一步，魂力重新压上双翼。
+牢大站在众人后面，回身挡住追兵。他那时候没有问过谁更爱他，也没有让同伴挑一个人留下，只把能够撤离的时间，交到了所有人手里。
 
-``我也等了这么久！''
+她原先只想着，要争过蔡须坤，要让他属于自己。
 
-两股力量再一次撞在平台中央。
+可如果他真的只能这样回来，一次次被打倒、被重塑，连选择站稳的机会都没有，自己争到的，又是什么？
 
-这一次，蔡须坤没有避。
+蔡兴坤低下头，掌边翻起的黑色魂力，慢慢收成了一线。
 
-处女之光从球面铺开，灰色的气流沿着她脚边卷起，与黑旋风迎面撞上。平台上的尘屑被推向两侧，两人的手臂同时绷紧，鞋底一点点向后拖动。
+他当年能为了同伴留下，她也可以。
 
-蔡须坤盯住她的眼睛，想将那片黑色的魂力压回去。
+只能有一人离开，那就让蔡须坤带着他走。只要自己的命能够换回他的再生，她不必再去争，谁会在他醒来的时候站得更近。
 
-她以为，只要先让蔡兴坤停下，自己便能腾出手，再去找救牢大的办法。
+她将这个念头压在心底，重新抬起了手。
 
-可蔡兴坤咬着牙，将已经散开的羽影重新接了回来。两人身上的力量绞在一起，谁先松手，下一道攻击便会立刻落到身前。
+黑子鸡的双翼猛地展开，攻势仍然凌厉，直逼蔡须坤正面。处女之光迎上去，明暗相撞，卷起的气浪将两人的衣角一齐掀开。
 
-金色的坤神领域随之展开。
+蔡须坤被逼得接连后退。
 
-蔡须坤将护住肩背的力量稳住，黑翼落在上面，震出一层层细密的涟漪。可蔡兴坤身上同样有坤神之力，那股熟悉的气息托住她摇晃的身形，让她硬生生接下了正面推来的冲击。
+果糕领域贴着石面铺开，坤神之力护住肩背。她收着灰色的混沌气息，不敢任它失控，只借篮球回转的力量，将贴身压来的羽影一次次推开。
 
-光与暗分开，随后又撞上。
+可到了第三次相接，她忽然觉出了不对。
 
-蔡须坤刚抓住一个空处，想从侧面迫近，蔡兴坤便用黑子鸡的双翼封住落脚的地方。她只得改向，球面上的灰色稍稍翻起，又被她强行收回。
+蔡兴坤太熟悉她了。
 
-手背上的筋已经绷了出来。
+方才球面上的光才亮，对方便知道往哪边避；如今，明明看见了自己反击的方向，蔡兴坤却没有收翼，连胸前那层最贴身的防护，都在向两侧退开。
 
-她不敢任由那股混沌之力继续涨下去，可用来维持领域、压住攻击的魂力，却在一刻不停地消耗。
+她只顾着催动向前的攻势。
 
-另一侧，牢大又睁开了眼睛。
+蔡须坤手腕猛地一沉，想把已经推出的篮球拉回。蔡兴坤却迎着那道光，再踏出一步，眼睛望过她的肩头，最后看向了牢大。
 
-他已经记不清自己倒下过多少次。
+那目光让蔡须坤心口骤然一凉。
 
-最初，他还能在亡灵扑来之前，听清一两声脚步。后来，那些声音全混在一起，从前后左右围过来。他每一次抬手，都要先忍住上一回似乎还留在骨头里的痛。
+``兴坤，停下！''
 
-身体重新出现，疼痛的记忆却没有退去。
+她强行偏转球面，散开的金光擦过自己手臂，震得掌心一阵发麻。与此同时，她向侧前方跨出一步，撞进蔡兴坤已经撤去防护的空处，一把扣住她的手腕，将人硬生生带偏。
 
-他试着靠近雾的边缘。
+黑翼擦着两人身旁落下，劈碎了后方一片石面。
 
-走出几步，一具披着残甲的骸骨便横到身前。他抬臂挡住，却被后面接上的黑影撞得踉跄，半跪下去，还没来得及撑起身体，肩背上便又落下沉重的一击。
+蔡兴坤踉跄着半跪下来，第一反应竟是挣开那只手。
 
-视线模糊，呼吸也跟着断开。
+``放开我！''
 
-他以为这一次终于能停了。
+蔡须坤没有松。
 
-可光很快又从地面升起，将已经消失的手、脚、胸膛一一补回。他再度清醒时，面前仍是那些没有尽头的身影。
+``你刚才根本没有想躲。''
 
-牢大低下头，看见自己的手指正在颤抖。
+她喘着气，将另一只手也压上去，挡住那道仍想往前送出的魂力。
 
-他想站稳，想找一个能靠住的地方，也想弄清楚同伴在哪里。
+``你想让我杀了你？''
 
-迎面而来的亡灵，没有给他这个机会。
+蔡兴坤的肩背猛地一颤。
 
-残刃擦着灰土拖近，下一道黑影紧随其后。身后的雾里，仍有更多亡灵不断显出，走过前一具消散的位置，继续朝他围拢。
+她还想将手抽回，可光中的牢大再次跌倒，眼前那阵挣扎一下便散了。她望着那道正在消融的身影，眼泪终于落了下来。
 
-两人的战斗中间，这一切始终清清楚楚。
+``他能用自己的命，让我们活下来。我也可以。''
 
-蔡须坤抬手接住一击，看见牢大刚重塑的身体又失去了一条手臂。她的动作慢了半分，蔡兴坤的魂力便撞上了她肩头，推得她向后滑出数步。
+她说得很轻，手指却还在发抖。
 
-她还未站稳，光里的他便再次倒下。
+``用我的命换他再生。你带他走，去找其他人。''
 
-蔡兴坤同样看见了。
+蔡须坤怔了一下，随即将她的手握得更紧。
 
-她原本向前逼近的脚步僵了一下，羽影偏开，擦着蔡须坤的发梢掠过。可她很快又将力量收回来，逼自己只盯住眼前的人。
+``你听清楚，它什么时候答应过，拿你的命，就让牢大活过来？''
 
-两人都想快一点。
+蔡兴坤张了张口。
 
-想快一点结束争斗，想快一点从这座平台上找到出口，想让那片灰地里的人终于能够安静下来。
+她找不到那句话。
 
-可她们越急，出手便越重，魂力也消耗得越快。
+那道声音只问过她们是否愿意，只将只能离开一人的话压下来。后面的争抢、厮杀，连此刻拿自己的生命去换，竟都是她沿着那份恐惧，一步步替自己定下的结果。
 
-蔡须坤的坤神领域终于开始收缩。
+蔡须坤将她往身旁拉近，逼着自己把呼吸放稳。
 
-金光退到脚边，原本能护住整段冲势的力量，只剩下薄薄一层。篮球撞回掌心时，她手腕一软，差点没能接稳。
+``牢大给我们留下退路，是想让我们活着。你不能把他替你争来的命，又交给这个东西。''
 
-蔡兴坤落在对面，胸口急促起伏。
+``可他还在受苦。''
 
-黑子鸡的双翼已经没有最初那样凝实。她想再次掀起黑旋风，羽缘却只亮起一段便散了，接连催动几次，才勉强将那道攻势推出去。
+蔡兴坤望着牢大，声音几乎哽住。
 
-蔡须坤向旁边避开，脚下踉跄了一步。
+``我看见了。''
 
-两人的魂力，都已所剩无几。
+蔡须坤抬起头，朝始终没有现身的黑暗问去。
 
-汗顺着鬓角淌下来，沾到伤处，刺得她肩头轻轻一缩。她没有再往前走，只抬起头，越过两人之间的距离，望向牢大。
+``她若死了，你会让他回来吗？你先停下那些亡灵，让他不再受折磨！''
 
-又一次重塑开始了。
+没有回应。
 
-那只手先出现，五根手指慢慢合拢。牢大撑住地面，抬起头的动作，比她方才看见时更迟缓。
+灰白土地上的围攻，却仍在继续。牢大的身体再次重塑，那些亡灵便踩过碎散的光，接着向他扑去。
 
-蔡须坤忽然想起，自己早已看过这个动作。
-
-看过许多次。
-
-她们正面交手时，他这样站起来；她们停下，抬头去问那道声音时，他也这样站起来。她方才反击，将蔡兴坤推开，他没有因此少挨一次重击；自己后退，挡住另一道黑翼，围着他的亡灵也没有因此停下。
-
-它们只是在继续。
-
-消融，再将他拼回去，然后，让下一次攻击落下来。
+她们方才互相攻击时，是这样；此刻停下了，一人甚至愿意交出自己的生命，仍然是这样。
 
 蔡须坤的掌心慢慢发凉。
 
-她望着那张痛楚而疲倦的脸，终于发现，自己已经有很久没有真正看着他了。
+它把牢大放在这里，把希望摆到眼前，却始终不肯给出一条能真正走通的路。她们越害怕失去他，便越容易把身旁的人、连同自己的命，一起押上去。
 
-她一直在看蔡兴坤的出手，看两人之间能否分出高下，看这一击之后，能不能暂时腾出一点余地。她急着赢过眼前的阻拦，竟将牢大每一次重新出现，都当成了还能够再争取一回的时间。
+上方终于传来了一声低语。
 
-篮球上的光轻轻颤了一下。
+``怎么停了？你们不是都说，愿意为了他吗？''
 
-她想起牢大用性命换来的那条退路，想起天州城里等到魂灵稳定以后，才敢继续赶路的奥斯卡，想起他们走进森林时，梅天狸回身确认每一个人的目光。
+蔡须坤抬起脸。
 
-他们一路照看着彼此，才走到了这里。
+对方问的仍然只是，她们肯不肯继续。它没有回答牢大能不能停止受难，也没有因为蔡兴坤准备赴死，便给他一刻安静。
 
-现在，她却站在同伴对面，消耗着最后一点魂力，而那个她口口声声要救回来的人，还在眼前一遍遍受难。
+蔡须坤将同伴的手拉回身前，缓缓放低篮球。
 
-蔡须坤抬起头。
+``兴坤，我错了，这根本不是什么爱神。''
 
-上方仍是无边无际的黑暗。
-
-那道声音许诺过希望，问过她们爱不爱他，又将只能活着离开一人的话，放在了两人中间。此后，它始终沉默，任由她们厮杀，任由牢大在那片灰地上反复倒下。
-
-她的呼吸忽然哽住。
-
-对面的蔡兴坤再次抬起手，黑翼却只显出半道轮廓。她的手臂在发抖，眼睛仍紧盯着蔡须坤，像是只要再往前逼近一步，这一切便能结束。
-
-蔡须坤缓缓放低了篮球。
-
-``兴坤。''
-
-蔡兴坤没有动。
-
-两人之间，牢大又一次在亡灵的围攻中倒了下去。
-
-蔡须坤看着她，一字一字，将终于认清的话说了出来。
-
-``我错了，这根本不是什么爱神。''
-
-她抬眼望向平台上方的黑暗，声音沙哑，却清楚得没有一丝含混。
+她的声音沙哑，目光却已经越过蔡兴坤，清清楚楚望向了同一个地方。
 
 ``这是邪神，邪恶的神明。''
+
+蔡兴坤顺着她的目光，抬起了头。
+
+过了片刻，她终于将仍在向前催动的魂力收住，黑子鸡的双翼也从蔡须坤身前移开，护到了两人侧后方。
+
+``它才是我们该面对的敌人。''
+
+蔡须坤点头，没有放开她。
+
+她们都已受伤，魂力也在争斗中消耗得所剩无几。可这一回，两人站到了同一侧，身前再没有谁拿另一人的生死，去换那道声音许诺的希望。
 
 另一边，那道声音也落到了奥斯卡面前。
 
@@ -78145,39 +78754,25 @@ test\_alpha0。
 
 白银龙枪前移，银光从掌心一直亮到枪尖。她沿着画面最浓重的地方，开始寻找那股力量究竟从哪里来。
 
-平台上，蔡兴坤的手臂终于缓缓垂了下来。
+平台上，蔡兴坤已经站到蔡须坤身侧。
 
-``邪神\ldots\ldots''
+两人试着将魂力送向关着牢大的那层光。处女之光落在正面，黑子鸡的羽影则沿边缘绕过，想找出一处能接近他的缝隙。
 
-她重复着这两个字，目光却仍留在牢大身上。
+光幕向内凹了一点，很快又重新展平。
 
-又一具亡灵撞向他。他被推得伏倒，刚刚重塑的手掌撑住地面，指间的力气却已经不足以将自己托起来。
+她们仍够不到他。
 
-蔡兴坤的嘴唇动了动。
+蔡须坤的手腕轻轻一颤，蔡兴坤立刻收住外侧的羽影，托住她的手肘，让反震的力量没有再落到伤处。
 
-她想起方才自己说过的话，想起那句只能有一人离开，想起自己竟然真的沿着这句话，将所有力气都用在了蔡须坤身上。
+``别再一口气往里送。''
 
-可眼前那道声音，甚至没有因为她们耗尽魂力，便让牢大少受一次苦。
+蔡须坤看向她，呼吸慢慢稳下来。
 
-她掌边最后那半片黑翼，慢慢散开。
+``先找到其他人，把他护住。''
 
-``它根本不在乎他。''
+蔡兴坤点头。这一次，她望向那片不断重塑的光，仍然心痛，却没有再把自己的身体迎向同伴的攻击。
 
-这句话很轻。
-
-蔡须坤听见了，肩背微微一颤。
-
-蔡兴坤没有看她，只向那片光靠近一步。亡灵的影子映在她脸上，她的眼睛红着，声音却终于从方才那阵急促里沉了下来。
-
-``先救他。''
-
-蔡须坤点头。
-
-她们之间仍隔着未能说清的那些话，也仍有方才出手留下的伤。可两人的目光，终于落到了同一个地方。
-
-那道逼她们厮杀的声音。
-
-她们不能再等它决定谁能活，谁该死。要将牢大带回来，要让其他同伴也走出这里，就得找到它，打败它。
+她们之间还有需要说清的话，也还有方才留下的伤。可要将牢大带回来，要让所有同伴走出这里，她们已经知道，必须一起对付那个躲在黑暗中的操纵者。
 
 几处彼此隔断的空间里，五个人几乎同时作出了选择。
 
@@ -78285,7 +78880,7 @@ test\_alpha0。
 
 梅天狸盯住湖心，声音已经沉了下来。
 
-\chapter{第一百四十六章：金光破界}\label{chapter:146}
+\chapter{第一百四十七章：金光破界}\label{chapter:147}
 
 金光从蔡须坤指间透出时，她终于摸到了主件背面那一道完整的接续纹。
 
@@ -78368,6 +78963,8 @@ test\_alpha0。
 光里的那张脸还留着最后的神情，可到了金色光幕照过的地方，眉眼便变得平薄，随后，同整片灰白的土地一起，碎成了无数细小的光屑。
 
 那副肉身，竟然也是幻境。
+
+蔡兴坤的脸色一点点白了。她方才险些迎着蔡须坤的反击，把自己的性命交出去，想换回的竟是这样一副被捏出来的身体。握过她手腕、强行将她拉回的那只手，却真真切切留在身旁，连血都还没有止住。
 
 蔡须坤的手指凉了下去。
 
@@ -78775,6 +79372,12 @@ test\_alpha0。
 
 处女之光沿着球面漫开，没有向四面铺散，而是随着她手腕转动，凝成一道澄澈的光，直照前方。
 
+蔡兴坤随即侧过半步，黑子鸡的一片羽翼护住蔡须坤受伤的肩，另一片贴着水面掠出。羽风将从侧旁绕来的骸骨逼向前方，恰好送到球面正对的方向。
+
+``我护侧面，你看正前。''
+
+蔡须坤应了一声，将球面的光稳稳对准前方，等侧面的羽风把扑来的骸骨逼到一起，才收紧掌心。
+
 ``净化！''
 
 光最先落在一具举刀扑来的骸骨脸上。
@@ -78784,6 +79387,8 @@ test\_alpha0。
 后面几具亡灵仍往前挤，才踏进同一片光里，动作便跟着僵住。
 
 附在白骨上的灰黑气息被一缕缕剥开。原本将断骨强行接在一起的力量散了，碎骨便接连落回水中，在母猪前方露出一小片空处。
+
+蔡兴坤等那道净化之光扫过，才将下一股羽风接上，把绕向两侧的骸骨重新逼回正前方。两人一进一收，蔡须坤不必再反复转动受伤的肩，也能将这道光稳在前路上。
 
 蔡须坤的手腕，却也随之往下一沉。
 
@@ -78829,6 +79434,8 @@ test\_alpha0。
 
 她转过脸，看见蔡兴坤站在自己身旁。那人的嘴唇仍有些发白，伸来的手却没有再迟疑，手指穿过她的指间，紧紧扣住。
 
+平台上，蔡须坤曾扣住同一只手，阻止她迎向那道足以致命的攻击。如今，那只手主动回握过来，将剩下的力量，一点点交到了同伴手里。
+
 ``队长，这一次，我们一起走出去。''
 
 蔡须坤看了她一瞬，握紧了那只手。
@@ -78840,6 +79447,8 @@ test\_alpha0。
 蔡须坤将呼吸压稳。
 
 她能清楚感觉到蔡兴坤同样吃力，原本只够勉强撑住的那一点力量，却随着两人配合，慢慢拢成了一股。
+
+蔡兴坤先收住羽翼，等处女之光接稳，再沿着同一个方向送出暗色气流。蔡须坤顺势将球面托起，把两人的冲势收在前方，没有再让任何一道力量撞回同伴身上。
 
 卢本韦将母猪稳住，让宽阔的脊背平平托在她们脚下。
 
@@ -78863,7 +79472,7 @@ test\_alpha0。
 
 为首的亡灵骑士，连同后方那株张开的亡灵食人花，一齐被这股能量轰得倒飞了出去。
 
-\chapter{第一百四十七章：半个小时}\label{chapter:147}
+\chapter{第一百四十八章：半个小时}\label{chapter:148}
 
 亡灵骑士撞进后方的骨群，断裂的长枪在石道上拖出一串火星。那株被连根拔起的食人花翻倒在旁，花盘撞上石柱，碎石与灰白花瓣一同落了下来。
 
@@ -79045,7 +79654,7 @@ test\_alpha0。
 
 她肩头骤然一沉。
 
-几股不同的魂力才在体内接触，母猪背上的光便猛地颤了一下。蔡须坤的手指跟着收紧，净化之光险些被卷散，蔡兴坤立刻压低了黑子鸡传来的波动。
+几股不同的魂力才在体内接触，母猪背上的光便猛地颤了一下。蔡须坤的手指跟着收紧，净化之光险些被卷散。蔡兴坤看见她的呼吸乱了半拍，立刻压低黑子鸡传来的波动，等那道净化之光重新接稳，才将自己的力量缓缓送上。
 
 ``慢一点。''奥斯卡咬着牙说，``别抢，让它接住。''
 
@@ -79337,7 +79946,7 @@ phyrion收回视线，向着那尊巨大的雕像，慢慢俯下身。
 
 ``先接上梅长老，我们一起走！''
 
-\chapter{第一百四十八章：猪神降临}\label{chapter:148}
+\chapter{第一百四十九章：猪神降临}\label{chapter:149}
 
 巨大的母猪刚刚调转方向，天空便响起了一声巨响。
 
@@ -79577,11 +80186,37 @@ Smile Lee曾托着它，让六个人逐一学会引动。那时，光幕在院�
 
 卢本韦伸出一只手，将两人往内侧带近。
 
-她想起父亲第一次送自己出门时，总要把衣领整了又整，像是多抚平一道折痕，便能让她少受一点伤。那时候，她嫌他啰嗦，只说自己早已不是孩子。
+雷声压下来时，卢本韦眼前忽然闪过了一片暖黄的灯火。
 
-可此刻，她忽然很想听见父亲再喊一声自己的名字。
+小时候，父亲带她走进卢氏祖祠，她还够不到供案，连跪上蒲团，都要先扶住他的手。那里的门很高，灯也很高，香烟往上飘，她仰着脸看了半天，才看清高处那尊猪神雕像。
 
-卢本韦用力咬住下唇，没有再往那个念头里想。她把倒在身旁的古月娜也护近了一点，掌下的光虽然越来越薄，仍旧罩住了六个人。
+英俊的眉眼，宽阔的肩背，神情威严，却又让她不太害怕。
+
+父亲蹲到身旁，替她将歪了的衣领理平，教她把手放好，先安安稳稳行礼。
+
+``这就是Opt先祖。''
+
+小小的卢本韦抬头看了一眼，又悄悄扯住他的袖口。
+
+``猪神大人，能听见我说话吗？''
+
+卢关握住她的手，声音很轻。
+
+``把心里想说的，认真告诉先祖。''
+
+她便重新跪好，望着香火后的那道身影，郑重得连声音都放低了。
+
+``请猪神大人保佑，保佑爹，保佑大家，都能平平安安回家。''
+
+那时候她还说不出许多道理，只知道父亲有时要出远门，而自己喜欢的人，最好都能好好回来。拜完以后，父亲将她抱起，让她更近一些看清先祖的面容，她也就这样，把那双温厚的眼睛记了许多年。
+
+如今，灯火与香烟都远了，身旁只有即将压垮他们的雷劫。
+
+卢本韦慢慢收紧手指，将倒在近旁的同伴又护近了一点。她已经无力抬头，儿时那句最简单的祈愿，却在意识快要散去的时候，重新清清楚楚浮了上来。
+
+让大家，都能平安回去。
+
+她在心里将这句话念完，掌下最后一点光，也几乎要熄灭了。
 
 就在这时，胸前忽然热了。
 
@@ -79639,7 +80274,7 @@ phyrion的声音，第一次有了明显的颤动。
 
 ``请护住她。''
 
-他又说了一遍。
+他又说了一遍。供案前那方蒲团，正是许多年前，他扶着小女儿跪稳、教她向先祖行礼的地方。
 
 乾坤问情谷中，超级处女母猪的前半边身躯，已经开始变得透明。
 
@@ -79977,19 +80612,37 @@ Opt的虚影慢慢散去，诛仙剑的神圣光芒也随之隐没。湖水、�
 
 ``谷里的那些事，我记得。''
 
-她停了一下，才继续往下说。
+她停了一下，才把后面的话说出来。
 
-``我对你动了手。那些话，也确实从我嘴里说出来了。''
+``我一开始，确实只想争过你，想让牢大属于我。那些伤人的话，也是我自己说的。''
 
-蔡须坤抬起头，没有立刻回答。
+蔡须坤抬起头，没有打断。
 
-身上的伤已经好了，可被逼着向同伴举起手的记忆，并没有一起消失。她望着蔡兴坤仍攥住衣角的手，想起同一只手后来握住自己，也在最后替她挡过侧面的风。
+``后来我看见他一遍遍被打倒，就想起他当年替我们挡住追兵。我以为，我也能用自己的命换他回来。''
 
-``等我们都缓过来，再把该说的话说清楚。''
+蔡兴坤低下头，望着曾经被同伴扣住的手腕。
 
-她轻声道。
+``如果那时候，你没有拉住我\ldots\ldots''
 
-蔡兴坤点头，慢慢松开衣角。两人没有再急着说什么，只将水囊从彼此手中递过，随后，一起望向了还在安静休息的梅天狸。
+她没能把后面的话说完。
+
+蔡须坤挪近一些，在她身旁坐下。
+
+``你收掉了防护，却迎着我的反击往前走，我就知道，你已经不只是想赢。''
+
+她轻轻碰过那只手，声音放低了一些。
+
+``牢大想让我们活下来。我们要让他真正回来，也要把自己和同伴的命护好，不能再拿去赌它会不会兑现一句话。''
+
+蔡兴坤慢慢点头。
+
+她们之间还留着需要说清的感情，也留着方才彼此伤害的记忆。可从那只强行拉回她的手，到后来一起迎向亡灵的铁山靠，两人已经走到了同一侧。
+
+蔡须坤将水囊递过去，蔡兴坤接住，喝了一小口，又将它稳稳放回同伴能够够到的地方。
+
+``先让他真正醒过来。''蔡兴坤轻声道。
+
+蔡须坤应了一声，与她一同望向还在安静休息的梅天狸。
 
 几人静了片刻，目光一同落向那枚小小的令牌。
 
