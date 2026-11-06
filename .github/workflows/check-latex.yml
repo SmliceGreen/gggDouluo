@@ -30,3 +30,7 @@ jobs:
 
       - name: Check the novel build
         run: python3 -X utf8 publish.py --build-only --force
+
+      - name: Show layout diagnostics
+        if: failure()
+        run: grep -hE '^Missing character:|^Overfull ' build/*.log | head -n 60 || true
