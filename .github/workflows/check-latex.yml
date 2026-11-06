@@ -1,0 +1,36 @@
+name: Check LaTeX build
+
+on:
+  pull_request:
+    paths:
+      - 'ggg斗罗同人文.tex'
+      - 'publish.py'
+      - '.github/workflows/check-latex.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  xelatex:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Install XeLaTeX and fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            texlive-xetex texlive-latex-extra texlive-lang-chinese \
+            texlive-fonts-recommended fonts-texgyre lmodern \
+            fonts-noto-cjk fonts-dejavu-core
+
+      - name: Check the novel build
+        run: python3 -X utf8 publish.py --build-only --force
+
+      - name: Show layout diagnostics
+        if: failure()
+        run: grep -hE '^Missing character:|^Overfull ' build/*.log | head -n 60 || true
