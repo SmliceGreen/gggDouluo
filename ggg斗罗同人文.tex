@@ -23,18 +23,22 @@
 \ifPDFTeX\else
   % xetex/luatex font selection
   \setmainfont[]{TeX Gyre Termes}
-  \setsansfont[]{Microsoft YaHei}
-  \setmonofont[]{Consolas}
+  \IfFontExistsTF{Microsoft YaHei}{
+    \newcommand{\NovelCJKFont}{Microsoft YaHei}
+    \newcommand{\NovelCJKBoldFont}{Microsoft YaHei Bold}
+  }{
+    \newcommand{\NovelCJKFont}{Noto Sans CJK SC}
+    \newcommand{\NovelCJKBoldFont}{Noto Sans CJK SC Bold}
+  }
+  \setsansfont[]{\NovelCJKFont}
+  \IfFontExistsTF{Consolas}{\setmonofont[]{Consolas}}{\setmonofont[]{Latin Modern Mono}}
   \setmathfont[]{Latin Modern Math}
   \ifXeTeX
     \usepackage{xeCJK}
-    \setCJKmainfont[]{Microsoft YaHei}
-    \setCJKsansfont[]{Microsoft YaHei}
-    \setCJKmonofont[]{Microsoft YaHei}
   \fi
   \ifLuaTeX
     \usepackage[]{luatexja-fontspec}
-    \setmainjfont[]{Microsoft YaHei}
+    \setmainjfont[]{\NovelCJKFont}
   \fi
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
@@ -86,14 +90,16 @@
 \newunicodechar{⁰}{\ensuremath{{}^0}}
 \newunicodechar{↦}{\ensuremath{\mapsto}}
 \newunicodechar{∩}{\ensuremath{\cap}}
-\newfontfamily\NovelSymbolFont{DejaVuSans.ttf}
+\IfFontExistsTF{DejaVuSans.ttf}
+  {\newfontfamily\NovelSymbolFont{DejaVuSans.ttf}}
+  {\newfontfamily\NovelSymbolFont{DejaVu Sans}}
 \newunicodechar{�}{{\NovelSymbolFont �}}
-\setCJKmainfont{Microsoft YaHei}[Scale=1,BoldFont={Microsoft YaHei Bold}]
-\setCJKsansfont{Microsoft YaHei}[Scale=1,BoldFont={Microsoft YaHei Bold}]
-\setCJKmonofont{Microsoft YaHei}[Scale=1]
-\setCJKfamilyfont{zhhei}{Microsoft YaHei Bold}[Scale=1]
-\setCJKfamilyfont{zhsong}{Microsoft YaHei}[Scale=1]
-\setCJKfamilyfont{zhkai}{Microsoft YaHei}[Scale=1]
+\setCJKmainfont{\NovelCJKFont}[Scale=1,BoldFont={\NovelCJKBoldFont}]
+\setCJKsansfont{\NovelCJKFont}[Scale=1,BoldFont={\NovelCJKBoldFont}]
+\setCJKmonofont{\NovelCJKFont}[Scale=1]
+\setCJKfamilyfont{zhhei}{\NovelCJKBoldFont}[Scale=1]
+\setCJKfamilyfont{zhsong}{\NovelCJKFont}[Scale=1]
+\setCJKfamilyfont{zhkai}{\NovelCJKFont}[Scale=1]
 % Continue chapters on the current page; keep each heading with its opening text.
 \ctexset{chapter={
   format=\Large\bfseries\raggedright,
