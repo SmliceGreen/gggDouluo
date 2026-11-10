@@ -84511,6 +84511,902 @@ $a$和$D$都可以落在里面那一层指数上。到了双上箭头，牢大�
 
 离错层地府开门还有一段准备的日子。今日的公式已经收好，昨天约下的下一回合，也该开始了。
 
+\chapter{第一百五十七章：不动点与新下标}\label{chapter:157}
+
+石坪上昨晚留下的两道脚印，到清早只剩一道。小舞用鞋尖沿它走了一遍，才记起另一道是牢大后退时擦出来的。她进修炼堂，把这事讲给他听，牢大已经铺开了昨天的册子。
+
+“那一步我倒记得。”他说，“今天谁先来？”
+
+诺当从旁边把纸抽出来。昨天牢大把它留给他时，上面一个字也没有。如今正中写了一个矩阵，纸边还有三处被炭笔涂黑的数字。
+
+“我先试这个。”他将末列$(3,2)$转向众人，“第一行向左，先到$(2,2)$。第二行还是$2$，得沿第一行的祖先再走一列。到$(1,1,1)$，第二行才比末列小。坏根就在这里。”
+
+蔡须坤低头看了一眼他涂掉的地方。最黑的那处，原来写的是第三列。
+
+“找到以后怎么接？”她问。
+
+“好部只剩最前面的$(0)$。坏部是$(1,1,1)(2,2)$。末列的最后一个非零项在第二行，第一行的提升量是$3-1=2$。原段留下，下一份的首行加$2$，再下一份加$4$。上次抄过的两条，原来就能从这里接出来。”
+
+小舞从昨天的册子里找到了$(3,1,1)(4,2)$，又找到后面多一份$(5,1,1)(6,2)$的长式。她把两页并到一起。前一页右侧套了两层$\varepsilon$，后一页套了三层。
+
+夏夜星空在纸边写下$\zeta$。“用这个记号给$\varepsilon$函数的不动点编号。刚才那几项让你看见了有限次迭代是怎样从左式里长出来的。今天从这条极限矩阵接下去，沿用昨天的$D$和$\psi_a$。”
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2826}{(0)(1,1,1)(2,2)(3,2)}
+
+\NovelDisplay{CH157-B2826-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2827}{(0)(1,1,1)(2,2)(3,2)(2,1)(3,2)}
+
+\NovelDisplay{CH157-B2827-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D + 1} + D\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2828}{(0)(1,1,1)(2,2)(3,2)(2,1)(3,2,1)(4,3)(5,3)}
+
+\NovelDisplay{CH157-B2828-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D + 1} \times 2\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2829}{(0)(1,1,1)(2,2)(3,2)(2,1,1)}
+
+\NovelDisplay{CH157-B2829-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D + 1} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2830}{(0)(1,1,1)(2,2)(3,2)(2,1,1)(3,2)}
+
+\NovelDisplay{CH157-B2830-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D + 1} \times \varepsilon_{D + 1}\bigr)\bigr)}
+
+卢本韦把第一条摆在当中，另外四条依次往右挪。五条都保留从$(0)$到$(3,2)$的四列，从第二条起才各接尾部。右边先见加$D$，随后是乘$2$、乘$\omega$，以及用昨天的$\varepsilon_{D+1}$作右乘数。诺当用笔将共有的四列从头数了一次，确认它们在五条里的位置相同。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2831}{(0)(1,1,1)(2,2)(3,2)(2,1,1)(3,2)(4,2)}
+
+\NovelDisplay{CH157-B2831-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D + 1}^{2}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2832}{(0)(1,1,1)(2,2)(3,2)(2,2)}
+
+\NovelDisplay{CH157-B2832-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\zeta_{D + 1} + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2833}{(0)(1,1,1)(2,2)(3,2)(2,2)(3,1)(2)}
+
+\NovelDisplay{CH157-B2833-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\zeta_{D + 1} + a}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2834}{(0)(1,1,1)(2,2)(3,2)(2,2)(3,1,1)(4,2)(5,2)}
+
+\NovelDisplay{CH157-B2834-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\zeta_{D + 1} \times 2}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2835}{(0)(1,1,1)(2,2)(3,2)(2,2)(3,1,1)(4,2)(5,2)(3,1)(2)}
+
+\NovelDisplay{CH157-B2835-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\zeta_{D + 1} \times a}\bigr)\bigr)}
+
+给$\zeta_{D+1}$取平方时，幂仍在$\psi_a$的输入里。到了下一条，奥斯卡看见$\zeta_{D+1}$沉到了$\varepsilon$的下标。古月娜让他先指出加$1$、加$a$的地方，再把乘$2$与乘$a$的两条接过来。他伸手往右括号外一点，随即反应过来，把手移回了下标。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2836}{(0)(1,1,1)(2,2)(3,2)(2,2)(3,1,1)(4,2)(5,2)(3,1,1)}
+
+\NovelDisplay{CH157-B2836-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\zeta_{D + 1} \times D} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2837}{(0)(1,1,1)(2,2)(3,2)(2,2)(3,1,1)(4,2)(5,2)(3,1,1)(4,2)(5,2)}
+
+\NovelDisplay{CH157-B2837-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\zeta_{D + 1}^{2}}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2838}{(0)(1,1,1)(2,2)(3,2)(2,2)(3,1,1)(4,2)(5,2)(4,2)}
+
+\NovelDisplay{CH157-B2838-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\varepsilon_{\zeta_{D + 1} + 1}}\bigr)\bigr)}
+
+“这里有两个乘号。”霍雨浩把乘$D$和乘$\omega$各圈一次。前一个决定$\varepsilon$取哪个值，后一个才乘在取出的值上。薛峰从另一头读过去，随后看见平方也能落进同一个下标。末式再套一层$\varepsilon$时，两人各守一处括号，直到三个层次都对上才动笔。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2839}{(0)(1,1,1)(2,2)(3,2)(2,2)(3,2)}
+
+\NovelDisplay{CH157-B2839-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D + 2}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2840}{(0)(1,1,1)(2,2)(3,2)(2,2)(3,2)(2,2)}
+
+\NovelDisplay{CH157-B2840-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\zeta_{D + 2} + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2841}{(0)(1,1,1)(2,2)(3,2)(2,2)(3,2)(2,2)(3,1,1)(4,2)(5,2)(4,2)(5,2)}
+
+\NovelDisplay{CH157-B2841-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\zeta_{D + 2} \times 2}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2842}{(0)(1,1,1)(2,2)(3,2)(2,2)(3,2)(2,2)(3,2)}
+
+\NovelDisplay{CH157-B2842-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D + 3}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2843}{(0)(1,1,1)(2,2)(3,2)(3,1)(2)}
+
+\NovelDisplay{CH157-B2843-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D + a}\bigr)\bigr)}
+
+蔡兴坤换了张纸，把$\zeta_{D+2}$单独留在上端。接着两条各有一层$\varepsilon$，下标一条添$1$，一条乘$2$。翻过这两道，$\zeta$的下标才走到$D+3$和$D+a$。叶阳读到$a$时停了停，伸手去核左式哪一列变了，没再按列数猜它排在哪里。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2844}{(0)(1,1,1)(2,2)(3,2)(3,1)(2,1,1)}
+
+\NovelDisplay{CH157-B2844-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D + a} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2845}{(0)(1,1,1)(2,2)(3,2)(3,1)(2,2)}
+
+\NovelDisplay{CH157-B2845-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\zeta_{D + a} + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2846}{(0)(1,1,1)(2,2)(3,2)(3,1)(2,2)(3,2)}
+
+\NovelDisplay{CH157-B2846-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D + a + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2847}{(0)(1,1,1)(2,2)(3,2)(3,1)(2,2)(3,2)(3,1)}
+
+\NovelDisplay{CH157-B2847-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D + a \times 2}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2848}{(0)(1,1,1)(2,2)(3,2)(3,1)(4,2)}
+
+\NovelDisplay{CH157-B2848-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D \times 2} + D\bigr)\bigr)}
+
+古月娜将$\zeta_{D+a}\times\omega$与$\varepsilon_{\zeta_{D+a}+1}$叠在一起，叫卢本韦只说$\zeta$的下标。两条下标一样。随后她们对读$\zeta_{D+a+1}$与$\zeta_{D+a\times2}$，加法和乘法已经移到$\zeta$里面。卢本韦顺手把末条的$D\times2$压到下标的位置，把外加的$D$留在上方。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2849}{(0)(1,1,1)(2,2)(3,2)(3,1,1)}
+
+\NovelDisplay{CH157-B2849-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D \times 2} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2850}{(0)(1,1,1)(2,2)(3,2)(3,1,1)(3)}
+
+\NovelDisplay{CH157-B2850-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D \times \omega}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2851}{(0)(1,1,1)(2,2)(3,2)(3,1,1)(3,1,1)}
+
+\NovelDisplay{CH157-B2851-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{D^{2}} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2852}{(0)(1,1,1)(2,2)(3,2)(3,1,1)(4,2)}
+
+\NovelDisplay{CH157-B2852-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{\varepsilon_{D + 1}}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2853}{(0)(1,1,1)(2,2)(3,2)(3,1,1)(4,2)(5,2)}
+
+\NovelDisplay{CH157-B2853-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{\zeta_{D + 1}}\bigr)\bigr)}
+
+日光越过案角，照到两张写着$\omega$的纸。小舞将一张往前推，那里的$\omega$已经在$\zeta$的下标中。另一张则先从$D^2$取$\zeta$值，再乘$\omega$。最后两条换成以$\varepsilon$值或$\zeta$值作下标，她把字念完才叫唐三递下一页，免得把两条嵌套念成同一条。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2854}{(0)(1,1,1)(2,2)(3,2)(3,2)}
+
+\NovelDisplay{CH157-B2854-1-1}{= \psi\bigl(\psi_{a}\bigl(\eta_{D + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2855}{(0)(1,1,1)(2,2)(3,2)(4)}
+
+\NovelDisplay{CH157-B2855-1-1}{= \psi\bigl(\psi_{a}\bigl(\varphi\bigl(\omega , D + 1\bigr)\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2856}{(0)(1,1,1)(2,2)(3,2)(4,1)(2)}
+
+\NovelDisplay{CH157-B2856-1-1}{= \psi\bigl(\psi_{a}\bigl(\varphi\bigl(a , D + 1\bigr)\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2857}{(0)(1,1,1)(2,2)(3,2)(4,1)(2,2)(3,2)(4,1)(2)}
+
+\NovelDisplay{CH157-B2857-1-1}{= \psi\bigl(\psi_{a}\bigl(\varphi\bigl(a , D + 2\bigr)\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2858}{(0)(1,1,1)(2,2)(3,2)(4,1)(3,2)}
+
+\NovelDisplay{CH157-B2858-1-1}{= \psi\bigl(\psi_{a}\bigl(\varphi\bigl(a + 1 , D + 1\bigr)\bigr)\bigr)}
+
+翻页时只看见一个$\eta$，再下去却多了一个逗号。牢大请诺当留意逗号两侧。$\varphi$的第二个参数先固定在$D+1$，第一个从$\omega$换到$a$。接下来两条恰好可以对读，一条把右侧改成$D+2$，一条把左侧改成$a+1$。诺当按着逗号，逐个报出改了哪边。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2859}{(0)(1,1,1)(2,2)(3,2)(4,1)(5,2)}
+
+\NovelDisplay{CH157-B2859-1-1}{= \psi\bigl(\psi_{a}\bigl(\varphi\bigl(D , 1\bigr) + D\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2860}{(0)(1,1,1)(2,2)(3,2)(4,1,1)}
+
+\NovelDisplay{CH157-B2860-1-1}{= \psi\bigl(\psi_{a}\bigl(\varphi\bigl(D , 1\bigr) \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2861}{(0)(1,1,1)(2,2)(3,2)(4,1,1)(5,2)}
+
+\NovelDisplay{CH157-B2861-1-1}{= \psi\bigl(\psi_{a}\bigl(\varphi\bigl(\varepsilon_{D + 1} , 0\bigr)\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2862}{(0)(1,1,1)(2,2)(3,2)(4,1,1)(5,2)(6,2)(7)}
+
+\NovelDisplay{CH157-B2862-1-1}{= \psi\bigl(\psi_{a}\bigl(\varphi\bigl(\varphi\bigl(\omega , D + 1\bigr) , 0\bigr)\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2863}{(0)(1,1,1)(2,2)(3,2)(4,2)}
+
+\NovelDisplay{CH157-B2863-1-1}{= \psi\bigl(\psi_{a}\bigl(\Gamma_{D + 1}\bigr)\bigr)}
+
+唐三读完$\varphi(D,1)$，这才添上后面的$D$和$\omega$。蔡兴坤接手另两式，见第二个参数都成了$0$，便沿第一个参数往里找。那里分别放着$\varepsilon_{D+1}$和一个已经取出的$\varphi$值。到$\Gamma_{D+1}$，牢大将这叠纸收拢，留在石案左边。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2864}{(0)(1,1,1)(2,2)(3,3)}
+
+\NovelDisplay{CH157-B2864-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} + D\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2865}{(0)(1,1,1)(2,2)(3,3,1)}
+
+\NovelDisplay{CH157-B2865-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} + D \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2866}{(0)(1,1,1)(2,2)(3,3,1)(2,2)}
+
+\NovelDisplay{CH157-B2866-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} + D \times \omega\bigr) + \psi_{a}\bigl(\Omega_{a + 2} + D\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2867}{(0)(1,1,1)(2,2)(3,3,1)(3,3,1)}
+
+\NovelDisplay{CH157-B2867-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} + D \times \omega\bigr) \times 2\bigr)}
+
+\Needspace{6\baselineskip}
+\NovelDisplay{CH157-A2868}{(0)(1,1,1)(2,2)(3,3,1)(4,4)}
+
+\NovelDisplay{CH157-B2868-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} + \varepsilon_{D + 1}\bigr)\bigr)}
+
+\NovelDisplay{CH157-B2868-2-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times 2 + D\bigr)\bigr)}
+
+第二叠最上面写着$\Omega_{a+2}$。蔡须坤请众人把第三列一同露出来。开头还沿用$(0)(1,1,1)(2,2)$，往后相邻两式已用$(3,3)$和$(3,3,1)$，得重新数行。奥斯卡又指着最后一条的两个等号问，能不能只留中间那截。霍雨浩将左右括号完整补出。两种写法对应的是同一个矩阵，等号两边比的是整道折叠式。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2869}{(0)(1,1,1)(2,2,1)}
+
+\NovelDisplay{CH157-B2869-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2870}{(0)(1,1,1)(2,2,1)(1,1,1)(2,2)}
+
+\NovelDisplay{CH157-B2870-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \omega\bigr) + \psi_{a}\bigl(\varepsilon_{D + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2871}{(0)(1,1,1)(2,2,1)(1,1,1)(2,2)(3,3,1)(4,4)}
+
+\NovelDisplay{CH157-B2871-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \omega\bigr) + \psi_{\psi_{a}\bigl(\Omega_{a + 2}\bigr)}\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times 2 + D\bigr)\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2872}{(0)(1,1,1)(2,2,1)(1,1,1)(2,2)(3,3,1)(4,4,1)}
+
+\NovelDisplay{CH157-B2872-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \omega\bigr) + \psi_{\psi_{a}\bigl(\Omega_{a + 2}\bigr)}\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \omega\bigr)\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2873}{(0)(1,1,1)(2,2,1)(1,1,1)(2,2)(3,3,1)(4,4,1)(2,2)}
+
+\NovelDisplay{CH157-B2873-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \omega\bigr) + \psi_{a}\bigl(\Omega_{a + 2}\bigr)\bigr)}
+
+薛峰在这组的两个长式里找到了同样的函数下标$\psi_a(\Omega_{a+2})$。他把下标写到便于辨认的位置，再请叶阳来核两个参数。一个参数里是两份$\Omega_{a+2}$后接$D$，另一个用$\Omega_{a+2}\times\omega$。叶阳眼睛沿着最外的加号看过去，才发觉自己第一次把下标里的$\psi_a$抄进了左侧加项。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2874}{(0)(1,1,1)(2,2,1)(1,1,1)(2,2)(3,3,1)(4,4,1)(3,3,1)}
+
+\NovelDisplay{CH157-B2874-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \omega\bigr) + \psi_{a}\bigl(\Omega_{a + 2} + D \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2875}{(0)(1,1,1)(2,2,1)(1,1,1)(2,2,1)}
+
+\NovelDisplay{CH157-B2875-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \omega\bigr) \times 2\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2876}{(0)(1,1,1)(2,2,1)(2,1)(1,1,1)(2,2,1)}
+
+\NovelDisplay{CH157-B2876-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \omega\bigr)^{2}\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2877}{(0)(1,1,1)(2,2,1)(2,1)(3,2)}
+
+\NovelDisplay{CH157-B2877-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \omega + D\bigr)\bigr)}
+
+\Needspace{6\baselineskip}
+\NovelDisplay{CH157-A2878}{(0)(1,1,1)(2,2,1)(2,1)(3,2,1)(4,3)}
+
+\NovelDisplay{CH157-B2878-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \bigl(\omega + 1\bigr)\bigr)\bigr)}
+
+\NovelDisplay{CH157-B2878-2-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \omega + \varepsilon_{D + 1}\bigr)\bigr)}
+
+卢本韦把末两行与前面那个平方并到一处。平方作用在已经得到的投影值上；后面添$D$时，加法却进了$\psi_a$的输入。最后一个矩阵也有两种完整写法，一边让$\omega+1$整体作右乘数，另一边在$\Omega_{a+2}\times\omega$后添$\varepsilon_{D+1}$。她读完两重括号，才让奥斯卡把两张纸夹在同一页。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2879}{(0)(1,1,1)(2,2,1)(2,1)(3,2,1)(4,3,1)}
+
+\NovelDisplay{CH157-B2879-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \omega \times 2\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2880}{(0)(1,1,1)(2,2,1)(2,1,1)}
+
+\NovelDisplay{CH157-B2880-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \bigl(\omega^{2}\bigr)\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2881}{(0)(1,1,1)(2,2,1)(2,1,1)(3,1)(2)}
+
+\NovelDisplay{CH157-B2881-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times a\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2882}{(0)(1,1,1)(2,2,1)(2,1,1)(3,1)(4,2)}
+
+\NovelDisplay{CH157-B2882-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times D + D\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2883}{(0)(1,1,1)(2,2,1)(2,1,1)(3,1)(4,2,1)(5,3,1)}
+
+\NovelDisplay{CH157-B2883-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \bigl(D + \omega\bigr)\bigr)\bigr)}
+
+唐三先按次序把三个乘数抄下来，旁边的小舞却指着接$D$的两行让他停了笔。一行先完成$\Omega_{a+2}\times D$再加$D$，另一行把$D+\omega$整体放在乘号后面。唐三重新从括号里算起，接着让她回查左边，找出各式从哪一列开始分开。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2884}{(0)(1,1,1)(2,2,1)(2,1,1)(3,1,1)}
+
+\NovelDisplay{CH157-B2884-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times D \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2885}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2)}
+
+\NovelDisplay{CH157-B2885-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \times \varepsilon_{D + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2886}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2)(4,3,1)(5,4,1)}
+
+\NovelDisplay{CH157-B2886-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2}^{2} + \Omega_{a + 2} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2887}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2)(4,3,1)(5,4,1)(5,3,1)}
+
+\NovelDisplay{CH157-B2887-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2}^{2} + \Omega_{a + 2} \times \bigl(\omega^{2}\bigr)\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2888}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2)(4,3,1)(5,4,1)(5,3,1)(6,4)}
+
+\NovelDisplay{CH157-B2888-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2}^{2} \times 2 + D\bigr)\bigr)}
+
+等到左乘的$\Omega_{a+2}$可以取平方，蔡须坤让诺当把平写的数抄清，再写上面的指数。平方之后仍有加项，分别是$\Omega_{a+2}\times\omega$和$\Omega_{a+2}\times\omega^2$。最后一条的$2$却贴在平方项的右侧，随后才有加$D$。诺当将加号留到最后落笔，果然一次就写清了。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2889}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2,1)}
+
+\NovelDisplay{CH157-B2889-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2}^{2} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2890}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2,1)(2,1)(3,2)}
+
+\NovelDisplay{CH157-B2890-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2}^{2} \times \omega + D\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2891}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2,1)(2,1,1)}
+
+\NovelDisplay{CH157-B2891-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2}^{2} \times \bigl(\omega^{2}\bigr)\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2892}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2,1)(2,1,1)(3,2)}
+
+\NovelDisplay{CH157-B2892-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2}^{2} \times \varepsilon_{D + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2893}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2,1)(2,1,1)(3,2,1)}
+
+\NovelDisplay{CH157-B2893-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2}^{3} \times \omega\bigr)\bigr)}
+
+这一小段里，奥斯卡从$\Omega_{a+2}^2$认出几种倍乘。卢本韦让他先放慢，看哪一条在乘完以后还添$D$，哪一条改用$\varepsilon_{D+1}$作乘数。末条读到三次幂时，他用手背把前几张向左拢了拢，给那个升上去的$3$留足了地方。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2894}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2,1)(3)}
+
+\NovelDisplay{CH157-B2894-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2}^{\omega}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2895}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2,1)(3,1)(2)}
+
+\NovelDisplay{CH157-B2895-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2}^{a}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2896}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2,1)(3,1)(4,2)}
+
+\NovelDisplay{CH157-B2896-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2}^{D} + D\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2897}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2,1)(3,1,1)}
+
+\NovelDisplay{CH157-B2897-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2}^{D} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2898}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2,1)(3,1,1)(4,2,1)}
+
+\NovelDisplay{CH157-B2898-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2}^{\Omega_{a + 2}} \times \omega\bigr)\bigr)}
+
+蔡兴坤念到$D$作指数，古月娜将加$D$与右乘$\omega$的两式分别递给她。两张纸拿在手里，最后一次她才看见，下一式的指数已经换成$\Omega_{a+2}$。这一天他们第一次停下来吃东西，仍将刚分开的几条压在案上，谁也没急着把它们合回去。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2899}{(0)(1,1,1)(2,2,1)(2,1,1)(3,2,1)(3,1,1)(4,2,1)(4,1,1)(5,2,1)}
+
+\NovelDisplay{CH157-B2899-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 2} \mathbin{\uparrow\uparrow} 3 \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2900}{(0)(1,1,1)(2,2,1)(2,2)}
+
+\NovelDisplay{CH157-B2900-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2901}{(0)(1,1,1)(2,2,1)(2,2)(2,1,1)}
+
+\NovelDisplay{CH157-B2901-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} + 1} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2902}{(0)(1,1,1)(2,2,1)(2,2)(2,1,1)(3,2,1)}
+
+\NovelDisplay{CH157-B2902-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} + 1} \times \Omega_{a + 2} \times \omega\bigr)\bigr)}
+
+回到石案，牢大把双箭头右边的$3$念完，才接上乘$\omega$。随后出现的$\varepsilon$则从$\Omega_{a+2}+1$取值。小舞替他划出这一下标，手指留在原处，等右边分别添上乘$\omega$和乘$\Omega_{a+2}\times\omega$。中间那次换记号，她这回先认了底数，再往下念。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2903}{(0)(1,1,1)(2,2,1)(2,2)(2,1,1)(3,2,1)(3,2)}
+
+\NovelDisplay{CH157-B2903-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} + 1}^{2}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2904}{(0)(1,1,1)(2,2,1)(2,2)(2,1,1)(3,2,1)(3,2)(3)}
+
+\NovelDisplay{CH157-B2904-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} + 1}^{\omega}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2905}{(0)(1,1,1)(2,2,1)(2,2)(2,1,1)(3,2,1)(3,2)(3,1,1)(4,2,1)(4,2)}
+
+\NovelDisplay{CH157-B2905-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} + 1} \mathbin{\uparrow\uparrow} 2\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2906}{(0)(1,1,1)(2,2,1)(2,2)(2,2)}
+
+\NovelDisplay{CH157-B2906-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} + 2}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2907}{(0)(1,1,1)(2,2,1)(2,2)(3)}
+
+\NovelDisplay{CH157-B2907-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} + \omega}\bigr)\bigr)}
+
+诺当把前两式的平方与$\omega$次幂看完，自告奋勇来读双箭头那条。他将同一个$\varepsilon$值分别点在底数与指数的位置上。后面只换$\varepsilon$的下标时，他重新把笔落回右下角。霍雨浩看了一眼，没有出声，等他自己念完了$+2$与$+\omega$。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2908}{(0)(1,1,1)(2,2,1)(2,2)(3,1)(2)}
+
+\NovelDisplay{CH157-B2908-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} + a}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2909}{(0)(1,1,1)(2,2,1)(2,2)(3,1)(4,2)}
+
+\NovelDisplay{CH157-B2909-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} + D} + D\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2910}{(0)(1,1,1)(2,2,1)(2,2)(3,1,1)}
+
+\NovelDisplay{CH157-B2910-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} + D} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2911}{(0)(1,1,1)(2,2,1)(2,2)(3,1,1)(4,2)}
+
+\NovelDisplay{CH157-B2911-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} \times 2}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2912}{(0)(1,1,1)(2,2,1)(2,2)(3,1,1)(4,2,1)}
+
+\NovelDisplay{CH157-B2912-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} \times 2} \times \omega\bigr)\bigr)}
+
+从$\Omega_{a+2}+a$继续往下，有两处同样写着$D$。蔡须坤让叶阳把其中一处留在$\varepsilon$的下标，另一处在取值后再添。到了下一式，外面的加法换作乘$\omega$。随后将$\Omega_{a+2}\times2$放进下标，两人就用同一个$\varepsilon$值把后面的两式对读了一遍。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2913}{(0)(1,1,1)(2,2,1)(2,2)(3,1,1)(4,2,1)(2,2)(3,1,1)(4,2,1)}
+
+\NovelDisplay{CH157-B2913-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} \times 3} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2914}{(0)(1,1,1)(2,2,1)(2,2)(3,1,1)(4,2,1)(3,1,1)}
+
+\NovelDisplay{CH157-B2914-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 2} \times D} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2915}{(0)(1,1,1)(2,2,1)(2,2)(3,1,1)(4,2,1)(4,2)}
+
+\NovelDisplay{CH157-B2915-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\varepsilon_{\Omega_{a + 2} + 1}}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2916}{(0)(1,1,1)(2,2,1)(2,2)(3,2)}
+
+\NovelDisplay{CH157-B2916-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{\Omega_{a + 2} + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2917}{(0)(1,1,1)(2,2,1)(2,2)(3,2)(2,2)}
+
+\NovelDisplay{CH157-B2917-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\zeta_{\Omega_{a + 2} + 1} + 1}\bigr)\bigr)}
+
+薛峰请大家从最深处读最后的嵌套。先是$\Omega_{a+2}+1$，再是由它取得的$\varepsilon$值，然后才取外一层$\varepsilon$。夏夜星空把紧邻的两条推到他面前，一条直接取$\zeta$，另一条还要把$\zeta$值加$1$后用作$\varepsilon$下标。他拿尺子划了两道短线，把两步分开。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2918}{(0)(1,1,1)(2,2,1)(2,2)(3,2)(2,2)(3,1,1)(4,2,1)(4,2)(5,2)(4,2)}
+
+\NovelDisplay{CH157-B2918-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\varepsilon_{\zeta_{\Omega_{a + 2} + 1}}}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2919}{(0)(1,1,1)(2,2,1)(2,2)(3,2)(2,2)(3,2)}
+
+\NovelDisplay{CH157-B2919-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{\Omega_{a + 2} + 2}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2920}{(0)(1,1,1)(2,2,1)(2,2)(3,2)(3,1)(2)}
+
+\NovelDisplay{CH157-B2920-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{\Omega_{a + 2} + a}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2921}{(0)(1,1,1)(2,2,1)(2,2)(3,2)(3,1,1)}
+
+\NovelDisplay{CH157-B2921-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{\Omega_{a + 2} + D} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2922}{(0)(1,1,1)(2,2,1)(2,2)(3,2)(3,1,1)(4,2,1)(4,2)(5,2)}
+
+\NovelDisplay{CH157-B2922-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{\zeta_{\Omega_{a + 2} + 1}}\bigr)\bigr)}
+
+卢本韦和蔡兴坤各读一层。$\zeta$里面已经放进了$\Omega_{a+2}+2$与$\Omega_{a+2}+a$，接下去的$\omega$要等$\zeta$取值之后才乘。末式又将一个$\zeta$值送回$\zeta$。蔡兴坤停了半晌，才请卢本韦把上一个两重$\varepsilon$的式子翻回来。她想看看自己到底是哪一步读慢了。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2923}{(0)(1,1,1)(2,2,1)(2,2)(3,2)(3,2)}
+
+\NovelDisplay{CH157-B2923-1-1}{= \psi\bigl(\psi_{a}\bigl(\eta_{\Omega_{a + 2} + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2924}{(0)(1,1,1)(2,2,1)(2,2)(3,3)}
+
+\NovelDisplay{CH157-B2924-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 3} + D\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2925}{(0)(1,1,1)(2,2,1)(2,2)(3,3,1)(4,4,1)}
+
+\NovelDisplay{CH157-B2925-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 3} + \Omega_{a + 2} \times \omega\bigr)\bigr)}
+
+\Needspace{6\baselineskip}
+\NovelDisplay{CH157-A2926}{(0)(1,1,1)(2,2,1)(2,2)(3,3,1)(4,4,1)(4,4)}
+
+\NovelDisplay{CH157-B2926-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 3} + \varepsilon_{\Omega_{a + 2} + 1}\bigr)\bigr)}
+
+\NovelDisplay{CH157-B2926-2-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 3} \times 2\bigr)\bigr)}
+
+下一小段从$\eta$转到$\Omega_{a+3}$。唐三和小舞分抄最后一个矩阵的两种表示。唐三先写$\Omega_{a+3}$后接$\varepsilon_{\Omega_{a+2}+1}$的式子，小舞则在右侧写成$\Omega_{a+3}\times2$的那一条。两人对上左边的末列$(4,4)$，才把纸并起来，等蔡须坤核两边的折叠层次。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2927}{(0)(1,1,1)(2,2,1)(2,2,1)}
+
+\NovelDisplay{CH157-B2927-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 3} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2928}{(0)(1,1,1)(2,2,1)(2,2,1)(2,1,1)}
+
+\NovelDisplay{CH157-B2928-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 3} \times \bigl(\omega^{2}\bigr)\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2929}{(0)(1,1,1)(2,2,1)(2,2,1)(2,1,1)(3,2,1)}
+
+\NovelDisplay{CH157-B2929-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 3} \times \Omega_{a + 2} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2930}{(0)(1,1,1)(2,2,1)(2,2,1)(2,1,1)(3,2,1)(3,2,1)}
+
+\NovelDisplay{CH157-B2930-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 3}^{2} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2931}{(0)(1,1,1)(2,2,1)(2,2,1)(2,2)}
+
+\NovelDisplay{CH157-B2931-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + 3} + 1}\bigr)\bigr)}
+
+霍雨浩从共同的$\Omega_{a+3}$起头，一口气读过乘$\omega$、乘$\omega^2$和连乘$\Omega_{a+2}$与$\omega$。薛峰接着在纸上补出平方，又在下一式的下标里重写了一次$\Omega_{a+3}$。古月娜将取$\varepsilon$值的那条往下摆开一寸，提醒他先读清下标末尾的$1$。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2932}{(0)(1,1,1)(2,2,1)(2,2,1)(2,2)(3,3,1)(4,4,1)(4,4,1)(4,4)}
+
+\NovelDisplay{CH157-B2932-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 4} \times 2\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2933}{(0)(1,1,1)(2,2,1)(2,2,1)(2,2,1)}
+
+\NovelDisplay{CH157-B2933-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + 4} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2934}{(0)(1,1,1)(2,2,1)(3)}
+
+\NovelDisplay{CH157-B2934-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2935}{(0)(1,1,1)(2,2,1)(3)(2)}
+
+\NovelDisplay{CH157-B2935-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega}\bigr) \times \omega\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2936}{(0)(1,1,1)(2,2,1)(3)(2,1)(3,2)}
+
+\NovelDisplay{CH157-B2936-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega} + D\bigr)\bigr)}
+
+叶阳把下标中的$+4$同两个乘数一一核完。等见到$a+\omega$，他先写了$a+1$、$a+2$，想了片刻，又往右留出一截空白。“后面还有每一个有限的$a+n$。这一行是把$\omega$加进下标。”薛峰这才接上后两条，让他分别找出乘号在$\psi_a$里面还是外面，以及加$D$的那一步落在哪一层。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2937}{(0)(1,1,1)(2,2,1)(3)(2,1)(3,2,1)(4,3)}
+
+\NovelDisplay{CH157-B2937-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega} + \varepsilon_{D + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2938}{(0)(1,1,1)(2,2,1)(3)(2,1)(3,2,1)(4,3,1)}
+
+\NovelDisplay{CH157-B2938-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega} + \Omega_{a + 2} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2939}{(0)(1,1,1)(2,2,1)(3)(2,1)(3,2,1)(4,3,1)(5)}
+
+\NovelDisplay{CH157-B2939-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega} \times 2\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2940}{(0)(1,1,1)(2,2,1)(3)(2,1,1)}
+
+\NovelDisplay{CH157-B2940-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2941}{(0)(1,1,1)(2,2,1)(3)(2,1,1)(3,1)(2)}
+
+\NovelDisplay{CH157-B2941-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega} \times a\bigr)\bigr)}
+
+蔡兴坤把$\Omega_{a+\omega}$固定在纸的左端，轮流换右边的尾项。这里既用到了旧的$\varepsilon_{D+1}$，也用到了$\Omega_{a+2}\times\omega$。到倍乘时，她伸手将前面的加号遮住，依次读出$2$、$\omega$与$a$，让诺当照读法把加法和乘法各划一道记号。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2942}{(0)(1,1,1)(2,2,1)(3)(2,1,1)(3,1)(2,1,1)}
+
+\NovelDisplay{CH157-B2942-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega} \times a \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2943}{(0)(1,1,1)(2,2,1)(3)(2,1,1)(3,1)(4,2)}
+
+\NovelDisplay{CH157-B2943-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega} \times \varepsilon_{a + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2944}{(0)(1,1,1)(2,2,1)(3)(2,1,1)(3,1,1)}
+
+\NovelDisplay{CH157-B2944-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega} \times D \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2945}{(0)(1,1,1)(2,2,1)(3)(2,1,1)(3,2,1)}
+
+\NovelDisplay{CH157-B2945-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega} \times \Omega_{a + 2} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2946}{(0)(1,1,1)(2,2,1)(3)(2,1,1)(3,2,1)(4)}
+
+\NovelDisplay{CH157-B2946-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega}^{2}\bigr)\bigr)}
+
+古月娜找到三道末尾都带$\omega$的式子，请奥斯卡看看$\omega$之前各乘了什么。一个跟在$a$之后，另两个分别跟在$D$和$\Omega_{a+2}$之后。中间还夹着一条乘$\varepsilon_{a+1}$的式子。奥斯卡将自己的纸换了个方向，发觉他先前差点把所有的末尾都念成了$\omega$。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2947}{(0)(1,1,1)(2,2,1)(3)(2,2)}
+
+\NovelDisplay{CH157-B2947-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + \omega} + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2948}{(0)(1,1,1)(2,2,1)(3)(2,2)(3,2)}
+
+\NovelDisplay{CH157-B2948-1-1}{= \psi\bigl(\psi_{a}\bigl(\zeta_{\Omega_{a + \omega} + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2949}{(0)(1,1,1)(2,2,1)(3)(2,2)(3,3)}
+
+\NovelDisplay{CH157-B2949-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2950}{(0)(1,1,1)(2,2,1)(3)(2,2)(3,3,1)}
+
+\NovelDisplay{CH157-B2950-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega + 1} + D \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2951}{(0)(1,1,1)(2,2,1)(3)(2,2)(3,3,1)(4,4,1)(5)}
+
+\NovelDisplay{CH157-B2951-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega + 1} + \Omega_{a + \omega}\bigr)\bigr)}
+
+两条下标一样，先后交给$\varepsilon$和$\zeta$取值。卢本韦读完便将它们挨着放，让蔡须坤去看再下一式。这个$1$已经挪进$\Omega$的下标，得到$\Omega_{a+\omega+1}$。后面的加项可以取$D\times\omega$，也可以回头取刚用过的$\Omega_{a+\omega}$。她逐张交过去，等蔡须坤都对上才松手。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2952}{(0)(1,1,1)(2,2,1)(3)(2,2,1)}
+
+\NovelDisplay{CH157-B2952-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega + 1} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2953}{(0)(1,1,1)(2,2,1)(3)(2,2,1)(2,2)}
+
+\NovelDisplay{CH157-B2953-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{a + \omega + 1} + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2954}{(0)(1,1,1)(2,2,1)(3)(2,2,1)(2,2,1)}
+
+\NovelDisplay{CH157-B2954-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega + 2} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2955}{(0)(1,1,1)(2,2,1)(3)(2,2,1)(3)}
+
+\NovelDisplay{CH157-B2955-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega \times 2}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2956}{(0)(1,1,1)(2,2,1)(3)(3)}
+
+\NovelDisplay{CH157-B2956-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \omega^{2}}\bigr)\bigr)}
+
+小舞对着两条带$\omega$的长式将下标逐字读完。夹在中间的是从$\Omega_{a+\omega+1}+1$取$\varepsilon$值。再往后，两条的变化全在$\Omega$的下标，先写$a+\omega\times2$，再写$a+\omega^2$。她将两个$\omega$写得一样大，又补上那个明显抬高的$2$。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2957}{(0)(1,1,1)(2,2,1)(3,1)}
+
+\NovelDisplay{CH157-B2957-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \Omega}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2958}{(0)(1,1,1)(2,2,1)(3,1)(1,1,1)(2,2,1)(3)}
+
+\NovelDisplay{CH157-B2958-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a + \psi_{a}\bigl(\Omega_{a + \omega}\bigr)}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2959}{(0)(1,1,1)(2,2,1)(3,1)(2)}
+
+\NovelDisplay{CH157-B2959-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a \times 2}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2960}{(0)(1,1,1)(2,2,1)(3,1)(2,2,1)}
+
+\NovelDisplay{CH157-B2960-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a \times 2 + 1} \times \omega\bigr)\bigr)}
+
+诺当见$\Omega$也进了下标，笔尖在上面多停了一会儿。他照着牢大昨天的办法，用手指按住最外的$\Omega$，先念完$a+\Omega$，再看下一条里更长的折叠值。走到$a\times2$与$a\times2+1$时，他才把那枚按在纸角的小石头交给了叶阳。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2961}{(0)(1,1,1)(2,2,1)(3,1)(2,2,1)(3,1)(2)}
+
+\NovelDisplay{CH157-B2961-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a \times 3}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2962}{(0)(1,1,1)(2,2,1)(3,1)(3)}
+
+\NovelDisplay{CH157-B2962-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a \times \omega}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2963}{(0)(1,1,1)(2,2,1)(3,1)(3,1)(2)}
+
+\NovelDisplay{CH157-B2963-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{a^{2}}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2964}{(0)(1,1,1)(2,2,1)(3,1)(4,2)}
+
+\NovelDisplay{CH157-B2964-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{\varepsilon_{a + 1}}\bigr)\bigr)}
+
+叶阳将$a\times3$、$a\times\omega$与$a^2$分别装进$\Omega$的下标。写最后一条时，他下意识要把$\varepsilon_{a+1}$挪到$\Omega$后边，薛峰用炭笔在纸上点了一下。他想起方才诺当按住外层的读法，自己把那一项放回了下标，然后才开始核左边的$(4,2)$。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2965}{(0)(1,1,1)(2,2,1)(3,1)(4,2,1)}
+
+\NovelDisplay{CH157-B2965-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{D} + D \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2966}{(0)(1,1,1)(2,2,1)(3,1)(4,2,1)(5,3,1)(6)}
+
+\NovelDisplay{CH157-B2966-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{D} + \Omega_{a + \omega}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2967}{(0)(1,1,1)(2,2,1)(3,1,1)}
+
+\NovelDisplay{CH157-B2967-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{D} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2968}{(0)(1,1,1)(2,2,1)(3,1,1)(2,2)}
+
+\NovelDisplay{CH157-B2968-1-1}{= \psi\bigl(\psi_{a}\bigl(\varepsilon_{\Omega_{D} + 1}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2969}{(0)(1,1,1)(2,2,1)(3,1,1)(2,2,1)}
+
+\NovelDisplay{CH157-B2969-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{D + 1} \times \omega\bigr)\bigr)}
+
+这次蔡须坤把两个$\Omega$分开读。内一层取$D$，外一层才是$\Omega_D$。它能接$D\times\omega$，也能接$\Omega_{a+\omega}$，还可以在外面乘$\omega$。后两条都有一个$+1$，霍雨浩把它们圈在不同的地方。一处属于$\varepsilon$的下标，一处属于外层$\Omega$的下标。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2970}{(0)(1,1,1)(2,2,1)(3,1,1)(2,2,1)(3,1)(4,2)}
+
+\NovelDisplay{CH157-B2970-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{D + \varepsilon_{a + 1}}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2971}{(0)(1,1,1)(2,2,1)(3,1,1)(2,2,1)(3,1,1)}
+
+\NovelDisplay{CH157-B2971-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{D \times 2} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2972}{(0)(1,1,1)(2,2,1)(3,1,1)(3,1)(2)}
+
+\NovelDisplay{CH157-B2972-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{D \times a}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2973}{(0)(1,1,1)(2,2,1)(3,1,1)(3,1)(4,2)}
+
+\NovelDisplay{CH157-B2973-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{D^{2}} + D\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2974}{(0)(1,1,1)(2,2,1)(3,1,1)(3,1,1)}
+
+\NovelDisplay{CH157-B2974-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{D^{2}} \times \omega\bigr)\bigr)}
+
+唐三将新一组的纸推给小舞，问她还有没有哪一处想再练。她挑了含$D^2$的两式，让他读乘$\omega$，自己读加$D$。读到前面$D\times2$与$D\times a$时，她也照这个办法做，先将外层$\Omega$的下标念全，再让对方接余下的运算。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2975}{(0)(1,1,1)(2,2,1)(3,1,1)(4,1)(2)}
+
+\NovelDisplay{CH157-B2975-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{D^{a}}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2976}{(0)(1,1,1)(2,2,1)(3,1,1)(4,2)}
+
+\NovelDisplay{CH157-B2976-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{\varepsilon_{D + 1}}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2977}{(0)(1,1,1)(2,2,1)(3,1,1)(4,2)(5,3,1)(6,4,1)(7)}
+
+\NovelDisplay{CH157-B2977-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{\Omega_{a + 2}} + \Omega_{a + \omega}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2978}{(0)(1,1,1)(2,2,1)(3,1,1)(4,2,1)}
+
+\NovelDisplay{CH157-B2978-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{\Omega_{a + 2}} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2979}{(0)(1,1,1)(2,2,1)(3,1,1)(4,2,1)(2,2,1)(3,1,1)(4,2,1)}
+
+\NovelDisplay{CH157-B2979-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{\Omega_{a + 2} \times 2} \times \omega\bigr)\bigr)}
+
+从$D^a$推到$\varepsilon_{D+1}$，$\Omega$的下标换了一种构造。随后，古月娜先取$\Omega_{a+2}$，再拿它作外层$\Omega$的下标。卢本韦沿着右括号确认，有一式在取值后乘$\omega$，另一式将乘$2$写进下标，取值后还有一个乘$\omega$。这次她把纸调转过去，叫古月娜反过来考她。
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2980}{(0)(1,1,1)(2,2,1)(3,1,1)(4,2,1)(3)}
+
+\NovelDisplay{CH157-B2980-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{\Omega_{a + 2} \times \omega}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2981}{(0)(1,1,1)(2,2,1)(3,1,1)(4,2,1)(3,1,1)(4,2,1)}
+
+\NovelDisplay{CH157-B2981-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{\Omega_{a + 2}^{2}} \times \omega\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2982}{(0)(1,1,1)(2,2,1)(3,1,1)(4,2,1)(4,2)}
+
+\NovelDisplay{CH157-B2982-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{\Omega_{a + 3}}\bigr)\bigr)}
+
+\Needspace{4\baselineskip}
+\NovelDisplay{CH157-A2983}{(0)(1,1,1)(2,2,1)(3,1,1)(4,2,1)(5)}
+
+\NovelDisplay{CH157-B2983-1-1}{= \psi\bigl(\psi_{a}\bigl(\Omega_{\Omega_{a + \omega}}\bigr)\bigr)}
+
+最后四条都从内一层开始读。第一条将$\Omega_{a+2}\times\omega$一并放入外层下标，第二条在那里保留的是$\Omega_{a+2}^2$，还要在外面乘$\omega$。再两条才换内层的取值点，分别用$a+3$和$a+\omega$。叶阳从里面读到外面，又到左式找出最后一列$(5)$，才将笔横放在纸上。
+
+日头已经斜了。蔡须坤将写满的纸收成三叠，想起昨天众人自己留的那页短记，又把它翻到背面，给今天腾出一行。
+
+“还是各说一步。”她说。
+
+诺当先把自己开头涂黑的那张摊出来。“末列是$(3,2)$的时候，第一行能先到$(2,2)$，第二行却还要再往左走。坏根找到以后，我算出的两份新增列，能在昨天两条嵌套的$\varepsilon$式里对回来。下次遇到第二行相等，我就沿第一行的祖先链往左找。”
+
+“我今天漏看的是下标。”卢本韦将两张都写着$\omega$的纸交给古月娜。“一个在$\Omega$里面，一个等$\Omega$取值以后才乘。两层$\Omega$套在一起，我得从最里头先念一遍，才能把这个乘号放对。”
+
+霍雨浩从三张写了双等号的纸中抽出一张，递给奥斯卡保管。“我会把对应同一矩阵的两种写法都留下。要自己试着推式子，就先把正在比较的那一层圈出来。”奥斯卡将纸放进册子，特地把露出的两个括号也按平了。
+
+牢大听到最后，把诺当那道坏根题翻了过来，写下两个字：重做。他说：“回去各挑一条，不看右式，先把左边的父项找出来。明天把各自卡住的那一列带来。”
+
+夏夜星空等他们记完，才露出册页上下一条的记号。牢大读到了$\operatorname{OFP}$，手往纸边抬了抬，终于还是把笔放下。诺当抱着自己的练习往外走，到了门口又折回来，给叶阳留了半张空纸。那道题明天由他们两个先核。
+
 \backmatter
 \end{document}
 
