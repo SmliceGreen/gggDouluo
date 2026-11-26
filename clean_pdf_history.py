@@ -54,9 +54,6 @@ def clean(repo: Path = REPO) -> None:
     remote_url = run(repo, "remote", "get-url", "origin").stdout.strip()
     if repo == REPO and remote_url.rstrip("/").lower().removesuffix(".git") != "https://github.com/smlicegreen/gggdouluo":
         raise CleanupError("origin 不是预期的小说仓库。")
-    for args in [("diff", "--quiet"), ("diff", "--cached", "--quiet")]:
-        if run(repo, *args, check=False).returncode:
-            raise CleanupError("有未提交的已跟踪文件改动，先保存并提交，再运行。")
     refs = run(repo, "ls-remote", "--heads", "--tags", "origin").stdout.splitlines()
     if len(refs) != 1 or not refs[0].endswith("\trefs/heads/main"):
         raise CleanupError("远端存在多个分支或标签，请先单独处理，避免遗漏历史。")
@@ -67,16 +64,16 @@ def clean(repo: Path = REPO) -> None:
     local_refs = run(repo, "for-each-ref", "--format=%(refname)", "refs/heads", "refs/tags").stdout.splitlines()
     if local_refs != ["refs/heads/main"]:
         raise CleanupError("本地存在其他分支或标签，请先检查。")
-    tree = run(repo, "rev-parse", "HEAD^{tree}").stdout.strip()
-    names = run(repo, "-c", "core.quotepath=false", "ls-tree", "-r", "--name-only", "HEAD").stdout.splitlines()
+    # The rewrite uses committed objects. The replacement head must have the
+    # same tree, so moving the branch ref preserves the index and working tree.
+    tree = run(repo, "rev-parse", f"{old}^{{tree}}").stdout.strip()
+    names = run(repo, "-c", "core.quotepath=false", "ls-tree", "-r", "--name-only", old).stdout.splitlines()
     pdfs = [name for name in names if name.lower().endswith(".pdf")]
     if pdfs != [PDF]:
         raise CleanupError("当前提交中应当恰好有一份主目录 PDF。")
-    if not (repo / PDF).is_file():
-        raise CleanupError("找不到本地 PDF。")
-    parent = run(repo, "rev-parse", "--verify", "HEAD^", check=False)
+    parent = run(repo, "rev-parse", "--verify", f"{old}^", check=False)
     if parent.returncode == 0:
-        ancestors = run(repo, "-c", "core.quotepath=false", "rev-list", "--objects", "HEAD^").stdout.splitlines()
+        ancestors = run(repo, "-c", "core.quotepath=false", "rev-list", "--objects", parent.stdout.strip()).stdout.splitlines()
         if not any(line.partition(" ")[2].lower().endswith(".pdf") for line in ancestors):
             print("历史中没有旧 PDF，无需重写或强制推送。", flush=True)
             return
@@ -109,8 +106,7 @@ def clean(repo: Path = REPO) -> None:
                                   encoding="utf-8", errors="replace", timeout=300, env=filter_env)
         if filtered.returncode:
             raise CleanupError(f"清理历史失败：\n{filtered.stdout}")
-        # Recover exactly the PDF blob committed at the original HEAD, not an unsaved local file.
-        blob = run(repo, "rev-parse", f"HEAD:{PDF}").stdout.strip()
+        blob = run(repo, "rev-parse", f"{old}:{PDF}").stdout.strip()
         restored = subprocess.run(["git", "-C", str(repo), "cat-file", "blob", blob],
                                   stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=300)
         if restored.returncode:

@@ -48,7 +48,7 @@ python -X utf8 publish.py
 
 历史清理需要 `git-filter-repo`：`python -m pip install --target build/filter-repo-dependency git-filter-repo`。清理会修改历史提交编号并使用带精确版本保护的强制推送；其他克隆需要重新同步。清理前会在桌面 `Douluo历史备份` 文件夹创建 Git bundle。GitHub 的旧 PR、其他引用及后台缓存可能仍保留旧对象，空间占用不保证立即下降。
 
-如果发布已完成但清理失败，解决提示的问题后可单独运行 `python -X utf8 clean_pdf_history.py` 重试。清理只在远端只有 main 且没有标签、本地没有其他分支或标签、已跟踪文件没有未提交改动时执行。
+如果发布已完成但清理失败，解决提示的问题后可单独运行 `python -X utf8 clean_pdf_history.py` 重试。清理要求本地和远端的 main 一致，且两端都没有其他分支或标签。待清理的内容取自 main 上已提交的版本，暂存区和工作区里的文件改动会保留。
 
 Git 需要已登录且有仓库写入权限，工具不保存账号密码。编译失败会保留上次成功的 PDF；源码未变化时复用已验证 PDF，避免重复提交；上传失败会保留本地提交，下次运行继续上传。
 
