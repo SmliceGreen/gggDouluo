@@ -23,6 +23,19 @@ python -X utf8 publish.py --build-only
 
 编译入口直接调用 XeLaTeX，支持中文目录与文件名，并重复编译直到目录和引用稳定。请使用工作区文件，以加载本工程配置。
 
+## TikZ 插图
+
+主稿已加载 TikZ，可直接在正文使用 `tikzpicture`。示例山脉图放在 [`figures/omega-y-mountain.tex`](figures/omega-y-mountain.tex)，也可用下例在正文引用。现有 XeLaTeX 编译命令适用，`figures/` 下的 `.tex` 会参与编译缓存校验和一键发布。
+
+```latex
+\begin{figure}[htbp]
+  \centering
+  \adjustbox{max width=\linewidth,max totalheight=.78\textheight}{%
+    \input{figures/omega-y-mountain.tex}}
+  \caption{\(\omega\)-Y 山脉图的作用区域}
+\end{figure}
+```
+
 ## 一键发布
 
 写完并保存后，双击桌面“一键发布ggg斗罗同人文”，或本目录的 `一键发布.cmd`。也可运行：

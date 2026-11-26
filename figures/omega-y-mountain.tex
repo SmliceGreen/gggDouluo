@@ -1,0 +1,113 @@
+% ω-Y(1,6,30,155,575,1046,867) 的根列元素与作用区域。
+\begingroup
+\definecolor{separator}{HTML}{66CCFF}
+\definecolor{areaRed}{HTML}{C00000}
+\definecolor{areaGold}{HTML}{FFC000}
+\definecolor{areaLime}{HTML}{92D050}
+\definecolor{areaGreen}{HTML}{00B050}
+\definecolor{areaBlue}{HTML}{00B0F0}
+\definecolor{areaPurple}{HTML}{7030A0}
+
+% x = 0,...,6 是各列；第二坐标随位置向下增加。
+% \MountainRow{行位置}{颜色}{列/数值,列/数值,...}
+\newcommand{\MountainRow}[3]{%
+  \foreach \column/\entry in {#3}{%
+    \node[entry,text=#2] at (\column,#1) {\entry};
+  }%
+}
+
+\begin{tikzpicture}[
+    x=12.2mm, y=-0.145mm,
+    line cap=round, line join=round,
+    entry/.style={inner sep=0pt,font=\sffamily\fontsize{11}{13}\selectfont},
+    row label/.style={entry,font=\sffamily\bfseries\fontsize{10.5}{12}\selectfont},
+    branch/.style={line width=1.12pt},
+    region/.style={line width=.9pt}
+  ]
+
+  % ω、\omega\times 2、\omega\times 3 的三道分隔线。
+  \draw[separator,region] (0,198) -- (6.5,198)
+                         (0,390) -- (6.5,390)
+                         (-.5,658) -- (6.5,658);
+
+  % 各个作用区域。方框和对应元素使用同一颜色。
+  \draw[areaRed,region]    (1.48,271) rectangle (6.5,346);
+  \draw[areaGold,region]   (1.48,350) rectangle (6.5,538);
+  \draw[areaLime,region]   (1.48,541) rectangle (6.5,617);
+  \draw[areaGreen,region]  (1.48,620) rectangle (6.5,886);
+  \draw[areaBlue,region]   (1.48,889) rectangle (6.5,965);
+  \draw[areaPurple,region] (1.48,968) rectangle (6.5,1044);
+
+  % 山脉图中黑色的父项连线和竖线。
+  \draw[branch]
+    (2,313) -- (2,198) -- (3,160) -- (3,237)
+    (2,198) -- (6,159) -- (6,237)
+    (1,581) -- (1,389) -- (2,352) -- (2,389)
+    (1,389) -- (4,351) -- (4,428)
+    (1,389) -- (5,351) -- (5,505)
+    (1,581) -- (2,543) -- (2,581)
+    (1,581) -- (5,542) -- (5,581)
+    (0,1002) -- (0,658) -- (1,620) -- (1,926)
+    (1,658) -- (2,621) -- (2,658)
+    (1,926) -- (2,889)
+    (0,1002) -- (1,965) -- (1,1002) -- (2,965);
+
+  \draw[areaRed,branch]
+    (2,313) -- (3,275) -- (3,313)
+    (2,313) -- (6,274) -- (6,313);
+  \draw[areaGold,branch]
+    (2,505) -- (2,389) -- (3,352) -- (3,428)
+    (2,389) -- (6,350) -- (6,428)
+    (2,505) -- (3,467) -- (3,505)
+    (2,505) -- (4,466) -- (4,505)
+    (2,505) -- (6,466) -- (6,505);
+  \draw[areaLime,branch]
+    (2,581) -- (3,542) -- (3,581)
+    (2,581) -- (4,542) -- (4,581)
+    (2,581) -- (6,541) -- (6,581);
+  \draw[areaGreen,branch]
+    (2,850) -- (2,658) -- (3,620)
+    (2,658) -- (5,620) -- (5,774)
+    (2,658) -- (6,620) -- (6,774)
+    (3,620) -- (3,774) -- (4,735) -- (4,774)
+    (3,658) -- (4,620) -- (4,697)
+    (2,850) -- (3,811) -- (3,850)
+    (2,850) -- (5,811) -- (5,850)
+    (3,850) -- (4,811) -- (4,850)
+    (3,850) -- (6,811) -- (6,850);
+  \draw[areaBlue,branch]
+    (2,889) -- (2,926) -- (3,889) -- (3,926)
+    (3,926) -- (4,889) -- (4,926)
+    (3,926) -- (6,889) -- (6,926)
+    (4,926) -- (5,889) -- (5,926);
+  \draw[areaPurple,branch]
+    (2,968) -- (2,1002) -- (3,968) -- (3,1002)
+    (3,1002) -- (4,968) -- (4,1002)
+    (4,1002) -- (5,968) -- (5,1002)
+    (4,1002) -- (6,968) -- (6,1002);
+
+  \node[row label] at (-1.22,63) {行标};
+  \foreach \row/\labelText in {
+    140/{\omega\times 3},254/{\omega\times 2+1},331/{\omega\times 2},446/{\omega+2},523/{\omega+1},599/{\omega},
+    715/{5},792/{4},868/{3},944/{2},1020/{1}
+  }{
+    \node[row label] at (-1.22,\row) {$\labelText$};
+  }
+  \MountainRow{140}{black}{3/17,6/1}
+  \MountainRow{254}{black}{3/23,6/7}
+  \MountainRow{331}{areaRed}{2/6,3/29,6/13}
+  \MountainRow{331}{black}{4/2,5/5}
+  \MountainRow{446}{areaGold}{3/39,4/6,6/23}
+  \MountainRow{523}{areaGold}{2/10,3/49,4/16,6/33}
+  \MountainRow{523}{black}{5/9}
+  \MountainRow{599}{areaLime}{2/14,3/63,4/30,6/47}
+  \MountainRow{599}{black}{1/4,5/13}
+  \MountainRow{715}{areaGreen}{4/112}
+  \MountainRow{792}{areaGreen}{3/82,4/194,5/32,6/66}
+  \MountainRow{868}{areaGreen}{2/19,3/101,4/295,5/51,6/167}
+  \MountainRow{944}{areaBlue}{2/24,3/125,4/420,5/471,6/292}
+  \MountainRow{944}{black}{1/5}
+  \MountainRow{1020}{areaPurple}{2/30,3/155,4/575,5/1046,6/867}
+  \MountainRow{1020}{black}{0/1,1/6}
+\end{tikzpicture}
+\endgroup

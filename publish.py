@@ -43,6 +43,17 @@ def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def figure_sources(project: Path) -> set[str]:
+    return {path.relative_to(project).as_posix() for path in (project / "figures").rglob("*.tex")
+            if path.is_file()}
+
+
+def source_fingerprint(project: Path) -> str:
+    inputs = [f"{BOOK}.tex", "publish.py", *sorted(figure_sources(project))]
+    content = [(name, digest(project / name)) for name in inputs]
+    return hashlib.sha256(json.dumps(content).encode("utf-8")).hexdigest()
+
+
 def atomic_copy(source: Path, target: Path) -> None:
     if target.is_file() and digest(source) == digest(target):
         return
@@ -108,7 +119,7 @@ def compile_book(project: Path, force: bool = False) -> dict:
     build = project / "build"
     build.mkdir(exist_ok=True)
     source_hash = digest(source)
-    fingerprint = hashlib.sha256((source_hash + digest(Path(__file__))).encode()).hexdigest()
+    fingerprint = source_fingerprint(project)
     published = project / f"{BOOK}.pdf"
     receipt = build / "编译记录.json"
     if not force and receipt.is_file() and published.is_file():
@@ -139,8 +150,8 @@ def compile_book(project: Path, force: bool = False) -> dict:
             if result.returncode:
                 tail = "\n".join(output.read_text(encoding="utf-8", errors="replace").splitlines()[-35:])
                 raise PublishError(f"编译失败，已保留上次成功的 PDF。\n{tail}\n完整日志：{output}")
-            if digest(source) != source_hash:
-                raise PublishError("编译期间主稿发生了变化，请保存后重新运行；本次不会发布。")
+            if source_fingerprint(project) != fingerprint:
+                raise PublishError("编译期间主稿、插图或编译脚本发生了变化，请保存后重新运行；本次不会发布。")
             if before == auxiliary_state(build):
                 stable = True
                 break
@@ -184,7 +195,8 @@ def git(repository: Path, *arguments: str, check: bool = True) -> subprocess.Com
 def managed_paths(repository: Path) -> set[str]:
     tracked = set(git(repository, "ls-files", "-z").stdout.strip("\0").split("\0"))
     removed_legacy = {name for name in LEGACY_PATHS if name in tracked and not (repository / name).exists()}
-    return MANAGED | removed_legacy
+    tracked_figures = {name for name in tracked if name.startswith("figures/") and name.endswith(".tex")}
+    return MANAGED | figure_sources(repository) | tracked_figures | removed_legacy
 
 
 def find_repository(project: Path) -> Path:
@@ -213,8 +225,8 @@ def find_repository(project: Path) -> Path:
 
 def publish_book(project: Path, compilation: dict, message: str | None) -> None:
     repository = find_repository(project)
-    if digest(project / f"{BOOK}.tex") != compilation["source_sha256"]:
-        raise PublishError("主稿在编译后发生变化，请保存后重新发布。")
+    if source_fingerprint(project) != compilation["fingerprint"]:
+        raise PublishError("主稿、插图或编译脚本在编译后发生变化，请保存后重新发布。")
     import clean_pdf_history
     try:
         clean_pdf_history.preflight(repository)
